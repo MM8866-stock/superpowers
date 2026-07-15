@@ -7,9 +7,9 @@ description: Use when you have a spec or requirements for a multi-step task, bef
 
 ## Overview
 
-Write comprehensive implementation plans assuming the engineer has zero context for our codebase and questionable taste. Document everything they need to know: which files to touch for each task, code, testing, docs they might need to check, how to test it. Give them the whole plan as bite-sized tasks. DRY. YAGNI. TDD. Frequent commits.
+Write implementation plans as logical change batches. Each task should deliver one coherent behavior or engineering outcome that can be reviewed, verified, and reverted independently.
 
-Assume they are a skilled developer, but know almost nothing about our toolset or problem domain. Assume they don't know good test design very well.
+Assume the implementer is skilled but starts with only the approved spec, repository instructions, and the plan. Provide exact boundaries and stable interfaces without duplicating the design or pre-writing the implementation.
 
 **Announce at start:** "I'm using the writing-plans skill to create the implementation plan."
 
@@ -21,6 +21,15 @@ Assume they are a skilled developer, but know almost nothing about our toolset o
 ## Scope Check
 
 If the spec covers multiple independent subsystems, it should have been broken into sub-project specs during brainstorming. If it wasn't, suggest breaking this into separate plans — one per subsystem. Each plan should produce working, testable software on its own.
+
+Do not create a large Goal or SDD workflow for a small task that fits one independently verifiable batch. For a large task with multiple batches, ask once at handoff whether to enable Goal + SDD; do not repeat that choice between tasks.
+
+## Use The Approved Spec
+
+- Reference the approved spec sections that govern each task.
+- Do not copy or reproduce the spec or design in the plan.
+- Restate only cross-cutting constraints that an isolated implementer could otherwise miss.
+- Avoid large or complete code listings. Include code only when an interface, migration shape, or non-obvious algorithm would be ambiguous without it.
 
 ## File Structure
 
@@ -35,21 +44,18 @@ This structure informs the task decomposition. Each task should produce self-con
 
 ## Task Right-Sizing
 
-A task is the smallest unit that carries its own test cycle and is worth a
-fresh reviewer's gate. When drawing task boundaries: fold setup,
-configuration, scaffolding, and documentation steps into the task whose
-deliverable needs them; split only where a reviewer could meaningfully
-reject one task while approving its neighbor. Each task ends with an
-independently testable deliverable.
+A task is one logical change batch with an independently verifiable outcome and one commit boundary. Fold setup, configuration, scaffolding, documentation, and their focused tests into the batch whose behavior needs them. Split only where a reviewer could accept one outcome while rejecting or reverting its neighbor.
 
-## Bite-Sized Task Granularity
+Each task must define:
 
-**Each step is one action (2-5 minutes):**
-- "Write the failing test" - step
-- "Run it to make sure it fails" - step
-- "Implement the minimal code to make the test pass" - step
-- "Run the tests and make sure they pass" - step
-- "Commit" - step
+- the approved spec section and observable outcome;
+- exact file scope and ownership boundaries;
+- stable interfaces consumed or produced;
+- acceptance behavior, including relevant failure behavior;
+- the focused RED/GREEN or verification commands for the batch;
+- one commit boundary.
+
+Do not split a batch into mechanical read/edit/run micro-tasks. Do not combine independent subsystems into a batch that cannot be tested, reviewed, or reverted coherently.
 
 ## Plan Document Header
 
@@ -58,7 +64,7 @@ independently testable deliverable.
 ```markdown
 # [Feature Name] Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** Follow the approved spec and repository instructions. Use superpowers:subagent-driven-development for an approved large Goal, or superpowers:executing-plans for inline execution.
 
 **Goal:** [One sentence describing what this builds]
 
@@ -66,12 +72,11 @@ independently testable deliverable.
 
 **Tech Stack:** [Key technologies/libraries]
 
+**Approved Spec:** [`docs/superpowers/specs/YYYY-MM-DD-<feature>-design.md`](../specs/YYYY-MM-DD-<feature>-design.md)
+
 ## Global Constraints
 
-[The spec's project-wide requirements — version floors, dependency limits,
-naming and copy rules, platform requirements — one line each, with exact
-values copied verbatim from the spec. Every task's requirements implicitly
-include this section.]
+[Only constraints that every isolated task must see — exact version floors, dependency limits, naming rules, or platform requirements. Reference the source section; do not reproduce design rationale.]
 
 ---
 ```
@@ -81,65 +86,51 @@ include this section.]
 ````markdown
 ### Task N: [Component Name]
 
+**Spec:** `[approved spec path]`, section `[section name]`
+
+**Outcome:** [One observable, independently verifiable behavior or engineering result]
+
 **Files:**
 - Create: `exact/path/to/file.py`
 - Modify: `exact/path/to/existing.py:123-145`
 - Test: `tests/exact/path/to/test.py`
 
 **Interfaces:**
-- Consumes: [what this task uses from earlier tasks — exact signatures]
-- Produces: [what later tasks rely on — exact function names, parameter
-  and return types. A task's implementer sees only their own task; this
-  block is how they learn the names and types neighboring tasks use.]
+- Consumes: [existing contracts this batch relies on]
+- Produces: [stable contracts later batches rely on]
 
-- [ ] **Step 1: Write the failing test**
+**Acceptance behavior:**
+- [observable success behavior]
+- [relevant failure or rollback behavior]
 
-```python
-def test_specific_behavior():
-    result = function(input)
-    assert result == expected
-```
+**Implementation notes:**
+- [Only non-obvious constraints, ordering, or algorithm details needed to avoid ambiguity]
 
-- [ ] **Step 2: Run test to verify it fails**
+**Focused verification:**
+- RED: `[exact test command]` — expected failure: `[missing behavior]`
+- GREEN: `[exact focused command]` — expected: PASS
+- Batch check: `[exact targeted command]` — expected: PASS
 
-Run: `pytest tests/path/test.py::test_name -v`
-Expected: FAIL with "function not defined"
+**Commit:**
 
-- [ ] **Step 3: Write minimal implementation**
-
-```python
-def function(input):
-    return expected
-```
-
-- [ ] **Step 4: Run test to verify it passes**
-
-Run: `pytest tests/path/test.py::test_name -v`
-Expected: PASS
-
-- [ ] **Step 5: Commit**
-
-```bash
-git add tests/path/test.py src/path/file.py
-git commit -m "feat: add specific feature"
-```
+`git commit -m "feat: deliver component outcome"`
 ````
 
 ## No Placeholders
 
-Every step must contain the actual content an engineer needs. These are **plan failures** — never write them:
+Each batch must contain enough concrete information to execute without guessing. These are **plan failures**:
 - "TBD", "TODO", "implement later", "fill in details"
 - "Add appropriate error handling" / "add validation" / "handle edge cases"
-- "Write tests for the above" (without actual test code)
-- "Similar to Task N" (repeat the code — the engineer may be reading tasks out of order)
-- Steps that describe what to do without showing how (code blocks required for code steps)
+- "Write tests for the above" without naming behaviors and exact commands
+- "Similar to Task N" without the concrete delta and interface
+- Repeating the full approved spec or embedding a near-complete implementation
 - References to types, functions, or methods not defined in any task
 
 ## Remember
 - Exact file paths always
-- Complete code in every step — if a step changes code, show the code
-- Exact commands with expected output
-- DRY, YAGNI, TDD, frequent commits
+- Stable interfaces and observable behavior
+- Exact focused commands with expected outcomes
+- DRY, YAGNI, TDD, one coherent commit per logical batch
 
 ## Self-Review
 
@@ -151,24 +142,24 @@ After writing the complete plan, look at the spec with fresh eyes and check the 
 
 **3. Type consistency:** Do the types, method signatures, and property names you used in later tasks match what you defined in earlier tasks? A function called `clearLayers()` in Task 3 but `clearFullLayers()` in Task 7 is a bug.
 
+**4. Over-fragmentation:** Are multiple tasks merely mechanical steps toward one behavior? Merge them into one logical batch.
+
+**5. Oversized batches:** Does a task mix independent outcomes or require unrelated verification and rollback? Split it at the stable interface.
+
+**6. Duplication:** Does the plan copy the approved spec or include large implementation listings? Replace them with section references, contracts, and focused notes.
+
 If you find issues, fix them inline. No need to re-review — just fix and move on. If you find a spec requirement with no task, add the task.
 
 ## Execution Handoff
 
-After saving the plan, offer execution choice:
+After saving the plan:
 
-**"Plan complete and saved to `docs/superpowers/plans/<filename>.md`. Two execution options:**
+- For a normal multi-batch task, execute inline with `superpowers:executing-plans`.
+- For a large engineering task that benefits from durable Goal state and multiple Agents, ask once whether to enable Goal + SDD.
+- For a small one-batch task discovered during planning, do not manufacture a large Goal; execute the approved batch directly.
 
-**1. Subagent-Driven (recommended)** - I dispatch a fresh subagent per task, review between tasks, fast iteration
+Use this handoff only for large work:
 
-**2. Inline Execution** - Execute tasks in this session using executing-plans, batch execution with checkpoints
+> "Plan complete and saved to `docs/superpowers/plans/<filename>.md`. This is a large multi-batch task. Enable Goal + SDD, or execute inline?"
 
-**Which approach?"**
-
-**If Subagent-Driven chosen:**
-- **REQUIRED SUB-SKILL:** Use superpowers:subagent-driven-development
-- Fresh subagent per task + two-stage review
-
-**If Inline Execution chosen:**
-- **REQUIRED SUB-SKILL:** Use superpowers:executing-plans
-- Batch execution with checkpoints for review
+Honor that answer for the whole plan unless the human partner changes it.

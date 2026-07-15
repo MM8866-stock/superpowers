@@ -5,37 +5,52 @@ description: "You MUST use this before any creative work - creating features, bu
 
 # Brainstorming Ideas Into Designs
 
-Help turn ideas into fully formed designs and specs through natural collaborative dialogue.
+Help turn ideas into approved designs through proportionate collaborative dialogue.
 
-Start by understanding the current project context, then ask questions one at a time to refine the idea. Once you understand what you're building, present the design and get user approval.
+Start by understanding the current project context and delivery target. Ask only questions that can materially change the design, then present the design and get user approval.
 
 <HARD-GATE>
-Do NOT invoke any implementation skill, write any code, scaffold any project, or take any implementation action until you have presented a design and the user has approved it. This applies to EVERY project regardless of perceived simplicity.
+Do NOT invoke any implementation skill, write code, scaffold a project, or take implementation action until you have presented a design and the user has approved it. Scale the design to the change: a precise small change may need only a compact design summary, while a large or ambiguous change needs the full dialogue below.
 </HARD-GATE>
 
-## Anti-Pattern: "This Is Too Simple To Need A Design"
+## Delivery Maturity
 
-Every project goes through this process. A todo list, a single-function utility, a config change — all of them. "Simple" projects are where unexamined assumptions cause the most wasted work. The design can be short (a few sentences for truly simple projects), but you MUST present it and get approval.
+Decide delivery maturity once near the start, using project context when it already provides the answer:
+
+- **V1 usable / prototype / internal tool:** prioritize the approved user flow and defer non-blocking production hardening.
+- **Production hardening:** include the reliability, operability, scale, and threat-model work required by the stated target.
+- **Project-provided equivalent:** use the project's explicit phase or release policy instead of inventing a new label.
+
+If maturity is unclear, ask one question to resolve it. Do not reopen delivery maturity later unless the human partner explicitly changes the target.
+
+For V1-usable work, only these concerns remain blockers in the active design discussion:
+
+- behavior that will deterministically fail the primary flow (**deterministic correctness**);
+- realistic loss or corruption of user data (**data corruption**);
+- an immediate exploitable exposure in the approved flow (**direct security risk**).
+
+Put extreme scale, rare external failures, long-term operations, and other non-blocking production hardening into a concise follow-up list; defer it to a later version instead of repeatedly asking boundary questions. Delivery maturity changes depth, not scope: never remove a function the human partner already approved.
 
 ## Checklist
 
-You MUST create a task for each of these items and complete them in order:
+Track these items in order, combining them when the change is small:
 
 1. **Explore project context** — check files, docs, recent commits
-2. **Offer the visual companion just-in-time** — NOT upfront. The first time a question would genuinely be clearer shown than described, offer it then (its own message); on approval its browser tab opens for you. If no visual question ever arises, never offer it. See the Visual Companion section below.
-3. **Ask clarifying questions** — one at a time, understand purpose/constraints/success criteria
-4. **Propose 2-3 approaches** — with trade-offs and your recommendation
-5. **Present design** — in sections scaled to their complexity, get user approval after each section
-6. **Write design doc** — save to `docs/superpowers/specs/YYYY-MM-DD-<topic>-design.md` and commit
-7. **Spec self-review** — quick inline check for placeholders, contradictions, ambiguity, scope (see below)
-8. **User reviews written spec** — ask user to review the spec file before proceeding
-9. **Transition to implementation** — invoke writing-plans skill to create implementation plan
+2. **Set delivery maturity** — infer it from project facts or ask once
+3. **Offer the visual companion just-in-time** — only when seeing the choice is genuinely clearer than reading it
+4. **Ask high-value questions** — one at a time; skip questions already answered by project facts or prior approval
+5. **Compare viable approaches** — use 2-3 options when there is a real architectural choice
+6. **Present design** — in sections scaled to complexity, with approval after each substantive section
+7. **Write and commit the design doc** — save to `docs/superpowers/specs/YYYY-MM-DD-<topic>-design.md`
+8. **Self-review and obtain written approval** — fix placeholders, contradictions, ambiguity, and scope drift first
+9. **Transition proportionately** — small work may execute directly; multi-step work invokes writing-plans
 
 ## Process Flow
 
 ```dot
 digraph brainstorming {
     "Explore project context" [shape=box];
+    "Set delivery maturity once" [shape=box];
     "Ask clarifying questions" [shape=box];
     "Propose 2-3 approaches" [shape=box];
     "Present design sections" [shape=box];
@@ -43,9 +58,12 @@ digraph brainstorming {
     "Write design doc" [shape=box];
     "Spec self-review\n(fix inline)" [shape=box];
     "User reviews spec?" [shape=diamond];
+    "Multi-step implementation?" [shape=diamond];
     "Invoke writing-plans skill" [shape=doublecircle];
+    "Execute approved small change" [shape=doublecircle];
 
-    "Explore project context" -> "Ask clarifying questions";
+    "Explore project context" -> "Set delivery maturity once";
+    "Set delivery maturity once" -> "Ask clarifying questions";
     "Ask clarifying questions" -> "Propose 2-3 approaches";
     "Propose 2-3 approaches" -> "Present design sections";
     "Present design sections" -> "User approves design?";
@@ -54,27 +72,31 @@ digraph brainstorming {
     "Write design doc" -> "Spec self-review\n(fix inline)";
     "Spec self-review\n(fix inline)" -> "User reviews spec?";
     "User reviews spec?" -> "Write design doc" [label="changes requested"];
-    "User reviews spec?" -> "Invoke writing-plans skill" [label="approved"];
+    "User reviews spec?" -> "Multi-step implementation?" [label="approved"];
+    "Multi-step implementation?" -> "Invoke writing-plans skill" [label="yes"];
+    "Multi-step implementation?" -> "Execute approved small change" [label="no"];
 }
 ```
 
-**The terminal state is invoking writing-plans.** Do NOT invoke frontend-design, mcp-builder, or any other implementation skill. The ONLY skill you invoke after brainstorming is writing-plans.
+Do not invoke implementation skills before written design approval. After approval, invoke writing-plans only when the implementation has multiple logical batches; otherwise use the relevant implementation and verification skills directly.
 
 ## The Process
 
 **Understanding the idea:**
 
 - Check out the current project state first (files, docs, recent commits)
+- Determine delivery maturity once from existing project facts, asking only if it is genuinely unknown
 - Before asking detailed questions, assess scope: if the request describes multiple independent subsystems (e.g., "build a platform with chat, file storage, billing, and analytics"), flag this immediately. Don't spend questions refining details of a project that needs to be decomposed first.
 - If the project is too large for a single spec, help the user decompose into sub-projects: what are the independent pieces, how do they relate, what order should they be built? Then brainstorm the first sub-project through the normal design flow. Each sub-project gets its own spec → plan → implementation cycle.
-- For appropriately-scoped projects, ask questions one at a time to refine the idea
+- For appropriately-scoped projects, ask high-value questions one at a time to refine the idea
 - Prefer multiple choice questions when possible, but open-ended is fine too
 - Only one question per message - if a topic needs more exploration, break it into multiple questions
-- Focus on understanding: purpose, constraints, success criteria
+- Focus on understanding: purpose, constraints, success criteria, and primary failure modes
+- Record non-blocking production hardening without expanding the active V1 discussion
 
 **Exploring approaches:**
 
-- Propose 2-3 different approaches with trade-offs
+- Propose 2-3 different approaches when more than one viable approach exists
 - Present options conversationally with your recommendation and reasoning
 - Lead with your recommended option and explain why
 
@@ -127,15 +149,16 @@ Wait for the user's response. If they request changes, make them and re-run the 
 
 **Implementation:**
 
-- Invoke the writing-plans skill to create a detailed implementation plan
-- Do NOT invoke any other skill. writing-plans is the next step.
+- Invoke writing-plans for a multi-step implementation plan
+- For an approved small task, proceed with the relevant implementation skill without creating a large plan or Goal
 
 ## Key Principles
 
 - **One question at a time** - Don't overwhelm with multiple questions
+- **One maturity decision** - Do not repeatedly reopen the release target
 - **Multiple choice preferred** - Easier to answer than open-ended when possible
-- **YAGNI ruthlessly** - Remove unnecessary features from all designs
-- **Explore alternatives** - Always propose 2-3 approaches before settling
+- **Preserve approved scope** - Defer hardening; do not delete requested functions
+- **Explore real alternatives** - Do not invent options where the design is already constrained
 - **Incremental validation** - Present design, get approval before moving on
 - **Be flexible** - Go back and clarify when something doesn't make sense
 

@@ -21,8 +21,11 @@ Subagent (general-purpose):
     |----------|------------------|
     | Completeness | TODOs, placeholders, incomplete tasks, missing steps |
     | Spec Alignment | Plan covers spec requirements, no major scope creep |
-    | Task Decomposition | Tasks have clear boundaries, steps are actionable |
+    | Task Decomposition | Each task is one logical batch with a coherent outcome |
     | Buildability | Could an engineer follow this plan without getting stuck? |
+    | Over-fragmentation | Reject dozens of mechanical steps or tasks that only make sense as one batch |
+    | Oversized batches | Reject tasks that mix independent subsystems or cannot use a single focused test/verification and revert boundary |
+    | Spec Reuse | The plan references the approved spec instead of copying its prose or implementation |
 
     ## Calibration
 
@@ -31,7 +34,8 @@ Subagent (general-purpose):
     Minor wording, stylistic preferences, and "nice to have" suggestions are not.
 
     Approve unless there are serious gaps — missing requirements from the spec,
-    contradictory steps, placeholder content, or tasks so vague they can't be acted on.
+    contradictory steps, placeholder content, copied design prose, mechanical task
+    fragmentation, or batches too broad to test and revert coherently.
 
     ## Output Format
 
