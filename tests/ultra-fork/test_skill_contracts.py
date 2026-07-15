@@ -249,6 +249,51 @@ class SkillContractTests(unittest.TestCase):
             re.compile(r"elapsed time.{0,80}(means|proves|is).{0,30}fail", re.IGNORECASE),
         )
 
+    def test_ultra_eval_overlay_defines_six_codex_scenarios(self):
+        scenario_root = ROOT / "tests/ultra-fork/evals"
+        scenario_names = (
+            "ultra-small-task-no-goal",
+            "ultra-logical-batch-plan",
+            "ultra-sdd-context-reuse",
+            "ultra-wait-timeout-not-blocked",
+            "ultra-v1-review-boundary",
+            "ultra-final-scope-map",
+        )
+
+        self.assertEqual(
+            sorted(path.name for path in scenario_root.glob("ultra-*")),
+            sorted(scenario_names),
+        )
+        for name in scenario_names:
+            scenario = scenario_root / name
+            story = scenario / "story.md"
+            setup = scenario / "setup.sh"
+            checks = scenario / "checks.sh"
+            for path in (story, setup, checks):
+                self.assertTrue(path.exists(), f"missing {path.relative_to(ROOT)}")
+            self.assertIn("## Acceptance Criteria", story.read_text(encoding="utf-8"))
+            self.assertIn(
+                "# coding-agents: codex",
+                "\n".join(checks.read_text(encoding="utf-8").splitlines()[:21]),
+            )
+            self.assertTrue(setup.stat().st_mode & 0o111, f"{setup} must be executable")
+            self.assertFalse(
+                checks.stat().st_mode & 0o111,
+                f"{checks} must be sourced, not executable",
+            )
+
+    def test_eval_installer_is_check_before_clone_and_static_in_check_mode(self):
+        installer_path = ROOT / "scripts/install-fork-evals.sh"
+        self.assertTrue(installer_path.exists(), "eval overlay installer is required")
+        installer = installer_path.read_text(encoding="utf-8")
+
+        self.assertIn("prime-radiant-inc/superpowers-evals", installer)
+        self.assertIn('if [ -d "$evals_root/.git" ]', installer)
+        self.assertIn("SUPERPOWERS_ROOT", installer)
+        self.assertIn("--check", installer)
+        self.assertIn("run quorum check", installer)
+        self.assertNotIn("run quorum run ", installer)
+
 
 if __name__ == "__main__":
     unittest.main()
