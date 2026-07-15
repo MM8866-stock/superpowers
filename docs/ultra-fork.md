@@ -44,3 +44,25 @@ Fork behavior is protected by three layers:
 3. a small set of real GPT-5.6 Ultra acceptance tasks for major SDD or runtime changes.
 
 Upstream monitoring records stable releases, `dev`, the evaluation repository, relevant Issue/PR updates, and high-value path changes without model calls. A separate Codex automation summarizes important changes in Simplified Chinese once per day and never modifies the fork automatically.
+
+### Monitor Operation
+
+Run the no-model monitor locally:
+
+```bash
+python3 -m unittest tests/ultra-fork/test_upstream_monitor.py -v
+python3 scripts/check-upstream.py
+```
+
+The monitor queries only GitHub's public API, using `GITHUB_TOKEN` when present.
+It writes canonical semantic state to `tracking/upstream-state.json` and leaves
+the file byte-for-byte unchanged when release, branch, Issue/PR, and high-value
+path state are unchanged. Network, rate-limit, and schema failures return a
+nonzero exit instead of replacing known-good state.
+
+`.github/workflows/upstream-monitor.yml` runs at `01:00 UTC` (09:00 Asia/Shanghai)
+and by manual dispatch. It has only `contents: write`, serializes runs in one
+concurrency group, executes monitor unit tests before the public query, and
+commits only a changed state file. It does not call a model, run live evals,
+open or comment on issues, mention users, send custom notifications, merge
+upstream, or modify Skill files.
