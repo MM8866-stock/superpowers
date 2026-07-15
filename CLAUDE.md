@@ -113,3 +113,17 @@ Before proposing changes to skill design, workflow philosophy, or architecture, 
 - One problem per PR
 - Test on at least one harness and report results in the environment table
 - Describe the problem you solved, not just what you changed
+
+## Ultra-first Fork Maintenance
+
+This fork preserves the upstream contributor rules above and adds these local maintenance constraints:
+
+- Keep the plugin name `superpowers` and the `superpowers:*` Skill namespace.
+- Keep Skill prose, reusable prompts, tests, commit messages, and maintenance docs in English.
+- Keep fork behavior generic; do not add project names, business terminology, user-specific paths, provider keys, or fixed model matrices.
+- Use `superpowers:writing-skills` and `superpowers:test-driven-development` for Skill behavior changes.
+- Add or update a failing contract or behavior scenario before changing Skill instructions.
+- Run focused fork contracts during development; reserve normal Codex and real Ultra evaluations for documented milestones.
+- Preserve upstream copyright, license, authorship, and acknowledgements.
+- Observe `upstream/dev`, but merge stable releases semantically and never auto-merge upstream changes.
+- Preserve fork SDD semantics when an upstream merge reintroduces per-task fresh Agents, per-task reviews, fixed model routing, or hard time/Token fuses.

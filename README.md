@@ -2,6 +2,37 @@
 
 Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.
 
+> [!IMPORTANT]
+> This repository is the Ultra-first fork maintained at
+> [`MM8866-stock/superpowers`](https://github.com/MM8866-stock/superpowers).
+> It preserves the `superpowers` plugin and Skill namespace while adapting
+> long-running execution for GPT-5.6 Ultra and current Codex runtimes. The
+> official upstream remains [`obra/superpowers`](https://github.com/obra/superpowers).
+
+## Install This Fork
+
+Do not keep the official and forked `superpowers` plugins enabled together.
+
+### Codex
+
+```bash
+codex plugin remove superpowers@openai-api-curated
+codex plugin marketplace add MM8866-stock/superpowers --ref main
+codex plugin add superpowers@superpowers-dev
+```
+
+### Claude Code
+
+```bash
+claude plugin uninstall superpowers@claude-plugins-official --scope user --yes
+claude plugin marketplace add MM8866-stock/superpowers
+claude plugin install superpowers@superpowers-dev --scope user
+```
+
+See [`docs/ultra-fork.md`](docs/ultra-fork.md) for the fork's scope, validation,
+and upstream merge policy. The original upstream installation instructions are
+retained below for reference.
+
 
 ## We're Hiring!
 
