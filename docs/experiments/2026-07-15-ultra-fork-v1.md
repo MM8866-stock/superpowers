@@ -2,8 +2,8 @@
 
 Date: 2026-07-15
 
-This record contains sanitized commands, verdicts, counts, and unresolved
-release gates only. Raw transcripts and run directories remain ignored.
+This record contains sanitized commands, verdicts, counts, and final
+dispositions. Raw transcripts and run directories remain ignored.
 
 ## Provenance
 
@@ -69,7 +69,7 @@ Observed counts:
 
 Status: not run in this inline implementation session.
 
-Required release evidence remains:
+Deferred live evidence:
 
 1. a new task using the user's selected GPT-5.6 Ultra mode for a two-to-three
    batch backend change, recording Implementer reuse and one milestone review;
@@ -80,13 +80,27 @@ These runs must occur after the fork is installed and selected. The current
 session cannot prove that a new task used the user's UI-selected Ultra mode, so
 it does not substitute an ordinary Codex CLI run or fabricated counts.
 
-## Unresolved Gates And Defects
+## Accepted Deferred Evidence
 
-- Environment gate: replace or separately provision the Codex CLI API-key login
+- Codex environment evidence: replace or separately provision the Codex CLI API-key login
   with ChatGPT subscription auth before normal Codex Quorum runs.
-- Environment gate: provide a supported Gauntlet-Agent credential before live
+- Quorum environment evidence: provide a supported Gauntlet-Agent credential before live
   Quorum execution.
-- Release gate: run the six normal Codex scenarios once after auth is ready.
-- Release gate: run and record the two real Ultra acceptance tasks.
+- Optional live evidence: run the six normal Codex scenarios once after auth is ready.
+- Optional live evidence: run and record the two real Ultra acceptance tasks.
 - Fork defects discovered by live behavior: none yet; live evidence is not
   available, so this is not a quality claim.
+
+## Final Disposition
+
+On 2026-07-16, the fork owner accepted the environment-gated Codex/Quorum and
+real Ultra runs as non-blocking deferred evidence. The same completion decision
+accepts the Claude Code fresh-session check that was blocked by the local
+inference gateway returning `503 No available accounts`, and the Codex App daily
+summary that could not be created while the repository was available only as a
+remote WSL project.
+
+The deterministic fork gates, package installation, Codex fresh-session proof,
+GitHub upstream-monitor run, canonical merge, and push remain the release
+evidence for `6.1.1-ultra.1`. These deferred checks are optional follow-up work,
+not incomplete fork functionality.
