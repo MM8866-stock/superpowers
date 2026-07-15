@@ -206,6 +206,49 @@ class SkillContractTests(unittest.TestCase):
             "per-task reviewer prompt must be removed",
         )
 
+    def test_parallel_dispatch_requires_independence_and_positive_net_benefit(self):
+        skill = read_text("skills/dispatching-parallel-agents/SKILL.md")
+
+        self.assertRegex(
+            skill,
+            re.compile(
+                r"independent.{0,120}positive expected net (value|benefit)",
+                re.IGNORECASE | re.DOTALL,
+            ),
+        )
+        self.assertRegex(skill, re.compile(r"explicit purpose", re.IGNORECASE))
+        self.assertRegex(
+            skill,
+            re.compile(r"do not dispatch.{0,100}fill capacity", re.IGNORECASE),
+        )
+
+    def test_codex_reference_preserves_ultra_lifecycle_semantics(self):
+        reference = read_text("skills/using-superpowers/references/codex-tools.md")
+        lower = reference.lower()
+
+        for phrase in (
+            "ultra-native scheduling",
+            "project and skill constraints",
+            "inherit the parent configuration",
+            "no update yet",
+            "same run",
+            "natural lifecycle",
+            "imperfect strategy compliance",
+        ):
+            self.assertIn(phrase, lower)
+        self.assertRegex(
+            reference,
+            re.compile(r"wait_agent.{0,120}not.{0,40}fail", re.IGNORECASE | re.DOTALL),
+        )
+        self.assertNotIn(
+            "always close implementer and reviewer subagents",
+            lower,
+        )
+        self.assertNotRegex(
+            reference,
+            re.compile(r"elapsed time.{0,80}(means|proves|is).{0,30}fail", re.IGNORECASE),
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

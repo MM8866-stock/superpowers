@@ -11,7 +11,9 @@ You delegate tasks to specialized agents with isolated context. By precisely cra
 
 When you have multiple unrelated failures (different test files, different subsystems, different bugs), investigating them sequentially wastes time. Each investigation is independent and can happen in parallel.
 
-**Core principle:** Dispatch one agent per independent problem domain. Let them work concurrently.
+Parallel work requires both independent domains and positive expected net value after coordination, integration, and context costs. Give every Agent an explicit purpose. Do not dispatch Agents to fill capacity.
+
+**Core principle:** Dispatch one purposeful Agent per independent problem domain only when concurrency is a net benefit.
 
 ## When to Use
 
@@ -19,6 +21,7 @@ When you have multiple unrelated failures (different test files, different subsy
 digraph when_to_use {
     "Multiple failures?" [shape=diamond];
     "Are they independent?" [shape=diamond];
+    "Positive net benefit?" [shape=diamond];
     "Single agent investigates all" [shape=box];
     "One agent per problem domain" [shape=box];
     "Can they work in parallel?" [shape=diamond];
@@ -27,7 +30,9 @@ digraph when_to_use {
 
     "Multiple failures?" -> "Are they independent?" [label="yes"];
     "Are they independent?" -> "Single agent investigates all" [label="no - related"];
-    "Are they independent?" -> "Can they work in parallel?" [label="yes"];
+    "Are they independent?" -> "Positive net benefit?" [label="yes"];
+    "Positive net benefit?" -> "Single agent investigates all" [label="no"];
+    "Positive net benefit?" -> "Can they work in parallel?" [label="yes"];
     "Can they work in parallel?" -> "Parallel dispatch" [label="yes"];
     "Can they work in parallel?" -> "Sequential agents" [label="no - shared state"];
 }
@@ -38,11 +43,13 @@ digraph when_to_use {
 - Multiple subsystems broken independently
 - Each problem can be understood without context from others
 - No shared state between investigations
+- Parallel completion saves more time or context than coordination and integration cost
 
 **Don't use when:**
 - Failures are related (fix one might fix others)
 - Need to understand full system state
 - Agents would interfere with each other
+- Coordination cost is greater than the expected speed or quality benefit
 
 ## The Pattern
 
@@ -81,7 +88,7 @@ Multiple dispatch calls in one response = parallel execution. One per response =
 When agents return:
 - Read each summary
 - Verify fixes don't conflict
-- Run full test suite
+- Run the focused integration check for the combined change
 - Integrate all changes
 
 ## Agent Prompt Structure
@@ -172,7 +179,7 @@ Agent 3 → Fix tool-approval-race-conditions.test.ts
 After agents return:
 1. **Review each summary** - Understand what changed
 2. **Check for conflicts** - Did agents edit same code?
-3. **Run full suite** - Verify all fixes work together
+3. **Run focused integration** - Verify the combined contracts work together
 4. **Spot check** - Agents can make systematic errors
 
 ## Real-World Impact

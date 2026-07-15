@@ -7,7 +7,37 @@ Add to your Codex config (`~/.codex/config.toml`):
 multi_agent = true
 ```
 
-This enables `spawn_agent`, `wait_agent`, and `close_agent` for skills like `dispatching-parallel-agents` and `subagent-driven-development`. When using subagent-driven-development, you should always close implementer and reviewer subagents when they have finished all their work.
+This enables `spawn_agent`, `wait_agent`, and `close_agent` for skills like `dispatching-parallel-agents` and `subagent-driven-development`.
+
+## Ultra-Native Scheduling
+
+Codex Ultra-native scheduling is a capable runtime that may choose useful Agent
+roles, concurrency, models, and reasoning levels. It still reads and follows
+project and Skill constraints; those constraints provide purpose and safety
+boundaries rather than a fixed external scheduler.
+
+- The runtime chooses concrete child models and reasoning levels within the
+  parent task's configured ceiling.
+- If child selection is unavailable, inherit the parent configuration instead
+  of claiming an unverified upgrade or downgrade.
+- Do not create Agents merely because capacity is available.
+- Do not interrupt valid Agent work solely for imperfect strategy compliance;
+  correct future instructions unless the work is conflicting, unsafe, failed,
+  cancelled, or no longer useful.
+
+## Waiting And Agent Lifecycle
+
+- A `wait_agent` timeout means **no update yet**, not failure. Elapsed time alone
+  does not establish that an Agent is blocked.
+- Continue a healthy Agent thread during the same run when it retains useful
+  context for the same Goal and responsibility. Across a new run or app restart,
+  recover from Git and durable artifacts instead of assuming the thread exists.
+- Use `close_agent` at a natural lifecycle boundary: completed responsibility,
+  explicit failure, cancellation, or no remaining purpose. Do not close an
+  Implementer after one logical batch when immediate continuation benefits from
+  its context.
+- A queued message is not necessarily an immediate Agent turn. Use the runtime's
+  supported follow-up mechanism when a response or additional action is needed.
 
 ## Environment Detection
 
