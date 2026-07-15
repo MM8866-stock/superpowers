@@ -90,6 +90,122 @@ class SkillContractTests(unittest.TestCase):
             re.compile(r"single.{0,80}(review|verify|test)", re.IGNORECASE),
         )
 
+    def test_sdd_dispatch_requires_purpose_and_positive_net_benefit(self):
+        skill = read_text("skills/subagent-driven-development/SKILL.md")
+
+        self.assertRegex(skill, re.compile(r"explicit purpose", re.IGNORECASE))
+        self.assertRegex(
+            skill,
+            re.compile(r"positive expected net (value|benefit)", re.IGNORECASE),
+        )
+        self.assertRegex(
+            skill,
+            re.compile(r"do not dispatch.{0,100}fill capacity", re.IGNORECASE),
+        )
+        self.assertRegex(
+            skill,
+            re.compile(r"direct execution.{0,120}goal \+ sdd", re.IGNORECASE | re.DOTALL),
+        )
+
+    def test_sdd_reuses_implementers_and_runtime_selects_models(self):
+        skill = read_text("skills/subagent-driven-development/SKILL.md")
+        implementer = read_text(
+            "skills/subagent-driven-development/implementer-prompt.md"
+        )
+
+        for phrase in ("same Goal", "responsibility", "logical batch"):
+            self.assertIn(phrase.lower(), skill.lower())
+        self.assertRegex(
+            skill,
+            re.compile(r"runtime.{0,100}(model|reasoning)", re.IGNORECASE),
+        )
+        self.assertRegex(
+            skill,
+            re.compile(r"inherit.{0,100}parent", re.IGNORECASE),
+        )
+        self.assertRegex(
+            skill,
+            re.compile(r"never claim.{0,100}downgrade", re.IGNORECASE),
+        )
+        self.assertNotIn("[MODEL", implementer)
+
+    def test_sdd_enforces_write_wait_and_milestone_review_boundaries(self):
+        skill = read_text("skills/subagent-driven-development/SKILL.md")
+
+        for phrase in (
+            "single writer",
+            "isolated worktrees",
+            "stable contracts",
+            "non-overlapping ownership",
+            "no update yet",
+            "at most one integrated review per milestone",
+            "existing implementation context",
+            "recheck only",
+        ):
+            self.assertIn(phrase.lower(), skill.lower())
+
+        reviewer_path = ROOT / "skills/subagent-driven-development/milestone-reviewer-prompt.md"
+        self.assertTrue(reviewer_path.exists(), "milestone reviewer prompt is required")
+        reviewer = reviewer_path.read_text(encoding="utf-8")
+        self.assertIn("follow-up hardening", reviewer.lower())
+        self.assertIn("already fresh", reviewer.lower())
+        self.assertNotIn("[MODEL", reviewer)
+
+    def test_sdd_uses_layered_tests_and_root_cause_convergence(self):
+        skill = read_text("skills/subagent-driven-development/SKILL.md")
+
+        for phrase in (
+            "focused red/green",
+            "logical-batch verification",
+            "milestone gate",
+            "root-cause convergence",
+            "requirement-to-evidence mapping",
+        ):
+            self.assertIn(phrase.lower(), skill.lower())
+        self.assertRegex(
+            skill,
+            re.compile(r"no fixed.{0,80}(time|token)", re.IGNORECASE),
+        )
+
+    def test_goal_ledger_contains_only_seven_durable_fields(self):
+        ledger_path = ROOT / "skills/subagent-driven-development/goal-ledger-template.md"
+        self.assertTrue(ledger_path.exists(), "goal ledger template is required")
+        ledger = ledger_path.read_text(encoding="utf-8")
+        headings = re.findall(r"^## (.+)$", ledger, re.MULTILINE)
+
+        self.assertEqual(
+            headings,
+            [
+                "Goal",
+                "Current Milestone",
+                "Completed Commits And Verification",
+                "Active Agents And Responsibilities",
+                "Current Real Issue",
+                "Single Next Action",
+                "Follow-Up Items",
+            ],
+        )
+
+    def test_sdd_removes_mandatory_upstream_per_task_semantics(self):
+        skill_dir = ROOT / "skills/subagent-driven-development"
+        markdown = "\n".join(
+            path.read_text(encoding="utf-8") for path in skill_dir.glob("*.md")
+        ).lower()
+        markdown += "\n" + read_text("skills/requesting-code-review/SKILL.md").lower()
+
+        for forbidden in (
+            "fresh subagent per task",
+            "review after each task",
+            "always specify the model explicitly",
+            "task-reviewer-prompt.md",
+            "full suite once before committing",
+        ):
+            self.assertNotIn(forbidden, markdown)
+        self.assertFalse(
+            (skill_dir / "task-reviewer-prompt.md").exists(),
+            "per-task reviewer prompt must be removed",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

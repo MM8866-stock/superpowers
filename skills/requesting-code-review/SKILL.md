@@ -7,14 +7,14 @@ description: Use when completing tasks, implementing major features, or before m
 
 Dispatch a code reviewer subagent to catch issues before they cascade. The reviewer gets precisely crafted context for evaluation — never your session's history. This keeps the reviewer focused on the work product, not your thought process, and preserves your own context for continued work.
 
-**Core principle:** Review early, review often.
+**Core principle:** Review at meaningful boundaries with frozen evidence.
 
 ## When to Request Review
 
 **Mandatory:**
-- After each task in subagent-driven development
+- At an approved Subagent-Driven Development milestone when independent review adds value
 - After completing major feature
-- Before merge to main
+- Before merge to main, unless the final milestone review already covers the same frozen range
 
 **Optional but valuable:**
 - When stuck (fresh perspective)
@@ -75,12 +75,12 @@ You: [Fix progress indicators]
 ## Integration with Workflows
 
 **Subagent-Driven Development:**
-- Review after EACH task
-- Catch issues before they compound
-- Fix before moving to next task
+- Run at most one integrated review per milestone
+- Send blockers back to the existing implementation context
+- Recheck only the reported findings and covering evidence
 
 **Executing Plans:**
-- Review after each task or at natural checkpoints
+- Review at natural checkpoints where independent judgment adds value
 - Get feedback, apply, continue
 
 **Ad-Hoc Development:**
