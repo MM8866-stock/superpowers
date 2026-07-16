@@ -136,6 +136,18 @@
     {
       "kind": "pull_request",
       "labels": [
+        "brainstorming",
+        "enhancement"
+      ],
+      "number": 1639,
+      "state": "open",
+      "title": "feat(brainstorming): Alpine-driven interactive visual companion (SUP-215)",
+      "updated_at": "2026-07-02T21:53:26Z",
+      "url": "https://github.com/obra/superpowers/pull/1639"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
         "enhancement",
         "needs-rebase-to-dev-branch",
         "plans"
@@ -145,6 +157,60 @@
       "title": "Improved Plan Review",
       "updated_at": "2026-07-02T22:37:44Z",
       "url": "https://github.com/obra/superpowers/pull/1644"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 1662,
+      "state": "open",
+      "title": "docs(codex-tools): clarify deferred subagent discovery",
+      "updated_at": "2026-07-02T21:53:26Z",
+      "url": "https://github.com/obra/superpowers/pull/1662"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 1686,
+      "state": "open",
+      "title": "Add ECA (Editor Code Assistant) harness support",
+      "updated_at": "2026-07-02T21:53:26Z",
+      "url": "https://github.com/obra/superpowers/pull/1686"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 1692,
+      "state": "open",
+      "title": "fix(writing-skills): replace count anchors with standard-based language",
+      "updated_at": "2026-07-02T21:53:26Z",
+      "url": "https://github.com/obra/superpowers/pull/1692"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 1704,
+      "state": "open",
+      "title": "Add verifying-plan-coverage skill: prove a plan covers 100% of its spec before execution",
+      "updated_at": "2026-07-02T21:53:26Z",
+      "url": "https://github.com/obra/superpowers/pull/1704"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 1706,
+      "state": "open",
+      "title": "docs: clarify local plugin test commands",
+      "updated_at": "2026-07-02T21:53:26Z",
+      "url": "https://github.com/obra/superpowers/pull/1706"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 1710,
+      "state": "open",
+      "title": "docs: update Antigravity porting guidance",
+      "updated_at": "2026-07-02T21:53:26Z",
+      "url": "https://github.com/obra/superpowers/pull/1710"
     },
     {
       "kind": "pull_request",
@@ -355,37 +421,10 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 1905,
-      "state": "open",
-      "title": "Scope SDD task briefs by plan file",
-      "updated_at": "2026-07-03T04:19:57Z",
-      "url": "https://github.com/obra/superpowers/pull/1905"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1908,
-      "state": "open",
-      "title": "Fix stale tool references in porting guide",
-      "updated_at": "2026-07-03T04:20:09Z",
-      "url": "https://github.com/obra/superpowers/pull/1908"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1909,
-      "state": "open",
-      "title": "Use portable timeout helper in test scripts",
-      "updated_at": "2026-07-03T04:20:12Z",
-      "url": "https://github.com/obra/superpowers/pull/1909"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 1915,
       "state": "open",
       "title": "fix: render design sections before the approval question in brainstorming skill",
-      "updated_at": "2026-07-04T06:33:18Z",
+      "updated_at": "2026-07-15T22:11:34Z",
       "url": "https://github.com/obra/superpowers/pull/1915"
     },
     {
@@ -407,15 +446,6 @@
       "url": "https://github.com/obra/superpowers/pull/1922"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1926,
-      "state": "open",
-      "title": "docs(codex): document deferred tool mapping",
-      "updated_at": "2026-07-05T12:19:10Z",
-      "url": "https://github.com/obra/superpowers/pull/1926"
-    },
-    {
       "kind": "issue",
       "labels": [],
       "number": 1927,
@@ -423,15 +453,6 @@
       "title": "Codex: close completed subagents after results are consumed",
       "updated_at": "2026-07-13T21:17:03Z",
       "url": "https://github.com/obra/superpowers/issues/1927"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1928,
-      "state": "open",
-      "title": "Codex/document codex deferred tools",
-      "updated_at": "2026-07-05T14:27:28Z",
-      "url": "https://github.com/obra/superpowers/pull/1928"
     },
     {
       "kind": "issue",
@@ -524,7 +545,7 @@
       "number": 1952,
       "state": "open",
       "title": "fix: session-scope the SDD workspace so concurrent sessions on one checkout stop colliding",
-      "updated_at": "2026-07-09T05:31:20Z",
+      "updated_at": "2026-07-15T19:20:51Z",
       "url": "https://github.com/obra/superpowers/pull/1952"
     },
     {
@@ -566,17 +587,6 @@
       "url": "https://github.com/obra/superpowers/issues/1961"
     },
     {
-      "kind": "issue",
-      "labels": [
-        "bug"
-      ],
-      "number": 1965,
-      "state": "open",
-      "title": "SessionStart hook fails on Windows — ${CLAUDE_PLUGIN_ROOT} not expanded by PowerShell",
-      "updated_at": "2026-07-11T14:56:21Z",
-      "url": "https://github.com/obra/superpowers/issues/1965"
-    },
-    {
       "kind": "pull_request",
       "labels": [],
       "number": 1966,
@@ -593,33 +603,6 @@
       "title": "writing-skills and porting guide still link claude-code-tools.md / copilot-tools.md, deleted in e7ddc25",
       "updated_at": "2026-07-11T21:36:53Z",
       "url": "https://github.com/obra/superpowers/issues/1969"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1970,
-      "state": "open",
-      "title": "Fix dead references to pruned claude-code-tools.md/copilot-tools.md (#1969)",
-      "updated_at": "2026-07-11T21:37:13Z",
-      "url": "https://github.com/obra/superpowers/pull/1970"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1971,
-      "state": "open",
-      "title": "fix(hooks): add Windows SessionStart hook command override",
-      "updated_at": "2026-07-12T05:06:05Z",
-      "url": "https://github.com/obra/superpowers/pull/1971"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1972,
-      "state": "open",
-      "title": "feat: add hermes agent plugin support",
-      "updated_at": "2026-07-12T05:33:35Z",
-      "url": "https://github.com/obra/superpowers/pull/1972"
     },
     {
       "kind": "pull_request",
@@ -685,21 +668,12 @@
       "url": "https://github.com/obra/superpowers/issues/1986"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1987,
-      "state": "open",
-      "title": "test: realign antigravity + pi mapping assertions with pruned references",
-      "updated_at": "2026-07-14T12:07:24Z",
-      "url": "https://github.com/obra/superpowers/pull/1987"
-    },
-    {
       "kind": "issue",
       "labels": [],
       "number": 1988,
       "state": "open",
       "title": "Codex SDD has no circuit breaker: one task ran ~4 hours and accumulated 120.7M telemetry tokens",
-      "updated_at": "2026-07-15T02:47:22Z",
+      "updated_at": "2026-07-16T02:54:29Z",
       "url": "https://github.com/obra/superpowers/issues/1988"
     },
     {
@@ -721,11 +695,20 @@
       "title": "SDD/brainstorming workspace root is hardcoded to .superpowers — make it configurable",
       "updated_at": "2026-07-15T12:44:00Z",
       "url": "https://github.com/obra/superpowers/issues/1991"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 1994,
+      "state": "open",
+      "title": "fix: make the codex packaging and SDD skill test suites pass reliably off-macOS",
+      "updated_at": "2026-07-16T04:00:56Z",
+      "url": "https://github.com/obra/superpowers/pull/1994"
     }
   ],
   "schema_version": 1,
   "upstream": {
-    "dev_sha": "4562d18dcfc1ff7c65ec9aae5848539532724a1d",
+    "dev_sha": "fb7b07088ed03da76508b8a70a87bf4f15b2412a",
     "release": {
       "sha": "d884ae04edebef577e82ff7c4e143debd0bbec99",
       "tag": "v6.1.1",
