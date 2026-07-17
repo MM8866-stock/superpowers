@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "485d43acb70ff51fa3e5832e0ea8627443e7810c"
+    "sha": "8192fe2541aa55db8222703782ccdd7b5ab707de"
   },
   "high_value_changes": [
     {
@@ -74,6 +74,17 @@
     {
       "kind": "issue",
       "labels": [
+        "enhancement"
+      ],
+      "number": 895,
+      "state": "open",
+      "title": "writing-plans: plans over-specify implementation, leaving no room for executor judgment",
+      "updated_at": "2026-07-16T22:58:15Z",
+      "url": "https://github.com/obra/superpowers/issues/895"
+    },
+    {
+      "kind": "issue",
+      "labels": [
         "plans"
       ],
       "number": 1044,
@@ -81,6 +92,17 @@
       "title": "writing-plans: execution handoff should respect user-defined execution modes",
       "updated_at": "2026-07-14T20:35:01Z",
       "url": "https://github.com/obra/superpowers/issues/1044"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 1251,
+      "state": "open",
+      "title": "Group-based execution + review (reduce overhead across many small tasks)",
+      "updated_at": "2026-07-16T06:49:05Z",
+      "url": "https://github.com/obra/superpowers/issues/1251"
     },
     {
       "kind": "issue",
@@ -136,18 +158,6 @@
     {
       "kind": "pull_request",
       "labels": [
-        "brainstorming",
-        "enhancement"
-      ],
-      "number": 1639,
-      "state": "open",
-      "title": "feat(brainstorming): Alpine-driven interactive visual companion (SUP-215)",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1639"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
         "enhancement",
         "needs-rebase-to-dev-branch",
         "plans"
@@ -157,33 +167,6 @@
       "title": "Improved Plan Review",
       "updated_at": "2026-07-02T22:37:44Z",
       "url": "https://github.com/obra/superpowers/pull/1644"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1662,
-      "state": "open",
-      "title": "docs(codex-tools): clarify deferred subagent discovery",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1662"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1686,
-      "state": "open",
-      "title": "Add ECA (Editor Code Assistant) harness support",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1686"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1692,
-      "state": "open",
-      "title": "fix(writing-skills): replace count anchors with standard-based language",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1692"
     },
     {
       "kind": "pull_request",
@@ -545,7 +528,7 @@
       "number": 1952,
       "state": "open",
       "title": "fix: session-scope the SDD workspace so concurrent sessions on one checkout stop colliding",
-      "updated_at": "2026-07-15T19:20:51Z",
+      "updated_at": "2026-07-16T16:21:43Z",
       "url": "https://github.com/obra/superpowers/pull/1952"
     },
     {
@@ -625,15 +608,6 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 1980,
-      "state": "open",
-      "title": "docs: clarify Codex subagent liveness",
-      "updated_at": "2026-07-13T14:58:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1980"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 1981,
       "state": "open",
       "title": "feat(skills): add tracing-acceptance-criteria skill",
@@ -693,7 +667,7 @@
       "number": 1991,
       "state": "open",
       "title": "SDD/brainstorming workspace root is hardcoded to .superpowers — make it configurable",
-      "updated_at": "2026-07-15T12:44:00Z",
+      "updated_at": "2026-07-16T11:54:05Z",
       "url": "https://github.com/obra/superpowers/issues/1991"
     },
     {
@@ -704,6 +678,42 @@
       "title": "fix: make the codex packaging and SDD skill test suites pass reliably off-macOS",
       "updated_at": "2026-07-16T04:00:56Z",
       "url": "https://github.com/obra/superpowers/pull/1994"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 1995,
+      "state": "open",
+      "title": "feat: add Devin CLI support",
+      "updated_at": "2026-07-16T14:12:58Z",
+      "url": "https://github.com/obra/superpowers/pull/1995"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 1996,
+      "state": "open",
+      "title": "feat(omp): add native oh-my-pi harness support",
+      "updated_at": "2026-07-16T14:23:21Z",
+      "url": "https://github.com/obra/superpowers/pull/1996"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 1998,
+      "state": "open",
+      "title": "SDD fix-loop redesign: resume-based fix rounds, five-round breaker, controller adjudication, lifecycle restructure",
+      "updated_at": "2026-07-17T00:59:12Z",
+      "url": "https://github.com/obra/superpowers/pull/1998"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 1999,
+      "state": "open",
+      "title": "feat: make SDD/brainstorming workspace root configurable via SUPERPOWERS_WORKSPACE_DIR",
+      "updated_at": "2026-07-17T02:27:24Z",
+      "url": "https://github.com/obra/superpowers/pull/1999"
     }
   ],
   "schema_version": 1,
