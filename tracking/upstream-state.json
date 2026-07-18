@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "8192fe2541aa55db8222703782ccdd7b5ab707de"
+    "sha": "e7e6e0b1b736c9f26a32c22e71ceec223ad01b9c"
   },
   "high_value_changes": [
     {
@@ -43,6 +43,20 @@
     }
   ],
   "relevant_items": [
+    {
+      "kind": "issue",
+      "labels": [
+        "brainstorming",
+        "claude-code",
+        "enhancement",
+        "plans"
+      ],
+      "number": 512,
+      "state": "open",
+      "title": "brainstorming/writing-plans SKILL efficiency",
+      "updated_at": "2026-07-17T11:18:05Z",
+      "url": "https://github.com/obra/superpowers/issues/512"
+    },
     {
       "kind": "pull_request",
       "labels": [
@@ -171,33 +185,6 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 1704,
-      "state": "open",
-      "title": "Add verifying-plan-coverage skill: prove a plan covers 100% of its spec before execution",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1704"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1706,
-      "state": "open",
-      "title": "docs: clarify local plugin test commands",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1706"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1710,
-      "state": "open",
-      "title": "docs: update Antigravity porting guidance",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1710"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 1719,
       "state": "open",
       "title": "fix(skills): account for Claude Fable in model selection and testing guidance",
@@ -266,7 +253,7 @@
       "number": 1812,
       "state": "open",
       "title": "[RFC] Persistent memory across Superpowers agents",
-      "updated_at": "2026-07-11T13:28:30Z",
+      "updated_at": "2026-07-17T11:52:16Z",
       "url": "https://github.com/obra/superpowers/issues/1812"
     },
     {
@@ -407,7 +394,7 @@
       "number": 1915,
       "state": "open",
       "title": "fix: render design sections before the approval question in brainstorming skill",
-      "updated_at": "2026-07-15T22:11:34Z",
+      "updated_at": "2026-07-17T18:23:27Z",
       "url": "https://github.com/obra/superpowers/pull/1915"
     },
     {
@@ -714,6 +701,26 @@
       "title": "feat: make SDD/brainstorming workspace root configurable via SUPERPOWERS_WORKSPACE_DIR",
       "updated_at": "2026-07-17T02:27:24Z",
       "url": "https://github.com/obra/superpowers/pull/1999"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2000,
+      "state": "open",
+      "title": "Feature request: add an opt-in/manual-only brainstorming profile",
+      "updated_at": "2026-07-17T18:22:46Z",
+      "url": "https://github.com/obra/superpowers/issues/2000"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2001,
+      "state": "open",
+      "title": "Feature request: verdict schema for optional review plugins",
+      "updated_at": "2026-07-18T02:16:23Z",
+      "url": "https://github.com/obra/superpowers/issues/2001"
     }
   ],
   "schema_version": 1,
