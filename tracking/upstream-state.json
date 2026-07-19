@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "e7e6e0b1b736c9f26a32c22e71ceec223ad01b9c"
+    "sha": "58aaf6d118e4249eb0c9803e9f9d7df133b7639a"
   },
   "high_value_changes": [
     {
@@ -185,47 +185,11 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 1719,
-      "state": "open",
-      "title": "fix(skills): account for Claude Fable in model selection and testing guidance",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1719"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 1729,
       "state": "open",
       "title": "feat: add guidance for fetching all GitHub PR comment types (issue #701)",
       "updated_at": "2026-07-11T16:08:11Z",
       "url": "https://github.com/obra/superpowers/pull/1729"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1755,
-      "state": "open",
-      "title": "docs: require outcome checks for config verification",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1755"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1757,
-      "state": "open",
-      "title": "docs: add Traditional Chinese README",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1757"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1796,
-      "state": "open",
-      "title": "fix: update ws test dependency",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1796"
     },
     {
       "kind": "issue",
@@ -721,6 +685,15 @@
       "title": "Feature request: verdict schema for optional review plugins",
       "updated_at": "2026-07-18T02:16:23Z",
       "url": "https://github.com/obra/superpowers/issues/2001"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2005,
+      "state": "open",
+      "title": "Add ECA (Editor Code Assistant) harness support",
+      "updated_at": "2026-07-18T17:34:46Z",
+      "url": "https://github.com/obra/superpowers/pull/2005"
     }
   ],
   "schema_version": 1,
