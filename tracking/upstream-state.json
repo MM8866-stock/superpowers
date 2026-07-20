@@ -34,6 +34,34 @@
       "status": "modified"
     },
     {
+      "filename": "skills/subagent-driven-development/implementer-prompt.md",
+      "status": "modified"
+    },
+    {
+      "filename": "skills/subagent-driven-development/re-review-prompt.md",
+      "status": "added"
+    },
+    {
+      "filename": "skills/subagent-driven-development/scripts/review-package",
+      "status": "modified"
+    },
+    {
+      "filename": "skills/subagent-driven-development/scripts/sdd-workspace",
+      "status": "modified"
+    },
+    {
+      "filename": "skills/subagent-driven-development/scripts/task-brief",
+      "status": "modified"
+    },
+    {
+      "filename": "skills/subagent-driven-development/task-reviewer-prompt.md",
+      "status": "modified"
+    },
+    {
+      "filename": "skills/using-superpowers/references/codex-tools.md",
+      "status": "modified"
+    },
+    {
       "filename": "tests/codex/test-marketplace-manifest.sh",
       "status": "modified"
     },
@@ -185,11 +213,38 @@
     {
       "kind": "pull_request",
       "labels": [],
+      "number": 1654,
+      "state": "open",
+      "title": "fix: writing-plans generates bare git commits; subagents drift to main branch",
+      "updated_at": "2026-07-19T13:36:53Z",
+      "url": "https://github.com/obra/superpowers/pull/1654"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
       "number": 1729,
       "state": "open",
       "title": "feat: add guidance for fetching all GitHub PR comment types (issue #701)",
       "updated_at": "2026-07-11T16:08:11Z",
       "url": "https://github.com/obra/superpowers/pull/1729"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 1757,
+      "state": "open",
+      "title": "docs: add Traditional Chinese README",
+      "updated_at": "2026-07-02T21:53:26Z",
+      "url": "https://github.com/obra/superpowers/pull/1757"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 1796,
+      "state": "open",
+      "title": "fix: update ws test dependency",
+      "updated_at": "2026-07-02T21:53:26Z",
+      "url": "https://github.com/obra/superpowers/pull/1796"
     },
     {
       "kind": "issue",
@@ -405,7 +460,7 @@
       "number": 1931,
       "state": "open",
       "title": "feat: agentic-end-to-end-testing skill + spec-derived scenario cards",
-      "updated_at": "2026-07-05T16:59:57Z",
+      "updated_at": "2026-07-19T22:23:42Z",
       "url": "https://github.com/obra/superpowers/pull/1931"
     },
     {
@@ -445,15 +500,6 @@
       "title": "SDD workspace (.superpowers/sdd) collides across concurrent sessions sharing a checkout — regression from #1780 (6.1.0)",
       "updated_at": "2026-07-09T05:31:22Z",
       "url": "https://github.com/obra/superpowers/issues/1942"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1943,
-      "state": "open",
-      "title": "fix(sdd): plan-scoped workspace — per-plan artifact dirs, self-identifying ledger, end-of-plan cleanup",
-      "updated_at": "2026-07-06T21:54:50Z",
-      "url": "https://github.com/obra/superpowers/pull/1943"
     },
     {
       "kind": "pull_request",
@@ -624,19 +670,10 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 1994,
-      "state": "open",
-      "title": "fix: make the codex packaging and SDD skill test suites pass reliably off-macOS",
-      "updated_at": "2026-07-16T04:00:56Z",
-      "url": "https://github.com/obra/superpowers/pull/1994"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 1995,
       "state": "open",
       "title": "feat: add Devin CLI support",
-      "updated_at": "2026-07-16T14:12:58Z",
+      "updated_at": "2026-07-19T14:51:52Z",
       "url": "https://github.com/obra/superpowers/pull/1995"
     },
     {
@@ -647,15 +684,6 @@
       "title": "feat(omp): add native oh-my-pi harness support",
       "updated_at": "2026-07-16T14:23:21Z",
       "url": "https://github.com/obra/superpowers/pull/1996"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1998,
-      "state": "open",
-      "title": "SDD fix-loop redesign: resume-based fix rounds, five-round breaker, controller adjudication, lifecycle restructure",
-      "updated_at": "2026-07-17T00:59:12Z",
-      "url": "https://github.com/obra/superpowers/pull/1998"
     },
     {
       "kind": "pull_request",
@@ -694,11 +722,20 @@
       "title": "Add ECA (Editor Code Assistant) harness support",
       "updated_at": "2026-07-18T17:34:46Z",
       "url": "https://github.com/obra/superpowers/pull/2005"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2007,
+      "state": "open",
+      "title": "fix(codex): make package timestamps timezone-independent",
+      "updated_at": "2026-07-19T05:22:22Z",
+      "url": "https://github.com/obra/superpowers/pull/2007"
     }
   ],
   "schema_version": 1,
   "upstream": {
-    "dev_sha": "fb7b07088ed03da76508b8a70a87bf4f15b2412a",
+    "dev_sha": "cc690476fca428d124544e74145ed91dfb10f8e3",
     "release": {
       "sha": "d884ae04edebef577e82ff7c4e143debd0bbec99",
       "tag": "v6.1.1",
