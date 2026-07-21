@@ -127,6 +127,18 @@
     {
       "kind": "issue",
       "labels": [
+        "subagents",
+        "worktrees"
+      ],
+      "number": 1040,
+      "state": "open",
+      "title": "Worktree skill doesn't enforce file operations stay within worktree",
+      "updated_at": "2026-07-21T01:24:01Z",
+      "url": "https://github.com/obra/superpowers/issues/1040"
+    },
+    {
+      "kind": "issue",
+      "labels": [
         "plans"
       ],
       "number": 1044,
@@ -194,7 +206,7 @@
       "number": 1581,
       "state": "open",
       "title": "Feature Request: Hermes Agent harness support — make Superpowers skills available in native Hermes format",
-      "updated_at": "2026-07-13T15:22:06Z",
+      "updated_at": "2026-07-20T20:07:31Z",
       "url": "https://github.com/obra/superpowers/issues/1581"
     },
     {
@@ -229,24 +241,6 @@
       "url": "https://github.com/obra/superpowers/pull/1729"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1757,
-      "state": "open",
-      "title": "docs: add Traditional Chinese README",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1757"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1796,
-      "state": "open",
-      "title": "fix: update ws test dependency",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1796"
-    },
-    {
       "kind": "issue",
       "labels": [],
       "number": 1799,
@@ -254,15 +248,6 @@
       "title": "subagent-driven-development: review-package operates on $PWD, forcing an un-allowlistable \"cd <repo> ; review-package\" compound",
       "updated_at": "2026-07-07T21:23:35Z",
       "url": "https://github.com/obra/superpowers/issues/1799"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1804,
-      "state": "open",
-      "title": "fix(skills): promote using-git-worktrees into executor process flows",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1804"
     },
     {
       "kind": "issue",
@@ -644,7 +629,7 @@
       "number": 1988,
       "state": "open",
       "title": "Codex SDD has no circuit breaker: one task ran ~4 hours and accumulated 120.7M telemetry tokens",
-      "updated_at": "2026-07-16T02:54:29Z",
+      "updated_at": "2026-07-20T18:28:18Z",
       "url": "https://github.com/obra/superpowers/issues/1988"
     },
     {
@@ -673,7 +658,7 @@
       "number": 1995,
       "state": "open",
       "title": "feat: add Devin CLI support",
-      "updated_at": "2026-07-19T14:51:52Z",
+      "updated_at": "2026-07-20T14:45:11Z",
       "url": "https://github.com/obra/superpowers/pull/1995"
     },
     {
@@ -691,7 +676,7 @@
       "number": 1999,
       "state": "open",
       "title": "feat: make SDD/brainstorming workspace root configurable via SUPERPOWERS_WORKSPACE_DIR",
-      "updated_at": "2026-07-17T02:27:24Z",
+      "updated_at": "2026-07-21T02:10:15Z",
       "url": "https://github.com/obra/superpowers/pull/1999"
     },
     {
@@ -700,7 +685,7 @@
       "number": 2000,
       "state": "open",
       "title": "Feature request: add an opt-in/manual-only brainstorming profile",
-      "updated_at": "2026-07-17T18:22:46Z",
+      "updated_at": "2026-07-21T03:33:54Z",
       "url": "https://github.com/obra/superpowers/issues/2000"
     },
     {
@@ -731,6 +716,24 @@
       "title": "fix(codex): make package timestamps timezone-independent",
       "updated_at": "2026-07-19T05:22:22Z",
       "url": "https://github.com/obra/superpowers/pull/2007"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2009,
+      "state": "open",
+      "title": "Codex/1drop pipeline",
+      "updated_at": "2026-07-20T11:00:06Z",
+      "url": "https://github.com/obra/superpowers/pull/2009"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2010,
+      "state": "open",
+      "title": "docs(using-superpowers): drop dangling subagent-support anchor",
+      "updated_at": "2026-07-20T17:15:06Z",
+      "url": "https://github.com/obra/superpowers/pull/2010"
     }
   ],
   "schema_version": 1,
