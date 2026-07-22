@@ -74,6 +74,19 @@
     {
       "kind": "issue",
       "labels": [
+        "enhancement",
+        "kiro",
+        "new-harness"
+      ],
+      "number": 503,
+      "state": "open",
+      "title": "Add Support for Kiro CLI as an AI Provider",
+      "updated_at": "2026-07-21T15:30:00Z",
+      "url": "https://github.com/obra/superpowers/issues/503"
+    },
+    {
+      "kind": "issue",
+      "labels": [
         "brainstorming",
         "claude-code",
         "enhancement",
@@ -261,15 +274,6 @@
       "url": "https://github.com/obra/superpowers/issues/1812"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1813,
-      "state": "open",
-      "title": "fix(writing-plans): avoid imposing commit style examples",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1813"
-    },
-    {
       "kind": "issue",
       "labels": [
         "bug"
@@ -279,24 +283,6 @@
       "title": "New Task-XX-Reports Overwriting Previous Tasks",
       "updated_at": "2026-07-06T01:40:48Z",
       "url": "https://github.com/obra/superpowers/issues/1816"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1826,
-      "state": "open",
-      "title": "fix(tests): resolve shellcheck warnings in Claude Code test helpers",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1826"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1839,
-      "state": "open",
-      "title": "fix(systematic-debugging): default waitFor's description so examples compile",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1839"
     },
     {
       "kind": "issue",
@@ -326,15 +312,6 @@
       "title": "Require upstream search during systematic debugging",
       "updated_at": "2026-07-15T11:39:24Z",
       "url": "https://github.com/obra/superpowers/pull/1884"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1885,
-      "state": "open",
-      "title": "replace enumeration with `a)`/`b)`",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1885"
     },
     {
       "kind": "issue",
@@ -734,6 +711,24 @@
       "title": "docs(using-superpowers): drop dangling subagent-support anchor",
       "updated_at": "2026-07-20T17:15:06Z",
       "url": "https://github.com/obra/superpowers/pull/2010"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2012,
+      "state": "open",
+      "title": "subagent-driven-development: task-N scratch filenames collide across plans, silently destroying a prior run's artifacts",
+      "updated_at": "2026-07-21T17:37:43Z",
+      "url": "https://github.com/obra/superpowers/issues/2012"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2014,
+      "state": "open",
+      "title": "fix(sdd): protect task briefs against accidental overwrite and empty file creation (#2012)",
+      "updated_at": "2026-07-22T02:31:44Z",
+      "url": "https://github.com/obra/superpowers/pull/2014"
     }
   ],
   "schema_version": 1,
