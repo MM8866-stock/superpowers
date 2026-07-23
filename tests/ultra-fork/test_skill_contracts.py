@@ -167,6 +167,44 @@ class SkillContractTests(unittest.TestCase):
             re.compile(r"no fixed.{0,80}(time|token)", re.IGNORECASE),
         )
 
+    def test_sdd_workspace_is_scoped_to_one_plan(self):
+        skill = read_text("skills/subagent-driven-development/SKILL.md")
+        workspace = read_text(
+            "skills/subagent-driven-development/scripts/sdd-workspace"
+        )
+
+        self.assertIn("scripts/sdd-workspace PLAN_FILE", skill)
+        self.assertIn("Usage: sdd-workspace PLAN_FILE", workspace)
+        self.assertIn('plan=$1', workspace)
+        self.assertIn('base="$root/.superpowers/sdd"', workspace)
+        self.assertIn('dir="$base/$slug"', workspace)
+
+    def test_sdd_scoped_rechecks_have_no_fixed_round_or_model_escalation(self):
+        skill = read_text("skills/subagent-driven-development/SKILL.md")
+        lower = skill.lower()
+        re_review_path = (
+            ROOT / "skills/subagent-driven-development/re-review-prompt.md"
+        )
+
+        self.assertTrue(re_review_path.exists(), "scoped re-review prompt is required")
+        re_review = re_review_path.read_text(encoding="utf-8").lower()
+        for phrase in ("named findings", "fix diff", "out of scope"):
+            self.assertIn(phrase, re_review)
+        self.assertRegex(
+            skill,
+            re.compile(
+                r"existing implementation context.{0,180}recheck only",
+                re.IGNORECASE | re.DOTALL,
+            ),
+        )
+        for forbidden in (
+            "five rounds",
+            "rounds 4-5",
+            "fresh implementer per task",
+            "more capable model",
+        ):
+            self.assertNotIn(forbidden, lower)
+
     def test_goal_ledger_contains_only_seven_durable_fields(self):
         ledger_path = ROOT / "skills/subagent-driven-development/goal-ledger-template.md"
         self.assertTrue(ledger_path.exists(), "goal ledger template is required")
