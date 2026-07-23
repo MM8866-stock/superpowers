@@ -101,20 +101,6 @@
     {
       "kind": "pull_request",
       "labels": [
-        "claude-code",
-        "enhancement",
-        "skills",
-        "subagents"
-      ],
-      "number": 724,
-      "state": "open",
-      "title": "feat: add efficient-multi-agent-research skill",
-      "updated_at": "2026-07-02T21:53:27Z",
-      "url": "https://github.com/obra/superpowers/pull/724"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
         "enhancement",
         "new-harness",
         "no-obvious-human-review",
@@ -224,19 +210,6 @@
     },
     {
       "kind": "pull_request",
-      "labels": [
-        "enhancement",
-        "needs-rebase-to-dev-branch",
-        "plans"
-      ],
-      "number": 1644,
-      "state": "open",
-      "title": "Improved Plan Review",
-      "updated_at": "2026-07-02T22:37:44Z",
-      "url": "https://github.com/obra/superpowers/pull/1644"
-    },
-    {
-      "kind": "pull_request",
       "labels": [],
       "number": 1654,
       "state": "open",
@@ -325,33 +298,6 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 1892,
-      "state": "open",
-      "title": "feat: add Hermes Agent harness support (dist/hermes/)",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1892"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1894,
-      "state": "open",
-      "title": "feat(using-superpowers): add Claude Code to Platform Adaptation + claude-tools.md",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1894"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1898,
-      "state": "open",
-      "title": "Improve planning alternatives and pre-mortems",
-      "updated_at": "2026-07-03T00:52:28Z",
-      "url": "https://github.com/obra/superpowers/pull/1898"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 1899,
       "state": "open",
       "title": "chore: remove unreferenced skill files, fix broken GEMINI.md import",
@@ -384,7 +330,7 @@
       "number": 1917,
       "state": "open",
       "title": "subagent-driven-development: no inline-vs-dispatch threshold — small, tightly-coupled changes pay fan-out overhead for isolation they don't need",
-      "updated_at": "2026-07-04T08:42:50Z",
+      "updated_at": "2026-07-22T09:42:29Z",
       "url": "https://github.com/obra/superpowers/issues/1917"
     },
     {
@@ -570,7 +516,7 @@
       "number": 1981,
       "state": "open",
       "title": "feat(skills): add tracing-acceptance-criteria skill",
-      "updated_at": "2026-07-14T08:06:48Z",
+      "updated_at": "2026-07-22T09:58:45Z",
       "url": "https://github.com/obra/superpowers/pull/1981"
     },
     {
@@ -729,6 +675,15 @@
       "title": "fix(sdd): protect task briefs against accidental overwrite and empty file creation (#2012)",
       "updated_at": "2026-07-22T02:31:44Z",
       "url": "https://github.com/obra/superpowers/pull/2014"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2016,
+      "state": "open",
+      "title": "fix(writing-plans): commit the plan document so worktree cleanup can't destroy it",
+      "updated_at": "2026-07-22T17:36:06Z",
+      "url": "https://github.com/obra/superpowers/pull/2016"
     }
   ],
   "schema_version": 1,
