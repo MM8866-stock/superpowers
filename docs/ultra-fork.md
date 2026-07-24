@@ -37,6 +37,13 @@ The fork does not add an external scheduler, model router, Agent database, manag
 
 `upstream/dev` is observed for evidence, not merged automatically. Each stable upstream release receives a semantic diff review. Security fixes and high-value Codex compatibility fixes may be cherry-picked early after focused verification.
 
+The fork owner approved an explicit semantic integration of `upstream/dev` at
+`cc690476fca428d124544e74145ed91dfb10f8e3` on 2026-07-23. The integration
+adopts plan-scoped SDD workspaces, scoped re-review, Windows hook fixes, Codex
+packaging portability, and generic harness updates. Ultra scheduling, context
+reuse, milestone review, runtime model selection, layered verification, and
+root-cause convergence remain fork-owned behavior.
+
 Fork behavior is protected by three layers:
 
 1. deterministic Skill and monitor contracts;

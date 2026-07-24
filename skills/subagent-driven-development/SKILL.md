@@ -80,11 +80,18 @@ Do not automatically close valid work because an Agent deviated from a preferred
 
 1. **Read facts once.** Read the approved design, implementation plan, repository instructions, current Git state, and any existing Goal ledger. Trust committed facts over reconstructed conversation memory.
 2. **Validate the plan.** Surface only contradictions that prevent correct execution. Record non-blocking hardening as follow-up instead of reopening approved V1 scope.
-3. **Define milestones.** Group logical batches into independently demonstrable outcomes. Identify commit ranges and focused verification for each.
-4. **Choose execution per batch.** Apply the purpose gate. Continue a healthy Implementer when reuse conditions hold; otherwise execute directly or dispatch at a natural boundary.
-5. **Implement and verify.** Use focused TDD, keep one writer, commit the coherent batch, and record concise evidence.
-6. **Review at milestone boundaries.** Use at most one integrated review per milestone, not a review after every batch.
-7. **Finish with evidence.** Produce the final requirement-to-evidence mapping, run the project-required final gates once, then use superpowers:finishing-a-development-branch.
+3. **Resolve the plan workspace.** Run `scripts/sdd-workspace PLAN_FILE` and keep this plan's briefs, reports, review packages, and ledger inside the returned directory.
+4. **Define milestones.** Group logical batches into independently demonstrable outcomes. Identify commit ranges and focused verification for each.
+5. **Choose execution per batch.** Apply the purpose gate. Continue a healthy Implementer when reuse conditions hold; otherwise execute directly or dispatch at a natural boundary.
+6. **Implement and verify.** Use focused TDD, keep one writer, commit the coherent batch, and record concise evidence.
+7. **Review at milestone boundaries.** Use at most one integrated review per milestone, not a review after every batch.
+8. **Finish with evidence.** Produce the final requirement-to-evidence mapping, run the project-required final gates once, then use superpowers:finishing-a-development-branch.
+
+## Plan-Scoped Workspace
+
+Each approved plan owns one git-ignored scratch directory. Run this Skill's `scripts/sdd-workspace PLAN_FILE` at setup; the helper derives `.superpowers/sdd/<plan-slug>/` and prints its absolute path. Pass the same `PLAN_FILE` to `scripts/task-brief` and `scripts/review-package` so every brief, report, diff, and ledger resolves to the same plan.
+
+Keep the plan's ledger at `<workspace>/progress.md`. When recovering after compaction or handoff, accept it only for the same plan path and verify its named commits against Git. A different plan's workspace, a legacy flat `.superpowers/sdd/progress.md`, or missing commits are not evidence that work completed. `git clean -fdx` removes this scratch state, so Git commits remain the durable source of truth.
 
 ## Write Ownership
 
@@ -112,7 +119,7 @@ Each logical batch ends in one coherent commit unless the repository explicitly 
 ## Waiting And Progress
 
 - A single wait timeout means **no update yet**. It does not prove blockage, failure, or lack of progress.
-- Judge progress by concrete artifacts, reports, commits, test evidence, or a stated blocker—not elapsed time or one quiet wait.
+- Judge progress by concrete artifacts, reports, commits, test evidence, or a stated blocker rather than elapsed time or one quiet wait.
 - Use the runtime's follow-up mechanism when an Agent must take another turn; do not assume a queued message is an immediate answer.
 - Do not interrupt a long-running Agent that is producing valid progress merely because a time or Token estimate was exceeded.
 
@@ -129,7 +136,7 @@ For NEEDS_CONTEXT, provide only the missing fact and continue the same Agent whe
 
 ## Root-Cause Convergence
 
-Use **root-cause convergence** when repeated attempts produce no new outcome. There are no fixed time or Token fuses.
+Use **root-cause convergence** when repeated attempts produce no new outcome. There are no fixed time, Token, or review-round fuses.
 
 1. Preserve the latest failure evidence and exact command or action.
 2. Identify what changed between attempts; if nothing changed, do not retry.
@@ -154,9 +161,11 @@ The Reviewer checks approved behavior, material code quality, data semantics, di
 
 Send blockers back to the **existing implementation context** whenever it remains healthy. After fixes, recheck only the reported findings and the tests covering those fixes; do not start a new open-ended review. The final whole-branch review occurs once at the Goal completion boundary and may serve as the final milestone review.
 
+For a review-fix continuation, freeze only the fix range with `scripts/review-package PLAN_FILE FIX_BASE HEAD` and use [re-review-prompt.md](re-review-prompt.md). Give the Reviewer the named findings and fix diff. It verdicts each finding, checks only new breakage introduced by the fix diff, and reports unrelated observations as out of scope. A scoped re-review does not become another broad review or create a fixed retry count.
+
 ## Durable Goal Ledger
 
-Only large Goal work uses a ledger. Copy [goal-ledger-template.md](goal-ledger-template.md) to the project's agreed scratch or durable location. Update it at milestone completion, pause, compaction, session/tool handoff, or Goal completion—not after every command or wait.
+Only large Goal work uses a ledger. Copy [goal-ledger-template.md](goal-ledger-template.md) to the plan-scoped workspace as `progress.md`. Update it at milestone completion, pause, compaction, session/tool handoff, or Goal completion rather than after every command or wait.
 
 The ledger contains only:
 
@@ -168,7 +177,7 @@ The ledger contains only:
 - single next action;
 - follow-up items.
 
-After compaction or handoff, recover from the ledger, Git log, approved design, and verification evidence. Do not re-dispatch completed work because conversation memory is incomplete.
+Record the plan path in the Goal field rather than adding another ledger section. After compaction or handoff, recover from the ledger, Git log, approved design, and verification evidence. Do not re-dispatch completed work because conversation memory is incomplete.
 
 ## File Handoffs
 
@@ -176,16 +185,17 @@ Prefer file artifacts over large copied prompts:
 
 - `scripts/task-brief PLAN_FILE N` extracts one logical batch for an Implementer;
 - the Implementer report records commits, focused TDD/tests, files, self-review, and concerns;
-- `scripts/review-package BASE HEAD` freezes a commit range for milestone review;
+- `scripts/review-package PLAN_FILE BASE HEAD` freezes a commit range for milestone review;
 - the Goal ledger records only durable recovery state.
 
 Pass only the batch delta, stable interfaces, relevant prior decisions, and artifact paths. Do not make every Agent reread the whole repository or accumulated session history.
 
 ## Prompt Templates
 
-- [implementer-prompt.md](implementer-prompt.md) — start or continue an Implementer for a logical batch
-- [milestone-reviewer-prompt.md](milestone-reviewer-prompt.md) — integrated milestone review
-- [goal-ledger-template.md](goal-ledger-template.md) — seven-field durable recovery record
+- [implementer-prompt.md](implementer-prompt.md) - start or continue an Implementer for a logical batch
+- [milestone-reviewer-prompt.md](milestone-reviewer-prompt.md) - integrated milestone review
+- [re-review-prompt.md](re-review-prompt.md) - scoped verification of named findings and a fix diff
+- [goal-ledger-template.md](goal-ledger-template.md) - seven-field durable recovery record
 
 ## Red Flags
 
@@ -200,6 +210,7 @@ Never:
 - review every batch by default;
 - rerun a fresh broad suite merely to reconfirm reported output;
 - retry an unchanged failing approach;
+- impose a fixed review-round breaker or model escalation;
 - turn follow-up hardening into an active V1 blocker;
 - lose the link between approved requirements, commits, and verification evidence.
 
@@ -207,10 +218,10 @@ Never:
 
 **Required workflow skills:**
 
-- **superpowers:using-git-worktrees** — create or verify isolation before implementation
-- **superpowers:writing-plans** — create logical-batch plans
-- **superpowers:test-driven-development** — drive behavior changes with RED/GREEN evidence
-- **superpowers:verification-before-completion** — verify completion claims
-- **superpowers:finishing-a-development-branch** — complete the branch after final evidence
+- **superpowers:using-git-worktrees** - create or verify isolation before implementation
+- **superpowers:writing-plans** - create logical-batch plans
+- **superpowers:test-driven-development** - drive behavior changes with RED/GREEN evidence
+- **superpowers:verification-before-completion** - verify completion claims
+- **superpowers:finishing-a-development-branch** - complete the branch after final evidence
 
 Use **superpowers:systematic-debugging** when failures or unexpected behavior appear. Use **superpowers:requesting-code-review** only at a milestone or final branch boundary, not as a per-batch ritual.

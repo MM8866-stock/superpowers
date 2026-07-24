@@ -190,6 +190,8 @@ class SkillContractTests(unittest.TestCase):
         re_review = re_review_path.read_text(encoding="utf-8").lower()
         for phrase in ("named findings", "fix diff", "out of scope"):
             self.assertIn(phrase, re_review)
+        self.assertNotIn("[model", re_review)
+        self.assertNotIn("cheap-to-mid tier", re_review)
         self.assertRegex(
             skill,
             re.compile(
@@ -243,6 +245,25 @@ class SkillContractTests(unittest.TestCase):
             (skill_dir / "task-reviewer-prompt.md").exists(),
             "per-task reviewer prompt must be removed",
         )
+
+    def test_fork_docs_and_harness_checks_match_milestone_semantics(self):
+        paths = (
+            "README.md",
+            "skills/using-superpowers/references/gemini-tools.md",
+            "tests/claude-code/test-subagent-driven-development.sh",
+            "tests/claude-code/test-subagent-driven-development-integration.sh",
+        )
+        text = "\n".join(read_text(path).lower() for path in paths)
+
+        for forbidden in (
+            "reviewing between tasks",
+            "review between tasks",
+            "two-stage review",
+            "spec compliance review before code quality",
+            "task-reviewer-prompt",
+            "fresh subagent per task",
+        ):
+            self.assertNotIn(forbidden, text)
 
     def test_parallel_dispatch_requires_independence_and_positive_net_benefit(self):
         skill = read_text("skills/dispatching-parallel-agents/SKILL.md")

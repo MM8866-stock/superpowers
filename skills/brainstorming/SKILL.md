@@ -99,6 +99,7 @@ Do not invoke implementation skills before written design approval. After approv
 - Propose 2-3 different approaches when more than one viable approach exists
 - Present options conversationally with your recommendation and reasoning
 - Lead with your recommended option and explain why
+- YAGNI ruthlessly - remove unnecessary features from every approach and design
 
 **Presenting the design:**
 

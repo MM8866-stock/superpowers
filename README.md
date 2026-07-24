@@ -42,7 +42,7 @@ If this sounds like someone you know, definitely send them our way.
 
 ## Quickstart
 
-Give your agent Superpowers: [Claude Code](#claude-code), [Antigravity](#antigravity), [Codex App](#codex-app), [Codex CLI](#codex-cli), [Cursor](#cursor), [Factory Droid](#factory-droid), [GitHub Copilot CLI](#github-copilot-cli), [Kimi Code](#kimi-code), [OpenCode](#opencode), [Pi](#pi).
+Give your agent Superpowers: [Claude Code](#claude-code), [Antigravity](#antigravity), [Codex App](#codex-app), [Codex CLI](#codex-cli), [Cursor](#cursor), [Factory Droid](#factory-droid), [Gemini CLI](#gemini-cli), [GitHub Copilot CLI](#github-copilot-cli), [Kimi Code](#kimi-code), [OpenCode](#opencode), [Pi](#pi).
 
 ## How it works
 
@@ -153,6 +153,20 @@ Superpowers is available via the [official Codex plugin marketplace](https://git
   droid plugin install superpowers@superpowers
   ```
 
+### Gemini CLI
+
+- Install the extension:
+
+  ```bash
+  gemini extensions install https://github.com/MM8866-stock/superpowers
+  ```
+
+- Update later:
+
+  ```bash
+  gemini extensions update superpowers
+  ```
+
 ### GitHub Copilot CLI
 
 - Register the marketplace:
@@ -228,9 +242,9 @@ The Pi package loads the Superpowers skills and a small extension that injects t
 
 5. **test-driven-development** - Activates during implementation. Enforces RED-GREEN-REFACTOR: write failing test, watch it fail, write minimal code, watch it pass, commit. Deletes code written before tests.
 
-6. **requesting-code-review** - Activates between tasks. Reviews against plan, reports issues by severity. Critical issues block progress.
+6. **requesting-code-review** - Activates at meaningful milestone boundaries. Reviews against the plan and frozen evidence, reports issues by severity, and scopes follow-up checks to reported findings.
 
-7. **finishing-a-development-branch** - Activates when tasks complete. Verifies tests, presents options (merge/PR/keep/discard), cleans up worktree.
+7. **finishing-a-development-branch** - Activates when tasks complete. Verifies tests, presents merge/PR/keep options, and handles discard only after an explicit request.
 
 **The agent checks for relevant skills before any task.** Mandatory workflows, not suggestions.
 
@@ -239,7 +253,7 @@ The Pi package loads the Superpowers skills and a small extension that injects t
 ### Skills Library
 
 **Testing**
-- **test-driven-development** - RED-GREEN-REFACTOR cycle (includes testing anti-patterns reference)
+- **test-driven-development** - RED-GREEN-REFACTOR cycle (includes the writing-good-tests reference)
 
 **Debugging**
 - **systematic-debugging** - 4-phase root cause process (includes root-cause-tracing, defense-in-depth, condition-based-waiting techniques)
@@ -254,7 +268,7 @@ The Pi package loads the Superpowers skills and a small extension that injects t
 - **receiving-code-review** - Responding to feedback
 - **using-git-worktrees** - Parallel development branches
 - **finishing-a-development-branch** - Merge/PR decision workflow
-- **subagent-driven-development** - Fast iteration with two-stage review (spec compliance, then code quality)
+- **subagent-driven-development** - Purpose-driven execution with milestone review, context reuse, and layered verification
 
 **Meta**
 - **writing-skills** - Create new skills following best practices (includes testing methodology)

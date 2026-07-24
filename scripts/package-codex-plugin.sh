@@ -140,7 +140,8 @@ if [[ "$FORMAT" == "zip" ]]; then
   command -v unzip >/dev/null || die "unzip not found in PATH"
 fi
 
-[[ -d "$REPO_ROOT/.git" ]] || die "repo root is not a git checkout: $REPO_ROOT"
+git -C "$REPO_ROOT" rev-parse --git-dir >/dev/null 2>&1 ||
+  die "repo root is not a git checkout: $REPO_ROOT"
 git -C "$REPO_ROOT" rev-parse --verify "$REF^{commit}" >/dev/null ||
   die "git ref does not resolve to a commit: $REF"
 
@@ -230,14 +231,16 @@ prepare_metadata_root() {
 
 METADATA_ROOT="$(prepare_metadata_root "$METADATA_SOURCE")"
 
-git -C "$REPO_ROOT" archive --format=tar "$REF" -- \
+# Pin tar.umask and extract with -p so staged modes are canonical 755/644
+# regardless of the builder's git config or process umask.
+git -C "$REPO_ROOT" -c tar.umask=0022 archive --format=tar "$REF" -- \
   .codex-plugin \
   CODE_OF_CONDUCT.md \
   LICENSE \
   README.md \
   assets \
   skills \
-  | tar -xf - -C "$STAGE"
+  | tar -xpf - -C "$STAGE"
 
 VERSION="$(jq -r '.version // empty' "$STAGE/.codex-plugin/plugin.json")"
 [[ -n "$VERSION" ]] || die "could not read version from .codex-plugin/plugin.json"
@@ -289,8 +292,8 @@ metadata_count="$(find "$STAGE/skills" -path '*/agents/openai.yaml' -type f | wc
 
 case "$FORMAT" in
   zip)
-    # ZIP cannot represent dates earlier than 1980.
-    TZ=UTC find "$STAGE" -exec touch -t 198001010000 {} +
+    # ZIP stores local wall-clock fields and cannot represent dates before 1980.
+    find "$STAGE" -exec touch -t 198001010000 {} +
     (
       cd "$STAGE"
       rm -f "$OUTPUT"
@@ -298,12 +301,19 @@ case "$FORMAT" in
     )
     ;;
   tar.gz)
-    # Match the prior official archive's deterministic tar entry metadata.
+    # Match the prior official archive's deterministic tar entry metadata:
+    # ustar entries with uid/gid 0 and empty uname/gname. GNU tar and bsdtar
+    # (macOS) spell those flags differently.
+    if tar --version 2>/dev/null | grep -q 'GNU tar'; then
+      TAR_METADATA_FLAGS=(--owner=:0 --group=:0 --numeric-owner)
+    else
+      TAR_METADATA_FLAGS=(--uid 0 --gid 0 --uname '' --gname '')
+    fi
     TZ=UTC find "$STAGE" -exec touch -t 197001010000 {} +
     (
       cd "$STAGE"
       rm -f "$OUTPUT"
-      COPYFILE_DISABLE=1 tar -cf - --no-recursion --format ustar --uid 0 --gid 0 --uname '' --gname '' -T "$ARCHIVE_LIST" |
+      COPYFILE_DISABLE=1 tar -cf - --no-recursion --format ustar "${TAR_METADATA_FLAGS[@]}" -T "$ARCHIVE_LIST" |
         gzip -9n >"$OUTPUT"
     )
     ;;

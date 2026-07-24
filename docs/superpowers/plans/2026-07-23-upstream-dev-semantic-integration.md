@@ -142,11 +142,14 @@ This batch remains staged inside the pending merge and is committed with Task 3 
 - Modify: `skills/writing-plans/SKILL.md`
 - Modify: `skills/writing-skills/SKILL.md`
 - Modify: `docs/ultra-fork.md`
+- Modify: `README.md`
+- Modify: `skills/using-superpowers/references/gemini-tools.md`
 - Modify: `tests/antigravity/test-antigravity-tools.sh`
 - Modify: `tests/claude-code/run-skill-tests.sh`
 - Modify: `tests/claude-code/test-helpers.sh`
 - Modify: `tests/claude-code/test-sdd-workspace.sh`
 - Modify: `tests/claude-code/test-subagent-driven-development.sh`
+- Modify: `tests/claude-code/test-subagent-driven-development-integration.sh`
 - Modify: `tests/pi/test-pi-extension.mjs`
 
 **Interfaces:**
