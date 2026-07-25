@@ -189,15 +189,6 @@
       "url": "https://github.com/obra/superpowers/pull/1729"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1796,
-      "state": "open",
-      "title": "fix: update ws test dependency",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1796"
-    },
-    {
       "kind": "issue",
       "labels": [],
       "number": 1799,
@@ -205,15 +196,6 @@
       "title": "subagent-driven-development: review-package operates on $PWD, forcing an un-allowlistable \"cd <repo> ; review-package\" compound",
       "updated_at": "2026-07-07T21:23:35Z",
       "url": "https://github.com/obra/superpowers/issues/1799"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1804,
-      "state": "open",
-      "title": "fix(skills): promote using-git-worktrees into executor process flows",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1804"
     },
     {
       "kind": "issue",
@@ -597,7 +579,7 @@
       "number": 1996,
       "state": "open",
       "title": "feat(omp): add native oh-my-pi harness support",
-      "updated_at": "2026-07-23T18:08:27Z",
+      "updated_at": "2026-07-24T16:28:39Z",
       "url": "https://github.com/obra/superpowers/pull/1996"
     },
     {
@@ -617,17 +599,6 @@
       "title": "Feature request: add an opt-in/manual-only brainstorming profile",
       "updated_at": "2026-07-21T03:33:54Z",
       "url": "https://github.com/obra/superpowers/issues/2000"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement"
-      ],
-      "number": 2001,
-      "state": "open",
-      "title": "Feature request: verdict schema for optional review plugins",
-      "updated_at": "2026-07-18T02:16:23Z",
-      "url": "https://github.com/obra/superpowers/issues/2001"
     },
     {
       "kind": "pull_request",
@@ -653,8 +624,55 @@
       "number": 2025,
       "state": "open",
       "title": "feat(hermes): Hermes Agent harness support — eval-verified pre_llm_call bootstrap",
-      "updated_at": "2026-07-24T00:44:54Z",
+      "updated_at": "2026-07-24T04:32:01Z",
       "url": "https://github.com/obra/superpowers/pull/2025"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2030,
+      "state": "open",
+      "title": "[Feature] Dedicated documentation website for Superpowers",
+      "updated_at": "2026-07-24T05:49:10Z",
+      "url": "https://github.com/obra/superpowers/issues/2030"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2032,
+      "state": "open",
+      "title": "docs(skills): brainstorming should propose commit instead of committing directly",
+      "updated_at": "2026-07-24T09:33:59Z",
+      "url": "https://github.com/obra/superpowers/pull/2032"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2034,
+      "state": "open",
+      "title": "Subagent dispatches outside SDD have no model guidance, so they inherit the session model",
+      "updated_at": "2026-07-24T19:24:54Z",
+      "url": "https://github.com/obra/superpowers/issues/2034"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2035,
+      "state": "open",
+      "title": "fix(codex): restore Superpowers after compaction",
+      "updated_at": "2026-07-24T21:24:06Z",
+      "url": "https://github.com/obra/superpowers/pull/2035"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2036,
+      "state": "open",
+      "title": "fix(codex): bound SDD dispatch and final review",
+      "updated_at": "2026-07-24T21:22:36Z",
+      "url": "https://github.com/obra/superpowers/pull/2036"
     }
   ],
   "schema_version": 1,
