@@ -1,5 +1,20 @@
 # Superpowers Release Notes
 
+## v6.2.0-ultra.1 (2026-07-27)
+
+Fork release of upstream `v6.2.0` on `MM8866-stock/superpowers`. Keeps Ultra-first SDD semantics while landing the remaining post-integration upstream fixes.
+
+### Upstream parity
+
+- **Semantic integration of upstream `v6.2.0`.** Plan-scoped SDD workspaces, resume-based fix loop, skills compression, `writing-good-tests`, Windows SessionStart via Git Bash, Gemini CLI restore, and Codex packaging portability were already integrated earlier from `upstream/dev` at `cc690476`. This release completes the remaining `v6.2.0` follow-ups and advances the fork version to `6.2.0-ultra.1`.
+- **`find-polluter.sh` matches real `find` output.** Accepts documented patterns with or without a leading `./`, counts empty matches as zero instead of one, and also matches top-level tests under a `**/` pattern. Adds `tests/systematic-debugging/test-find-polluter.sh`. (#2008, #2011)
+- **Antigravity tool mapping no longer points at a deleted section.** Drops the dangling `#subagent-support` cross-reference; the `self` / `research` guidance remains in the same table cell. (#2010)
+
+### Fork identity
+
+- Ultra scheduling, context reuse, milestone review, runtime model selection, layered verification, and root-cause convergence remain fork-owned behavior.
+- Official Superpowers and this fork must not be enabled together.
+
 ## v6.1.1 (2026-07-02)
 
 ### Codex

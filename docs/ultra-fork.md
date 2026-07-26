@@ -5,6 +5,8 @@
 - Upstream: `obra/superpowers`
 - Maintained fork: `MM8866-stock/superpowers`
 - Initial upstream baseline: `v6.1.1` / `d884ae04edebef577e82ff7c4e143debd0bbec99`
+- Current upstream release baseline: `v6.2.0` / `3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9`
+- Current fork release: `6.2.0-ultra.1`
 - Plugin and Skill namespace: unchanged (`superpowers`, `superpowers:*`)
 - Fork release convention: `<upstream-version>-ultra.<fork-release>`
 
@@ -40,9 +42,12 @@ The fork does not add an external scheduler, model router, Agent database, manag
 The fork owner approved an explicit semantic integration of `upstream/dev` at
 `cc690476fca428d124544e74145ed91dfb10f8e3` on 2026-07-23. The integration
 adopts plan-scoped SDD workspaces, scoped re-review, Windows hook fixes, Codex
-packaging portability, and generic harness updates. Ultra scheduling, context
-reuse, milestone review, runtime model selection, layered verification, and
-root-cause convergence remain fork-owned behavior.
+packaging portability, and generic harness updates. On 2026-07-27 the fork
+completed the remaining upstream `v6.2.0` follow-ups (`find-polluter.sh`
+path-matching fixes and the Antigravity dangling-anchor doc fix) and released
+`6.2.0-ultra.1`. Ultra scheduling, context reuse, milestone review, runtime
+model selection, layered verification, and root-cause convergence remain
+fork-owned behavior.
 
 Fork behavior is protected by three layers:
 
