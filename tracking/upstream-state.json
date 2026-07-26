@@ -50,6 +50,19 @@
     {
       "kind": "pull_request",
       "labels": [
+        "claude-code",
+        "enhancement",
+        "subagents"
+      ],
+      "number": 738,
+      "state": "open",
+      "title": "feat(subagent-driven-development): add fresh-eyes review step for cross-task issues",
+      "updated_at": "2026-07-25T14:50:03Z",
+      "url": "https://github.com/obra/superpowers/pull/738"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
         "enhancement",
         "new-harness",
         "no-obvious-human-review",
@@ -209,15 +222,6 @@
       "url": "https://github.com/obra/superpowers/issues/1812"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1813,
-      "state": "open",
-      "title": "fix(writing-plans): avoid imposing commit style examples",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1813"
-    },
-    {
       "kind": "issue",
       "labels": [
         "bug"
@@ -227,24 +231,6 @@
       "title": "New Task-XX-Reports Overwriting Previous Tasks",
       "updated_at": "2026-07-06T01:40:48Z",
       "url": "https://github.com/obra/superpowers/issues/1816"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1826,
-      "state": "open",
-      "title": "fix(tests): resolve shellcheck warnings in Claude Code test helpers",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1826"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1839,
-      "state": "open",
-      "title": "fix(systematic-debugging): default waitFor's description so examples compile",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1839"
     },
     {
       "kind": "issue",
@@ -274,15 +260,6 @@
       "title": "Require upstream search during systematic debugging",
       "updated_at": "2026-07-15T11:39:24Z",
       "url": "https://github.com/obra/superpowers/pull/1884"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1885,
-      "state": "open",
-      "title": "replace enumeration with `a)`/`b)`",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1885"
     },
     {
       "kind": "issue",
@@ -561,7 +538,7 @@
       "number": 1991,
       "state": "open",
       "title": "SDD/brainstorming workspace root is hardcoded to .superpowers — make it configurable",
-      "updated_at": "2026-07-16T11:54:05Z",
+      "updated_at": "2026-07-25T17:31:01Z",
       "url": "https://github.com/obra/superpowers/issues/1991"
     },
     {
@@ -588,7 +565,7 @@
       "number": 1999,
       "state": "open",
       "title": "feat: make SDD/brainstorming workspace root configurable via SUPERPOWERS_WORKSPACE_DIR",
-      "updated_at": "2026-07-21T02:10:15Z",
+      "updated_at": "2026-07-25T17:21:24Z",
       "url": "https://github.com/obra/superpowers/pull/1999"
     },
     {
@@ -673,6 +650,35 @@
       "title": "fix(codex): bound SDD dispatch and final review",
       "updated_at": "2026-07-24T21:22:36Z",
       "url": "https://github.com/obra/superpowers/pull/2036"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2039,
+      "state": "open",
+      "title": "Enhance finishing-a-development-branch with a Session Handover Step",
+      "updated_at": "2026-07-25T20:39:40Z",
+      "url": "https://github.com/obra/superpowers/issues/2039"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2040,
+      "state": "open",
+      "title": "Codex marketplace package drops executable bits on SDD helper scripts",
+      "updated_at": "2026-07-25T21:01:41Z",
+      "url": "https://github.com/obra/superpowers/issues/2040"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2041,
+      "state": "open",
+      "title": "Require explicit acknowledgement for plaintext remote Brainstorm binds",
+      "updated_at": "2026-07-26T02:17:36Z",
+      "url": "https://github.com/obra/superpowers/pull/2041"
     }
   ],
   "schema_version": 1,
