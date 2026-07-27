@@ -38,20 +38,6 @@
       "labels": [
         "claude-code",
         "enhancement",
-        "skills",
-        "subagents"
-      ],
-      "number": 724,
-      "state": "open",
-      "title": "feat: add efficient-multi-agent-research skill",
-      "updated_at": "2026-07-02T21:53:27Z",
-      "url": "https://github.com/obra/superpowers/pull/724"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "claude-code",
-        "enhancement",
         "subagents"
       ],
       "number": 738,
@@ -269,15 +255,6 @@
       "title": "subagent-driven-development: .superpowers/sdd scratch artifacts are never pruned and silently collide across efforts",
       "updated_at": "2026-07-12T12:49:16Z",
       "url": "https://github.com/obra/superpowers/issues/1888"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1894,
-      "state": "open",
-      "title": "feat(using-superpowers): add Claude Code to Platform Adaptation + claude-tools.md",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1894"
     },
     {
       "kind": "pull_request",
@@ -679,6 +656,24 @@
       "title": "Require explicit acknowledgement for plaintext remote Brainstorm binds",
       "updated_at": "2026-07-26T02:17:36Z",
       "url": "https://github.com/obra/superpowers/pull/2041"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2043,
+      "state": "open",
+      "title": "Visual companion card mockups silently collapse into a clipped horizontal flex row",
+      "updated_at": "2026-07-27T00:08:39Z",
+      "url": "https://github.com/obra/superpowers/issues/2043"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2045,
+      "state": "open",
+      "title": "subagent-driven-development: plan-scoped workspace still collides when two plans share a basename (follow-up to #2012)",
+      "updated_at": "2026-07-27T03:26:57Z",
+      "url": "https://github.com/obra/superpowers/issues/2045"
     }
   ],
   "schema_version": 1,
