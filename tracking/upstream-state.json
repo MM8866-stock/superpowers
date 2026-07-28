@@ -97,6 +97,18 @@
     {
       "kind": "issue",
       "labels": [
+        "enhancement",
+        "plans"
+      ],
+      "number": 1075,
+      "state": "open",
+      "title": "Plans and specs have no completion status after execution",
+      "updated_at": "2026-07-27T20:24:33Z",
+      "url": "https://github.com/obra/superpowers/issues/1075"
+    },
+    {
+      "kind": "issue",
+      "labels": [
         "enhancement"
       ],
       "number": 1251,
@@ -153,21 +165,8 @@
       "number": 1581,
       "state": "open",
       "title": "Feature Request: Hermes Agent harness support — make Superpowers skills available in native Hermes format",
-      "updated_at": "2026-07-20T20:07:31Z",
+      "updated_at": "2026-07-27T18:12:37Z",
       "url": "https://github.com/obra/superpowers/issues/1581"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "enhancement",
-        "needs-rebase-to-dev-branch",
-        "plans"
-      ],
-      "number": 1644,
-      "state": "open",
-      "title": "Improved Plan Review",
-      "updated_at": "2026-07-02T22:37:44Z",
-      "url": "https://github.com/obra/superpowers/pull/1644"
     },
     {
       "kind": "pull_request",
@@ -255,15 +254,6 @@
       "title": "subagent-driven-development: .superpowers/sdd scratch artifacts are never pruned and silently collide across efforts",
       "updated_at": "2026-07-12T12:49:16Z",
       "url": "https://github.com/obra/superpowers/issues/1888"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1898,
-      "state": "open",
-      "title": "Improve planning alternatives and pre-mortems",
-      "updated_at": "2026-07-03T00:52:28Z",
-      "url": "https://github.com/obra/superpowers/pull/1898"
     },
     {
       "kind": "pull_request",
@@ -674,6 +664,15 @@
       "title": "subagent-driven-development: plan-scoped workspace still collides when two plans share a basename (follow-up to #2012)",
       "updated_at": "2026-07-27T03:26:57Z",
       "url": "https://github.com/obra/superpowers/issues/2045"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2046,
+      "state": "open",
+      "title": "writing-plans can mistake structural RED for behavior-test evidence",
+      "updated_at": "2026-07-27T11:58:23Z",
+      "url": "https://github.com/obra/superpowers/issues/2046"
     }
   ],
   "schema_version": 1,
