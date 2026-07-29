@@ -165,7 +165,7 @@
       "number": 1581,
       "state": "open",
       "title": "Feature Request: Hermes Agent harness support — make Superpowers skills available in native Hermes format",
-      "updated_at": "2026-07-27T18:12:37Z",
+      "updated_at": "2026-07-28T17:25:03Z",
       "url": "https://github.com/obra/superpowers/issues/1581"
     },
     {
@@ -263,17 +263,6 @@
       "title": "chore: remove unreferenced skill files, fix broken GEMINI.md import",
       "updated_at": "2026-07-13T09:06:07Z",
       "url": "https://github.com/obra/superpowers/pull/1899"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement"
-      ],
-      "number": 1900,
-      "state": "open",
-      "title": "Superpowers is hard to use for prompt-engineering-heavy work when TDD validates shape instead of content quality",
-      "updated_at": "2026-07-03T01:55:55Z",
-      "url": "https://github.com/obra/superpowers/issues/1900"
     },
     {
       "kind": "pull_request",
@@ -579,7 +568,7 @@
       "number": 2030,
       "state": "open",
       "title": "[Feature] Dedicated documentation website for Superpowers",
-      "updated_at": "2026-07-24T05:49:10Z",
+      "updated_at": "2026-07-28T13:45:32Z",
       "url": "https://github.com/obra/superpowers/issues/2030"
     },
     {
@@ -673,11 +662,29 @@
       "title": "writing-plans can mistake structural RED for behavior-test evidence",
       "updated_at": "2026-07-27T11:58:23Z",
       "url": "https://github.com/obra/superpowers/issues/2046"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2048,
+      "state": "open",
+      "title": "[DRAFT] feat: add AdaL harness support (native discovery, tool mapping)",
+      "updated_at": "2026-07-28T06:04:18Z",
+      "url": "https://github.com/obra/superpowers/pull/2048"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2050,
+      "state": "open",
+      "title": "subagent-driven-development: dispatched subagent committed to main instead of the worktree (isolation not enforced)",
+      "updated_at": "2026-07-28T21:58:13Z",
+      "url": "https://github.com/obra/superpowers/issues/2050"
     }
   ],
   "schema_version": 1,
   "upstream": {
-    "dev_sha": "7b4dc4d7fd42026b43c9bf7ad0ad80f0bdd73af9",
+    "dev_sha": "bb2a34b2a0ac6eac16a3337897a3d66052d50e3e",
     "release": {
       "sha": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9",
       "tag": "v6.2.0",
