@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "dedbeabb00dba76405895d213816eb1b57a67e05"
+    "sha": "8ed824a04d3e98c5789438fbdd0794399405776d"
   },
   "high_value_changes": [],
   "relevant_items": [
@@ -232,24 +232,6 @@
       "title": "[RFC] Persistent memory across Superpowers agents",
       "updated_at": "2026-07-17T11:52:16Z",
       "url": "https://github.com/obra/superpowers/issues/1812"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1813,
-      "state": "open",
-      "title": "fix(writing-plans): avoid imposing commit style examples",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1813"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1826,
-      "state": "open",
-      "title": "fix(tests): resolve shellcheck warnings in Claude Code test helpers",
-      "updated_at": "2026-07-02T21:53:26Z",
-      "url": "https://github.com/obra/superpowers/pull/1826"
     },
     {
       "kind": "pull_request",
@@ -533,7 +515,7 @@
       "number": 1996,
       "state": "open",
       "title": "feat(omp): add native oh-my-pi harness support",
-      "updated_at": "2026-07-24T16:28:39Z",
+      "updated_at": "2026-07-30T23:03:59Z",
       "url": "https://github.com/obra/superpowers/pull/1996"
     },
     {
@@ -571,7 +553,7 @@
       "number": 2017,
       "state": "open",
       "title": "Retuning subagent driven development for Opus 6 and Sol 5.6 ",
-      "updated_at": "2026-07-30T00:47:31Z",
+      "updated_at": "2026-07-30T11:36:22Z",
       "url": "https://github.com/obra/superpowers/issues/2017"
     },
     {
@@ -710,6 +692,15 @@
       "title": "subagent-driven-development: reviewer prompts pay subagent turns for mechanical facts the controller can settle in one command",
       "updated_at": "2026-07-29T14:47:23Z",
       "url": "https://github.com/obra/superpowers/issues/2054"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2056,
+      "state": "open",
+      "title": "feat(writing-plans): conditional Flow Diagrams slot in the plan header template",
+      "updated_at": "2026-07-30T16:22:56Z",
+      "url": "https://github.com/obra/superpowers/pull/2056"
     }
   ],
   "schema_version": 1,
