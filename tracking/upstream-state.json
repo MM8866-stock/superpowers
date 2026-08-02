@@ -165,7 +165,7 @@
       "number": 1581,
       "state": "open",
       "title": "Feature Request: Hermes Agent harness support — make Superpowers skills available in native Hermes format",
-      "updated_at": "2026-07-28T17:25:03Z",
+      "updated_at": "2026-08-01T10:48:39Z",
       "url": "https://github.com/obra/superpowers/issues/1581"
     },
     {
@@ -234,17 +234,6 @@
       "url": "https://github.com/obra/superpowers/pull/1899"
     },
     {
-      "kind": "issue",
-      "labels": [
-        "enhancement"
-      ],
-      "number": 1900,
-      "state": "open",
-      "title": "Superpowers is hard to use for prompt-engineering-heavy work when TDD validates shape instead of content quality",
-      "updated_at": "2026-07-03T01:55:55Z",
-      "url": "https://github.com/obra/superpowers/issues/1900"
-    },
-    {
       "kind": "pull_request",
       "labels": [],
       "number": 1915,
@@ -299,15 +288,6 @@
       "title": "feat: agentic-end-to-end-testing skill + spec-derived scenario cards",
       "updated_at": "2026-07-19T22:23:42Z",
       "url": "https://github.com/obra/superpowers/pull/1931"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1938,
-      "state": "open",
-      "title": "fix: scope SDD artifacts by plan identity",
-      "updated_at": "2026-07-06T08:15:51Z",
-      "url": "https://github.com/obra/superpowers/pull/1938"
     },
     {
       "kind": "pull_request",
@@ -692,6 +672,64 @@
       "title": "docs: codex-efficiency fix-cycle spec and plan (campaign record)",
       "updated_at": "2026-07-31T19:46:56Z",
       "url": "https://github.com/obra/superpowers/pull/2064"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2065,
+      "state": "open",
+      "title": "Brainstorming: bounded throwaway spike to settle design unknowns code can answer",
+      "updated_at": "2026-08-01T07:21:36Z",
+      "url": "https://github.com/obra/superpowers/issues/2065"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2066,
+      "state": "open",
+      "title": "Make Spec Self-Review check the design against the repo, not only against itself",
+      "updated_at": "2026-08-01T07:24:55Z",
+      "url": "https://github.com/obra/superpowers/issues/2066"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2067,
+      "state": "open",
+      "title": "fix(skills): require behavioral RED, not structural import failure",
+      "updated_at": "2026-08-01T09:56:48Z",
+      "url": "https://github.com/obra/superpowers/pull/2067"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2068,
+      "state": "open",
+      "title": "fix(using-superpowers): re-check skills mid-workflow, not only at turn start",
+      "updated_at": "2026-08-01T10:07:46Z",
+      "url": "https://github.com/obra/superpowers/pull/2068"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2069,
+      "state": "open",
+      "title": "fix(codex): preserve SDD helper executable modes in packaging",
+      "updated_at": "2026-08-01T10:12:28Z",
+      "url": "https://github.com/obra/superpowers/pull/2069"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2071,
+      "state": "open",
+      "title": "fix(tests): make the Claude Code skill suite runnable and realign SDD assertions with v6.2.0",
+      "updated_at": "2026-08-01T17:32:03Z",
+      "url": "https://github.com/obra/superpowers/pull/2071"
     }
   ],
   "schema_version": 1,
