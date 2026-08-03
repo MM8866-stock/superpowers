@@ -47,20 +47,6 @@
       "url": "https://github.com/obra/superpowers/pull/738"
     },
     {
-      "kind": "pull_request",
-      "labels": [
-        "enhancement",
-        "new-harness",
-        "no-obvious-human-review",
-        "pr-template-rules-ignored"
-      ],
-      "number": 881,
-      "state": "open",
-      "title": "feat: add Hermes Agent installation guide",
-      "updated_at": "2026-07-11T02:51:51Z",
-      "url": "https://github.com/obra/superpowers/pull/881"
-    },
-    {
       "kind": "issue",
       "labels": [
         "enhancement"
@@ -165,7 +151,7 @@
       "number": 1581,
       "state": "open",
       "title": "Feature Request: Hermes Agent harness support — make Superpowers skills available in native Hermes format",
-      "updated_at": "2026-08-01T10:48:39Z",
+      "updated_at": "2026-08-03T02:35:55Z",
       "url": "https://github.com/obra/superpowers/issues/1581"
     },
     {
@@ -185,15 +171,6 @@
       "title": "feat: add guidance for fetching all GitHub PR comment types (issue #701)",
       "updated_at": "2026-07-11T16:08:11Z",
       "url": "https://github.com/obra/superpowers/pull/1729"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 1799,
-      "state": "open",
-      "title": "subagent-driven-development: review-package operates on $PWD, forcing an un-allowlistable \"cd <repo> ; review-package\" compound",
-      "updated_at": "2026-07-07T21:23:35Z",
-      "url": "https://github.com/obra/superpowers/issues/1799"
     },
     {
       "kind": "issue",
@@ -270,17 +247,6 @@
       "url": "https://github.com/obra/superpowers/issues/1927"
     },
     {
-      "kind": "issue",
-      "labels": [
-        "enhancement"
-      ],
-      "number": 1930,
-      "state": "open",
-      "title": "Feat: reduce reviewer subagent verbosity to conserve tokens",
-      "updated_at": "2026-07-11T15:23:39Z",
-      "url": "https://github.com/obra/superpowers/issues/1930"
-    },
-    {
       "kind": "pull_request",
       "labels": [],
       "number": 1931,
@@ -292,38 +258,11 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 1948,
-      "state": "open",
-      "title": "SDD: add a reasoning-effort dimension to subagent dispatch (implements #1747)",
-      "updated_at": "2026-07-07T13:31:57Z",
-      "url": "https://github.com/obra/superpowers/pull/1948"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1949,
-      "state": "open",
-      "title": "fix(subagent-driven-development): namespace SDD scratch workspace by plan",
-      "updated_at": "2026-07-07T17:37:43Z",
-      "url": "https://github.com/obra/superpowers/pull/1949"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 1952,
       "state": "open",
       "title": "fix: session-scope the SDD workspace so concurrent sessions on one checkout stop colliding",
-      "updated_at": "2026-07-16T16:21:43Z",
+      "updated_at": "2026-08-02T05:52:21Z",
       "url": "https://github.com/obra/superpowers/pull/1952"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 1955,
-      "state": "open",
-      "title": "Field-mined additions: systematic-debugging, TDD, and writing-plans checklists",
-      "updated_at": "2026-07-10T06:53:39Z",
-      "url": "https://github.com/obra/superpowers/issues/1955"
     },
     {
       "kind": "issue",
@@ -459,7 +398,7 @@
       "number": 2007,
       "state": "open",
       "title": "fix(codex): make package timestamps timezone-independent",
-      "updated_at": "2026-07-19T05:22:22Z",
+      "updated_at": "2026-08-03T03:13:56Z",
       "url": "https://github.com/obra/superpowers/pull/2007"
     },
     {
@@ -730,6 +669,33 @@
       "title": "fix(tests): make the Claude Code skill suite runnable and realign SDD assertions with v6.2.0",
       "updated_at": "2026-08-01T17:32:03Z",
       "url": "https://github.com/obra/superpowers/pull/2071"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2076,
+      "state": "open",
+      "title": "Brainstorming trigger lacks a mechanical-task exclusion",
+      "updated_at": "2026-08-02T17:50:52Z",
+      "url": "https://github.com/obra/superpowers/issues/2076"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2077,
+      "state": "open",
+      "title": "fix(sdd): rule and continue — non-catastrophic conflicts get ledgered rulings, not blocking questions",
+      "updated_at": "2026-08-02T18:15:54Z",
+      "url": "https://github.com/obra/superpowers/pull/2077"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2078,
+      "state": "open",
+      "title": "fix(sdd): batch small same-shape tasks into one dispatch",
+      "updated_at": "2026-08-03T02:37:54Z",
+      "url": "https://github.com/obra/superpowers/pull/2078"
     }
   ],
   "schema_version": 1,
