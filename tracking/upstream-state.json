@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "8ed824a04d3e98c5789438fbdd0794399405776d"
+    "sha": "0323d4f1877e5ff77569f48f05885d82aca4a60a"
   },
   "high_value_changes": [],
   "relevant_items": [
@@ -128,19 +128,6 @@
       "title": "Clarify that SDD code quality review satisfies requesting-code-review",
       "updated_at": "2026-07-13T21:16:33Z",
       "url": "https://github.com/obra/superpowers/issues/1481"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "brainstorming",
-        "bug",
-        "skills"
-      ],
-      "number": 1511,
-      "state": "open",
-      "title": "Clarification on usage of spec-document-reviewer-prompt.md in Brainstorming skill?",
-      "updated_at": "2026-07-11T15:50:42Z",
-      "url": "https://github.com/obra/superpowers/issues/1511"
     },
     {
       "kind": "issue",
@@ -272,15 +259,6 @@
       "title": "Clarify how the SDD task-reviewer's \"do not re-run the suite\" reconciles with verification-before-completion",
       "updated_at": "2026-07-13T22:39:08Z",
       "url": "https://github.com/obra/superpowers/issues/1961"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1966,
-      "state": "open",
-      "title": "SDD: task reviewer writes its full report to a review file (#1930)",
-      "updated_at": "2026-07-11T15:34:08Z",
-      "url": "https://github.com/obra/superpowers/pull/1966"
     },
     {
       "kind": "pull_request",
@@ -696,6 +674,24 @@
       "title": "fix(sdd): batch small same-shape tasks into one dispatch",
       "updated_at": "2026-08-03T02:37:54Z",
       "url": "https://github.com/obra/superpowers/pull/2078"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2080,
+      "state": "open",
+      "title": "fix(sdd): preflight emits its checks as a ledger table and rules on what it surfaces",
+      "updated_at": "2026-08-03T16:03:52Z",
+      "url": "https://github.com/obra/superpowers/pull/2080"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2082,
+      "state": "open",
+      "title": "fix(sdd): guard worktree commits in prompts and review-package (#2050)",
+      "updated_at": "2026-08-04T01:23:07Z",
+      "url": "https://github.com/obra/superpowers/pull/2082"
     }
   ],
   "schema_version": 1,
