@@ -2,9 +2,30 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "0323d4f1877e5ff77569f48f05885d82aca4a60a"
+    "sha": "d5c4256f644ef0ee2cddd50146d9a50240f5c688"
   },
-  "high_value_changes": [],
+  "high_value_changes": [
+    {
+      "filename": "skills/subagent-driven-development/SKILL.md",
+      "status": "modified"
+    },
+    {
+      "filename": "skills/subagent-driven-development/implementer-prompt.md",
+      "status": "modified"
+    },
+    {
+      "filename": "skills/subagent-driven-development/re-review-prompt.md",
+      "status": "modified"
+    },
+    {
+      "filename": "skills/subagent-driven-development/task-reviewer-prompt.md",
+      "status": "modified"
+    },
+    {
+      "filename": "skills/using-superpowers/references/codex-tools.md",
+      "status": "modified"
+    }
+  ],
   "relevant_items": [
     {
       "kind": "issue",
@@ -45,6 +66,20 @@
       "title": "feat(subagent-driven-development): add fresh-eyes review step for cross-task issues",
       "updated_at": "2026-07-25T14:50:03Z",
       "url": "https://github.com/obra/superpowers/pull/738"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "enhancement",
+        "new-harness",
+        "no-obvious-human-review",
+        "pr-template-rules-ignored"
+      ],
+      "number": 881,
+      "state": "open",
+      "title": "feat: add Hermes Agent installation guide",
+      "updated_at": "2026-07-11T02:51:51Z",
+      "url": "https://github.com/obra/superpowers/pull/881"
     },
     {
       "kind": "issue",
@@ -97,6 +132,17 @@
       "labels": [
         "enhancement"
       ],
+      "number": 1192,
+      "state": "open",
+      "title": "Proposal: `maintaining-roadmap` skill for cross-session priority orchestration",
+      "updated_at": "2026-08-05T04:08:30Z",
+      "url": "https://github.com/obra/superpowers/issues/1192"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
       "number": 1251,
       "state": "open",
       "title": "Group-based execution + review (reduce overhead across many small tasks)",
@@ -132,13 +178,26 @@
     {
       "kind": "issue",
       "labels": [
+        "brainstorming",
+        "bug",
+        "skills"
+      ],
+      "number": 1511,
+      "state": "open",
+      "title": "Clarification on usage of spec-document-reviewer-prompt.md in Brainstorming skill?",
+      "updated_at": "2026-07-11T15:50:42Z",
+      "url": "https://github.com/obra/superpowers/issues/1511"
+    },
+    {
+      "kind": "issue",
+      "labels": [
         "enhancement",
         "new-harness"
       ],
       "number": 1581,
       "state": "open",
       "title": "Feature Request: Hermes Agent harness support — make Superpowers skills available in native Hermes format",
-      "updated_at": "2026-08-03T02:35:55Z",
+      "updated_at": "2026-08-05T04:08:31Z",
       "url": "https://github.com/obra/superpowers/issues/1581"
     },
     {
@@ -234,6 +293,17 @@
       "url": "https://github.com/obra/superpowers/issues/1927"
     },
     {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 1930,
+      "state": "open",
+      "title": "Feat: reduce reviewer subagent verbosity to conserve tokens",
+      "updated_at": "2026-07-11T15:23:39Z",
+      "url": "https://github.com/obra/superpowers/issues/1930"
+    },
+    {
       "kind": "pull_request",
       "labels": [],
       "number": 1931,
@@ -259,6 +329,15 @@
       "title": "Clarify how the SDD task-reviewer's \"do not re-run the suite\" reconciles with verification-before-completion",
       "updated_at": "2026-07-13T22:39:08Z",
       "url": "https://github.com/obra/superpowers/issues/1961"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 1966,
+      "state": "open",
+      "title": "SDD: task reviewer writes its full report to a review file (#1930)",
+      "updated_at": "2026-07-11T15:34:08Z",
+      "url": "https://github.com/obra/superpowers/pull/1966"
     },
     {
       "kind": "pull_request",
@@ -429,24 +508,6 @@
       "url": "https://github.com/obra/superpowers/issues/2034"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2035,
-      "state": "open",
-      "title": "fix(codex): restore Superpowers after compaction",
-      "updated_at": "2026-07-24T21:24:06Z",
-      "url": "https://github.com/obra/superpowers/pull/2035"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2036,
-      "state": "open",
-      "title": "fix(codex): bound SDD dispatch and final review",
-      "updated_at": "2026-07-24T21:22:36Z",
-      "url": "https://github.com/obra/superpowers/pull/2036"
-    },
-    {
       "kind": "issue",
       "labels": [],
       "number": 2040,
@@ -539,42 +600,6 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 2059,
-      "state": "open",
-      "title": "fix(sdd): dispatched subagents never dispatch subagents",
-      "updated_at": "2026-07-31T19:46:25Z",
-      "url": "https://github.com/obra/superpowers/pull/2059"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2060,
-      "state": "open",
-      "title": "fix(codex): correct multi-agent guidance against the Codex source (V2)",
-      "updated_at": "2026-07-31T19:46:26Z",
-      "url": "https://github.com/obra/superpowers/pull/2060"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2061,
-      "state": "open",
-      "title": "fix(sdd,codex): event-driven bounded waits — 65-78% wait timeouts to 0%",
-      "updated_at": "2026-07-31T19:46:41Z",
-      "url": "https://github.com/obra/superpowers/pull/2061"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2062,
-      "state": "open",
-      "title": "fix(codex): explicit model+effort on every spawn, with config backstop",
-      "updated_at": "2026-07-31T19:46:42Z",
-      "url": "https://github.com/obra/superpowers/pull/2062"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 2063,
       "state": "open",
       "title": "feat(brainstorming): three-path router — ceremony scales, approval never does",
@@ -654,35 +679,8 @@
       "number": 2076,
       "state": "open",
       "title": "Brainstorming trigger lacks a mechanical-task exclusion",
-      "updated_at": "2026-08-02T17:50:52Z",
+      "updated_at": "2026-08-05T04:08:24Z",
       "url": "https://github.com/obra/superpowers/issues/2076"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2077,
-      "state": "open",
-      "title": "fix(sdd): rule and continue — non-catastrophic conflicts get ledgered rulings, not blocking questions",
-      "updated_at": "2026-08-02T18:15:54Z",
-      "url": "https://github.com/obra/superpowers/pull/2077"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2078,
-      "state": "open",
-      "title": "fix(sdd): batch small same-shape tasks into one dispatch",
-      "updated_at": "2026-08-03T02:37:54Z",
-      "url": "https://github.com/obra/superpowers/pull/2078"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2080,
-      "state": "open",
-      "title": "fix(sdd): preflight emits its checks as a ledger table and rules on what it surfaces",
-      "updated_at": "2026-08-03T16:03:52Z",
-      "url": "https://github.com/obra/superpowers/pull/2080"
     },
     {
       "kind": "pull_request",
@@ -692,11 +690,67 @@
       "title": "fix(sdd): guard worktree commits in prompts and review-package (#2050)",
       "updated_at": "2026-08-04T01:23:07Z",
       "url": "https://github.com/obra/superpowers/pull/2082"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "bug"
+      ],
+      "number": 2084,
+      "state": "open",
+      "title": "The startup sub-agent is unable to function properly",
+      "updated_at": "2026-08-05T04:08:29Z",
+      "url": "https://github.com/obra/superpowers/issues/2084"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2085,
+      "state": "open",
+      "title": "fix(brainstorm): keep visual companion alive under Cursor",
+      "updated_at": "2026-08-04T14:39:30Z",
+      "url": "https://github.com/obra/superpowers/pull/2085"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2086,
+      "state": "open",
+      "title": "fix(planning): the spec travels with the plan",
+      "updated_at": "2026-08-04T18:17:56Z",
+      "url": "https://github.com/obra/superpowers/pull/2086"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2087,
+      "state": "open",
+      "title": "using-superpowers preamble: consider judgment-based framing for Claude 5-generation models",
+      "updated_at": "2026-08-05T04:08:13Z",
+      "url": "https://github.com/obra/superpowers/issues/2087"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2088,
+      "state": "open",
+      "title": "fix(codex): restore Superpowers after compaction",
+      "updated_at": "2026-08-05T00:18:05Z",
+      "url": "https://github.com/obra/superpowers/pull/2088"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2089,
+      "state": "open",
+      "title": "fix(sdd): reviewers re-read illegible evidence instead of re-running to regenerate it",
+      "updated_at": "2026-08-05T01:24:48Z",
+      "url": "https://github.com/obra/superpowers/pull/2089"
     }
   ],
   "schema_version": 1,
   "upstream": {
-    "dev_sha": "bb2a34b2a0ac6eac16a3337897a3d66052d50e3e",
+    "dev_sha": "fb518edf7b6d636b91709a10a89288e4e2742208",
     "release": {
       "sha": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9",
       "tag": "v6.2.0",
