@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "aa43f4c8f170e5de3d6a6649ef1f2a4815616d9d"
+    "sha": "6b8473bcbbc734a32e30290f06fa627098a3a58d"
   },
   "high_value_changes": [
     {
@@ -81,6 +81,19 @@
     {
       "kind": "issue",
       "labels": [
+        "enhancement",
+        "plans",
+        "skills"
+      ],
+      "number": 931,
+      "state": "open",
+      "title": "Feature: Plan-aware session handoff commands (/create_handoff + /resume_plan)",
+      "updated_at": "2026-08-06T17:30:56Z",
+      "url": "https://github.com/obra/superpowers/issues/931"
+    },
+    {
+      "kind": "issue",
+      "labels": [
         "subagents",
         "worktrees"
       ],
@@ -121,7 +134,7 @@
       "number": 1192,
       "state": "open",
       "title": "Proposal: `maintaining-roadmap` skill for cross-session priority orchestration",
-      "updated_at": "2026-08-05T04:08:30Z",
+      "updated_at": "2026-08-06T17:34:29Z",
       "url": "https://github.com/obra/superpowers/issues/1192"
     },
     {
@@ -183,15 +196,6 @@
       "url": "https://github.com/obra/superpowers/pull/1654"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1729,
-      "state": "open",
-      "title": "feat: add guidance for fetching all GitHub PR comment types (issue #701)",
-      "updated_at": "2026-07-11T16:08:11Z",
-      "url": "https://github.com/obra/superpowers/pull/1729"
-    },
-    {
       "kind": "issue",
       "labels": [
         "enhancement"
@@ -211,7 +215,7 @@
       "number": 1835,
       "state": "open",
       "title": "Claude subagent-driven-development biases agents toward inline Agent dispatch over Workflow fan-outs",
-      "updated_at": "2026-08-05T21:51:15Z",
+      "updated_at": "2026-08-06T10:56:18Z",
       "url": "https://github.com/obra/superpowers/issues/1835"
     },
     {
@@ -274,7 +278,7 @@
       "number": 1931,
       "state": "open",
       "title": "feat: agentic-end-to-end-testing skill + spec-derived scenario cards",
-      "updated_at": "2026-07-19T22:23:42Z",
+      "updated_at": "2026-08-06T22:30:23Z",
       "url": "https://github.com/obra/superpowers/pull/1931"
     },
     {
@@ -384,7 +388,7 @@
       "number": 1996,
       "state": "open",
       "title": "feat(omp): add native oh-my-pi harness support",
-      "updated_at": "2026-07-30T23:03:59Z",
+      "updated_at": "2026-08-06T16:28:18Z",
       "url": "https://github.com/obra/superpowers/pull/1996"
     },
     {
@@ -422,7 +426,7 @@
       "number": 2017,
       "state": "open",
       "title": "Retuning subagent driven development for Opus 6 and Sol 5.6 ",
-      "updated_at": "2026-08-06T01:10:13Z",
+      "updated_at": "2026-08-06T10:52:36Z",
       "url": "https://github.com/obra/superpowers/issues/2017"
     },
     {
@@ -554,15 +558,6 @@
       "url": "https://github.com/obra/superpowers/pull/2063"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2064,
-      "state": "open",
-      "title": "docs: codex-efficiency fix-cycle spec and plan (campaign record)",
-      "updated_at": "2026-07-31T19:46:56Z",
-      "url": "https://github.com/obra/superpowers/pull/2064"
-    },
-    {
       "kind": "issue",
       "labels": [
         "enhancement"
@@ -659,15 +654,6 @@
       "url": "https://github.com/obra/superpowers/pull/2085"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2086,
-      "state": "open",
-      "title": "fix(planning): the spec travels with the plan",
-      "updated_at": "2026-08-06T01:43:23Z",
-      "url": "https://github.com/obra/superpowers/pull/2086"
-    },
-    {
       "kind": "issue",
       "labels": [],
       "number": 2087,
@@ -686,21 +672,12 @@
       "url": "https://github.com/obra/superpowers/pull/2088"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2089,
-      "state": "open",
-      "title": "fix(sdd): reviewers re-read illegible evidence instead of re-running to regenerate it",
-      "updated_at": "2026-08-05T20:41:57Z",
-      "url": "https://github.com/obra/superpowers/pull/2089"
-    },
-    {
       "kind": "issue",
       "labels": [],
       "number": 2092,
       "state": "open",
       "title": "test-driven-development: a test whose arrange step silently fails passes every gate (mental mutation check, optional SDD red evidence)",
-      "updated_at": "2026-08-05T21:29:19Z",
+      "updated_at": "2026-08-06T11:01:58Z",
       "url": "https://github.com/obra/superpowers/issues/2092"
     },
     {
@@ -718,13 +695,49 @@
       "number": 2096,
       "state": "open",
       "title": "subagent-driven-development: \"most capable available model\" for the final review gets under-resolved when the session model is above Opus",
-      "updated_at": "2026-08-06T00:35:03Z",
+      "updated_at": "2026-08-06T06:53:49Z",
       "url": "https://github.com/obra/superpowers/issues/2096"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2097,
+      "state": "open",
+      "title": "fix(sdd): resolve \"most capable available\" to the strict maximum for the final whole-branch review",
+      "updated_at": "2026-08-06T07:08:08Z",
+      "url": "https://github.com/obra/superpowers/pull/2097"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2098,
+      "state": "open",
+      "title": "docs: add Pi to documented subagent platforms",
+      "updated_at": "2026-08-06T13:33:39Z",
+      "url": "https://github.com/obra/superpowers/pull/2098"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2099,
+      "state": "open",
+      "title": "feat: add Command Code harness (Shape B mod + tool mapping + docs)",
+      "updated_at": "2026-08-06T16:18:20Z",
+      "url": "https://github.com/obra/superpowers/pull/2099"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2101,
+      "state": "open",
+      "title": "feat(brainstorming): ask about quality tooling in the design presentation for new projects",
+      "updated_at": "2026-08-07T00:30:01Z",
+      "url": "https://github.com/obra/superpowers/pull/2101"
     }
   ],
   "schema_version": 1,
   "upstream": {
-    "dev_sha": "9be44ebf40a41b612f0b5fe47d680cb5f37b519d",
+    "dev_sha": "5f8f500b1d8655607890b8439cb5c31b4301917c",
     "release": {
       "sha": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9",
       "tag": "v6.2.0",
