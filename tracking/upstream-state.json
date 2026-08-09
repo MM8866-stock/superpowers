@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "613e0848ad588e67d281b57e78d859b394e916a2"
+    "sha": "02472e018df1d4f9e689da94167165bed330bc0c"
   },
   "high_value_changes": [
     {
@@ -163,7 +163,7 @@
       "number": 1238,
       "state": "open",
       "title": "Feature request: feature-doc-pack planning mode for team workflows and legacy repos",
-      "updated_at": "2026-08-08T02:42:39Z",
+      "updated_at": "2026-08-08T06:20:12Z",
       "url": "https://github.com/obra/superpowers/issues/1238"
     },
     {
@@ -246,6 +246,15 @@
       "url": "https://github.com/obra/superpowers/issues/1812"
     },
     {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 1826,
+      "state": "open",
+      "title": "fix(tests): resolve shellcheck warnings in Claude Code test helpers",
+      "updated_at": "2026-08-08T06:44:46Z",
+      "url": "https://github.com/obra/superpowers/pull/1826"
+    },
+    {
       "kind": "issue",
       "labels": [
         "claude-code",
@@ -301,7 +310,7 @@
       "number": 1930,
       "state": "open",
       "title": "Feat: reduce reviewer subagent verbosity to conserve tokens",
-      "updated_at": "2026-08-08T02:47:37Z",
+      "updated_at": "2026-08-08T07:00:18Z",
       "url": "https://github.com/obra/superpowers/issues/1930"
     },
     {
@@ -312,6 +321,15 @@
       "title": "feat: agentic-end-to-end-testing skill + spec-derived scenario cards",
       "updated_at": "2026-08-07T17:58:34Z",
       "url": "https://github.com/obra/superpowers/pull/1931"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 1938,
+      "state": "open",
+      "title": "fix: scope SDD artifacts by plan identity",
+      "updated_at": "2026-08-08T10:13:55Z",
+      "url": "https://github.com/obra/superpowers/pull/1938"
     },
     {
       "kind": "pull_request",
@@ -339,15 +357,6 @@
       "title": "docs(skills): tell controllers to release finished subagents",
       "updated_at": "2026-07-14T16:42:52Z",
       "url": "https://github.com/obra/superpowers/pull/1982"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1984,
-      "state": "open",
-      "title": "docs(skills): scope requesting-code-review to the final SDD review",
-      "updated_at": "2026-07-14T01:25:06Z",
-      "url": "https://github.com/obra/superpowers/pull/1984"
     },
     {
       "kind": "issue",
@@ -697,15 +706,6 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 2098,
-      "state": "open",
-      "title": "docs: add Pi to documented subagent platforms",
-      "updated_at": "2026-08-06T13:33:39Z",
-      "url": "https://github.com/obra/superpowers/pull/2098"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 2099,
       "state": "open",
       "title": "feat: add Command Code harness (Shape B mod + tool mapping + docs)",
@@ -738,6 +738,24 @@
       "title": "feat(tdd): the project's suite defines green, not just your test file",
       "updated_at": "2026-08-08T01:46:01Z",
       "url": "https://github.com/obra/superpowers/pull/2110"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2111,
+      "state": "open",
+      "title": "Proposal: opt-in safety-check preflight — interest check before any PR",
+      "updated_at": "2026-08-08T11:05:31Z",
+      "url": "https://github.com/obra/superpowers/issues/2111"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2112,
+      "state": "open",
+      "title": "subagent-driven development can enter an unbounded review/test ratchet and never complete",
+      "updated_at": "2026-08-08T22:52:34Z",
+      "url": "https://github.com/obra/superpowers/issues/2112"
     }
   ],
   "schema_version": 1,
