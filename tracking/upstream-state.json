@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "02472e018df1d4f9e689da94167165bed330bc0c"
+    "sha": "e4b9797ab5bfbd535c61ce4fb5fc8e83e4b7b2cf"
   },
   "high_value_changes": [
     {
@@ -369,17 +369,6 @@
     },
     {
       "kind": "issue",
-      "labels": [
-        "enhancement"
-      ],
-      "number": 1989,
-      "state": "open",
-      "title": "brainstorming: keep the current question open when the user asks for context instead of answering",
-      "updated_at": "2026-07-14T10:58:58Z",
-      "url": "https://github.com/obra/superpowers/issues/1989"
-    },
-    {
-      "kind": "issue",
       "labels": [],
       "number": 1991,
       "state": "open",
@@ -691,7 +680,7 @@
       "number": 2096,
       "state": "open",
       "title": "subagent-driven-development: \"most capable available model\" for the final review gets under-resolved when the session model is above Opus",
-      "updated_at": "2026-08-06T06:53:49Z",
+      "updated_at": "2026-08-09T07:23:46Z",
       "url": "https://github.com/obra/superpowers/issues/2096"
     },
     {
@@ -756,6 +745,24 @@
       "title": "subagent-driven development can enter an unbounded review/test ratchet and never complete",
       "updated_at": "2026-08-08T22:52:34Z",
       "url": "https://github.com/obra/superpowers/issues/2112"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2113,
+      "state": "open",
+      "title": "Five findings from a heavy multi-phase run of subagent-driven-development and writing-plans",
+      "updated_at": "2026-08-09T14:44:44Z",
+      "url": "https://github.com/obra/superpowers/issues/2113"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2114,
+      "state": "open",
+      "title": "feat: make Visual Design Locks screenshot-first",
+      "updated_at": "2026-08-10T00:19:59Z",
+      "url": "https://github.com/obra/superpowers/pull/2114"
     }
   ],
   "schema_version": 1,
