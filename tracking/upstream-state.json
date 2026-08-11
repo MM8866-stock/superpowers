@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "e4b9797ab5bfbd535c61ce4fb5fc8e83e4b7b2cf"
+    "sha": "e763b0bda42e47582fbc22b19e675ddccd36fe4d"
   },
   "high_value_changes": [
     {
@@ -124,17 +124,6 @@
     {
       "kind": "issue",
       "labels": [
-        "plans"
-      ],
-      "number": 1044,
-      "state": "open",
-      "title": "writing-plans: execution handoff should respect user-defined execution modes",
-      "updated_at": "2026-07-14T20:35:01Z",
-      "url": "https://github.com/obra/superpowers/issues/1044"
-    },
-    {
-      "kind": "issue",
-      "labels": [
         "enhancement",
         "plans"
       ],
@@ -188,19 +177,6 @@
       "title": "Expose lifecycle events beyond SessionStart for external integration",
       "updated_at": "2026-08-08T02:38:25Z",
       "url": "https://github.com/obra/superpowers/issues/1442"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "documentation",
-        "plans",
-        "subagents"
-      ],
-      "number": 1478,
-      "state": "open",
-      "title": "Clarify session terminology between subagent-driven-development and executing-plans",
-      "updated_at": "2026-07-14T20:32:44Z",
-      "url": "https://github.com/obra/superpowers/issues/1478"
     },
     {
       "kind": "issue",
@@ -269,24 +245,6 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 1862,
-      "state": "open",
-      "title": "feat(executing-plans): optional task graph for durable resume",
-      "updated_at": "2026-07-15T07:11:23Z",
-      "url": "https://github.com/obra/superpowers/pull/1862"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1884,
-      "state": "open",
-      "title": "Require upstream search during systematic debugging",
-      "updated_at": "2026-07-15T11:39:24Z",
-      "url": "https://github.com/obra/superpowers/pull/1884"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 1915,
       "state": "open",
       "title": "fix: render design sections before the approval question in brainstorming skill",
@@ -350,15 +308,6 @@
       "url": "https://github.com/obra/superpowers/pull/1981"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1982,
-      "state": "open",
-      "title": "docs(skills): tell controllers to release finished subagents",
-      "updated_at": "2026-07-14T16:42:52Z",
-      "url": "https://github.com/obra/superpowers/pull/1982"
-    },
-    {
       "kind": "issue",
       "labels": [],
       "number": 1986,
@@ -382,7 +331,7 @@
       "number": 1996,
       "state": "open",
       "title": "feat(omp): add native oh-my-pi harness support",
-      "updated_at": "2026-08-06T16:28:18Z",
+      "updated_at": "2026-08-10T19:51:25Z",
       "url": "https://github.com/obra/superpowers/pull/1996"
     },
     {
@@ -530,7 +479,7 @@
       "number": 2054,
       "state": "open",
       "title": "subagent-driven-development: reviewer prompts pay subagent turns for mechanical facts the controller can settle in one command",
-      "updated_at": "2026-07-29T14:47:23Z",
+      "updated_at": "2026-08-11T01:16:22Z",
       "url": "https://github.com/obra/superpowers/issues/2054"
     },
     {
@@ -763,6 +712,51 @@
       "title": "feat: make Visual Design Locks screenshot-first",
       "updated_at": "2026-08-10T00:19:59Z",
       "url": "https://github.com/obra/superpowers/pull/2114"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2116,
+      "state": "open",
+      "title": "feat(brainstorming): research prior art before design",
+      "updated_at": "2026-08-10T11:32:08Z",
+      "url": "https://github.com/obra/superpowers/pull/2116"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2117,
+      "state": "open",
+      "title": "sdd: warn review-package on foreign-ticket commits in range",
+      "updated_at": "2026-08-10T13:35:13Z",
+      "url": "https://github.com/obra/superpowers/pull/2117"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2118,
+      "state": "open",
+      "title": "requesting-code-review: the \"# or origin/main\" BASE_SHA feeds a moving ref into a two-dot diff, so reviewers are shown deletions the branch never made",
+      "updated_at": "2026-08-10T18:49:51Z",
+      "url": "https://github.com/obra/superpowers/issues/2118"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2119,
+      "state": "open",
+      "title": "fix(requesting-code-review): anchor BASE_SHA to the merge base, not a moving ref",
+      "updated_at": "2026-08-10T18:51:38Z",
+      "url": "https://github.com/obra/superpowers/pull/2119"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2120,
+      "state": "open",
+      "title": "fix(sdd): slug the workspace by plan path, not basename",
+      "updated_at": "2026-08-11T02:13:34Z",
+      "url": "https://github.com/obra/superpowers/pull/2120"
     }
   ],
   "schema_version": 1,
