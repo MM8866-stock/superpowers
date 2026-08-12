@@ -88,17 +88,6 @@
     {
       "kind": "issue",
       "labels": [
-        "enhancement"
-      ],
-      "number": 895,
-      "state": "open",
-      "title": "writing-plans: plans over-specify implementation, leaving no room for executor judgment",
-      "updated_at": "2026-07-16T22:58:15Z",
-      "url": "https://github.com/obra/superpowers/issues/895"
-    },
-    {
-      "kind": "issue",
-      "labels": [
         "enhancement",
         "plans",
         "skills"
@@ -154,17 +143,6 @@
       "title": "Feature request: feature-doc-pack planning mode for team workflows and legacy repos",
       "updated_at": "2026-08-08T06:20:12Z",
       "url": "https://github.com/obra/superpowers/issues/1238"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement"
-      ],
-      "number": 1251,
-      "state": "open",
-      "title": "Group-based execution + review (reduce overhead across many small tasks)",
-      "updated_at": "2026-07-16T06:49:05Z",
-      "url": "https://github.com/obra/superpowers/issues/1251"
     },
     {
       "kind": "issue",
@@ -369,7 +347,7 @@
       "number": 2017,
       "state": "open",
       "title": "Retuning subagent driven development for Opus 6 and Sol 5.6 ",
-      "updated_at": "2026-08-06T10:52:36Z",
+      "updated_at": "2026-08-11T23:05:50Z",
       "url": "https://github.com/obra/superpowers/issues/2017"
     },
     {
@@ -683,7 +661,7 @@
       "number": 2111,
       "state": "open",
       "title": "Proposal: opt-in safety-check preflight — interest check before any PR",
-      "updated_at": "2026-08-08T11:05:31Z",
+      "updated_at": "2026-08-11T10:07:26Z",
       "url": "https://github.com/obra/superpowers/issues/2111"
     },
     {
@@ -701,7 +679,7 @@
       "number": 2113,
       "state": "open",
       "title": "Five findings from a heavy multi-phase run of subagent-driven-development and writing-plans",
-      "updated_at": "2026-08-09T14:44:44Z",
+      "updated_at": "2026-08-11T09:48:47Z",
       "url": "https://github.com/obra/superpowers/issues/2113"
     },
     {
@@ -746,7 +724,7 @@
       "number": 2119,
       "state": "open",
       "title": "fix(requesting-code-review): anchor BASE_SHA to the merge base, not a moving ref",
-      "updated_at": "2026-08-10T18:51:38Z",
+      "updated_at": "2026-08-11T10:19:51Z",
       "url": "https://github.com/obra/superpowers/pull/2119"
     },
     {
@@ -755,8 +733,17 @@
       "number": 2120,
       "state": "open",
       "title": "fix(sdd): slug the workspace by plan path, not basename",
-      "updated_at": "2026-08-11T02:13:34Z",
+      "updated_at": "2026-08-11T05:28:29Z",
       "url": "https://github.com/obra/superpowers/pull/2120"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2123,
+      "state": "open",
+      "title": "brainstorming: orient before asking design questions",
+      "updated_at": "2026-08-11T20:14:57Z",
+      "url": "https://github.com/obra/superpowers/pull/2123"
     }
   ],
   "schema_version": 1,
