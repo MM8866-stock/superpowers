@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "e16f43b243495bbcbfc37c5de762b7f82247d5a6"
+    "sha": "cb9fd8c483b76a889022d45f18912f36a474e2dc"
   },
   "high_value_changes": [],
   "relevant_items": [
@@ -99,17 +99,6 @@
     {
       "kind": "issue",
       "labels": [
-        "plans"
-      ],
-      "number": 1044,
-      "state": "open",
-      "title": "writing-plans: execution handoff should respect user-defined execution modes",
-      "updated_at": "2026-07-14T20:35:01Z",
-      "url": "https://github.com/obra/superpowers/issues/1044"
-    },
-    {
-      "kind": "issue",
-      "labels": [
         "enhancement",
         "plans"
       ],
@@ -163,19 +152,6 @@
       "title": "Expose lifecycle events beyond SessionStart for external integration",
       "updated_at": "2026-08-08T02:38:25Z",
       "url": "https://github.com/obra/superpowers/issues/1442"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "documentation",
-        "plans",
-        "subagents"
-      ],
-      "number": 1478,
-      "state": "open",
-      "title": "Clarify session terminology between subagent-driven-development and executing-plans",
-      "updated_at": "2026-07-14T20:32:44Z",
-      "url": "https://github.com/obra/superpowers/issues/1478"
     },
     {
       "kind": "issue",
@@ -244,15 +220,6 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 1862,
-      "state": "open",
-      "title": "feat(executing-plans): optional task graph for durable resume",
-      "updated_at": "2026-07-15T07:11:23Z",
-      "url": "https://github.com/obra/superpowers/pull/1862"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 1884,
       "state": "open",
       "title": "Require upstream search during systematic debugging",
@@ -276,15 +243,6 @@
       "title": "subagent-driven-development: no inline-vs-dispatch threshold — small, tightly-coupled changes pay fan-out overhead for isolation they don't need",
       "updated_at": "2026-07-22T09:42:29Z",
       "url": "https://github.com/obra/superpowers/issues/1917"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 1927,
-      "state": "open",
-      "title": "Codex: close completed subagents after results are consumed",
-      "updated_at": "2026-07-13T21:17:03Z",
-      "url": "https://github.com/obra/superpowers/issues/1927"
     },
     {
       "kind": "issue",
@@ -325,15 +283,6 @@
       "url": "https://github.com/obra/superpowers/pull/1952"
     },
     {
-      "kind": "issue",
-      "labels": [],
-      "number": 1961,
-      "state": "open",
-      "title": "Clarify how the SDD task-reviewer's \"do not re-run the suite\" reconciles with verification-before-completion",
-      "updated_at": "2026-07-13T22:39:08Z",
-      "url": "https://github.com/obra/superpowers/issues/1961"
-    },
-    {
       "kind": "pull_request",
       "labels": [],
       "number": 1981,
@@ -343,24 +292,6 @@
       "url": "https://github.com/obra/superpowers/pull/1981"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1982,
-      "state": "open",
-      "title": "docs(skills): tell controllers to release finished subagents",
-      "updated_at": "2026-07-14T16:42:52Z",
-      "url": "https://github.com/obra/superpowers/pull/1982"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1984,
-      "state": "open",
-      "title": "docs(skills): scope requesting-code-review to the final SDD review",
-      "updated_at": "2026-07-14T01:25:06Z",
-      "url": "https://github.com/obra/superpowers/pull/1984"
-    },
-    {
       "kind": "issue",
       "labels": [],
       "number": 1986,
@@ -368,17 +299,6 @@
       "title": "SDD: enforce task-to-agent ownership to prevent cross-task subagent reuse",
       "updated_at": "2026-07-30T00:35:03Z",
       "url": "https://github.com/obra/superpowers/issues/1986"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement"
-      ],
-      "number": 1989,
-      "state": "open",
-      "title": "brainstorming: keep the current question open when the user asks for context instead of answering",
-      "updated_at": "2026-07-14T10:58:58Z",
-      "url": "https://github.com/obra/superpowers/issues/1989"
     },
     {
       "kind": "issue",
@@ -489,7 +409,7 @@
       "number": 2043,
       "state": "open",
       "title": "Visual companion card mockups silently collapse into a clipped horizontal flex row",
-      "updated_at": "2026-07-27T00:08:39Z",
+      "updated_at": "2026-08-13T12:13:33Z",
       "url": "https://github.com/obra/superpowers/issues/2043"
     },
     {
@@ -567,7 +487,7 @@
       "number": 2092,
       "state": "open",
       "title": "test-driven-development: a test whose arrange step silently fails passes every gate (mental mutation check, optional SDD red evidence)",
-      "updated_at": "2026-08-12T21:57:47Z",
+      "updated_at": "2026-08-13T06:31:31Z",
       "url": "https://github.com/obra/superpowers/issues/2092"
     },
     {
@@ -597,7 +517,7 @@
       "number": 2097,
       "state": "open",
       "title": "fix(sdd): resolve \"most capable available\" to the strict maximum for the final whole-branch review",
-      "updated_at": "2026-08-12T22:24:32Z",
+      "updated_at": "2026-08-13T03:29:15Z",
       "url": "https://github.com/obra/superpowers/pull/2097"
     },
     {
@@ -738,6 +658,53 @@
       "title": "fix(sdd): ownership markers stop same-basename plans sharing a workspace",
       "updated_at": "2026-08-13T00:36:34Z",
       "url": "https://github.com/obra/superpowers/pull/2138"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "bug"
+      ],
+      "number": 2140,
+      "state": "open",
+      "title": "subagent-driven-development: naming the implementer for fix-loop resume silently switches it to teammate mode, breaking automatic report delivery",
+      "updated_at": "2026-08-13T04:51:34Z",
+      "url": "https://github.com/obra/superpowers/issues/2140"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2141,
+      "state": "open",
+      "title": "fix(tdd): prove arranged inputs and execute targeted mutations",
+      "updated_at": "2026-08-13T07:24:52Z",
+      "url": "https://github.com/obra/superpowers/pull/2141"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2144,
+      "state": "open",
+      "title": "feat: add DeepSeek Harness (dsh) support",
+      "updated_at": "2026-08-13T20:33:23Z",
+      "url": "https://github.com/obra/superpowers/pull/2144"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2147,
+      "state": "open",
+      "title": "fix(brainstorming): add a safe canvas for multi-element card mockups",
+      "updated_at": "2026-08-13T19:16:17Z",
+      "url": "https://github.com/obra/superpowers/pull/2147"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2148,
+      "state": "open",
+      "title": "fix(subagent-driven-development): explicitly solicit report after named implementer goes idle (#2140)",
+      "updated_at": "2026-08-13T19:57:02Z",
+      "url": "https://github.com/obra/superpowers/pull/2148"
     }
   ],
   "schema_version": 1,
