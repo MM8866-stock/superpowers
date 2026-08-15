@@ -133,17 +133,6 @@
     {
       "kind": "issue",
       "labels": [
-        "enhancement"
-      ],
-      "number": 1251,
-      "state": "open",
-      "title": "Group-based execution + review (reduce overhead across many small tasks)",
-      "updated_at": "2026-07-16T06:49:05Z",
-      "url": "https://github.com/obra/superpowers/issues/1251"
-    },
-    {
-      "kind": "issue",
-      "labels": [
         "enhancement",
         "hooks"
       ],
@@ -216,15 +205,6 @@
       "title": "Claude subagent-driven-development biases agents toward inline Agent dispatch over Workflow fan-outs",
       "updated_at": "2026-08-07T06:03:50Z",
       "url": "https://github.com/obra/superpowers/issues/1835"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1884,
-      "state": "open",
-      "title": "Require upstream search during systematic debugging",
-      "updated_at": "2026-07-15T11:39:24Z",
-      "url": "https://github.com/obra/superpowers/pull/1884"
     },
     {
       "kind": "pull_request",
@@ -315,7 +295,7 @@
       "number": 1996,
       "state": "open",
       "title": "feat(omp): add native oh-my-pi harness support",
-      "updated_at": "2026-08-10T19:51:25Z",
+      "updated_at": "2026-08-14T14:26:40Z",
       "url": "https://github.com/obra/superpowers/pull/1996"
     },
     {
@@ -705,6 +685,15 @@
       "title": "fix(subagent-driven-development): explicitly solicit report after named implementer goes idle (#2140)",
       "updated_at": "2026-08-13T19:57:02Z",
       "url": "https://github.com/obra/superpowers/pull/2148"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2149,
+      "state": "open",
+      "title": "Fix Windows/Git-Bash path comparison in test-sdd-workspace.sh",
+      "updated_at": "2026-08-14T04:04:04Z",
+      "url": "https://github.com/obra/superpowers/pull/2149"
     }
   ],
   "schema_version": 1,
