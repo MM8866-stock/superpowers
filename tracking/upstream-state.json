@@ -27,49 +27,11 @@
         "enhancement",
         "plans"
       ],
-      "number": 512,
-      "state": "open",
-      "title": "brainstorming/writing-plans SKILL efficiency",
-      "updated_at": "2026-07-17T11:18:05Z",
-      "url": "https://github.com/obra/superpowers/issues/512"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "brainstorming",
-        "claude-code",
-        "enhancement",
-        "plans"
-      ],
       "number": 602,
       "state": "open",
       "title": "The plan never aligns 100% with the design (suggested fix)",
       "updated_at": "2026-08-08T02:50:43Z",
       "url": "https://github.com/obra/superpowers/issues/602"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "claude-code",
-        "enhancement",
-        "subagents"
-      ],
-      "number": 738,
-      "state": "open",
-      "title": "feat(subagent-driven-development): add fresh-eyes review step for cross-task issues",
-      "updated_at": "2026-07-25T14:50:03Z",
-      "url": "https://github.com/obra/superpowers/pull/738"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement"
-      ],
-      "number": 895,
-      "state": "open",
-      "title": "writing-plans: plans over-specify implementation, leaving no room for executor judgment",
-      "updated_at": "2026-07-16T22:58:15Z",
-      "url": "https://github.com/obra/superpowers/issues/895"
     },
     {
       "kind": "issue",
@@ -173,17 +135,6 @@
       "title": "Proposal: Add a Human Acceptance Matrix for user-facing validation alongside TDD",
       "updated_at": "2026-08-07T15:42:31Z",
       "url": "https://github.com/obra/superpowers/issues/1664"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement"
-      ],
-      "number": 1812,
-      "state": "open",
-      "title": "[RFC] Persistent memory across Superpowers agents",
-      "updated_at": "2026-07-17T11:52:16Z",
-      "url": "https://github.com/obra/superpowers/issues/1812"
     },
     {
       "kind": "pull_request",
@@ -505,8 +456,8 @@
       "labels": [],
       "number": 2099,
       "state": "open",
-      "title": "feat: add Command Code harness (Shape B mod + tool mapping + docs)",
-      "updated_at": "2026-08-12T18:46:32Z",
+      "title": "feat: add Command Code harness (disk-loaded Shape B, install from this repo)",
+      "updated_at": "2026-08-15T13:54:13Z",
       "url": "https://github.com/obra/superpowers/pull/2099"
     },
     {
@@ -665,7 +616,7 @@
       "number": 2144,
       "state": "open",
       "title": "feat: add DeepSeek Harness (dsh) support",
-      "updated_at": "2026-08-13T20:33:23Z",
+      "updated_at": "2026-08-15T03:38:24Z",
       "url": "https://github.com/obra/superpowers/pull/2144"
     },
     {
@@ -694,6 +645,44 @@
       "title": "Fix Windows/Git-Bash path comparison in test-sdd-workspace.sh",
       "updated_at": "2026-08-14T04:04:04Z",
       "url": "https://github.com/obra/superpowers/pull/2149"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2153,
+      "state": "open",
+      "title": "Add a third execution mode: a chain of handoffs",
+      "updated_at": "2026-08-15T02:53:53Z",
+      "url": "https://github.com/obra/superpowers/issues/2153"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2154,
+      "state": "open",
+      "title": "feat(runtimes): add opt-in DeepSeek Harness (dsh) support",
+      "updated_at": "2026-08-15T03:38:01Z",
+      "url": "https://github.com/obra/superpowers/pull/2154"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "bug"
+      ],
+      "number": 2157,
+      "state": "open",
+      "title": "[Bug]: Hermes tool mapping in v6.3.0 uses stale names and an unqualified plugin skill name",
+      "updated_at": "2026-08-15T16:50:26Z",
+      "url": "https://github.com/obra/superpowers/issues/2157"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2159,
+      "state": "open",
+      "title": "test: deduplicate explicit-skill-requests harness",
+      "updated_at": "2026-08-15T22:10:20Z",
+      "url": "https://github.com/obra/superpowers/pull/2159"
     }
   ],
   "schema_version": 1,
