@@ -9,19 +9,6 @@
     {
       "kind": "issue",
       "labels": [
-        "enhancement",
-        "kiro",
-        "new-harness"
-      ],
-      "number": 503,
-      "state": "open",
-      "title": "Add Support for Kiro CLI as an AI Provider",
-      "updated_at": "2026-07-21T15:30:00Z",
-      "url": "https://github.com/obra/superpowers/issues/503"
-    },
-    {
-      "kind": "issue",
-      "labels": [
         "brainstorming",
         "claude-code",
         "enhancement",
@@ -45,18 +32,6 @@
       "title": "Feature: Plan-aware session handoff commands (/create_handoff + /resume_plan)",
       "updated_at": "2026-08-07T06:05:08Z",
       "url": "https://github.com/obra/superpowers/issues/931"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "subagents",
-        "worktrees"
-      ],
-      "number": 1040,
-      "state": "open",
-      "title": "Worktree skill doesn't enforce file operations stay within worktree",
-      "updated_at": "2026-07-21T01:24:01Z",
-      "url": "https://github.com/obra/superpowers/issues/1040"
     },
     {
       "kind": "issue",
@@ -107,6 +82,19 @@
     {
       "kind": "issue",
       "labels": [
+        "bug",
+        "plans",
+        "subagents"
+      ],
+      "number": 1545,
+      "state": "open",
+      "title": "executing-plans: STOP triggers cause silent multi-hour stalls; need to harmonize with subagent-driven-development's Continuous execution rule",
+      "updated_at": "2026-08-17T01:04:03Z",
+      "url": "https://github.com/obra/superpowers/issues/1545"
+    },
+    {
+      "kind": "issue",
+      "labels": [
         "enhancement",
         "new-harness"
       ],
@@ -115,15 +103,6 @@
       "title": "Feature Request: Hermes Agent harness support — make Superpowers skills available in native Hermes format",
       "updated_at": "2026-08-05T04:08:31Z",
       "url": "https://github.com/obra/superpowers/issues/1581"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1654,
-      "state": "open",
-      "title": "fix: writing-plans generates bare git commits; subagents drift to main branch",
-      "updated_at": "2026-07-19T13:36:53Z",
-      "url": "https://github.com/obra/superpowers/pull/1654"
     },
     {
       "kind": "issue",
@@ -156,15 +135,6 @@
       "title": "Claude subagent-driven-development biases agents toward inline Agent dispatch over Workflow fan-outs",
       "updated_at": "2026-08-07T06:03:50Z",
       "url": "https://github.com/obra/superpowers/issues/1835"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1915,
-      "state": "open",
-      "title": "fix: render design sections before the approval question in brainstorming skill",
-      "updated_at": "2026-07-17T18:23:27Z",
-      "url": "https://github.com/obra/superpowers/pull/1915"
     },
     {
       "kind": "issue",
@@ -257,15 +227,6 @@
       "title": "feat: make SDD/brainstorming workspace root configurable via SUPERPOWERS_WORKSPACE_DIR",
       "updated_at": "2026-07-25T17:21:24Z",
       "url": "https://github.com/obra/superpowers/pull/1999"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2005,
-      "state": "open",
-      "title": "Add ECA (Editor Code Assistant) harness support",
-      "updated_at": "2026-07-18T17:34:46Z",
-      "url": "https://github.com/obra/superpowers/pull/2005"
     },
     {
       "kind": "pull_request",
@@ -683,6 +644,35 @@
       "title": "test: deduplicate explicit-skill-requests harness",
       "updated_at": "2026-08-15T22:10:20Z",
       "url": "https://github.com/obra/superpowers/pull/2159"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "bug"
+      ],
+      "number": 2160,
+      "state": "open",
+      "title": "OpenCode: Superpowers bootstrap is injected into task subagents, causing them to restart controller workflows",
+      "updated_at": "2026-08-16T05:00:17Z",
+      "url": "https://github.com/obra/superpowers/issues/2160"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2161,
+      "state": "open",
+      "title": "fix(sdd): make sdd-workspace's .gitignore create-only, not an unconditional overwrite",
+      "updated_at": "2026-08-16T06:03:53Z",
+      "url": "https://github.com/obra/superpowers/pull/2161"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2162,
+      "state": "open",
+      "title": "fix(using-superpowers): correct Hermes tool mapping",
+      "updated_at": "2026-08-16T12:33:21Z",
+      "url": "https://github.com/obra/superpowers/pull/2162"
     }
   ],
   "schema_version": 1,
