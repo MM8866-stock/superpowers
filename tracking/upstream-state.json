@@ -2,24 +2,10 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "fa45a9ad865c106a58a3f722535cf2449a65e8db"
+    "sha": "ba3f22e6f205565d8ce1dc037ddee7d12eb179d5"
   },
   "high_value_changes": [],
   "relevant_items": [
-    {
-      "kind": "issue",
-      "labels": [
-        "brainstorming",
-        "claude-code",
-        "enhancement",
-        "plans"
-      ],
-      "number": 602,
-      "state": "open",
-      "title": "The plan never aligns 100% with the design (suggested fix)",
-      "updated_at": "2026-08-08T02:50:43Z",
-      "url": "https://github.com/obra/superpowers/issues/602"
-    },
     {
       "kind": "issue",
       "labels": [
@@ -93,29 +79,6 @@
       "url": "https://github.com/obra/superpowers/issues/1545"
     },
     {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "new-harness"
-      ],
-      "number": 1581,
-      "state": "open",
-      "title": "Feature Request: Hermes Agent harness support — make Superpowers skills available in native Hermes format",
-      "updated_at": "2026-08-05T04:08:31Z",
-      "url": "https://github.com/obra/superpowers/issues/1581"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement"
-      ],
-      "number": 1664,
-      "state": "open",
-      "title": "Proposal: Add a Human Acceptance Matrix for user-facing validation alongside TDD",
-      "updated_at": "2026-08-07T15:42:31Z",
-      "url": "https://github.com/obra/superpowers/issues/1664"
-    },
-    {
       "kind": "pull_request",
       "labels": [],
       "number": 1826,
@@ -126,15 +89,12 @@
     },
     {
       "kind": "issue",
-      "labels": [
-        "claude-code",
-        "enhancement"
-      ],
-      "number": 1835,
+      "labels": [],
+      "number": 1917,
       "state": "open",
-      "title": "Claude subagent-driven-development biases agents toward inline Agent dispatch over Workflow fan-outs",
-      "updated_at": "2026-08-07T06:03:50Z",
-      "url": "https://github.com/obra/superpowers/issues/1835"
+      "title": "subagent-driven-development: no inline-vs-dispatch threshold — small, tightly-coupled changes pay fan-out overhead for isolation they don't need",
+      "updated_at": "2026-07-22T09:42:29Z",
+      "url": "https://github.com/obra/superpowers/issues/1917"
     },
     {
       "kind": "issue",
@@ -191,6 +151,17 @@
       "title": "SDD: enforce task-to-agent ownership to prevent cross-task subagent reuse",
       "updated_at": "2026-07-30T00:35:03Z",
       "url": "https://github.com/obra/superpowers/issues/1986"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 1989,
+      "state": "open",
+      "title": "brainstorming: keep the current question open when the user asks for context instead of answering",
+      "updated_at": "2026-08-18T22:19:43Z",
+      "url": "https://github.com/obra/superpowers/issues/1989"
     },
     {
       "kind": "issue",
@@ -310,7 +281,7 @@
       "number": 2046,
       "state": "open",
       "title": "writing-plans can mistake structural RED for behavior-test evidence",
-      "updated_at": "2026-07-27T11:58:23Z",
+      "updated_at": "2026-08-18T08:05:22Z",
       "url": "https://github.com/obra/superpowers/issues/2046"
     },
     {
@@ -321,15 +292,6 @@
       "title": "[DRAFT] feat: add AdaL harness support (native discovery, tool mapping)",
       "updated_at": "2026-07-28T06:04:18Z",
       "url": "https://github.com/obra/superpowers/pull/2048"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2050,
-      "state": "open",
-      "title": "subagent-driven-development: dispatched subagent committed to main instead of the worktree (isolation not enforced)",
-      "updated_at": "2026-07-28T21:58:13Z",
-      "url": "https://github.com/obra/superpowers/issues/2050"
     },
     {
       "kind": "issue",
@@ -681,8 +643,37 @@
       "number": 2166,
       "state": "open",
       "title": "[Codex] Manual worktree fallback leaves current task bound to parent checkout",
-      "updated_at": "2026-08-17T23:42:52Z",
+      "updated_at": "2026-08-19T02:07:24Z",
       "url": "https://github.com/obra/superpowers/issues/2166"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2171,
+      "state": "open",
+      "title": "feat: add DeepSeek Harness (dsh) support",
+      "updated_at": "2026-08-18T03:57:38Z",
+      "url": "https://github.com/obra/superpowers/pull/2171"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2172,
+      "state": "open",
+      "title": "test(claude-code): resolve shellcheck warnings in test scripts and helpers",
+      "updated_at": "2026-08-18T08:18:13Z",
+      "url": "https://github.com/obra/superpowers/pull/2172"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "bug"
+      ],
+      "number": 2175,
+      "state": "open",
+      "title": "subagent-driven-development: task-brief matches 'Task 6b' when asked for Task 6",
+      "updated_at": "2026-08-19T02:14:09Z",
+      "url": "https://github.com/obra/superpowers/issues/2175"
     }
   ],
   "schema_version": 1,
