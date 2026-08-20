@@ -89,15 +89,6 @@
     },
     {
       "kind": "issue",
-      "labels": [],
-      "number": 1917,
-      "state": "open",
-      "title": "subagent-driven-development: no inline-vs-dispatch threshold — small, tightly-coupled changes pay fan-out overhead for isolation they don't need",
-      "updated_at": "2026-07-22T09:42:29Z",
-      "url": "https://github.com/obra/superpowers/issues/1917"
-    },
-    {
-      "kind": "issue",
       "labels": [
         "enhancement"
       ],
@@ -133,15 +124,6 @@
       "title": "fix: session-scope the SDD workspace so concurrent sessions on one checkout stop colliding",
       "updated_at": "2026-08-02T05:52:21Z",
       "url": "https://github.com/obra/superpowers/pull/1952"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1981,
-      "state": "open",
-      "title": "feat(skills): add tracing-acceptance-criteria skill",
-      "updated_at": "2026-07-22T09:58:45Z",
-      "url": "https://github.com/obra/superpowers/pull/1981"
     },
     {
       "kind": "issue",
@@ -393,7 +375,7 @@
       "number": 2103,
       "state": "open",
       "title": "feat(grok): add Grok Build harness support",
-      "updated_at": "2026-08-07T09:17:30Z",
+      "updated_at": "2026-08-19T15:39:09Z",
       "url": "https://github.com/obra/superpowers/pull/2103"
     },
     {
@@ -590,7 +572,7 @@
       "number": 2157,
       "state": "open",
       "title": "[Bug]: Hermes tool mapping in v6.3.0 uses stale names and an unqualified plugin skill name",
-      "updated_at": "2026-08-17T23:42:17Z",
+      "updated_at": "2026-08-19T11:15:03Z",
       "url": "https://github.com/obra/superpowers/issues/2157"
     },
     {
@@ -643,7 +625,7 @@
       "number": 2166,
       "state": "open",
       "title": "[Codex] Manual worktree fallback leaves current task bound to parent checkout",
-      "updated_at": "2026-08-19T02:07:24Z",
+      "updated_at": "2026-08-19T09:08:43Z",
       "url": "https://github.com/obra/superpowers/issues/2166"
     },
     {
@@ -674,6 +656,33 @@
       "title": "subagent-driven-development: task-brief matches 'Task 6b' when asked for Task 6",
       "updated_at": "2026-08-19T02:14:09Z",
       "url": "https://github.com/obra/superpowers/issues/2175"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2176,
+      "state": "open",
+      "title": "fix(sdd): stop task-brief swallowing letter-suffixed sub-tasks    (#2175)",
+      "updated_at": "2026-08-19T10:05:07Z",
+      "url": "https://github.com/obra/superpowers/pull/2176"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2177,
+      "state": "open",
+      "title": "Claude Code 2.1.233 removed TodoWrite/Task* on current models — four skills still instruct todo use",
+      "updated_at": "2026-08-19T16:35:55Z",
+      "url": "https://github.com/obra/superpowers/issues/2177"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2179,
+      "state": "open",
+      "title": "Add skeleton-first planning as a selectable alternative to task-by-task plans",
+      "updated_at": "2026-08-19T17:43:38Z",
+      "url": "https://github.com/obra/superpowers/pull/2179"
     }
   ],
   "schema_version": 1,
