@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "ba3f22e6f205565d8ce1dc037ddee7d12eb179d5"
+    "sha": "339779f179d69ac468326d281a9e54f198aabf8d"
   },
   "high_value_changes": [],
   "relevant_items": [
@@ -28,7 +28,7 @@
       "number": 1075,
       "state": "open",
       "title": "Plans and specs have no completion status after execution",
-      "updated_at": "2026-07-27T20:24:33Z",
+      "updated_at": "2026-08-20T14:01:42Z",
       "url": "https://github.com/obra/superpowers/issues/1075"
     },
     {
@@ -146,15 +146,6 @@
       "url": "https://github.com/obra/superpowers/issues/1989"
     },
     {
-      "kind": "issue",
-      "labels": [],
-      "number": 1991,
-      "state": "open",
-      "title": "SDD/brainstorming workspace root is hardcoded to .superpowers — make it configurable",
-      "updated_at": "2026-07-25T17:31:01Z",
-      "url": "https://github.com/obra/superpowers/issues/1991"
-    },
-    {
       "kind": "pull_request",
       "labels": [],
       "number": 1996,
@@ -162,15 +153,6 @@
       "title": "feat(omp): add native oh-my-pi harness support",
       "updated_at": "2026-08-14T14:26:40Z",
       "url": "https://github.com/obra/superpowers/pull/1996"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1999,
-      "state": "open",
-      "title": "feat: make SDD/brainstorming workspace root configurable via SUPERPOWERS_WORKSPACE_DIR",
-      "updated_at": "2026-07-25T17:21:24Z",
-      "url": "https://github.com/obra/superpowers/pull/1999"
     },
     {
       "kind": "pull_request",
@@ -202,24 +184,6 @@
       "title": "[Feature] Dedicated documentation website for Superpowers",
       "updated_at": "2026-07-28T13:45:32Z",
       "url": "https://github.com/obra/superpowers/issues/2030"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2032,
-      "state": "open",
-      "title": "docs(skills): brainstorming should propose commit instead of committing directly",
-      "updated_at": "2026-07-24T09:33:59Z",
-      "url": "https://github.com/obra/superpowers/pull/2032"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2034,
-      "state": "open",
-      "title": "Subagent dispatches outside SDD have no model guidance, so they inherit the session model",
-      "updated_at": "2026-07-24T19:24:54Z",
-      "url": "https://github.com/obra/superpowers/issues/2034"
     },
     {
       "kind": "issue",
@@ -541,7 +505,7 @@
       "number": 2147,
       "state": "open",
       "title": "fix(brainstorming): add a safe canvas for multi-element card mockups",
-      "updated_at": "2026-08-13T19:16:17Z",
+      "updated_at": "2026-08-20T18:16:49Z",
       "url": "https://github.com/obra/superpowers/pull/2147"
     },
     {
@@ -683,6 +647,53 @@
       "title": "Add skeleton-first planning as a selectable alternative to task-by-task plans",
       "updated_at": "2026-08-19T17:43:38Z",
       "url": "https://github.com/obra/superpowers/pull/2179"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2180,
+      "state": "open",
+      "title": "Sub agent driven development",
+      "updated_at": "2026-08-20T18:09:39Z",
+      "url": "https://github.com/obra/superpowers/issues/2180"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2182,
+      "state": "open",
+      "title": "fix(writing-plans): use durable file anchors",
+      "updated_at": "2026-08-20T18:38:27Z",
+      "url": "https://github.com/obra/superpowers/pull/2182"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2183,
+      "state": "open",
+      "title": "fix(skills): handle unavailable task tracking",
+      "updated_at": "2026-08-20T18:39:52Z",
+      "url": "https://github.com/obra/superpowers/pull/2183"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2184,
+      "state": "open",
+      "title": "add Bob harness",
+      "updated_at": "2026-08-20T22:32:02Z",
+      "url": "https://github.com/obra/superpowers/pull/2184"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2185,
+      "state": "open",
+      "title": "fix: harden TDD/SDD/writing-plans against NameError, accidental deletes, uncommitted work",
+      "updated_at": "2026-08-21T01:07:54Z",
+      "url": "https://github.com/obra/superpowers/pull/2185"
     }
   ],
   "schema_version": 1,
