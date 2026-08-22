@@ -9,6 +9,17 @@
     {
       "kind": "issue",
       "labels": [
+        "enhancement"
+      ],
+      "number": 895,
+      "state": "open",
+      "title": "writing-plans: plans over-specify implementation, leaving no room for executor judgment",
+      "updated_at": "2026-08-21T23:28:13Z",
+      "url": "https://github.com/obra/superpowers/issues/895"
+    },
+    {
+      "kind": "issue",
+      "labels": [
         "enhancement",
         "plans",
         "skills"
@@ -176,32 +187,12 @@
     },
     {
       "kind": "issue",
-      "labels": [
-        "enhancement"
-      ],
-      "number": 2030,
-      "state": "open",
-      "title": "[Feature] Dedicated documentation website for Superpowers",
-      "updated_at": "2026-07-28T13:45:32Z",
-      "url": "https://github.com/obra/superpowers/issues/2030"
-    },
-    {
-      "kind": "issue",
       "labels": [],
       "number": 2040,
       "state": "open",
       "title": "Codex marketplace package drops executable bits on SDD helper scripts",
-      "updated_at": "2026-07-25T21:01:41Z",
+      "updated_at": "2026-08-21T06:45:28Z",
       "url": "https://github.com/obra/superpowers/issues/2040"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2041,
-      "state": "open",
-      "title": "Require explicit acknowledgement for plaintext remote Brainstorm binds",
-      "updated_at": "2026-07-26T02:17:36Z",
-      "url": "https://github.com/obra/superpowers/pull/2041"
     },
     {
       "kind": "issue",
@@ -231,15 +222,6 @@
       "url": "https://github.com/obra/superpowers/issues/2046"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2048,
-      "state": "open",
-      "title": "[DRAFT] feat: add AdaL harness support (native discovery, tool mapping)",
-      "updated_at": "2026-07-28T06:04:18Z",
-      "url": "https://github.com/obra/superpowers/pull/2048"
-    },
-    {
       "kind": "issue",
       "labels": [
         "enhancement",
@@ -267,7 +249,7 @@
       "number": 2088,
       "state": "open",
       "title": "fix(codex): restore Superpowers after compaction",
-      "updated_at": "2026-08-05T19:05:56Z",
+      "updated_at": "2026-08-21T18:15:28Z",
       "url": "https://github.com/obra/superpowers/pull/2088"
     },
     {
@@ -496,7 +478,7 @@
       "number": 2144,
       "state": "open",
       "title": "feat: add DeepSeek Harness (dsh) support",
-      "updated_at": "2026-08-15T03:38:24Z",
+      "updated_at": "2026-08-22T01:18:56Z",
       "url": "https://github.com/obra/superpowers/pull/2144"
     },
     {
@@ -682,8 +664,8 @@
       "labels": [],
       "number": 2184,
       "state": "open",
-      "title": "add Bob harness",
-      "updated_at": "2026-08-20T22:32:02Z",
+      "title": "feat: add Bob harness support",
+      "updated_at": "2026-08-21T03:15:38Z",
       "url": "https://github.com/obra/superpowers/pull/2184"
     },
     {
