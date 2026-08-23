@@ -21,19 +21,6 @@
       "kind": "issue",
       "labels": [
         "enhancement",
-        "plans",
-        "skills"
-      ],
-      "number": 931,
-      "state": "open",
-      "title": "Feature: Plan-aware session handoff commands (/create_handoff + /resume_plan)",
-      "updated_at": "2026-08-07T06:05:08Z",
-      "url": "https://github.com/obra/superpowers/issues/931"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
         "plans"
       ],
       "number": 1075,
@@ -41,17 +28,6 @@
       "title": "Plans and specs have no completion status after execution",
       "updated_at": "2026-08-20T14:01:42Z",
       "url": "https://github.com/obra/superpowers/issues/1075"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement"
-      ],
-      "number": 1192,
-      "state": "open",
-      "title": "Proposal: `maintaining-roadmap` skill for cross-session priority orchestration",
-      "updated_at": "2026-08-07T05:58:00Z",
-      "url": "https://github.com/obra/superpowers/issues/1192"
     },
     {
       "kind": "issue",
@@ -67,18 +43,6 @@
     {
       "kind": "issue",
       "labels": [
-        "enhancement",
-        "hooks"
-      ],
-      "number": 1442,
-      "state": "open",
-      "title": "Expose lifecycle events beyond SessionStart for external integration",
-      "updated_at": "2026-08-08T02:38:25Z",
-      "url": "https://github.com/obra/superpowers/issues/1442"
-    },
-    {
-      "kind": "issue",
-      "labels": [
         "bug",
         "plans",
         "subagents"
@@ -88,6 +52,15 @@
       "title": "executing-plans: STOP triggers cause silent multi-hour stalls; need to harmonize with subagent-driven-development's Continuous execution rule",
       "updated_at": "2026-08-17T01:04:03Z",
       "url": "https://github.com/obra/superpowers/issues/1545"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 1809,
+      "state": "open",
+      "title": "fix(sdd): add -C DIR flag to review-package for harness allowlisting",
+      "updated_at": "2026-08-22T09:06:35Z",
+      "url": "https://github.com/obra/superpowers/pull/1809"
     },
     {
       "kind": "pull_request",
@@ -112,38 +85,11 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 1931,
-      "state": "open",
-      "title": "feat: agentic-end-to-end-testing skill + spec-derived scenario cards",
-      "updated_at": "2026-08-07T17:58:34Z",
-      "url": "https://github.com/obra/superpowers/pull/1931"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 1938,
       "state": "open",
       "title": "fix: scope SDD artifacts by plan identity",
       "updated_at": "2026-08-08T10:13:55Z",
       "url": "https://github.com/obra/superpowers/pull/1938"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1952,
-      "state": "open",
-      "title": "fix: session-scope the SDD workspace so concurrent sessions on one checkout stop colliding",
-      "updated_at": "2026-08-02T05:52:21Z",
-      "url": "https://github.com/obra/superpowers/pull/1952"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 1986,
-      "state": "open",
-      "title": "SDD: enforce task-to-agent ownership to prevent cross-task subagent reuse",
-      "updated_at": "2026-07-30T00:35:03Z",
-      "url": "https://github.com/obra/superpowers/issues/1986"
     },
     {
       "kind": "issue",
@@ -164,15 +110,6 @@
       "title": "feat(omp): add native oh-my-pi harness support",
       "updated_at": "2026-08-14T14:26:40Z",
       "url": "https://github.com/obra/superpowers/pull/1996"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2007,
-      "state": "open",
-      "title": "fix(codex): make package timestamps timezone-independent",
-      "updated_at": "2026-08-03T03:13:56Z",
-      "url": "https://github.com/obra/superpowers/pull/2007"
     },
     {
       "kind": "issue",
@@ -233,15 +170,6 @@
       "title": "subagent-driven-development: reviewer prompts pay subagent turns for mechanical facts the controller can settle in one command",
       "updated_at": "2026-08-17T23:41:47Z",
       "url": "https://github.com/obra/superpowers/issues/2054"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2085,
-      "state": "open",
-      "title": "fix(brainstorm): keep visual companion alive under Cursor",
-      "updated_at": "2026-08-08T00:34:42Z",
-      "url": "https://github.com/obra/superpowers/pull/2085"
     },
     {
       "kind": "pull_request",
@@ -309,29 +237,11 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 2101,
-      "state": "open",
-      "title": "feat(brainstorming): ask about quality tooling in the design presentation for new projects",
-      "updated_at": "2026-08-07T19:00:35Z",
-      "url": "https://github.com/obra/superpowers/pull/2101"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 2103,
       "state": "open",
       "title": "feat(grok): add Grok Build harness support",
       "updated_at": "2026-08-19T15:39:09Z",
       "url": "https://github.com/obra/superpowers/pull/2103"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2110,
-      "state": "open",
-      "title": "feat(tdd): the project's suite defines green, not just your test file",
-      "updated_at": "2026-08-08T01:46:01Z",
-      "url": "https://github.com/obra/superpowers/pull/2110"
     },
     {
       "kind": "issue",
@@ -518,7 +428,7 @@
       "number": 2157,
       "state": "open",
       "title": "[Bug]: Hermes tool mapping in v6.3.0 uses stale names and an unqualified plugin skill name",
-      "updated_at": "2026-08-19T11:15:03Z",
+      "updated_at": "2026-08-22T04:04:18Z",
       "url": "https://github.com/obra/superpowers/issues/2157"
     },
     {
@@ -676,6 +586,33 @@
       "title": "fix: harden TDD/SDD/writing-plans against NameError, accidental deletes, uncommitted work",
       "updated_at": "2026-08-21T01:07:54Z",
       "url": "https://github.com/obra/superpowers/pull/2185"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2193,
+      "state": "open",
+      "title": "fix(skills): require explicit model on subagent dispatches outside SDD (#2034)",
+      "updated_at": "2026-08-22T19:47:40Z",
+      "url": "https://github.com/obra/superpowers/pull/2193"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2194,
+      "state": "open",
+      "title": "[Feature]: Add Amazon Q Developer CLI harness support",
+      "updated_at": "2026-08-22T20:00:33Z",
+      "url": "https://github.com/obra/superpowers/issues/2194"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2195,
+      "state": "open",
+      "title": "feat(harness): add Amazon Q Developer CLI support",
+      "updated_at": "2026-08-22T20:06:25Z",
+      "url": "https://github.com/obra/superpowers/pull/2195"
     }
   ],
   "schema_version": 1,
