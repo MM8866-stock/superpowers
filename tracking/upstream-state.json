@@ -32,17 +32,6 @@
     {
       "kind": "issue",
       "labels": [
-        "enhancement"
-      ],
-      "number": 1238,
-      "state": "open",
-      "title": "Feature request: feature-doc-pack planning mode for team workflows and legacy repos",
-      "updated_at": "2026-08-08T06:20:12Z",
-      "url": "https://github.com/obra/superpowers/issues/1238"
-    },
-    {
-      "kind": "issue",
-      "labels": [
         "bug",
         "plans",
         "subagents"
@@ -61,26 +50,6 @@
       "title": "fix(sdd): add -C DIR flag to review-package for harness allowlisting",
       "updated_at": "2026-08-22T09:06:35Z",
       "url": "https://github.com/obra/superpowers/pull/1809"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1826,
-      "state": "open",
-      "title": "fix(tests): resolve shellcheck warnings in Claude Code test helpers",
-      "updated_at": "2026-08-08T06:44:46Z",
-      "url": "https://github.com/obra/superpowers/pull/1826"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement"
-      ],
-      "number": 1930,
-      "state": "open",
-      "title": "Feat: reduce reviewer subagent verbosity to conserve tokens",
-      "updated_at": "2026-08-08T07:00:18Z",
-      "url": "https://github.com/obra/superpowers/issues/1930"
     },
     {
       "kind": "pull_request",
@@ -119,7 +88,7 @@
       "number": 2017,
       "state": "open",
       "title": "Retuning subagent driven development for Opus 6 and Sol 5.6 ",
-      "updated_at": "2026-08-11T23:05:50Z",
+      "updated_at": "2026-08-23T10:33:18Z",
       "url": "https://github.com/obra/superpowers/issues/2017"
     },
     {
@@ -613,6 +582,15 @@
       "title": "feat(harness): add Amazon Q Developer CLI support",
       "updated_at": "2026-08-22T20:06:25Z",
       "url": "https://github.com/obra/superpowers/pull/2195"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2196,
+      "state": "open",
+      "title": "fix: distinguish characterization tests from feature RED",
+      "updated_at": "2026-08-23T07:37:45Z",
+      "url": "https://github.com/obra/superpowers/pull/2196"
     }
   ],
   "schema_version": 1,
