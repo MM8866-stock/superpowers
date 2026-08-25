@@ -52,15 +52,6 @@
       "url": "https://github.com/obra/superpowers/pull/1809"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1938,
-      "state": "open",
-      "title": "fix: scope SDD artifacts by plan identity",
-      "updated_at": "2026-08-08T10:13:55Z",
-      "url": "https://github.com/obra/superpowers/pull/1938"
-    },
-    {
       "kind": "issue",
       "labels": [
         "enhancement"
@@ -90,6 +81,15 @@
       "title": "Retuning subagent driven development for Opus 6 and Sol 5.6 ",
       "updated_at": "2026-08-23T10:33:18Z",
       "url": "https://github.com/obra/superpowers/issues/2017"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2034,
+      "state": "open",
+      "title": "Subagent dispatches outside SDD have no model guidance, so they inherit the session model",
+      "updated_at": "2026-08-24T14:15:11Z",
+      "url": "https://github.com/obra/superpowers/issues/2034"
     },
     {
       "kind": "issue",
@@ -450,7 +450,7 @@
       "number": 2166,
       "state": "open",
       "title": "[Codex] Manual worktree fallback leaves current task bound to parent checkout",
-      "updated_at": "2026-08-19T09:08:43Z",
+      "updated_at": "2026-08-25T01:35:05Z",
       "url": "https://github.com/obra/superpowers/issues/2166"
     },
     {
@@ -517,7 +517,7 @@
       "number": 2180,
       "state": "open",
       "title": "Sub agent driven development",
-      "updated_at": "2026-08-20T18:09:39Z",
+      "updated_at": "2026-08-24T06:27:09Z",
       "url": "https://github.com/obra/superpowers/issues/2180"
     },
     {
@@ -544,7 +544,7 @@
       "number": 2184,
       "state": "open",
       "title": "feat: add Bob harness support",
-      "updated_at": "2026-08-21T03:15:38Z",
+      "updated_at": "2026-08-24T15:51:24Z",
       "url": "https://github.com/obra/superpowers/pull/2184"
     },
     {
@@ -591,6 +591,24 @@
       "title": "fix: distinguish characterization tests from feature RED",
       "updated_at": "2026-08-23T07:37:45Z",
       "url": "https://github.com/obra/superpowers/pull/2196"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2200,
+      "state": "open",
+      "title": "Add ZCode harness support",
+      "updated_at": "2026-08-24T16:04:42Z",
+      "url": "https://github.com/obra/superpowers/pull/2200"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2201,
+      "state": "open",
+      "title": "docs(using-superpowers): add Gemini CLI to platform adaptation reference list",
+      "updated_at": "2026-08-25T00:58:24Z",
+      "url": "https://github.com/obra/superpowers/pull/2201"
     }
   ],
   "schema_version": 1,
