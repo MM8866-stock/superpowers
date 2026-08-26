@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "339779f179d69ac468326d281a9e54f198aabf8d"
+    "sha": "b49bb1f33a8a93db476e6888e567f9896f58551c"
   },
   "high_value_changes": [],
   "relevant_items": [
@@ -248,15 +248,6 @@
       "title": "requesting-code-review: the \"# or origin/main\" BASE_SHA feeds a moving ref into a two-dot diff, so reviewers are shown deletions the branch never made",
       "updated_at": "2026-08-17T23:42:00Z",
       "url": "https://github.com/obra/superpowers/issues/2118"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2126,
-      "state": "open",
-      "title": "feat(kiro): add Kiro v3 support via native custom agent + Agent Skills",
-      "updated_at": "2026-08-12T17:47:46Z",
-      "url": "https://github.com/obra/superpowers/pull/2126"
     },
     {
       "kind": "issue",
@@ -609,6 +600,26 @@
       "title": "docs(using-superpowers): add Gemini CLI to platform adaptation reference list",
       "updated_at": "2026-08-25T00:58:24Z",
       "url": "https://github.com/obra/superpowers/pull/2201"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "bug"
+      ],
+      "number": 2203,
+      "state": "open",
+      "title": "Bounded tasks fill the main session context",
+      "updated_at": "2026-08-25T19:47:12Z",
+      "url": "https://github.com/obra/superpowers/issues/2203"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2204,
+      "state": "open",
+      "title": "fix: detect Python package manager before poetry install in worktrees",
+      "updated_at": "2026-08-25T21:47:45Z",
+      "url": "https://github.com/obra/superpowers/pull/2204"
     }
   ],
   "schema_version": 1,
