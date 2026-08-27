@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "b49bb1f33a8a93db476e6888e567f9896f58551c"
+    "sha": "114f7258272b1d606c59203abea5e566b894080f"
   },
   "high_value_changes": [],
   "relevant_items": [
@@ -112,15 +112,6 @@
     {
       "kind": "issue",
       "labels": [],
-      "number": 2045,
-      "state": "open",
-      "title": "subagent-driven-development: plan-scoped workspace still collides when two plans share a basename (follow-up to #2012)",
-      "updated_at": "2026-08-12T23:04:47Z",
-      "url": "https://github.com/obra/superpowers/issues/2045"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
       "number": 2046,
       "state": "open",
       "title": "writing-plans can mistake structural RED for behavior-test evidence",
@@ -162,15 +153,6 @@
       "title": "test-driven-development: a test whose arrange step silently fails passes every gate (mental mutation check, optional SDD red evidence)",
       "updated_at": "2026-08-17T23:42:34Z",
       "url": "https://github.com/obra/superpowers/issues/2092"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2095,
-      "state": "open",
-      "title": "fix(hooks): run-hook.cmd heredoc deadlocks all hooks on macOS (Homebrew bash >= 5.1)",
-      "updated_at": "2026-08-12T23:26:42Z",
-      "url": "https://github.com/obra/superpowers/pull/2095"
     },
     {
       "kind": "issue",
@@ -229,15 +211,6 @@
       "url": "https://github.com/obra/superpowers/issues/2113"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2116,
-      "state": "open",
-      "title": "feat(brainstorming): research prior art before design",
-      "updated_at": "2026-08-12T23:14:04Z",
-      "url": "https://github.com/obra/superpowers/pull/2116"
-    },
-    {
       "kind": "issue",
       "labels": [
         "bug",
@@ -273,24 +246,6 @@
       "title": "Claude Code skill test suite: timeout hangs without stdin redirect; SDD assertions test pre-v6.2.0 behavior",
       "updated_at": "2026-08-17T23:42:05Z",
       "url": "https://github.com/obra/superpowers/issues/2130"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2133,
-      "state": "open",
-      "title": "fix(requesting-code-review): anchor the multi-commit BASE_SHA alternative to the merge base",
-      "updated_at": "2026-08-13T00:26:47Z",
-      "url": "https://github.com/obra/superpowers/pull/2133"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2134,
-      "state": "open",
-      "title": "fix(sdd): invoke sdd-workspace via bash so helpers survive stripped exec bits",
-      "updated_at": "2026-08-13T00:27:56Z",
-      "url": "https://github.com/obra/superpowers/pull/2134"
     },
     {
       "kind": "pull_request",
@@ -609,7 +564,7 @@
       "number": 2203,
       "state": "open",
       "title": "Bounded tasks fill the main session context",
-      "updated_at": "2026-08-25T19:47:12Z",
+      "updated_at": "2026-08-27T05:07:19Z",
       "url": "https://github.com/obra/superpowers/issues/2203"
     },
     {
@@ -620,6 +575,42 @@
       "title": "fix: detect Python package manager before poetry install in worktrees",
       "updated_at": "2026-08-25T21:47:45Z",
       "url": "https://github.com/obra/superpowers/pull/2204"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2205,
+      "state": "open",
+      "title": "fix(codex): derive spawns from live capabilities",
+      "updated_at": "2026-08-26T10:09:08Z",
+      "url": "https://github.com/obra/superpowers/pull/2205"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2206,
+      "state": "open",
+      "title": "docs(dispatching-parallel-agents): specify terminal agent role and deliverable validation (#2202)",
+      "updated_at": "2026-08-26T15:20:02Z",
+      "url": "https://github.com/obra/superpowers/pull/2206"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2207,
+      "state": "open",
+      "title": "`finishing-a-development-branch` can silently delete an SDD workspace: ignored files don't make a worktree dirty",
+      "updated_at": "2026-08-26T20:13:56Z",
+      "url": "https://github.com/obra/superpowers/issues/2207"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2208,
+      "state": "open",
+      "title": "fix(worktree): guard against silent deletion of surviving SDD workspace (#2207)",
+      "updated_at": "2026-08-27T02:50:49Z",
+      "url": "https://github.com/obra/superpowers/pull/2208"
     }
   ],
   "schema_version": 1,
