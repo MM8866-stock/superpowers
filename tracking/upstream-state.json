@@ -103,15 +103,6 @@
     {
       "kind": "issue",
       "labels": [],
-      "number": 2043,
-      "state": "open",
-      "title": "Visual companion card mockups silently collapse into a clipped horizontal flex row",
-      "updated_at": "2026-08-13T12:13:33Z",
-      "url": "https://github.com/obra/superpowers/issues/2043"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
       "number": 2046,
       "state": "open",
       "title": "writing-plans can mistake structural RED for behavior-test evidence",
@@ -166,15 +157,6 @@
       "title": "subagent-driven-development: \"most capable available model\" for the final review gets under-resolved when the session model is above Opus",
       "updated_at": "2026-08-17T23:41:56Z",
       "url": "https://github.com/obra/superpowers/issues/2096"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2097,
-      "state": "open",
-      "title": "fix(sdd): resolve \"most capable available\" to the strict maximum for the final whole-branch review",
-      "updated_at": "2026-08-13T03:29:15Z",
-      "url": "https://github.com/obra/superpowers/pull/2097"
     },
     {
       "kind": "pull_request",
@@ -248,33 +230,6 @@
       "url": "https://github.com/obra/superpowers/issues/2130"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2136,
-      "state": "open",
-      "title": "fix(sdd): reject empty or non-descendant BASE..HEAD ranges in review-package",
-      "updated_at": "2026-08-13T00:30:16Z",
-      "url": "https://github.com/obra/superpowers/pull/2136"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2137,
-      "state": "open",
-      "title": "fix(tests): unhang the Claude Code skill suite and realign SDD assertions with the current skill",
-      "updated_at": "2026-08-13T00:33:41Z",
-      "url": "https://github.com/obra/superpowers/pull/2137"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2138,
-      "state": "open",
-      "title": "fix(sdd): ownership markers stop same-basename plans sharing a workspace",
-      "updated_at": "2026-08-13T00:36:34Z",
-      "url": "https://github.com/obra/superpowers/pull/2138"
-    },
-    {
       "kind": "issue",
       "labels": [
         "bug",
@@ -287,15 +242,6 @@
       "title": "subagent-driven-development: naming the implementer for fix-loop resume silently switches it to teammate mode, breaking automatic report delivery",
       "updated_at": "2026-08-17T23:42:37Z",
       "url": "https://github.com/obra/superpowers/issues/2140"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2141,
-      "state": "open",
-      "title": "fix(tdd): prove arranged inputs and execute targeted mutations",
-      "updated_at": "2026-08-13T07:24:52Z",
-      "url": "https://github.com/obra/superpowers/pull/2141"
     },
     {
       "kind": "pull_request",
@@ -611,6 +557,51 @@
       "title": "fix(worktree): guard against silent deletion of surviving SDD workspace (#2207)",
       "updated_at": "2026-08-27T02:50:49Z",
       "url": "https://github.com/obra/superpowers/pull/2208"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2211,
+      "state": "open",
+      "title": "Codex packaging solution made with Sesame",
+      "updated_at": "2026-08-27T14:44:54Z",
+      "url": "https://github.com/obra/superpowers/issues/2211"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2212,
+      "state": "open",
+      "title": "docs(brainstorming): add bounded path subagent dispatch guidance (#2203)",
+      "updated_at": "2026-08-27T15:21:48Z",
+      "url": "https://github.com/obra/superpowers/pull/2212"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2214,
+      "state": "open",
+      "title": "feat(skills): import proving-it-works-with-a-movie skill",
+      "updated_at": "2026-08-27T16:48:23Z",
+      "url": "https://github.com/obra/superpowers/pull/2214"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2216,
+      "state": "open",
+      "title": "Calibrate implementation rigor before creating process artifacts",
+      "updated_at": "2026-08-28T10:47:11Z",
+      "url": "https://github.com/obra/superpowers/pull/2216"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2217,
+      "state": "open",
+      "title": "docs(sdd): avoid asking reviewers to establish mechanical facts (#2054)",
+      "updated_at": "2026-08-28T02:15:04Z",
+      "url": "https://github.com/obra/superpowers/pull/2217"
     }
   ],
   "schema_version": 1,
