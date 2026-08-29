@@ -63,15 +63,6 @@
       "url": "https://github.com/obra/superpowers/issues/1989"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 1996,
-      "state": "open",
-      "title": "feat(omp): add native oh-my-pi harness support",
-      "updated_at": "2026-08-14T14:26:40Z",
-      "url": "https://github.com/obra/superpowers/pull/1996"
-    },
-    {
       "kind": "issue",
       "labels": [
         "enhancement"
@@ -262,24 +253,6 @@
       "url": "https://github.com/obra/superpowers/pull/2147"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2149,
-      "state": "open",
-      "title": "Fix Windows/Git-Bash path comparison in test-sdd-workspace.sh",
-      "updated_at": "2026-08-14T04:04:04Z",
-      "url": "https://github.com/obra/superpowers/pull/2149"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2154,
-      "state": "open",
-      "title": "feat(runtimes): add opt-in DeepSeek Harness (dsh) support",
-      "updated_at": "2026-08-15T03:38:01Z",
-      "url": "https://github.com/obra/superpowers/pull/2154"
-    },
-    {
       "kind": "issue",
       "labels": [
         "bug",
@@ -409,7 +382,7 @@
       "number": 2180,
       "state": "open",
       "title": "Sub agent driven development",
-      "updated_at": "2026-08-24T06:27:09Z",
+      "updated_at": "2026-08-28T20:18:05Z",
       "url": "https://github.com/obra/superpowers/issues/2180"
     },
     {
@@ -435,8 +408,8 @@
       "labels": [],
       "number": 2184,
       "state": "open",
-      "title": "feat: add Bob harness support",
-      "updated_at": "2026-08-24T15:51:24Z",
+      "title": "feat (harness): add Bob harness support",
+      "updated_at": "2026-08-28T21:07:43Z",
       "url": "https://github.com/obra/superpowers/pull/2184"
     },
     {
@@ -602,6 +575,35 @@
       "title": "docs(sdd): avoid asking reviewers to establish mechanical facts (#2054)",
       "updated_at": "2026-08-28T02:15:04Z",
       "url": "https://github.com/obra/superpowers/pull/2217"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2219,
+      "state": "open",
+      "title": "Skills that script multi-branch git workflows never establish a remote-safety boundary, shared branches (production, dev) were unintentionally rewritten across three projects",
+      "updated_at": "2026-08-28T14:22:06Z",
+      "url": "https://github.com/obra/superpowers/issues/2219"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2220,
+      "state": "open",
+      "title": "feat: add durable SDD lifecycle metrics and reports",
+      "updated_at": "2026-08-28T20:45:08Z",
+      "url": "https://github.com/obra/superpowers/pull/2220"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2221,
+      "state": "open",
+      "title": "fix(git): establish remote-safety boundaries and shared branch protection (#2219)",
+      "updated_at": "2026-08-29T01:21:01Z",
+      "url": "https://github.com/obra/superpowers/pull/2221"
     }
   ],
   "schema_version": 1,
