@@ -152,15 +152,6 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 2099,
-      "state": "open",
-      "title": "feat: add Command Code harness (disk-loaded Shape B, install from this repo)",
-      "updated_at": "2026-08-15T13:54:13Z",
-      "url": "https://github.com/obra/superpowers/pull/2099"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 2103,
       "state": "open",
       "title": "feat(grok): add Grok Build harness support",
@@ -266,15 +257,6 @@
       "url": "https://github.com/obra/superpowers/issues/2157"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2159,
-      "state": "open",
-      "title": "test: deduplicate explicit-skill-requests harness",
-      "updated_at": "2026-08-15T22:10:20Z",
-      "url": "https://github.com/obra/superpowers/pull/2159"
-    },
-    {
       "kind": "issue",
       "labels": [
         "bug",
@@ -286,15 +268,6 @@
       "title": "OpenCode: Superpowers bootstrap is injected into task subagents, causing them to restart controller workflows",
       "updated_at": "2026-08-17T23:42:51Z",
       "url": "https://github.com/obra/superpowers/issues/2160"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2161,
-      "state": "open",
-      "title": "fix(sdd): make sdd-workspace's .gitignore create-only, not an unconditional overwrite",
-      "updated_at": "2026-08-16T06:03:53Z",
-      "url": "https://github.com/obra/superpowers/pull/2161"
     },
     {
       "kind": "pull_request",
@@ -604,6 +577,15 @@
       "title": "fix(git): establish remote-safety boundaries and shared branch protection (#2219)",
       "updated_at": "2026-08-29T01:21:01Z",
       "url": "https://github.com/obra/superpowers/pull/2221"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2223,
+      "state": "open",
+      "title": "fix(opencode): skip controller bootstrap in task subagent sessions (#2160)",
+      "updated_at": "2026-08-29T16:51:17Z",
+      "url": "https://github.com/obra/superpowers/pull/2223"
     }
   ],
   "schema_version": 1,
