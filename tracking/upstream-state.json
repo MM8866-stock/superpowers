@@ -30,19 +30,6 @@
       "url": "https://github.com/obra/superpowers/issues/1075"
     },
     {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "plans",
-        "subagents"
-      ],
-      "number": 1545,
-      "state": "open",
-      "title": "executing-plans: STOP triggers cause silent multi-hour stalls; need to harmonize with subagent-driven-development's Continuous execution rule",
-      "updated_at": "2026-08-17T01:04:03Z",
-      "url": "https://github.com/obra/superpowers/issues/1545"
-    },
-    {
       "kind": "pull_request",
       "labels": [],
       "number": 1809,
@@ -586,6 +573,15 @@
       "title": "fix(opencode): skip controller bootstrap in task subagent sessions (#2160)",
       "updated_at": "2026-08-29T16:51:17Z",
       "url": "https://github.com/obra/superpowers/pull/2223"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2228,
+      "state": "open",
+      "title": "Establish a remote-safety boundary in git-workflow skills (#2219)",
+      "updated_at": "2026-08-30T19:20:07Z",
+      "url": "https://github.com/obra/superpowers/pull/2228"
     }
   ],
   "schema_version": 1,
