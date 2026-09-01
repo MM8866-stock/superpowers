@@ -30,6 +30,17 @@
       "url": "https://github.com/obra/superpowers/issues/1075"
     },
     {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 1803,
+      "state": "open",
+      "title": "Checkpoints - Adversarial Review",
+      "updated_at": "2026-08-31T10:16:04Z",
+      "url": "https://github.com/obra/superpowers/issues/1803"
+    },
+    {
       "kind": "pull_request",
       "labels": [],
       "number": 1809,
@@ -88,19 +99,6 @@
       "url": "https://github.com/obra/superpowers/issues/2046"
     },
     {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skills",
-        "subagents"
-      ],
-      "number": 2054,
-      "state": "open",
-      "title": "subagent-driven-development: reviewer prompts pay subagent turns for mechanical facts the controller can settle in one command",
-      "updated_at": "2026-08-17T23:41:47Z",
-      "url": "https://github.com/obra/superpowers/issues/2054"
-    },
-    {
       "kind": "pull_request",
       "labels": [],
       "number": 2088,
@@ -122,19 +120,6 @@
       "title": "test-driven-development: a test whose arrange step silently fails passes every gate (mental mutation check, optional SDD red evidence)",
       "updated_at": "2026-08-17T23:42:34Z",
       "url": "https://github.com/obra/superpowers/issues/2092"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skills",
-        "subagents"
-      ],
-      "number": 2096,
-      "state": "open",
-      "title": "subagent-driven-development: \"most capable available model\" for the final review gets under-resolved when the session model is above Opus",
-      "updated_at": "2026-08-17T23:41:56Z",
-      "url": "https://github.com/obra/superpowers/issues/2096"
     },
     {
       "kind": "pull_request",
@@ -160,18 +145,6 @@
       "title": "Five findings from a heavy multi-phase run of subagent-driven-development and writing-plans",
       "updated_at": "2026-08-17T23:42:36Z",
       "url": "https://github.com/obra/superpowers/issues/2113"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "skills"
-      ],
-      "number": 2118,
-      "state": "open",
-      "title": "requesting-code-review: the \"# or origin/main\" BASE_SHA feeds a moving ref into a two-dot diff, so reviewers are shown deletions the branch never made",
-      "updated_at": "2026-08-17T23:42:00Z",
-      "url": "https://github.com/obra/superpowers/issues/2118"
     },
     {
       "kind": "issue",
@@ -257,15 +230,6 @@
       "url": "https://github.com/obra/superpowers/issues/2160"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2162,
-      "state": "open",
-      "title": "fix(using-superpowers): correct Hermes tool mapping",
-      "updated_at": "2026-08-17T14:15:47Z",
-      "url": "https://github.com/obra/superpowers/pull/2162"
-    },
-    {
       "kind": "issue",
       "labels": [
         "bug",
@@ -333,17 +297,6 @@
       "title": "Add skeleton-first planning as a selectable alternative to task-by-task plans",
       "updated_at": "2026-08-19T17:43:38Z",
       "url": "https://github.com/obra/superpowers/pull/2179"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement"
-      ],
-      "number": 2180,
-      "state": "open",
-      "title": "Sub agent driven development",
-      "updated_at": "2026-08-28T20:18:05Z",
-      "url": "https://github.com/obra/superpowers/issues/2180"
     },
     {
       "kind": "pull_request",
@@ -582,6 +535,24 @@
       "title": "Establish a remote-safety boundary in git-workflow skills (#2219)",
       "updated_at": "2026-08-30T19:20:07Z",
       "url": "https://github.com/obra/superpowers/pull/2228"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2236,
+      "state": "open",
+      "title": "feat: add diagnosing-superpowers skill — evidence-based session diagnosis, scrubbed bug-report bundles",
+      "updated_at": "2026-08-31T17:04:13Z",
+      "url": "https://github.com/obra/superpowers/pull/2236"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2237,
+      "state": "open",
+      "title": "Tell the executor to tick the plan's checkboxes",
+      "updated_at": "2026-08-31T22:32:48Z",
+      "url": "https://github.com/obra/superpowers/pull/2237"
     }
   ],
   "schema_version": 1,
