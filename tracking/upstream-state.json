@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "114f7258272b1d606c59203abea5e566b894080f"
+    "sha": "a593ed93ff95a9b0da63b60789a24ab1d6bc09ef"
   },
   "high_value_changes": [],
   "relevant_items": [
@@ -145,31 +145,6 @@
       "title": "Five findings from a heavy multi-phase run of subagent-driven-development and writing-plans",
       "updated_at": "2026-08-17T23:42:36Z",
       "url": "https://github.com/obra/superpowers/issues/2113"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "brainstorming",
-        "enhancement",
-        "skills"
-      ],
-      "number": 2129,
-      "state": "open",
-      "title": "brainstorming: research prior art / existing solutions before design",
-      "updated_at": "2026-08-17T23:42:03Z",
-      "url": "https://github.com/obra/superpowers/issues/2129"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "claude-code"
-      ],
-      "number": 2130,
-      "state": "open",
-      "title": "Claude Code skill test suite: timeout hangs without stdin redirect; SDD assertions test pre-v6.2.0 behavior",
-      "updated_at": "2026-08-17T23:42:05Z",
-      "url": "https://github.com/obra/superpowers/issues/2130"
     },
     {
       "kind": "issue",
@@ -553,6 +528,33 @@
       "title": "Tell the executor to tick the plan's checkboxes",
       "updated_at": "2026-08-31T22:32:48Z",
       "url": "https://github.com/obra/superpowers/pull/2237"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2239,
+      "state": "open",
+      "title": "Add AtomCode harness support",
+      "updated_at": "2026-09-01T06:53:49Z",
+      "url": "https://github.com/obra/superpowers/pull/2239"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2242,
+      "state": "open",
+      "title": "SDD scripts (task-brief/review-package) crash on greenfield Task 1 — no git repo yet",
+      "updated_at": "2026-09-02T03:08:52Z",
+      "url": "https://github.com/obra/superpowers/issues/2242"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2243,
+      "state": "open",
+      "title": "Reviewer template: harden against hallucinated cross-domain references (cheap model tiers)",
+      "updated_at": "2026-09-02T03:09:06Z",
+      "url": "https://github.com/obra/superpowers/issues/2243"
     }
   ],
   "schema_version": 1,
