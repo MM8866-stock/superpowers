@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "a593ed93ff95a9b0da63b60789a24ab1d6bc09ef"
+    "sha": "c2059d0b7e1ca68c6ee60222d13e7fbca3ff2a8a"
   },
   "high_value_changes": [],
   "relevant_items": [
@@ -16,6 +16,19 @@
       "title": "writing-plans: plans over-specify implementation, leaving no room for executor judgment",
       "updated_at": "2026-08-21T23:28:13Z",
       "url": "https://github.com/obra/superpowers/issues/895"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement",
+        "plans",
+        "skills"
+      ],
+      "number": 931,
+      "state": "open",
+      "title": "Feature: Plan-aware session handoff commands (/create_handoff + /resume_plan)",
+      "updated_at": "2026-09-03T04:32:52Z",
+      "url": "https://github.com/obra/superpowers/issues/931"
     },
     {
       "kind": "issue",
@@ -108,20 +121,6 @@
       "url": "https://github.com/obra/superpowers/pull/2088"
     },
     {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skills",
-        "subagents",
-        "tdd"
-      ],
-      "number": 2092,
-      "state": "open",
-      "title": "test-driven-development: a test whose arrange step silently fails passes every gate (mental mutation check, optional SDD red evidence)",
-      "updated_at": "2026-08-17T23:42:34Z",
-      "url": "https://github.com/obra/superpowers/issues/2092"
-    },
-    {
       "kind": "pull_request",
       "labels": [],
       "number": 2103,
@@ -129,36 +128,6 @@
       "title": "feat(grok): add Grok Build harness support",
       "updated_at": "2026-08-19T15:39:09Z",
       "url": "https://github.com/obra/superpowers/pull/2103"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "claude-code",
-        "enhancement",
-        "plans",
-        "skills",
-        "subagents",
-        "tdd"
-      ],
-      "number": 2113,
-      "state": "open",
-      "title": "Five findings from a heavy multi-phase run of subagent-driven-development and writing-plans",
-      "updated_at": "2026-08-17T23:42:36Z",
-      "url": "https://github.com/obra/superpowers/issues/2113"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "claude-code",
-        "skills",
-        "subagents"
-      ],
-      "number": 2140,
-      "state": "open",
-      "title": "subagent-driven-development: naming the implementer for fix-loop resume silently switches it to teammate mode, breaking automatic report delivery",
-      "updated_at": "2026-08-17T23:42:37Z",
-      "url": "https://github.com/obra/superpowers/issues/2140"
     },
     {
       "kind": "pull_request",
@@ -530,15 +499,6 @@
       "url": "https://github.com/obra/superpowers/pull/2237"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2239,
-      "state": "open",
-      "title": "Add AtomCode harness support",
-      "updated_at": "2026-09-01T06:53:49Z",
-      "url": "https://github.com/obra/superpowers/pull/2239"
-    },
-    {
       "kind": "issue",
       "labels": [],
       "number": 2242,
@@ -555,6 +515,15 @@
       "title": "Reviewer template: harden against hallucinated cross-domain references (cheap model tiers)",
       "updated_at": "2026-09-02T03:09:06Z",
       "url": "https://github.com/obra/superpowers/issues/2243"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2245,
+      "state": "open",
+      "title": "Delegation skills: four dispatch checks that silently fail without them (base commit, spawned model, enumerable scope, parallel-dispatch isolation)",
+      "updated_at": "2026-09-02T12:04:32Z",
+      "url": "https://github.com/obra/superpowers/issues/2245"
     }
   ],
   "schema_version": 1,
