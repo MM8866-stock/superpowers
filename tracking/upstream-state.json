@@ -2,10 +2,49 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "e3feffd63719ef8d0a0bda5395ea5f4ada67557e"
+    "sha": "d2488ee50fbc383a093df3f4aa95fc74308d7585"
   },
   "high_value_changes": [],
   "relevant_items": [
+    {
+      "kind": "issue",
+      "labels": [
+        "claude-code",
+        "enhancement",
+        "subagents"
+      ],
+      "number": 429,
+      "state": "open",
+      "title": "Support for Claude Code Agent Teams (TeammateTool, SendMessage, TaskList)",
+      "updated_at": "2026-09-04T16:23:21Z",
+      "url": "https://github.com/obra/superpowers/issues/429"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement",
+        "kiro",
+        "new-harness"
+      ],
+      "number": 503,
+      "state": "open",
+      "title": "Add Support for Kiro CLI as an AI Provider",
+      "updated_at": "2026-09-04T16:23:25Z",
+      "url": "https://github.com/obra/superpowers/issues/503"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "duplicate",
+        "kiro",
+        "new-harness"
+      ],
+      "number": 618,
+      "state": "open",
+      "title": "feat(kiro): add Kiro IDE support via Power + native Skills",
+      "updated_at": "2026-09-04T17:45:14Z",
+      "url": "https://github.com/obra/superpowers/pull/618"
+    },
     {
       "kind": "issue",
       "labels": [
@@ -29,7 +68,7 @@
       "number": 1152,
       "state": "open",
       "title": "Codex: Implementation of relatively simple plan with subagent-driven development consumes full 5h token budget in a single run (PLUS plan)",
-      "updated_at": "2026-09-03T21:25:06Z",
+      "updated_at": "2026-09-04T16:23:23Z",
       "url": "https://github.com/obra/superpowers/issues/1152"
     },
     {
@@ -43,6 +82,18 @@
       "title": "Feature request: feature-doc-pack planning mode for team workflows and legacy repos",
       "updated_at": "2026-09-03T21:25:09Z",
       "url": "https://github.com/obra/superpowers/issues/1238"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement",
+        "hooks"
+      ],
+      "number": 1442,
+      "state": "open",
+      "title": "Expose lifecycle events beyond SessionStart for external integration",
+      "updated_at": "2026-09-04T08:39:37Z",
+      "url": "https://github.com/obra/superpowers/issues/1442"
     },
     {
       "kind": "issue",
@@ -146,17 +197,6 @@
     {
       "kind": "issue",
       "labels": [
-        "enhancement"
-      ],
-      "number": 2017,
-      "state": "open",
-      "title": "Retuning subagent driven development for Opus 6 and Sol 5.6 ",
-      "updated_at": "2026-08-23T10:33:18Z",
-      "url": "https://github.com/obra/superpowers/issues/2017"
-    },
-    {
-      "kind": "issue",
-      "labels": [
         "documentation",
         "enhancement"
       ],
@@ -237,7 +277,7 @@
       "number": 2126,
       "state": "open",
       "title": "feat(kiro): add Kiro v3 support via native custom agent + Agent Skills",
-      "updated_at": "2026-09-03T21:54:20Z",
+      "updated_at": "2026-09-04T17:44:53Z",
       "url": "https://github.com/obra/superpowers/pull/2126"
     },
     {
@@ -248,6 +288,15 @@
       "title": "fix(tests): unhang the Claude Code skill suite and realign SDD assertions with the current skill",
       "updated_at": "2026-09-03T21:54:13Z",
       "url": "https://github.com/obra/superpowers/pull/2137"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2144,
+      "state": "open",
+      "title": "feat: add DeepSeek Harness (dsh) support",
+      "updated_at": "2026-09-05T02:22:59Z",
+      "url": "https://github.com/obra/superpowers/pull/2144"
     },
     {
       "kind": "issue",
@@ -284,6 +333,15 @@
       "title": "[Codex] Manual worktree fallback leaves current task bound to parent checkout",
       "updated_at": "2026-08-25T01:35:05Z",
       "url": "https://github.com/obra/superpowers/issues/2166"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2171,
+      "state": "open",
+      "title": "feat: add DeepSeek Harness (dsh) support",
+      "updated_at": "2026-09-05T02:23:06Z",
+      "url": "https://github.com/obra/superpowers/pull/2171"
     },
     {
       "kind": "issue",
@@ -349,15 +407,6 @@
       "url": "https://github.com/obra/superpowers/pull/2200"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2201,
-      "state": "open",
-      "title": "docs(using-superpowers): add Gemini CLI to platform adaptation reference list",
-      "updated_at": "2026-08-25T00:58:24Z",
-      "url": "https://github.com/obra/superpowers/pull/2201"
-    },
-    {
       "kind": "issue",
       "labels": [
         "enhancement",
@@ -403,15 +452,6 @@
       "url": "https://github.com/obra/superpowers/pull/2205"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2206,
-      "state": "open",
-      "title": "docs(dispatching-parallel-agents): specify terminal agent role and deliverable validation (#2202)",
-      "updated_at": "2026-08-26T15:20:02Z",
-      "url": "https://github.com/obra/superpowers/pull/2206"
-    },
-    {
       "kind": "issue",
       "labels": [
         "bug",
@@ -424,24 +464,6 @@
       "title": "`finishing-a-development-branch` can silently delete an SDD workspace: ignored files don't make a worktree dirty",
       "updated_at": "2026-09-03T17:46:00Z",
       "url": "https://github.com/obra/superpowers/issues/2207"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2208,
-      "state": "open",
-      "title": "fix(worktree): guard against silent deletion of surviving SDD workspace (#2207)",
-      "updated_at": "2026-08-27T02:50:49Z",
-      "url": "https://github.com/obra/superpowers/pull/2208"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2212,
-      "state": "open",
-      "title": "docs(brainstorming): add bounded path subagent dispatch guidance (#2203)",
-      "updated_at": "2026-08-27T15:21:48Z",
-      "url": "https://github.com/obra/superpowers/pull/2212"
     },
     {
       "kind": "pull_request",
@@ -460,15 +482,6 @@
       "title": "Calibrate implementation rigor before creating process artifacts",
       "updated_at": "2026-08-28T10:47:11Z",
       "url": "https://github.com/obra/superpowers/pull/2216"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2217,
-      "state": "open",
-      "title": "docs(sdd): avoid asking reviewers to establish mechanical facts (#2054)",
-      "updated_at": "2026-08-28T02:15:04Z",
-      "url": "https://github.com/obra/superpowers/pull/2217"
     },
     {
       "kind": "issue",
@@ -491,15 +504,6 @@
       "title": "feat: add durable SDD lifecycle metrics and reports",
       "updated_at": "2026-08-28T20:45:08Z",
       "url": "https://github.com/obra/superpowers/pull/2220"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2221,
-      "state": "open",
-      "title": "fix(git): establish remote-safety boundaries and shared branch protection (#2219)",
-      "updated_at": "2026-08-29T01:21:01Z",
-      "url": "https://github.com/obra/superpowers/pull/2221"
     },
     {
       "kind": "pull_request",
@@ -559,7 +563,7 @@
       "number": 2243,
       "state": "open",
       "title": "Reviewer template: harden against hallucinated cross-domain references (cheap model tiers)",
-      "updated_at": "2026-09-03T21:25:44Z",
+      "updated_at": "2026-09-04T14:01:09Z",
       "url": "https://github.com/obra/superpowers/issues/2243"
     },
     {
@@ -584,6 +588,51 @@
       "title": "feat: add Prime Agent tool mapping",
       "updated_at": "2026-09-03T22:55:18Z",
       "url": "https://github.com/obra/superpowers/pull/2251"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2253,
+      "state": "open",
+      "title": "subagent-driven-development: Finish deletes the only record of deferred findings — parked/deferred items need a durable export",
+      "updated_at": "2026-09-04T08:21:52Z",
+      "url": "https://github.com/obra/superpowers/issues/2253"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2255,
+      "state": "open",
+      "title": "fix(sdd): export deferred findings before deleting the workspace",
+      "updated_at": "2026-09-04T16:07:10Z",
+      "url": "https://github.com/obra/superpowers/pull/2255"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2257,
+      "state": "open",
+      "title": "docs(porting): warn that package-bundled context files may not auto-load",
+      "updated_at": "2026-09-04T17:45:52Z",
+      "url": "https://github.com/obra/superpowers/pull/2257"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2258,
+      "state": "open",
+      "title": "fix: preserve shared intent through design and planning",
+      "updated_at": "2026-09-04T23:04:43Z",
+      "url": "https://github.com/obra/superpowers/pull/2258"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2259,
+      "state": "open",
+      "title": "docs(writing-skills): re-resolve and verify relative links when moving content",
+      "updated_at": "2026-09-05T04:16:09Z",
+      "url": "https://github.com/obra/superpowers/pull/2259"
     }
   ],
   "schema_version": 1,
