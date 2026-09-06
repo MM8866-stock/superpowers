@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "d2488ee50fbc383a093df3f4aa95fc74308d7585"
+    "sha": "672a0ad2580b75153e1a954ae3a8cad4c1e97b90"
   },
   "high_value_changes": [],
   "relevant_items": [
@@ -178,7 +178,7 @@
       "number": 1989,
       "state": "open",
       "title": "brainstorming: keep the current question open when the user asks for context instead of answering",
-      "updated_at": "2026-09-03T21:25:27Z",
+      "updated_at": "2026-09-05T14:38:41Z",
       "url": "https://github.com/obra/superpowers/issues/1989"
     },
     {
@@ -318,21 +318,8 @@
       "number": 2162,
       "state": "open",
       "title": "fix(using-superpowers): correct Hermes tool mapping",
-      "updated_at": "2026-09-04T01:55:10Z",
+      "updated_at": "2026-09-05T12:38:56Z",
       "url": "https://github.com/obra/superpowers/pull/2162"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "codex",
-        "worktrees"
-      ],
-      "number": 2166,
-      "state": "open",
-      "title": "[Codex] Manual worktree fallback leaves current task bound to parent checkout",
-      "updated_at": "2026-08-25T01:35:05Z",
-      "url": "https://github.com/obra/superpowers/issues/2166"
     },
     {
       "kind": "pull_request",
@@ -398,15 +385,6 @@
       "url": "https://github.com/obra/superpowers/pull/2196"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2200,
-      "state": "open",
-      "title": "Add ZCode harness support",
-      "updated_at": "2026-08-24T16:04:42Z",
-      "url": "https://github.com/obra/superpowers/pull/2200"
-    },
-    {
       "kind": "issue",
       "labels": [
         "enhancement",
@@ -432,15 +410,6 @@
       "title": "Bounded tasks fill the main session context",
       "updated_at": "2026-09-03T17:45:58Z",
       "url": "https://github.com/obra/superpowers/issues/2203"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2204,
-      "state": "open",
-      "title": "fix: detect Python package manager before poetry install in worktrees",
-      "updated_at": "2026-08-25T21:47:45Z",
-      "url": "https://github.com/obra/superpowers/pull/2204"
     },
     {
       "kind": "pull_request",
@@ -633,6 +602,24 @@
       "title": "docs(writing-skills): re-resolve and verify relative links when moving content",
       "updated_at": "2026-09-05T04:16:09Z",
       "url": "https://github.com/obra/superpowers/pull/2259"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2260,
+      "state": "open",
+      "title": "Codex reference assumes spawn capabilities unavailable in an observed desktop session",
+      "updated_at": "2026-09-05T06:06:53Z",
+      "url": "https://github.com/obra/superpowers/issues/2260"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2263,
+      "state": "open",
+      "title": "fix(brainstorming): a request for context does not close the open question",
+      "updated_at": "2026-09-05T14:39:48Z",
+      "url": "https://github.com/obra/superpowers/pull/2263"
     }
   ],
   "schema_version": 1,
