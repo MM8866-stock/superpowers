@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "eaaba725265ad1f69ff44000c9312b0359b8dae4"
+    "sha": "8aefc97320816149c041fd85c069deb50f0e98ce"
   },
   "high_value_changes": [],
   "relevant_items": [
@@ -377,15 +377,6 @@
       "url": "https://github.com/obra/superpowers/issues/2177"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2184,
-      "state": "open",
-      "title": "feat (harness): add Bob harness support",
-      "updated_at": "2026-08-28T21:07:43Z",
-      "url": "https://github.com/obra/superpowers/pull/2184"
-    },
-    {
       "kind": "issue",
       "labels": [
         "new-harness"
@@ -458,15 +449,6 @@
       "title": "Skills that script multi-branch git workflows never establish a remote-safety boundary, shared branches (production, dev) were unintentionally rewritten across three projects",
       "updated_at": "2026-09-03T17:46:06Z",
       "url": "https://github.com/obra/superpowers/issues/2219"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2220,
-      "state": "open",
-      "title": "feat: add durable SDD lifecycle metrics and reports",
-      "updated_at": "2026-08-28T20:45:08Z",
-      "url": "https://github.com/obra/superpowers/pull/2220"
     },
     {
       "kind": "pull_request",
@@ -612,7 +594,7 @@
       "number": 2263,
       "state": "open",
       "title": "fix(brainstorming): a request for context does not close the open question",
-      "updated_at": "2026-09-07T04:48:43Z",
+      "updated_at": "2026-09-07T08:14:37Z",
       "url": "https://github.com/obra/superpowers/pull/2263"
     },
     {
@@ -641,6 +623,15 @@
       "title": "Fixes keep creating new bugs because no skill requires tracing what a fix changes",
       "updated_at": "2026-09-06T19:23:51Z",
       "url": "https://github.com/obra/superpowers/issues/2266"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2267,
+      "state": "open",
+      "title": "subagent-driven-development: the progress ledger records completion but not cross-task discoveries, so a usage-limit interruption loses what earlier tasks learned",
+      "updated_at": "2026-09-08T00:31:41Z",
+      "url": "https://github.com/obra/superpowers/issues/2267"
     }
   ],
   "schema_version": 1,
