@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "8aefc97320816149c041fd85c069deb50f0e98ce"
+    "sha": "b0353a10d8c8eddb69b04eb899d73f0e981fdad8"
   },
   "high_value_changes": [],
   "relevant_items": [
@@ -393,7 +393,7 @@
       "number": 2196,
       "state": "open",
       "title": "fix: distinguish characterization tests from feature RED",
-      "updated_at": "2026-09-03T21:54:19Z",
+      "updated_at": "2026-09-09T04:29:16Z",
       "url": "https://github.com/obra/superpowers/pull/2196"
     },
     {
@@ -462,19 +462,10 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 2228,
-      "state": "open",
-      "title": "Establish a remote-safety boundary in git-workflow skills (#2219)",
-      "updated_at": "2026-08-30T19:20:07Z",
-      "url": "https://github.com/obra/superpowers/pull/2228"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 2236,
       "state": "open",
       "title": "feat: add diagnosing-superpowers skill — evidence-based session diagnosis, scrubbed bug-report bundles",
-      "updated_at": "2026-08-31T17:04:13Z",
+      "updated_at": "2026-09-08T21:42:03Z",
       "url": "https://github.com/obra/superpowers/pull/2236"
     },
     {
@@ -564,15 +555,6 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 2258,
-      "state": "open",
-      "title": "fix: preserve shared intent through design and planning",
-      "updated_at": "2026-09-04T23:04:43Z",
-      "url": "https://github.com/obra/superpowers/pull/2258"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 2259,
       "state": "open",
       "title": "docs(writing-skills): re-resolve and verify relative links when moving content",
@@ -632,11 +614,20 @@
       "title": "subagent-driven-development: the progress ledger records completion but not cross-task discoveries, so a usage-limit interruption loses what earlier tasks learned",
       "updated_at": "2026-09-08T00:31:41Z",
       "url": "https://github.com/obra/superpowers/issues/2267"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2271,
+      "state": "open",
+      "title": "fix(brainstorming): reduce planning handoff burden",
+      "updated_at": "2026-09-08T19:29:51Z",
+      "url": "https://github.com/obra/superpowers/pull/2271"
     }
   ],
   "schema_version": 1,
   "upstream": {
-    "dev_sha": "fd02874aa5c55ba3c2bca431253b48e0e4c8be5a",
+    "dev_sha": "3a8bdc11e1db42955350d6d6f063f7a8e89aef58",
     "release": {
       "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
       "tag": "v6.3.0",
