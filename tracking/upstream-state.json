@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "b0353a10d8c8eddb69b04eb899d73f0e981fdad8"
+    "sha": "f3c04bf3bd506eb488922ca000ca65739fd1ed79"
   },
   "high_value_changes": [],
   "relevant_items": [
@@ -49,14 +49,13 @@
       "kind": "issue",
       "labels": [
         "enhancement",
-        "plans",
-        "skills"
+        "new-harness"
       ],
-      "number": 931,
+      "number": 641,
       "state": "open",
-      "title": "Feature: Plan-aware session handoff commands (/create_handoff + /resume_plan)",
-      "updated_at": "2026-09-03T04:32:52Z",
-      "url": "https://github.com/obra/superpowers/issues/931"
+      "title": "Support OpenClaw platform",
+      "updated_at": "2026-09-09T14:59:47Z",
+      "url": "https://github.com/obra/superpowers/issues/641"
     },
     {
       "kind": "issue",
@@ -132,17 +131,6 @@
       "title": "subagent-driven-development: review-package operates on $PWD, forcing an un-allowlistable \"cd <repo> ; review-package\" compound",
       "updated_at": "2026-09-03T21:25:22Z",
       "url": "https://github.com/obra/superpowers/issues/1799"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement"
-      ],
-      "number": 1803,
-      "state": "open",
-      "title": "Checkpoints - Adversarial Review",
-      "updated_at": "2026-08-31T10:16:04Z",
-      "url": "https://github.com/obra/superpowers/issues/1803"
     },
     {
       "kind": "issue",
@@ -295,6 +283,15 @@
     {
       "kind": "pull_request",
       "labels": [],
+      "number": 2106,
+      "state": "open",
+      "title": "feat(opencode): support OpenCode v2 (opencode2) alongside v1",
+      "updated_at": "2026-09-10T05:27:36Z",
+      "url": "https://github.com/obra/superpowers/pull/2106"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
       "number": 2126,
       "state": "open",
       "title": "feat(kiro): add Kiro v3 support via native custom agent + Agent Skills",
@@ -348,7 +345,7 @@
       "number": 2171,
       "state": "open",
       "title": "feat: add DeepSeek Harness (dsh) support",
-      "updated_at": "2026-09-06T05:50:27Z",
+      "updated_at": "2026-09-09T15:24:21Z",
       "url": "https://github.com/obra/superpowers/pull/2171"
     },
     {
@@ -375,6 +372,15 @@
       "title": "Claude Code 2.1.233 removed TodoWrite/Task* on current models — four skills still instruct todo use",
       "updated_at": "2026-09-03T17:45:40Z",
       "url": "https://github.com/obra/superpowers/issues/2177"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2184,
+      "state": "open",
+      "title": "feat (harness): add Bob harness support",
+      "updated_at": "2026-09-10T02:54:47Z",
+      "url": "https://github.com/obra/superpowers/pull/2184"
     },
     {
       "kind": "issue",
@@ -438,6 +444,15 @@
       "url": "https://github.com/obra/superpowers/issues/2207"
     },
     {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2214,
+      "state": "open",
+      "title": "feat(skills): import proving-it-works-with-a-movie skill",
+      "updated_at": "2026-09-09T18:46:54Z",
+      "url": "https://github.com/obra/superpowers/pull/2214"
+    },
+    {
       "kind": "issue",
       "labels": [
         "enhancement",
@@ -467,15 +482,6 @@
       "title": "feat: add diagnosing-superpowers skill — evidence-based session diagnosis, scrubbed bug-report bundles",
       "updated_at": "2026-09-08T21:42:03Z",
       "url": "https://github.com/obra/superpowers/pull/2236"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2237,
-      "state": "open",
-      "title": "Tell the executor to tick the plan's checkboxes",
-      "updated_at": "2026-08-31T22:32:48Z",
-      "url": "https://github.com/obra/superpowers/pull/2237"
     },
     {
       "kind": "issue",
@@ -621,8 +627,46 @@
       "number": 2271,
       "state": "open",
       "title": "fix(brainstorming): reduce planning handoff burden",
-      "updated_at": "2026-09-08T19:29:51Z",
+      "updated_at": "2026-09-09T12:30:16Z",
       "url": "https://github.com/obra/superpowers/pull/2271"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2272,
+      "state": "open",
+      "title": "docs: add MiniMax Code marketplace installation",
+      "updated_at": "2026-09-09T17:42:34Z",
+      "url": "https://github.com/obra/superpowers/pull/2272"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2273,
+      "state": "open",
+      "title": "SDD: Approve + Important triggers mandatory re-review loop",
+      "updated_at": "2026-09-10T02:15:34Z",
+      "url": "https://github.com/obra/superpowers/issues/2273"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2274,
+      "state": "open",
+      "title": "feat(sdd): ledger Discoveries section carries cross-task findings across compaction",
+      "updated_at": "2026-09-09T16:21:22Z",
+      "url": "https://github.com/obra/superpowers/pull/2274"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2275,
+      "state": "open",
+      "title": "feat(movie): support native Windows PowerShell and Git Bash",
+      "updated_at": "2026-09-10T05:40:45Z",
+      "url": "https://github.com/obra/superpowers/pull/2275"
     }
   ],
   "schema_version": 1,
