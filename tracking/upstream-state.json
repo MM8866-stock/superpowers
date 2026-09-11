@@ -2,7 +2,7 @@
   "evals": {
     "default_branch": "main",
     "repository": "prime-radiant-inc/superpowers-evals",
-    "sha": "f3c04bf3bd506eb488922ca000ca65739fd1ed79"
+    "sha": "1aca12146153ae66f9b413f4ce75b345e9f9694f"
   },
   "high_value_changes": [],
   "relevant_items": [
@@ -72,6 +72,18 @@
     {
       "kind": "issue",
       "labels": [
+        "enhancement",
+        "plans"
+      ],
+      "number": 1075,
+      "state": "open",
+      "title": "Plans and specs have no completion status after execution",
+      "updated_at": "2026-09-10T14:40:46Z",
+      "url": "https://github.com/obra/superpowers/issues/1075"
+    },
+    {
+      "kind": "issue",
+      "labels": [
         "bug",
         "codex",
         "subagents"
@@ -109,6 +121,17 @@
     {
       "kind": "issue",
       "labels": [
+        "enhancement"
+      ],
+      "number": 1566,
+      "state": "open",
+      "title": "Add lifecycle extension system for user-defined workflow hooks",
+      "updated_at": "2026-09-10T11:41:55Z",
+      "url": "https://github.com/obra/superpowers/issues/1566"
+    },
+    {
+      "kind": "issue",
+      "labels": [
         "bug",
         "skills",
         "subagents"
@@ -133,19 +156,6 @@
       "url": "https://github.com/obra/superpowers/issues/1799"
     },
     {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skills",
-        "subagents"
-      ],
-      "number": 1917,
-      "state": "open",
-      "title": "subagent-driven-development: no inline-vs-dispatch threshold — small, tightly-coupled changes pay fan-out overhead for isolation they don't need",
-      "updated_at": "2026-09-03T17:45:14Z",
-      "url": "https://github.com/obra/superpowers/issues/1917"
-    },
-    {
       "kind": "pull_request",
       "labels": [],
       "number": 1931,
@@ -153,20 +163,6 @@
       "title": "feat: agentic-end-to-end-testing skill + spec-derived scenario cards",
       "updated_at": "2026-09-03T21:54:24Z",
       "url": "https://github.com/obra/superpowers/pull/1931"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "plans",
-        "skills",
-        "tdd"
-      ],
-      "number": 1955,
-      "state": "open",
-      "title": "Field-mined additions: systematic-debugging, TDD, and writing-plans checklists",
-      "updated_at": "2026-09-03T17:45:17Z",
-      "url": "https://github.com/obra/superpowers/issues/1955"
     },
     {
       "kind": "issue",
@@ -180,19 +176,6 @@
       "title": "brainstorming: keep the current question open when the user asks for context instead of answering",
       "updated_at": "2026-09-06T08:28:19Z",
       "url": "https://github.com/obra/superpowers/issues/1989"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "brainstorming",
-        "enhancement",
-        "subagents"
-      ],
-      "number": 1991,
-      "state": "open",
-      "title": "SDD/brainstorming workspace root is hardcoded to .superpowers — make it configurable",
-      "updated_at": "2026-09-03T17:45:21Z",
-      "url": "https://github.com/obra/superpowers/issues/1991"
     },
     {
       "kind": "pull_request",
@@ -214,32 +197,6 @@
       "title": "[Feature] Dedicated documentation website for Superpowers",
       "updated_at": "2026-09-06T08:36:22Z",
       "url": "https://github.com/obra/superpowers/issues/2030"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skills",
-        "subagents"
-      ],
-      "number": 2034,
-      "state": "open",
-      "title": "Subagent dispatches outside SDD have no model guidance, so they inherit the session model",
-      "updated_at": "2026-09-03T17:45:25Z",
-      "url": "https://github.com/obra/superpowers/issues/2034"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "codex",
-        "subagents"
-      ],
-      "number": 2040,
-      "state": "open",
-      "title": "Codex marketplace package drops executable bits on SDD helper scripts",
-      "updated_at": "2026-09-03T17:45:27Z",
-      "url": "https://github.com/obra/superpowers/issues/2040"
     },
     {
       "kind": "issue",
@@ -277,7 +234,7 @@
       "number": 2046,
       "state": "open",
       "title": "writing-plans can mistake structural RED for behavior-test evidence",
-      "updated_at": "2026-09-03T17:45:32Z",
+      "updated_at": "2026-09-10T22:04:16Z",
       "url": "https://github.com/obra/superpowers/issues/2046"
     },
     {
@@ -480,7 +437,7 @@
       "number": 2236,
       "state": "open",
       "title": "feat: add diagnosing-superpowers skill — evidence-based session diagnosis, scrubbed bug-report bundles",
-      "updated_at": "2026-09-08T21:42:03Z",
+      "updated_at": "2026-09-11T03:48:05Z",
       "url": "https://github.com/obra/superpowers/pull/2236"
     },
     {
@@ -636,7 +593,7 @@
       "number": 2272,
       "state": "open",
       "title": "docs: add MiniMax Code marketplace installation",
-      "updated_at": "2026-09-09T17:42:34Z",
+      "updated_at": "2026-09-10T08:21:07Z",
       "url": "https://github.com/obra/superpowers/pull/2272"
     },
     {
@@ -665,8 +622,28 @@
       "number": 2275,
       "state": "open",
       "title": "feat(movie): support native Windows PowerShell and Git Bash",
-      "updated_at": "2026-09-10T05:40:45Z",
+      "updated_at": "2026-09-10T06:44:13Z",
       "url": "https://github.com/obra/superpowers/pull/2275"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2276,
+      "state": "open",
+      "title": "fix(sdd): let the SDD scripts run before a greenfield Task 1 creates the repo",
+      "updated_at": "2026-09-10T10:09:42Z",
+      "url": "https://github.com/obra/superpowers/pull/2276"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "bug"
+      ],
+      "number": 2277,
+      "state": "open",
+      "title": "systematic-debugging ships its pressure-test fixtures inside the skill directory; they open with \"This is a real scenario. You must choose and act\"",
+      "updated_at": "2026-09-10T15:45:04Z",
+      "url": "https://github.com/obra/superpowers/issues/2277"
     }
   ],
   "schema_version": 1,
