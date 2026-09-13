@@ -78,7 +78,7 @@
       "number": 1075,
       "state": "open",
       "title": "Plans and specs have no completion status after execution",
-      "updated_at": "2026-09-12T02:50:01Z",
+      "updated_at": "2026-09-12T05:40:54Z",
       "url": "https://github.com/obra/superpowers/issues/1075"
     },
     {
@@ -304,33 +304,6 @@
       "title": "fix: distinguish characterization tests from feature RED",
       "updated_at": "2026-09-09T04:29:16Z",
       "url": "https://github.com/obra/superpowers/pull/2196"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skills",
-        "subagents"
-      ],
-      "number": 2202,
-      "state": "open",
-      "title": "dispatching-parallel-agents: a dispatched agent can re-delegate and return a status promise, silently losing the lane",
-      "updated_at": "2026-09-03T17:45:56Z",
-      "url": "https://github.com/obra/superpowers/issues/2202"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "brainstorming",
-        "bug",
-        "codex",
-        "subagents"
-      ],
-      "number": 2203,
-      "state": "open",
-      "title": "Bounded tasks fill the main session context",
-      "updated_at": "2026-09-03T17:45:58Z",
-      "url": "https://github.com/obra/superpowers/issues/2203"
     },
     {
       "kind": "issue",
@@ -608,6 +581,24 @@
       "title": "writing-plans: Execution Handoff question always blocks, even when the choice is obvious",
       "updated_at": "2026-09-12T03:07:05Z",
       "url": "https://github.com/obra/superpowers/issues/2289"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2291,
+      "state": "open",
+      "title": "fix(systematic-debugging): keep pressure-test fixtures out of skill installs",
+      "updated_at": "2026-09-12T06:52:05Z",
+      "url": "https://github.com/obra/superpowers/pull/2291"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2293,
+      "state": "open",
+      "title": "subagent-driven-development: the ledger records no in-flight task, so an outage mid-task re-dispatches work that is already committed",
+      "updated_at": "2026-09-12T19:09:24Z",
+      "url": "https://github.com/obra/superpowers/issues/2293"
     }
   ],
   "schema_version": 1,
