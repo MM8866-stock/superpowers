@@ -203,6 +203,19 @@
       "labels": [
         "bug",
         "codex",
+        "subagents"
+      ],
+      "number": 2040,
+      "state": "open",
+      "title": "Codex marketplace package drops executable bits on SDD helper scripts",
+      "updated_at": "2026-09-13T17:07:23Z",
+      "url": "https://github.com/obra/superpowers/issues/2040"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "bug",
+        "codex",
         "plans",
         "skills",
         "tdd"
@@ -306,20 +319,6 @@
       "url": "https://github.com/obra/superpowers/pull/2196"
     },
     {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "skills",
-        "subagents",
-        "worktrees"
-      ],
-      "number": 2207,
-      "state": "open",
-      "title": "`finishing-a-development-branch` can silently delete an SDD workspace: ignored files don't make a worktree dirty",
-      "updated_at": "2026-09-03T17:46:00Z",
-      "url": "https://github.com/obra/superpowers/issues/2207"
-    },
-    {
       "kind": "pull_request",
       "labels": [],
       "number": 2214,
@@ -327,19 +326,6 @@
       "title": "feat(skills): import proving-it-works-with-a-movie skill",
       "updated_at": "2026-09-12T03:49:16Z",
       "url": "https://github.com/obra/superpowers/pull/2214"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skills",
-        "worktrees"
-      ],
-      "number": 2219,
-      "state": "open",
-      "title": "Skills that script multi-branch git workflows never establish a remote-safety boundary, shared branches (production, dev) were unintentionally rewritten across three projects",
-      "updated_at": "2026-09-03T17:46:06Z",
-      "url": "https://github.com/obra/superpowers/issues/2219"
     },
     {
       "kind": "pull_request",
@@ -599,6 +585,51 @@
       "title": "subagent-driven-development: the ledger records no in-flight task, so an outage mid-task re-dispatches work that is already committed",
       "updated_at": "2026-09-12T19:09:24Z",
       "url": "https://github.com/obra/superpowers/issues/2293"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2294,
+      "state": "open",
+      "title": "fix(finishing): surface surviving Superpowers scratch before worktree removal",
+      "updated_at": "2026-09-13T11:53:29Z",
+      "url": "https://github.com/obra/superpowers/pull/2294"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2295,
+      "state": "open",
+      "title": "fix(writing-plans): require produced expected values in verification steps",
+      "updated_at": "2026-09-13T11:53:08Z",
+      "url": "https://github.com/obra/superpowers/pull/2295"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2296,
+      "state": "open",
+      "title": "fix(executing-plans): handle plans that are not code changes in a git repo",
+      "updated_at": "2026-09-13T12:47:33Z",
+      "url": "https://github.com/obra/superpowers/pull/2296"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2297,
+      "state": "open",
+      "title": "fix(sdd): record dispatches in the ledger so outages do not re-dispatch committed work",
+      "updated_at": "2026-09-13T13:20:43Z",
+      "url": "https://github.com/obra/superpowers/pull/2297"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2298,
+      "state": "open",
+      "title": "subagent-driven-development: review-package renders commit subjects only, so the task reviewer reports commit-body disclosures as undisclosed changes",
+      "updated_at": "2026-09-13T20:02:35Z",
+      "url": "https://github.com/obra/superpowers/issues/2298"
     }
   ],
   "schema_version": 1,
