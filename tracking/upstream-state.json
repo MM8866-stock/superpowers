@@ -229,6 +229,15 @@
     {
       "kind": "pull_request",
       "labels": [],
+      "number": 2088,
+      "state": "open",
+      "title": "fix(codex): restore Superpowers after compaction",
+      "updated_at": "2026-09-14T17:43:09Z",
+      "url": "https://github.com/obra/superpowers/pull/2088"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
       "number": 2099,
       "state": "open",
       "title": "feat: add Command Code harness (disk-loaded Shape B, install from this repo)",
@@ -241,7 +250,7 @@
       "number": 2106,
       "state": "open",
       "title": "feat(opencode): support OpenCode v2 (opencode2) alongside v1",
-      "updated_at": "2026-09-10T05:27:36Z",
+      "updated_at": "2026-09-14T10:22:35Z",
       "url": "https://github.com/obra/superpowers/pull/2106"
     },
     {
@@ -279,15 +288,6 @@
       "title": "fix(using-superpowers): correct Hermes tool mapping",
       "updated_at": "2026-09-05T12:38:56Z",
       "url": "https://github.com/obra/superpowers/pull/2162"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2171,
-      "state": "open",
-      "title": "feat: add DeepSeek Harness (dsh) support",
-      "updated_at": "2026-09-09T15:24:21Z",
-      "url": "https://github.com/obra/superpowers/pull/2171"
     },
     {
       "kind": "pull_request",
@@ -360,20 +360,6 @@
       "title": "Reviewer template: harden against hallucinated cross-domain references (cheap model tiers)",
       "updated_at": "2026-09-04T14:01:09Z",
       "url": "https://github.com/obra/superpowers/issues/2243"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skills",
-        "subagents",
-        "worktrees"
-      ],
-      "number": 2245,
-      "state": "open",
-      "title": "Delegation skills: four dispatch checks that silently fail without them (base commit, spawned model, enumerable scope, parallel-dispatch isolation)",
-      "updated_at": "2026-09-03T17:46:37Z",
-      "url": "https://github.com/obra/superpowers/issues/2245"
     },
     {
       "kind": "pull_request",
@@ -630,6 +616,24 @@
       "title": "subagent-driven-development: review-package renders commit subjects only, so the task reviewer reports commit-body disclosures as undisclosed changes",
       "updated_at": "2026-09-13T20:02:35Z",
       "url": "https://github.com/obra/superpowers/issues/2298"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2300,
+      "state": "open",
+      "title": "fix(sdd): review evidence-only responses without fake fixes",
+      "updated_at": "2026-09-14T17:36:25Z",
+      "url": "https://github.com/obra/superpowers/pull/2300"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2301,
+      "state": "open",
+      "title": "Invoke bundled scripts through their interpreter in skill prose",
+      "updated_at": "2026-09-14T18:42:09Z",
+      "url": "https://github.com/obra/superpowers/pull/2301"
     }
   ],
   "schema_version": 1,
