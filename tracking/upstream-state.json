@@ -324,7 +324,7 @@
       "number": 2214,
       "state": "open",
       "title": "feat(skills): import proving-it-works-with-a-movie skill",
-      "updated_at": "2026-09-12T03:49:16Z",
+      "updated_at": "2026-09-16T05:25:46Z",
       "url": "https://github.com/obra/superpowers/pull/2214"
     },
     {
@@ -439,7 +439,7 @@
       "number": 2265,
       "state": "open",
       "title": "writing-plans: make execution-handoff recommendation contextual",
-      "updated_at": "2026-09-06T17:33:36Z",
+      "updated_at": "2026-09-15T16:34:57Z",
       "url": "https://github.com/obra/superpowers/pull/2265"
     },
     {
@@ -614,7 +614,7 @@
       "number": 2298,
       "state": "open",
       "title": "subagent-driven-development: review-package renders commit subjects only, so the task reviewer reports commit-body disclosures as undisclosed changes",
-      "updated_at": "2026-09-13T20:02:35Z",
+      "updated_at": "2026-09-15T12:26:00Z",
       "url": "https://github.com/obra/superpowers/issues/2298"
     },
     {
@@ -634,6 +634,15 @@
       "title": "Invoke bundled scripts through their interpreter in skill prose",
       "updated_at": "2026-09-14T18:42:09Z",
       "url": "https://github.com/obra/superpowers/pull/2301"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2303,
+      "state": "open",
+      "title": "fix(sdd): include commit bodies in review packages",
+      "updated_at": "2026-09-15T13:13:10Z",
+      "url": "https://github.com/obra/superpowers/pull/2303"
     }
   ],
   "schema_version": 1,
