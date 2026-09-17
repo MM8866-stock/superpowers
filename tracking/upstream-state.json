@@ -98,18 +98,6 @@
       "kind": "issue",
       "labels": [
         "enhancement",
-        "needs-repro-case"
-      ],
-      "number": 1238,
-      "state": "open",
-      "title": "Feature request: feature-doc-pack planning mode for team workflows and legacy repos",
-      "updated_at": "2026-09-03T21:25:09Z",
-      "url": "https://github.com/obra/superpowers/issues/1238"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
         "hooks"
       ],
       "number": 1442,
@@ -250,7 +238,7 @@
       "number": 2106,
       "state": "open",
       "title": "feat(opencode): support OpenCode v2 (opencode2) alongside v1",
-      "updated_at": "2026-09-14T10:22:35Z",
+      "updated_at": "2026-09-16T13:08:14Z",
       "url": "https://github.com/obra/superpowers/pull/2106"
     },
     {
@@ -643,6 +631,42 @@
       "title": "fix(sdd): include commit bodies in review packages",
       "updated_at": "2026-09-15T13:13:10Z",
       "url": "https://github.com/obra/superpowers/pull/2303"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2304,
+      "state": "open",
+      "title": "task-brief: track fence character and length so fenced examples cannot end a task early",
+      "updated_at": "2026-09-16T12:25:32Z",
+      "url": "https://github.com/obra/superpowers/pull/2304"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2305,
+      "state": "open",
+      "title": "OpenCode 2.0.4: official npm/git plugin specs fail with PluginModule.LoadError — named export not accepted",
+      "updated_at": "2026-09-16T14:07:54Z",
+      "url": "https://github.com/obra/superpowers/issues/2305"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2307,
+      "state": "open",
+      "title": "SDD helper scripts prompt for an app on Windows when invoked from PowerShell",
+      "updated_at": "2026-09-16T23:47:03Z",
+      "url": "https://github.com/obra/superpowers/issues/2307"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2308,
+      "state": "open",
+      "title": "fix(pi): persist bootstrap for prompt caching",
+      "updated_at": "2026-09-17T04:53:11Z",
+      "url": "https://github.com/obra/superpowers/pull/2308"
     }
   ],
   "schema_version": 1,
