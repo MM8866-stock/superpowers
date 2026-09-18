@@ -4,7 +4,36 @@
     "repository": "prime-radiant-inc/superpowers-evals",
     "sha": "e64684cd1fa270c464ac797747e45bbe8d127e8b"
   },
-  "high_value_changes": [],
+  "high_value_changes": [
+    {
+      "filename": "scripts/sync-to-codex-plugin.sh",
+      "status": "modified"
+    },
+    {
+      "filename": "skills/subagent-driven-development/SKILL.md",
+      "status": "modified"
+    },
+    {
+      "filename": "skills/subagent-driven-development/re-review-prompt.md",
+      "status": "modified"
+    },
+    {
+      "filename": "skills/subagent-driven-development/scripts/review-package",
+      "status": "modified"
+    },
+    {
+      "filename": "skills/subagent-driven-development/scripts/sdd-workspace",
+      "status": "modified"
+    },
+    {
+      "filename": "skills/subagent-driven-development/scripts/task-brief",
+      "status": "modified"
+    },
+    {
+      "filename": "skills/subagent-driven-development/task-reviewer-prompt.md",
+      "status": "modified"
+    }
+  ],
   "relevant_items": [
     {
       "kind": "issue",
@@ -60,6 +89,17 @@
     {
       "kind": "issue",
       "labels": [
+        "enhancement"
+      ],
+      "number": 895,
+      "state": "open",
+      "title": "writing-plans: plans over-specify implementation, leaving no room for executor judgment",
+      "updated_at": "2026-09-17T08:04:30Z",
+      "url": "https://github.com/obra/superpowers/issues/895"
+    },
+    {
+      "kind": "issue",
+      "labels": [
         "subagents",
         "worktrees"
       ],
@@ -103,7 +143,7 @@
       "number": 1442,
       "state": "open",
       "title": "Expose lifecycle events beyond SessionStart for external integration",
-      "updated_at": "2026-09-04T08:39:37Z",
+      "updated_at": "2026-09-18T02:31:59Z",
       "url": "https://github.com/obra/superpowers/issues/1442"
     },
     {
@@ -116,32 +156,6 @@
       "title": "Add lifecycle extension system for user-defined workflow hooks",
       "updated_at": "2026-09-10T11:41:55Z",
       "url": "https://github.com/obra/superpowers/issues/1566"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "skills",
-        "subagents"
-      ],
-      "number": 1749,
-      "state": "open",
-      "title": "Bug: subagent-driven-development: orchestrator fabricates entire subagent dialogues instead of dispatching real Agent tool calls",
-      "updated_at": "2026-09-03T21:25:20Z",
-      "url": "https://github.com/obra/superpowers/issues/1749"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "claude-code",
-        "subagents"
-      ],
-      "number": 1799,
-      "state": "open",
-      "title": "subagent-driven-development: review-package operates on $PWD, forcing an un-allowlistable \"cd <repo> ; review-package\" compound",
-      "updated_at": "2026-09-03T21:25:22Z",
-      "url": "https://github.com/obra/superpowers/issues/1799"
     },
     {
       "kind": "pull_request",
@@ -235,15 +249,6 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 2106,
-      "state": "open",
-      "title": "feat(opencode): support OpenCode v2 (opencode2) alongside v1",
-      "updated_at": "2026-09-16T13:08:14Z",
-      "url": "https://github.com/obra/superpowers/pull/2106"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 2126,
       "state": "open",
       "title": "feat(kiro): add Kiro v3 support via native custom agent + Agent Skills",
@@ -287,17 +292,6 @@
       "url": "https://github.com/obra/superpowers/pull/2184"
     },
     {
-      "kind": "issue",
-      "labels": [
-        "new-harness"
-      ],
-      "number": 2194,
-      "state": "open",
-      "title": "[Feature]: Add Amazon Q Developer CLI harness support",
-      "updated_at": "2026-09-03T21:25:35Z",
-      "url": "https://github.com/obra/superpowers/issues/2194"
-    },
-    {
       "kind": "pull_request",
       "labels": [],
       "number": 2196,
@@ -305,15 +299,6 @@
       "title": "fix: distinguish characterization tests from feature RED",
       "updated_at": "2026-09-09T04:29:16Z",
       "url": "https://github.com/obra/superpowers/pull/2196"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2214,
-      "state": "open",
-      "title": "feat(skills): import proving-it-works-with-a-movie skill",
-      "updated_at": "2026-09-16T05:25:46Z",
-      "url": "https://github.com/obra/superpowers/pull/2214"
     },
     {
       "kind": "pull_request",
@@ -492,7 +477,7 @@
       "number": 2276,
       "state": "open",
       "title": "fix(sdd): let the SDD scripts run before a greenfield Task 1 creates the repo",
-      "updated_at": "2026-09-10T10:09:42Z",
+      "updated_at": "2026-09-17T11:37:55Z",
       "url": "https://github.com/obra/superpowers/pull/2276"
     },
     {
@@ -617,15 +602,6 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 2301,
-      "state": "open",
-      "title": "Invoke bundled scripts through their interpreter in skill prose",
-      "updated_at": "2026-09-14T18:42:09Z",
-      "url": "https://github.com/obra/superpowers/pull/2301"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 2303,
       "state": "open",
       "title": "fix(sdd): include commit bodies in review packages",
@@ -667,11 +643,83 @@
       "title": "fix(pi): persist bootstrap for prompt caching",
       "updated_at": "2026-09-17T04:53:11Z",
       "url": "https://github.com/obra/superpowers/pull/2308"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2309,
+      "state": "open",
+      "title": "writing-plans: self-review misses task-state/DAG closure in executable plans",
+      "updated_at": "2026-09-17T06:26:31Z",
+      "url": "https://github.com/obra/superpowers/issues/2309"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2316,
+      "state": "open",
+      "title": "finishing-a-development-branch: PR review has no lifecycle transition back to merge/release",
+      "updated_at": "2026-09-17T17:34:21Z",
+      "url": "https://github.com/obra/superpowers/issues/2316"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2322,
+      "state": "open",
+      "title": "fix(sdd): record in-flight tasks in the ledger to prevent re-dispatch of committed work",
+      "updated_at": "2026-09-18T01:43:24Z",
+      "url": "https://github.com/obra/superpowers/pull/2322"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2323,
+      "state": "open",
+      "title": "fix(writing-skills): GREEN must measure outcome, not only compliance",
+      "updated_at": "2026-09-18T01:56:51Z",
+      "url": "https://github.com/obra/superpowers/pull/2323"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2324,
+      "state": "open",
+      "title": "fix(verification-before-completion): evidence needs provenance, not just freshness",
+      "updated_at": "2026-09-18T02:15:14Z",
+      "url": "https://github.com/obra/superpowers/pull/2324"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2325,
+      "state": "open",
+      "title": "feat: per-skill configuration, loaded automatically at skill invocation",
+      "updated_at": "2026-09-18T02:20:10Z",
+      "url": "https://github.com/obra/superpowers/pull/2325"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2326,
+      "state": "open",
+      "title": "fix(sdd): an Approved verdict closes the task; severity and Assessment must agree",
+      "updated_at": "2026-09-18T02:30:53Z",
+      "url": "https://github.com/obra/superpowers/pull/2326"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2328,
+      "state": "open",
+      "title": "fix(sdd): archive the plan workspace at Finish instead of deleting it",
+      "updated_at": "2026-09-18T05:37:06Z",
+      "url": "https://github.com/obra/superpowers/pull/2328"
     }
   ],
   "schema_version": 1,
   "upstream": {
-    "dev_sha": "5940bd8d48fe9488056a1f6718ed2670dc9596c0",
+    "dev_sha": "8f5a89afe4070ce84e428fe345ab4d5d39a29314",
     "release": {
       "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
       "tag": "v6.3.0",
