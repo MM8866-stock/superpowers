@@ -4,36 +4,7 @@
     "repository": "prime-radiant-inc/superpowers-evals",
     "sha": "e64684cd1fa270c464ac797747e45bbe8d127e8b"
   },
-  "high_value_changes": [
-    {
-      "filename": "scripts/sync-to-codex-plugin.sh",
-      "status": "modified"
-    },
-    {
-      "filename": "skills/subagent-driven-development/SKILL.md",
-      "status": "modified"
-    },
-    {
-      "filename": "skills/subagent-driven-development/re-review-prompt.md",
-      "status": "modified"
-    },
-    {
-      "filename": "skills/subagent-driven-development/scripts/review-package",
-      "status": "modified"
-    },
-    {
-      "filename": "skills/subagent-driven-development/scripts/sdd-workspace",
-      "status": "modified"
-    },
-    {
-      "filename": "skills/subagent-driven-development/scripts/task-brief",
-      "status": "modified"
-    },
-    {
-      "filename": "skills/subagent-driven-development/task-reviewer-prompt.md",
-      "status": "modified"
-    }
-  ],
+  "high_value_changes": [],
   "relevant_items": [
     {
       "kind": "issue",
@@ -100,18 +71,6 @@
     {
       "kind": "issue",
       "labels": [
-        "subagents",
-        "worktrees"
-      ],
-      "number": 1040,
-      "state": "open",
-      "title": "Worktree skill doesn't enforce file operations stay within worktree",
-      "updated_at": "2026-09-06T21:22:30Z",
-      "url": "https://github.com/obra/superpowers/issues/1040"
-    },
-    {
-      "kind": "issue",
-      "labels": [
         "enhancement",
         "plans"
       ],
@@ -143,7 +102,7 @@
       "number": 1442,
       "state": "open",
       "title": "Expose lifecycle events beyond SessionStart for external integration",
-      "updated_at": "2026-09-18T02:31:59Z",
+      "updated_at": "2026-09-18T10:59:35Z",
       "url": "https://github.com/obra/superpowers/issues/1442"
     },
     {
@@ -199,19 +158,6 @@
       "title": "[Feature] Dedicated documentation website for Superpowers",
       "updated_at": "2026-09-06T08:36:22Z",
       "url": "https://github.com/obra/superpowers/issues/2030"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "codex",
-        "subagents"
-      ],
-      "number": 2040,
-      "state": "open",
-      "title": "Codex marketplace package drops executable bits on SDD helper scripts",
-      "updated_at": "2026-09-13T17:07:23Z",
-      "url": "https://github.com/obra/superpowers/issues/2040"
     },
     {
       "kind": "issue",
@@ -290,6 +236,17 @@
       "title": "feat (harness): add Bob harness support",
       "updated_at": "2026-09-10T02:54:47Z",
       "url": "https://github.com/obra/superpowers/pull/2184"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "new-harness"
+      ],
+      "number": 2194,
+      "state": "open",
+      "title": "[Feature]: Add Amazon Q Developer CLI harness support",
+      "updated_at": "2026-09-03T21:25:35Z",
+      "url": "https://github.com/obra/superpowers/issues/2194"
     },
     {
       "kind": "pull_request",
@@ -448,7 +405,7 @@
       "number": 2272,
       "state": "open",
       "title": "docs: add MiniMax Code marketplace installation",
-      "updated_at": "2026-09-10T08:21:07Z",
+      "updated_at": "2026-09-18T18:34:28Z",
       "url": "https://github.com/obra/superpowers/pull/2272"
     },
     {
@@ -533,7 +490,7 @@
       "number": 2291,
       "state": "open",
       "title": "fix(systematic-debugging): keep pressure-test fixtures out of skill installs",
-      "updated_at": "2026-09-12T06:52:05Z",
+      "updated_at": "2026-09-18T18:36:37Z",
       "url": "https://github.com/obra/superpowers/pull/2291"
     },
     {
@@ -623,7 +580,7 @@
       "number": 2305,
       "state": "open",
       "title": "OpenCode 2.0.4: official npm/git plugin specs fail with PluginModule.LoadError — named export not accepted",
-      "updated_at": "2026-09-16T14:07:54Z",
+      "updated_at": "2026-09-18T21:36:58Z",
       "url": "https://github.com/obra/superpowers/issues/2305"
     },
     {
@@ -650,7 +607,7 @@
       "number": 2309,
       "state": "open",
       "title": "writing-plans: self-review misses task-state/DAG closure in executable plans",
-      "updated_at": "2026-09-17T06:26:31Z",
+      "updated_at": "2026-09-19T01:58:00Z",
       "url": "https://github.com/obra/superpowers/issues/2309"
     },
     {
@@ -659,7 +616,7 @@
       "number": 2316,
       "state": "open",
       "title": "finishing-a-development-branch: PR review has no lifecycle transition back to merge/release",
-      "updated_at": "2026-09-17T17:34:21Z",
+      "updated_at": "2026-09-19T01:57:57Z",
       "url": "https://github.com/obra/superpowers/issues/2316"
     },
     {
@@ -692,15 +649,6 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 2325,
-      "state": "open",
-      "title": "feat: per-skill configuration, loaded automatically at skill invocation",
-      "updated_at": "2026-09-18T02:20:10Z",
-      "url": "https://github.com/obra/superpowers/pull/2325"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 2326,
       "state": "open",
       "title": "fix(sdd): an Approved verdict closes the task; severity and Assessment must agree",
@@ -715,15 +663,51 @@
       "title": "fix(sdd): archive the plan workspace at Finish instead of deleting it",
       "updated_at": "2026-09-18T05:37:06Z",
       "url": "https://github.com/obra/superpowers/pull/2328"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2332,
+      "state": "open",
+      "title": "Workflow has first-class specs/plans but no durable QA/acceptance artifact layer",
+      "updated_at": "2026-09-19T02:13:28Z",
+      "url": "https://github.com/obra/superpowers/issues/2332"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2333,
+      "state": "open",
+      "title": "writing-plans: a plan is decisions, not a transcript (step recipe, proportion check, capable reader)",
+      "updated_at": "2026-09-18T20:15:27Z",
+      "url": "https://github.com/obra/superpowers/pull/2333"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2334,
+      "state": "open",
+      "title": "Plan sets: all plans written up front, each listing the set; executors continue into the next plan",
+      "updated_at": "2026-09-18T20:15:29Z",
+      "url": "https://github.com/obra/superpowers/pull/2334"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2340,
+      "state": "open",
+      "title": "Plans as directories (a header file plus one file per task), and a boundary check before each next plan",
+      "updated_at": "2026-09-19T00:28:12Z",
+      "url": "https://github.com/obra/superpowers/pull/2340"
     }
   ],
   "schema_version": 1,
   "upstream": {
-    "dev_sha": "8f5a89afe4070ce84e428fe345ab4d5d39a29314",
+    "dev_sha": "5f7ff538aa4209682a3a0086ae40c32ea32b0b9d",
     "release": {
-      "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
-      "tag": "v6.3.0",
-      "url": "https://github.com/obra/superpowers/releases/tag/v6.3.0"
+      "sha": "5bf4e78011075bcfc0dc295f0724994cd123ee71",
+      "tag": "v6.4.1",
+      "url": "https://github.com/obra/superpowers/releases/tag/v6.4.1"
     },
     "repository": "obra/superpowers"
   }
