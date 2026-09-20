@@ -238,17 +238,6 @@
       "url": "https://github.com/obra/superpowers/pull/2184"
     },
     {
-      "kind": "issue",
-      "labels": [
-        "new-harness"
-      ],
-      "number": 2194,
-      "state": "open",
-      "title": "[Feature]: Add Amazon Q Developer CLI harness support",
-      "updated_at": "2026-09-03T21:25:35Z",
-      "url": "https://github.com/obra/superpowers/issues/2194"
-    },
-    {
       "kind": "pull_request",
       "labels": [],
       "number": 2196,
@@ -490,7 +479,7 @@
       "number": 2291,
       "state": "open",
       "title": "fix(systematic-debugging): keep pressure-test fixtures out of skill installs",
-      "updated_at": "2026-09-18T18:36:37Z",
+      "updated_at": "2026-09-19T10:11:48Z",
       "url": "https://github.com/obra/superpowers/pull/2291"
     },
     {
@@ -508,7 +497,7 @@
       "number": 2294,
       "state": "open",
       "title": "fix(finishing): surface surviving Superpowers scratch before worktree removal",
-      "updated_at": "2026-09-13T11:53:29Z",
+      "updated_at": "2026-09-19T18:35:07Z",
       "url": "https://github.com/obra/superpowers/pull/2294"
     },
     {
@@ -517,7 +506,7 @@
       "number": 2295,
       "state": "open",
       "title": "fix(writing-plans): require produced expected values in verification steps",
-      "updated_at": "2026-09-13T11:53:08Z",
+      "updated_at": "2026-09-19T18:35:09Z",
       "url": "https://github.com/obra/superpowers/pull/2295"
     },
     {
@@ -526,7 +515,7 @@
       "number": 2296,
       "state": "open",
       "title": "fix(executing-plans): handle plans that are not code changes in a git repo",
-      "updated_at": "2026-09-13T12:47:33Z",
+      "updated_at": "2026-09-19T18:35:12Z",
       "url": "https://github.com/obra/superpowers/pull/2296"
     },
     {
@@ -535,7 +524,7 @@
       "number": 2297,
       "state": "open",
       "title": "fix(sdd): record dispatches in the ledger so outages do not re-dispatch committed work",
-      "updated_at": "2026-09-13T13:20:43Z",
+      "updated_at": "2026-09-19T18:35:14Z",
       "url": "https://github.com/obra/superpowers/pull/2297"
     },
     {
@@ -573,15 +562,6 @@
       "title": "task-brief: track fence character and length so fenced examples cannot end a task early",
       "updated_at": "2026-09-16T12:25:32Z",
       "url": "https://github.com/obra/superpowers/pull/2304"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2305,
-      "state": "open",
-      "title": "OpenCode 2.0.4: official npm/git plugin specs fail with PluginModule.LoadError — named export not accepted",
-      "updated_at": "2026-09-18T21:36:58Z",
-      "url": "https://github.com/obra/superpowers/issues/2305"
     },
     {
       "kind": "issue",
@@ -670,7 +650,7 @@
       "number": 2332,
       "state": "open",
       "title": "Workflow has first-class specs/plans but no durable QA/acceptance artifact layer",
-      "updated_at": "2026-09-19T02:13:28Z",
+      "updated_at": "2026-09-19T15:58:16Z",
       "url": "https://github.com/obra/superpowers/issues/2332"
     },
     {
@@ -699,6 +679,33 @@
       "title": "Plans as directories (a header file plus one file per task), and a boundary check before each next plan",
       "updated_at": "2026-09-19T00:28:12Z",
       "url": "https://github.com/obra/superpowers/pull/2340"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2341,
+      "state": "open",
+      "title": "feat(companion): add project-taskboard as execution companion for plans",
+      "updated_at": "2026-09-19T11:56:46Z",
+      "url": "https://github.com/obra/superpowers/pull/2341"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2344,
+      "state": "open",
+      "title": "RELEASE-NOTES say a deleted .superpowers/sdd/progress.md can be recovered from git log; it cannot",
+      "updated_at": "2026-09-19T17:09:43Z",
+      "url": "https://github.com/obra/superpowers/issues/2344"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2347,
+      "state": "open",
+      "title": "feat(openclaw): add native Superpowers bootstrap",
+      "updated_at": "2026-09-19T21:02:12Z",
+      "url": "https://github.com/obra/superpowers/pull/2347"
     }
   ],
   "schema_version": 1,
