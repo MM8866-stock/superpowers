@@ -9,80 +9,14 @@
     {
       "kind": "issue",
       "labels": [
-        "bug",
-        "documentation",
-        "hermes",
-        "skill:using-superpowers",
-        "skills"
-      ],
-      "number": 2157,
-      "state": "open",
-      "title": "[Bug]: Hermes tool mapping in v6.3.0 uses stale names and an unqualified plugin skill name",
-      "updated_at": "2026-09-20T23:09:07Z",
-      "url": "https://github.com/obra/superpowers/issues/2157"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "opencode",
-        "skill:using-superpowers",
-        "subagents"
-      ],
-      "number": 2160,
-      "state": "open",
-      "title": "OpenCode: Superpowers bootstrap is injected into task subagents, causing them to restart controller workflows",
-      "updated_at": "2026-09-20T23:09:08Z",
-      "url": "https://github.com/obra/superpowers/issues/2160"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
+        "enhancement",
         "skill:subagent-driven-development"
       ],
-      "number": 2161,
+      "number": 2017,
       "state": "open",
-      "title": "fix(sdd): make sdd-workspace's .gitignore create-only, not an unconditional overwrite",
-      "updated_at": "2026-09-20T23:09:10Z",
-      "url": "https://github.com/obra/superpowers/pull/2161"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:using-superpowers"
-      ],
-      "number": 2162,
-      "state": "open",
-      "title": "fix(using-superpowers): correct Hermes tool mapping",
-      "updated_at": "2026-09-20T23:09:12Z",
-      "url": "https://github.com/obra/superpowers/pull/2162"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "codex",
-        "skill:using-git-worktrees",
-        "worktrees"
-      ],
-      "number": 2166,
-      "state": "open",
-      "title": "[Codex] Manual worktree fallback leaves current task bound to parent checkout",
-      "updated_at": "2026-09-20T23:09:14Z",
-      "url": "https://github.com/obra/superpowers/issues/2166"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "skill:subagent-driven-development",
-        "subagents"
-      ],
-      "number": 2175,
-      "state": "open",
-      "title": "subagent-driven-development: task-brief matches 'Task 6b' when asked for Task 6",
-      "updated_at": "2026-09-20T23:09:15Z",
-      "url": "https://github.com/obra/superpowers/issues/2175"
+      "title": "Retuning subagent driven development for Opus 6 and Sol 5.6 ",
+      "updated_at": "2026-09-21T10:19:23Z",
+      "url": "https://github.com/obra/superpowers/issues/2017"
     },
     {
       "kind": "pull_request",
@@ -702,7 +636,7 @@
       "number": 2309,
       "state": "open",
       "title": "writing-plans: self-review misses task-state/DAG closure in executable plans",
-      "updated_at": "2026-09-20T23:11:32Z",
+      "updated_at": "2026-09-21T14:56:57Z",
       "url": "https://github.com/obra/superpowers/issues/2309"
     },
     {
@@ -783,7 +717,7 @@
       "number": 2332,
       "state": "open",
       "title": "Workflow has first-class specs/plans but no durable QA/acceptance artifact layer",
-      "updated_at": "2026-09-20T23:11:52Z",
+      "updated_at": "2026-09-21T14:56:59Z",
       "url": "https://github.com/obra/superpowers/issues/2332"
     },
     {
@@ -878,6 +812,53 @@
       "title": "docs: correct SDD ledger recovery guidance",
       "updated_at": "2026-09-20T23:12:12Z",
       "url": "https://github.com/obra/superpowers/pull/2354"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2356,
+      "state": "open",
+      "title": "Optional parallel tester role in subagent-driven-development's task review step",
+      "updated_at": "2026-09-21T17:28:44Z",
+      "url": "https://github.com/obra/superpowers/issues/2356"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2358,
+      "state": "open",
+      "title": "fix(sdd): stop the controller's context growing without bound",
+      "updated_at": "2026-09-21T13:09:02Z",
+      "url": "https://github.com/obra/superpowers/pull/2358"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2359,
+      "state": "open",
+      "title": "fix(sdd): stop task-brief leaking trailing plan sections",
+      "updated_at": "2026-09-21T13:09:05Z",
+      "url": "https://github.com/obra/superpowers/pull/2359"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2360,
+      "state": "open",
+      "title": "feat(skills): add marketing-mindset skill",
+      "updated_at": "2026-09-21T13:21:54Z",
+      "url": "https://github.com/obra/superpowers/pull/2360"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2361,
+      "state": "open",
+      "title": "fix(requesting-code-review): preserve base SHA with skill arguments",
+      "updated_at": "2026-09-21T14:55:00Z",
+      "url": "https://github.com/obra/superpowers/pull/2361"
     }
   ],
   "schema_version": 1,
