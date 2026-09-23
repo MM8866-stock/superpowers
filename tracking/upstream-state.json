@@ -21,69 +21,6 @@
     {
       "kind": "pull_request",
       "labels": [
-        "skill:subagent-driven-development"
-      ],
-      "number": 2176,
-      "state": "open",
-      "title": "fix(sdd): stop task-brief swallowing letter-suffixed sub-tasks    (#2175)",
-      "updated_at": "2026-09-20T23:09:17Z",
-      "url": "https://github.com/obra/superpowers/pull/2176"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "claude-code",
-        "skill:executing-plans",
-        "skill:subagent-driven-development",
-        "skill:using-superpowers",
-        "skill:writing-skills",
-        "skills"
-      ],
-      "number": 2177,
-      "state": "open",
-      "title": "Claude Code 2.1.233 removed TodoWrite/Task* on current models — four skills still instruct todo use",
-      "updated_at": "2026-09-20T23:09:20Z",
-      "url": "https://github.com/obra/superpowers/issues/2177"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:subagent-driven-development",
-        "skill:writing-plans"
-      ],
-      "number": 2179,
-      "state": "open",
-      "title": "Add skeleton-first planning as a selectable alternative to task-by-task plans",
-      "updated_at": "2026-09-20T23:09:23Z",
-      "url": "https://github.com/obra/superpowers/pull/2179"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:writing-plans"
-      ],
-      "number": 2182,
-      "state": "open",
-      "title": "fix(writing-plans): use durable file anchors",
-      "updated_at": "2026-09-20T23:09:26Z",
-      "url": "https://github.com/obra/superpowers/pull/2182"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:executing-plans",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2183,
-      "state": "open",
-      "title": "fix(skills): handle unavailable task tracking",
-      "updated_at": "2026-09-20T23:09:28Z",
-      "url": "https://github.com/obra/superpowers/pull/2183"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
         "skill:subagent-driven-development",
         "skill:test-driven-development",
         "skill:writing-plans"
@@ -659,7 +596,7 @@
       "number": 2322,
       "state": "open",
       "title": "fix(sdd): record in-flight tasks in the ledger to prevent re-dispatch of committed work",
-      "updated_at": "2026-09-20T23:11:42Z",
+      "updated_at": "2026-09-23T04:29:24Z",
       "url": "https://github.com/obra/superpowers/pull/2322"
     },
     {
@@ -670,7 +607,7 @@
       "number": 2323,
       "state": "open",
       "title": "fix(writing-skills): GREEN must measure outcome, not only compliance",
-      "updated_at": "2026-09-20T23:11:44Z",
+      "updated_at": "2026-09-23T04:29:26Z",
       "url": "https://github.com/obra/superpowers/pull/2323"
     },
     {
@@ -681,7 +618,7 @@
       "number": 2324,
       "state": "open",
       "title": "fix(verification-before-completion): evidence needs provenance, not just freshness",
-      "updated_at": "2026-09-20T23:11:46Z",
+      "updated_at": "2026-09-23T04:29:28Z",
       "url": "https://github.com/obra/superpowers/pull/2324"
     },
     {
@@ -692,7 +629,7 @@
       "number": 2326,
       "state": "open",
       "title": "fix(sdd): an Approved verdict closes the task; severity and Assessment must agree",
-      "updated_at": "2026-09-20T23:11:48Z",
+      "updated_at": "2026-09-23T04:29:29Z",
       "url": "https://github.com/obra/superpowers/pull/2326"
     },
     {
@@ -857,8 +794,35 @@
       "number": 2361,
       "state": "open",
       "title": "fix(requesting-code-review): preserve base SHA with skill arguments",
-      "updated_at": "2026-09-21T14:55:00Z",
+      "updated_at": "2026-09-22T10:04:12Z",
       "url": "https://github.com/obra/superpowers/pull/2361"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2364,
+      "state": "open",
+      "title": "fix(brainstorming): preserve literal content replacement tokens",
+      "updated_at": "2026-09-22T06:59:55Z",
+      "url": "https://github.com/obra/superpowers/pull/2364"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2368,
+      "state": "open",
+      "title": "SDD: opt-in DAG/wave execution for independent plan tasks (not Agent Teams)",
+      "updated_at": "2026-09-22T07:46:06Z",
+      "url": "https://github.com/obra/superpowers/issues/2368"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2369,
+      "state": "open",
+      "title": "fix(sdd): keep helper paths Windows-readable (#2307)",
+      "updated_at": "2026-09-22T13:52:04Z",
+      "url": "https://github.com/obra/superpowers/pull/2369"
     }
   ],
   "schema_version": 1,
