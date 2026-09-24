@@ -21,44 +21,6 @@
     {
       "kind": "pull_request",
       "labels": [
-        "skill:subagent-driven-development",
-        "skill:test-driven-development",
-        "skill:writing-plans"
-      ],
-      "number": 2185,
-      "state": "open",
-      "title": "fix: harden TDD/SDD/writing-plans against NameError, accidental deletes, uncommitted work",
-      "updated_at": "2026-09-20T23:09:31Z",
-      "url": "https://github.com/obra/superpowers/pull/2185"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:brainstorming",
-        "skill:dispatching-parallel-agents",
-        "skill:requesting-code-review",
-        "skill:writing-plans"
-      ],
-      "number": 2193,
-      "state": "open",
-      "title": "fix(skills): require explicit model on subagent dispatches outside SDD (#2034)",
-      "updated_at": "2026-09-20T23:09:35Z",
-      "url": "https://github.com/obra/superpowers/pull/2193"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:test-driven-development"
-      ],
-      "number": 2196,
-      "state": "open",
-      "title": "fix: distinguish characterization tests from feature RED",
-      "updated_at": "2026-09-20T23:09:38Z",
-      "url": "https://github.com/obra/superpowers/pull/2196"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
         "skill:using-superpowers"
       ],
       "number": 2200,
@@ -823,6 +785,15 @@
       "title": "fix(sdd): keep helper paths Windows-readable (#2307)",
       "updated_at": "2026-09-22T13:52:04Z",
       "url": "https://github.com/obra/superpowers/pull/2369"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2372,
+      "state": "open",
+      "title": "Codex Desktop: brainstorming approval gates skipped after skill read (6.4.1)",
+      "updated_at": "2026-09-23T22:55:20Z",
+      "url": "https://github.com/obra/superpowers/issues/2372"
     }
   ],
   "schema_version": 1,
