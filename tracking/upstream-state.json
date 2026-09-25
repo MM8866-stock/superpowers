@@ -9,6 +9,18 @@
     {
       "kind": "issue",
       "labels": [
+        "plans",
+        "skill:writing-plans"
+      ],
+      "number": 1044,
+      "state": "open",
+      "title": "writing-plans: execution handoff should respect user-defined execution modes",
+      "updated_at": "2026-09-24T11:17:25Z",
+      "url": "https://github.com/obra/superpowers/issues/1044"
+    },
+    {
+      "kind": "issue",
+      "labels": [
         "enhancement",
         "skill:subagent-driven-development"
       ],
@@ -17,85 +29,6 @@
       "title": "Retuning subagent driven development for Opus 6 and Sol 5.6 ",
       "updated_at": "2026-09-21T10:19:23Z",
       "url": "https://github.com/obra/superpowers/issues/2017"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:using-superpowers"
-      ],
-      "number": 2200,
-      "state": "open",
-      "title": "Add ZCode harness support",
-      "updated_at": "2026-09-20T23:09:43Z",
-      "url": "https://github.com/obra/superpowers/pull/2200"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skill:dispatching-parallel-agents",
-        "skills",
-        "subagents"
-      ],
-      "number": 2202,
-      "state": "open",
-      "title": "dispatching-parallel-agents: a dispatched agent can re-delegate and return a status promise, silently losing the lane",
-      "updated_at": "2026-09-20T23:09:45Z",
-      "url": "https://github.com/obra/superpowers/issues/2202"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "brainstorming",
-        "bug",
-        "codex",
-        "skill:brainstorming",
-        "skill:subagent-driven-development",
-        "subagents"
-      ],
-      "number": 2203,
-      "state": "open",
-      "title": "Bounded tasks fill the main session context",
-      "updated_at": "2026-09-20T23:09:47Z",
-      "url": "https://github.com/obra/superpowers/issues/2203"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:using-git-worktrees"
-      ],
-      "number": 2204,
-      "state": "open",
-      "title": "fix: detect Python package manager before poetry install in worktrees",
-      "updated_at": "2026-09-20T23:09:49Z",
-      "url": "https://github.com/obra/superpowers/pull/2204"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:using-superpowers"
-      ],
-      "number": 2205,
-      "state": "open",
-      "title": "fix(codex): derive spawns from live capabilities",
-      "updated_at": "2026-09-20T23:09:51Z",
-      "url": "https://github.com/obra/superpowers/pull/2205"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "skill:finishing-a-development-branch",
-        "skill:subagent-driven-development",
-        "skills",
-        "subagents",
-        "worktrees"
-      ],
-      "number": 2207,
-      "state": "open",
-      "title": "`finishing-a-development-branch` can silently delete an SDD workspace: ignored files don't make a worktree dirty",
-      "updated_at": "2026-09-20T23:09:52Z",
-      "url": "https://github.com/obra/superpowers/issues/2207"
     },
     {
       "kind": "pull_request",
@@ -401,7 +334,7 @@
       "number": 2289,
       "state": "open",
       "title": "writing-plans: Execution Handoff question always blocks, even when the choice is obvious",
-      "updated_at": "2026-09-20T23:11:05Z",
+      "updated_at": "2026-09-24T11:20:46Z",
       "url": "https://github.com/obra/superpowers/issues/2289"
     },
     {
@@ -616,7 +549,7 @@
       "number": 2332,
       "state": "open",
       "title": "Workflow has first-class specs/plans but no durable QA/acceptance artifact layer",
-      "updated_at": "2026-09-21T14:56:59Z",
+      "updated_at": "2026-09-24T15:09:30Z",
       "url": "https://github.com/obra/superpowers/issues/2332"
     },
     {
@@ -794,6 +727,24 @@
       "title": "Codex Desktop: brainstorming approval gates skipped after skill read (6.4.1)",
       "updated_at": "2026-09-23T22:55:20Z",
       "url": "https://github.com/obra/superpowers/issues/2372"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2377,
+      "state": "open",
+      "title": "Pressure-language bootstrap and narration suppressors degrade behavior on current Claude models",
+      "updated_at": "2026-09-24T14:44:58Z",
+      "url": "https://github.com/obra/superpowers/issues/2377"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2379,
+      "state": "open",
+      "title": "fix(writing-plans): the plan is a document — check code by reading, not by building it",
+      "updated_at": "2026-09-25T03:16:24Z",
+      "url": "https://github.com/obra/superpowers/pull/2379"
     }
   ],
   "schema_version": 1,
