@@ -123,17 +123,6 @@
     {
       "kind": "pull_request",
       "labels": [
-        "skill:subagent-driven-development"
-      ],
-      "number": 1938,
-      "state": "open",
-      "title": "fix: scope SDD artifacts by plan identity",
-      "updated_at": "2026-09-26T05:08:23Z",
-      "url": "https://github.com/obra/superpowers/pull/1938"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
         "enhancement",
         "new-harness"
       ],
@@ -180,18 +169,6 @@
       "title": "fix(codex): make package timestamps timezone-independent",
       "updated_at": "2026-09-26T18:52:24Z",
       "url": "https://github.com/obra/superpowers/pull/2007"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2017,
-      "state": "open",
-      "title": "Retuning subagent driven development for Opus 6 and Sol 5.6 ",
-      "updated_at": "2026-09-21T10:19:23Z",
-      "url": "https://github.com/obra/superpowers/issues/2017"
     },
     {
       "kind": "issue",
@@ -317,7 +294,7 @@
       "number": 2144,
       "state": "open",
       "title": "feat: add DeepSeek Harness (dsh) support",
-      "updated_at": "2026-09-26T18:52:35Z",
+      "updated_at": "2026-09-27T12:52:52Z",
       "url": "https://github.com/obra/superpowers/pull/2144"
     },
     {
@@ -495,6 +472,17 @@
       "url": "https://github.com/obra/superpowers/issues/2273"
     },
     {
+      "kind": "pull_request",
+      "labels": [
+        "skill:subagent-driven-development"
+      ],
+      "number": 2276,
+      "state": "open",
+      "title": "fix(sdd): let the SDD scripts run before a greenfield Task 1 creates the repo",
+      "updated_at": "2026-09-27T15:12:35Z",
+      "url": "https://github.com/obra/superpowers/pull/2276"
+    },
+    {
       "kind": "issue",
       "labels": [
         "bug",
@@ -569,6 +557,17 @@
       "labels": [
         "skill:subagent-driven-development"
       ],
+      "number": 2297,
+      "state": "open",
+      "title": "fix(sdd): record dispatches in the ledger so outages do not re-dispatch committed work",
+      "updated_at": "2026-09-27T12:23:14Z",
+      "url": "https://github.com/obra/superpowers/pull/2297"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "skill:subagent-driven-development"
+      ],
       "number": 2300,
       "state": "open",
       "title": "fix(sdd): review evidence-only responses without fake fixes",
@@ -580,10 +579,21 @@
       "labels": [
         "skill:subagent-driven-development"
       ],
+      "number": 2303,
+      "state": "open",
+      "title": "fix(sdd): include commit bodies in review packages",
+      "updated_at": "2026-09-27T06:29:36Z",
+      "url": "https://github.com/obra/superpowers/pull/2303"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "skill:subagent-driven-development"
+      ],
       "number": 2304,
       "state": "open",
       "title": "task-brief: track fence character and length so fenced examples cannot end a task early",
-      "updated_at": "2026-09-25T14:11:49Z",
+      "updated_at": "2026-09-27T06:29:41Z",
       "url": "https://github.com/obra/superpowers/pull/2304"
     },
     {
@@ -595,31 +605,8 @@
       "number": 2308,
       "state": "open",
       "title": "fix(pi): persist bootstrap for prompt caching",
-      "updated_at": "2026-09-26T18:53:27Z",
+      "updated_at": "2026-09-27T06:48:07Z",
       "url": "https://github.com/obra/superpowers/pull/2308"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "skill:writing-plans"
-      ],
-      "number": 2309,
-      "state": "open",
-      "title": "writing-plans: self-review misses task-state/DAG closure in executable plans",
-      "updated_at": "2026-09-21T14:56:57Z",
-      "url": "https://github.com/obra/superpowers/issues/2309"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "skill:finishing-a-development-branch",
-        "skill:receiving-code-review"
-      ],
-      "number": 2316,
-      "state": "open",
-      "title": "finishing-a-development-branch: PR review has no lifecycle transition back to merge/release",
-      "updated_at": "2026-09-20T23:11:41Z",
-      "url": "https://github.com/obra/superpowers/issues/2316"
     },
     {
       "kind": "pull_request",
@@ -629,7 +616,7 @@
       "number": 2322,
       "state": "open",
       "title": "fix(sdd): record in-flight tasks in the ledger to prevent re-dispatch of committed work",
-      "updated_at": "2026-09-27T06:04:01Z",
+      "updated_at": "2026-09-27T12:14:20Z",
       "url": "https://github.com/obra/superpowers/pull/2322"
     },
     {
@@ -640,7 +627,7 @@
       "number": 2323,
       "state": "open",
       "title": "fix(writing-skills): GREEN must measure outcome, not only compliance",
-      "updated_at": "2026-09-27T06:02:31Z",
+      "updated_at": "2026-09-27T12:23:35Z",
       "url": "https://github.com/obra/superpowers/pull/2323"
     },
     {
@@ -651,7 +638,7 @@
       "number": 2324,
       "state": "open",
       "title": "fix(verification-before-completion): evidence needs provenance, not just freshness",
-      "updated_at": "2026-09-27T06:02:36Z",
+      "updated_at": "2026-09-27T12:21:03Z",
       "url": "https://github.com/obra/superpowers/pull/2324"
     },
     {
@@ -662,7 +649,7 @@
       "number": 2326,
       "state": "open",
       "title": "fix(sdd): an Approved verdict closes the task; severity and Assessment must agree",
-      "updated_at": "2026-09-27T06:02:26Z",
+      "updated_at": "2026-09-27T12:17:23Z",
       "url": "https://github.com/obra/superpowers/pull/2326"
     },
     {
@@ -675,33 +662,6 @@
       "title": "fix(sdd): archive the plan workspace at Finish instead of deleting it",
       "updated_at": "2026-09-27T05:48:09Z",
       "url": "https://github.com/obra/superpowers/pull/2328"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "skill:executing-plans",
-        "skill:finishing-a-development-branch",
-        "skill:verification-before-completion",
-        "skill:writing-plans"
-      ],
-      "number": 2332,
-      "state": "open",
-      "title": "Workflow has first-class specs/plans but no durable QA/acceptance artifact layer",
-      "updated_at": "2026-09-24T15:09:30Z",
-      "url": "https://github.com/obra/superpowers/issues/2332"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:executing-plans",
-        "skill:subagent-driven-development",
-        "skill:writing-plans"
-      ],
-      "number": 2334,
-      "state": "open",
-      "title": "Plan sets: all plans written up front, each listing the set; executors continue into the next plan",
-      "updated_at": "2026-09-20T23:11:57Z",
-      "url": "https://github.com/obra/superpowers/pull/2334"
     },
     {
       "kind": "pull_request",
@@ -736,7 +696,7 @@
       "number": 2347,
       "state": "open",
       "title": "feat(openclaw): add native Superpowers bootstrap",
-      "updated_at": "2026-09-27T05:52:56Z",
+      "updated_at": "2026-09-27T08:51:30Z",
       "url": "https://github.com/obra/superpowers/pull/2347"
     },
     {
@@ -747,7 +707,7 @@
       "number": 2350,
       "state": "open",
       "title": "fix(antigravity): bootstrap Superpowers via native plugin rules",
-      "updated_at": "2026-09-27T06:01:16Z",
+      "updated_at": "2026-09-27T09:23:38Z",
       "url": "https://github.com/obra/superpowers/pull/2350"
     },
     {
@@ -758,30 +718,8 @@
       "number": 2351,
       "state": "open",
       "title": "fix(privacy): minimize public contribution disclosures",
-      "updated_at": "2026-09-27T06:17:32Z",
+      "updated_at": "2026-09-27T09:34:06Z",
       "url": "https://github.com/obra/superpowers/pull/2351"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:subagent-driven-development"
-      ],
-      "number": 2354,
-      "state": "open",
-      "title": "docs: correct SDD ledger recovery guidance",
-      "updated_at": "2026-09-20T23:12:12Z",
-      "url": "https://github.com/obra/superpowers/pull/2354"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement"
-      ],
-      "number": 2356,
-      "state": "open",
-      "title": "Optional parallel tester role in subagent-driven-development's task review step",
-      "updated_at": "2026-09-21T17:28:44Z",
-      "url": "https://github.com/obra/superpowers/issues/2356"
     },
     {
       "kind": "pull_request",
@@ -794,7 +732,7 @@
       "number": 2358,
       "state": "open",
       "title": "fix(sdd): stop the controller's context growing without bound",
-      "updated_at": "2026-09-27T05:55:39Z",
+      "updated_at": "2026-09-27T08:41:08Z",
       "url": "https://github.com/obra/superpowers/pull/2358"
     },
     {
@@ -808,23 +746,8 @@
       "number": 2359,
       "state": "open",
       "title": "fix(sdd): stop task-brief leaking trailing plan sections",
-      "updated_at": "2026-09-26T18:53:36Z",
+      "updated_at": "2026-09-27T08:41:10Z",
       "url": "https://github.com/obra/superpowers/pull/2359"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "plans",
-        "skill:subagent-driven-development",
-        "skill:writing-plans",
-        "subagents"
-      ],
-      "number": 2368,
-      "state": "open",
-      "title": "SDD: opt-in DAG/wave execution for independent plan tasks (not Agent Teams)",
-      "updated_at": "2026-09-26T18:51:47Z",
-      "url": "https://github.com/obra/superpowers/issues/2368"
     },
     {
       "kind": "pull_request",
@@ -837,7 +760,7 @@
       "number": 2369,
       "state": "open",
       "title": "fix(sdd): keep helper paths Windows-readable (#2307)",
-      "updated_at": "2026-09-26T18:53:51Z",
+      "updated_at": "2026-09-27T06:32:04Z",
       "url": "https://github.com/obra/superpowers/pull/2369"
     },
     {
@@ -945,6 +868,81 @@
       "title": "Require an explicit model on subagent dispatches outside SDD (from #2193, needs evals)",
       "updated_at": "2026-09-26T23:03:41Z",
       "url": "https://github.com/obra/superpowers/pull/2400"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2402,
+      "state": "open",
+      "title": "fix(pi): honor package skill filters",
+      "updated_at": "2026-09-27T06:36:59Z",
+      "url": "https://github.com/obra/superpowers/pull/2402"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2403,
+      "state": "open",
+      "title": "requesting-code-review defaults BASE_SHA to HEAD~1, which other skills forbid",
+      "updated_at": "2026-09-27T12:00:07Z",
+      "url": "https://github.com/obra/superpowers/issues/2403"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2405,
+      "state": "open",
+      "title": "task-brief: task number is an unanchored, unescaped regex prefix, so the wrong task is returned with exit 0",
+      "updated_at": "2026-09-27T14:22:40Z",
+      "url": "https://github.com/obra/superpowers/issues/2405"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2406,
+      "state": "open",
+      "title": "task-brief: the last task of a section absorbs the following non-Task heading and its prose",
+      "updated_at": "2026-09-27T14:22:41Z",
+      "url": "https://github.com/obra/superpowers/issues/2406"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2407,
+      "state": "open",
+      "title": "executing-plans/task-done: a passing test command that prints nothing aborts after the tests passed and drops the ledger line",
+      "updated_at": "2026-09-27T14:22:42Z",
+      "url": "https://github.com/obra/superpowers/issues/2407"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "automated-issue-report",
+        "bug"
+      ],
+      "number": 2408,
+      "state": "open",
+      "title": "writing-plans: the plan's code was built twice during planning, then the handoff offered to implement it a third time",
+      "updated_at": "2026-09-27T18:56:31Z",
+      "url": "https://github.com/obra/superpowers/issues/2408"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2413,
+      "state": "open",
+      "title": "writing-plans / task-reviewer: a plan step that infers identity from a string's shape ships its collision case unless the rubric asks for it",
+      "updated_at": "2026-09-28T02:36:30Z",
+      "url": "https://github.com/obra/superpowers/issues/2413"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2414,
+      "state": "open",
+      "title": "writing-plans, task-reviewer: name the colliding input behind string-shaped identity",
+      "updated_at": "2026-09-28T03:11:25Z",
+      "url": "https://github.com/obra/superpowers/pull/2414"
     }
   ],
   "schema_version": 1,
