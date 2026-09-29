@@ -50,79 +50,6 @@
     {
       "kind": "pull_request",
       "labels": [
-        "documentation"
-      ],
-      "number": 1706,
-      "state": "open",
-      "title": "docs: clarify local plugin test commands",
-      "updated_at": "2026-09-26T18:52:03Z",
-      "url": "https://github.com/obra/superpowers/pull/1706"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "antigravity",
-        "documentation"
-      ],
-      "number": 1710,
-      "state": "open",
-      "title": "docs: update Antigravity porting guidance",
-      "updated_at": "2026-09-26T18:52:04Z",
-      "url": "https://github.com/obra/superpowers/pull/1710"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "documentation"
-      ],
-      "number": 1757,
-      "state": "open",
-      "title": "docs: add Traditional Chinese README",
-      "updated_at": "2026-09-26T18:52:09Z",
-      "url": "https://github.com/obra/superpowers/pull/1757"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "brainstorming",
-        "bug",
-        "pr-template-rules-ignored"
-      ],
-      "number": 1796,
-      "state": "open",
-      "title": "fix: update ws test dependency",
-      "updated_at": "2026-09-26T18:52:12Z",
-      "url": "https://github.com/obra/superpowers/pull/1796"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "bug",
-        "claude-code"
-      ],
-      "number": 1826,
-      "state": "open",
-      "title": "fix(tests): resolve shellcheck warnings in Claude Code test helpers",
-      "updated_at": "2026-09-26T18:52:14Z",
-      "url": "https://github.com/obra/superpowers/pull/1826"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "enhancement",
-        "plans",
-        "pr-template-rules-ignored",
-        "skill:writing-plans"
-      ],
-      "number": 1885,
-      "state": "open",
-      "title": "replace enumeration with `a)`/`b)`",
-      "updated_at": "2026-09-26T18:52:17Z",
-      "url": "https://github.com/obra/superpowers/pull/1885"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
         "enhancement",
         "new-harness"
       ],
@@ -215,6 +142,20 @@
       "title": "[DRAFT] feat: add AdaL harness support (native discovery, tool mapping)",
       "updated_at": "2026-09-26T18:52:25Z",
       "url": "https://github.com/obra/superpowers/pull/2048"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement",
+        "skill:subagent-driven-development",
+        "skills",
+        "subagents"
+      ],
+      "number": 2054,
+      "state": "open",
+      "title": "subagent-driven-development: reviewer prompts pay subagent turns for mechanical facts the controller can settle in one command",
+      "updated_at": "2026-09-28T14:42:08Z",
+      "url": "https://github.com/obra/superpowers/issues/2054"
     },
     {
       "kind": "pull_request",
@@ -538,7 +479,7 @@
       "number": 2294,
       "state": "open",
       "title": "fix(finishing): surface surviving Superpowers scratch before worktree removal",
-      "updated_at": "2026-09-27T06:04:39Z",
+      "updated_at": "2026-09-28T11:40:06Z",
       "url": "https://github.com/obra/superpowers/pull/2294"
     },
     {
@@ -549,19 +490,8 @@
       "number": 2295,
       "state": "open",
       "title": "fix(writing-plans): require produced expected values in verification steps",
-      "updated_at": "2026-09-27T06:11:39Z",
+      "updated_at": "2026-09-28T11:37:59Z",
       "url": "https://github.com/obra/superpowers/pull/2295"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:subagent-driven-development"
-      ],
-      "number": 2297,
-      "state": "open",
-      "title": "fix(sdd): record dispatches in the ledger so outages do not re-dispatch committed work",
-      "updated_at": "2026-09-27T12:23:14Z",
-      "url": "https://github.com/obra/superpowers/pull/2297"
     },
     {
       "kind": "pull_request",
@@ -779,22 +709,6 @@
       "url": "https://github.com/obra/superpowers/issues/2372"
     },
     {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "hooks",
-        "skill:executing-plans",
-        "skill:subagent-driven-development",
-        "skill:using-superpowers",
-        "skills"
-      ],
-      "number": 2377,
-      "state": "open",
-      "title": "Pressure-language bootstrap and narration suppressors degrade behavior on current Claude models",
-      "updated_at": "2026-09-26T18:51:55Z",
-      "url": "https://github.com/obra/superpowers/issues/2377"
-    },
-    {
       "kind": "pull_request",
       "labels": [
         "bug",
@@ -911,7 +825,7 @@
       "number": 2407,
       "state": "open",
       "title": "executing-plans/task-done: a passing test command that prints nothing aborts after the tests passed and drops the ledger line",
-      "updated_at": "2026-09-27T14:22:42Z",
+      "updated_at": "2026-09-28T16:12:22Z",
       "url": "https://github.com/obra/superpowers/issues/2407"
     },
     {
@@ -941,8 +855,17 @@
       "number": 2414,
       "state": "open",
       "title": "writing-plans, task-reviewer: name the colliding input behind string-shaped identity",
-      "updated_at": "2026-09-28T03:11:25Z",
+      "updated_at": "2026-09-28T14:14:51Z",
       "url": "https://github.com/obra/superpowers/pull/2414"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2423,
+      "state": "open",
+      "title": "Pressure-register and update-suppressor wording over-triggers on Claude Opus 5.5 / Sonnet 5.5",
+      "updated_at": "2026-09-29T00:58:21Z",
+      "url": "https://github.com/obra/superpowers/issues/2423"
     }
   ],
   "schema_version": 1,
