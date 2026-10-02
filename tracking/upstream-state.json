@@ -145,7 +145,7 @@
       "number": 2184,
       "state": "open",
       "title": "feat (harness): add Bob harness support",
-      "updated_at": "2026-09-26T18:52:48Z",
+      "updated_at": "2026-10-02T02:43:30Z",
       "url": "https://github.com/obra/superpowers/pull/2184"
     },
     {
@@ -163,21 +163,6 @@
       "url": "https://github.com/obra/superpowers/issues/2202"
     },
     {
-      "kind": "pull_request",
-      "labels": [
-        "enhancement",
-        "no-obvious-human-review",
-        "pr-template-rules-ignored",
-        "skill:dispatching-parallel-agents",
-        "subagents"
-      ],
-      "number": 2206,
-      "state": "open",
-      "title": "docs(dispatching-parallel-agents): specify terminal agent role and deliverable validation (#2202)",
-      "updated_at": "2026-09-26T18:52:59Z",
-      "url": "https://github.com/obra/superpowers/pull/2206"
-    },
-    {
       "kind": "issue",
       "labels": [
         "bug",
@@ -192,23 +177,6 @@
       "title": "`finishing-a-development-branch` can silently delete an SDD workspace: ignored files don't make a worktree dirty",
       "updated_at": "2026-09-27T05:31:52Z",
       "url": "https://github.com/obra/superpowers/issues/2207"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "bug",
-        "no-obvious-human-review",
-        "pr-template-rules-ignored",
-        "skill:finishing-a-development-branch",
-        "skill:subagent-driven-development",
-        "subagents",
-        "worktrees"
-      ],
-      "number": 2208,
-      "state": "open",
-      "title": "fix(worktree): guard against silent deletion of surviving SDD workspace (#2207)",
-      "updated_at": "2026-09-26T18:53:01Z",
-      "url": "https://github.com/obra/superpowers/pull/2208"
     },
     {
       "kind": "pull_request",
@@ -462,7 +430,7 @@
       "number": 2326,
       "state": "open",
       "title": "fix(sdd): an Approved verdict closes the task; severity and Assessment must agree",
-      "updated_at": "2026-09-30T14:34:00Z",
+      "updated_at": "2026-10-01T14:12:49Z",
       "url": "https://github.com/obra/superpowers/pull/2326"
     },
     {
@@ -511,6 +479,17 @@
       "title": "feat(openclaw): add native Superpowers bootstrap",
       "updated_at": "2026-09-27T08:51:30Z",
       "url": "https://github.com/obra/superpowers/pull/2347"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "skill:executing-plans"
+      ],
+      "number": 2348,
+      "state": "open",
+      "title": "fix(executing-plans): ledger the test summary, not the trailing duration",
+      "updated_at": "2026-10-01T13:29:30Z",
+      "url": "https://github.com/obra/superpowers/pull/2348"
     },
     {
       "kind": "pull_request",
@@ -819,6 +798,51 @@
       "title": "writing-plans: per-task \"run tests\" + \"commit\" steps make compiled-language plans very slow — allow batching",
       "updated_at": "2026-10-01T04:47:17Z",
       "url": "https://github.com/obra/superpowers/issues/2437"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2438,
+      "state": "open",
+      "title": "fix(sdd): task-brief fails loudly on an unclosed code fence (#2436)",
+      "updated_at": "2026-10-01T17:38:20Z",
+      "url": "https://github.com/obra/superpowers/pull/2438"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2439,
+      "state": "open",
+      "title": "fix(sdd): resolve the repo root from PLAN_FILE, not the caller's cwd (#2429)",
+      "updated_at": "2026-10-01T17:38:30Z",
+      "url": "https://github.com/obra/superpowers/pull/2439"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2440,
+      "state": "open",
+      "title": "task-reviewer-prompt: requiring file:line for every passed check makes reviewers compute line numbers from diff offsets",
+      "updated_at": "2026-10-01T22:16:07Z",
+      "url": "https://github.com/obra/superpowers/issues/2440"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2441,
+      "state": "open",
+      "title": "docs(writing-plans): require a code citation for behavioral claims in user-facing text (#2433)",
+      "updated_at": "2026-10-01T17:40:37Z",
+      "url": "https://github.com/obra/superpowers/pull/2441"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2442,
+      "state": "open",
+      "title": "docs(brainstorming): weigh a YAGNI cut against the user's stated goals (#2434)",
+      "updated_at": "2026-10-01T17:40:44Z",
+      "url": "https://github.com/obra/superpowers/pull/2442"
     }
   ],
   "schema_version": 1,
