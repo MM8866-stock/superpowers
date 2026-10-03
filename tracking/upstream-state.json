@@ -118,7 +118,7 @@
       "number": 2144,
       "state": "open",
       "title": "feat: add DeepSeek Harness (dsh) support",
-      "updated_at": "2026-09-27T12:52:52Z",
+      "updated_at": "2026-10-02T18:39:38Z",
       "url": "https://github.com/obra/superpowers/pull/2144"
     },
     {
@@ -179,31 +179,6 @@
       "url": "https://github.com/obra/superpowers/issues/2207"
     },
     {
-      "kind": "pull_request",
-      "labels": [
-        "bug",
-        "opencode",
-        "subagents"
-      ],
-      "number": 2223,
-      "state": "open",
-      "title": "fix(opencode): skip controller bootstrap in task subagent sessions (#2160)",
-      "updated_at": "2026-09-26T18:53:20Z",
-      "url": "https://github.com/obra/superpowers/pull/2223"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "enhancement",
-        "new-harness"
-      ],
-      "number": 2239,
-      "state": "open",
-      "title": "Add AtomCode harness support",
-      "updated_at": "2026-09-26T18:53:22Z",
-      "url": "https://github.com/obra/superpowers/pull/2239"
-    },
-    {
       "kind": "issue",
       "labels": [
         "skill:finishing-a-development-branch",
@@ -216,18 +191,6 @@
       "url": "https://github.com/obra/superpowers/issues/2253"
     },
     {
-      "kind": "pull_request",
-      "labels": [
-        "documentation",
-        "kiro"
-      ],
-      "number": 2257,
-      "state": "open",
-      "title": "docs(porting): warn that package-bundled context files may not auto-load",
-      "updated_at": "2026-09-26T18:53:23Z",
-      "url": "https://github.com/obra/superpowers/pull/2257"
-    },
-    {
       "kind": "issue",
       "labels": [
         "skill:receiving-code-review",
@@ -238,18 +201,6 @@
       "title": "Fixes keep creating new bugs because no skill requires tracing what a fix changes",
       "updated_at": "2026-09-27T05:32:07Z",
       "url": "https://github.com/obra/superpowers/issues/2266"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "documentation",
-        "new-harness"
-      ],
-      "number": 2272,
-      "state": "open",
-      "title": "docs: add MiniMax Code marketplace installation",
-      "updated_at": "2026-09-26T18:53:24Z",
-      "url": "https://github.com/obra/superpowers/pull/2272"
     },
     {
       "kind": "issue",
@@ -297,18 +248,6 @@
       "title": "subagent-driven-development: implementer dispatches are gated on nothing — briefs get referenced unwritten and todo state never updates",
       "updated_at": "2026-09-27T05:32:14Z",
       "url": "https://github.com/obra/superpowers/issues/2282"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "bug",
-        "opencode"
-      ],
-      "number": 2283,
-      "state": "open",
-      "title": "opencode: re-inject bootstrap after compaction",
-      "updated_at": "2026-09-26T18:53:25Z",
-      "url": "https://github.com/obra/superpowers/pull/2283"
     },
     {
       "kind": "issue",
@@ -388,6 +327,17 @@
       "title": "fix(pi): persist bootstrap for prompt caching",
       "updated_at": "2026-09-27T06:48:07Z",
       "url": "https://github.com/obra/superpowers/pull/2308"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "skill:writing-plans"
+      ],
+      "number": 2309,
+      "state": "open",
+      "title": "writing-plans: self-review misses task-state/DAG closure in executable plans",
+      "updated_at": "2026-10-03T01:23:40Z",
+      "url": "https://github.com/obra/superpowers/issues/2309"
     },
     {
       "kind": "pull_request",
@@ -769,7 +719,7 @@
       "number": 2431,
       "state": "open",
       "title": "subagent-driven-development: \"no second fix wave\" should not cover breakage the final fix wave itself introduced",
-      "updated_at": "2026-09-30T22:14:19Z",
+      "updated_at": "2026-10-02T15:24:25Z",
       "url": "https://github.com/obra/superpowers/issues/2431"
     },
     {
@@ -843,6 +793,42 @@
       "title": "docs(brainstorming): weigh a YAGNI cut against the user's stated goals (#2434)",
       "updated_at": "2026-10-01T17:40:44Z",
       "url": "https://github.com/obra/superpowers/pull/2442"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2443,
+      "state": "open",
+      "title": "subagent-driven-development: implementers commit their ignored report files, and task review accepts them",
+      "updated_at": "2026-10-02T15:24:28Z",
+      "url": "https://github.com/obra/superpowers/issues/2443"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2444,
+      "state": "open",
+      "title": "fix(brainstorming): error instead of hanging when start-server.sh gets a valueless option",
+      "updated_at": "2026-10-03T00:06:09Z",
+      "url": "https://github.com/obra/superpowers/pull/2444"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2445,
+      "state": "open",
+      "title": "test-driven-development and subagent-driven-development disagree on running the full suite after a fix",
+      "updated_at": "2026-10-02T22:49:42Z",
+      "url": "https://github.com/obra/superpowers/issues/2445"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2446,
+      "state": "open",
+      "title": "Final whole-branch review: code-reviewer.md re-derives the diff and has no model slot, contrary to SDD's Final Review",
+      "updated_at": "2026-10-02T22:49:42Z",
+      "url": "https://github.com/obra/superpowers/issues/2446"
     }
   ],
   "schema_version": 1,
