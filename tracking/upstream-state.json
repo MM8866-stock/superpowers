@@ -18,51 +18,6 @@
     {
       "kind": "issue",
       "labels": [
-        "claude-code",
-        "enhancement",
-        "skill:dispatching-parallel-agents",
-        "skill:receiving-code-review",
-        "skill:requesting-code-review",
-        "skill:subagent-driven-development",
-        "skill:verification-before-completion",
-        "subagents"
-      ],
-      "number": 429,
-      "state": "open",
-      "title": "Support for Claude Code Agent Teams (TeammateTool, SendMessage, TaskList)",
-      "updated_at": "2026-09-26T20:39:40Z",
-      "url": "https://github.com/obra/superpowers/issues/429"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "plans",
-        "skill:executing-plans",
-        "skill:subagent-driven-development"
-      ],
-      "number": 1075,
-      "state": "open",
-      "title": "Plans and specs have no completion status after execution",
-      "updated_at": "2026-09-26T21:12:38Z",
-      "url": "https://github.com/obra/superpowers/issues/1075"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "enhancement",
-        "new-harness",
-        "pi"
-      ],
-      "number": 1996,
-      "state": "open",
-      "title": "feat(omp): add native oh-my-pi harness support",
-      "updated_at": "2026-09-26T19:06:28Z",
-      "url": "https://github.com/obra/superpowers/pull/1996"
-    },
-    {
-      "kind": "issue",
-      "labels": [
         "enhancement",
         "skill:brainstorming",
         "skill:dispatching-parallel-agents",
@@ -533,41 +488,8 @@
       "number": 2377,
       "state": "open",
       "title": "Pressure-language bootstrap and narration suppressors degrade behavior on current Claude models",
-      "updated_at": "2026-09-30T18:00:06Z",
+      "updated_at": "2026-10-03T13:22:25Z",
       "url": "https://github.com/obra/superpowers/issues/2377"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "bug",
-        "skill:requesting-code-review",
-        "skills"
-      ],
-      "number": 2381,
-      "state": "open",
-      "title": "fix(requesting-code-review): base the review on merge-base, not HEAD~1",
-      "updated_at": "2026-09-26T18:53:55Z",
-      "url": "https://github.com/obra/superpowers/pull/2381"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "documentation"
-      ],
-      "number": 2387,
-      "state": "open",
-      "title": "docs(porting): cover asking your human partner a question",
-      "updated_at": "2026-09-26T18:53:56Z",
-      "url": "https://github.com/obra/superpowers/pull/2387"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2394,
-      "state": "open",
-      "title": "pi extension: resources_discover re-adds every skill, defeating package skill filters (pi)",
-      "updated_at": "2026-09-26T20:26:17Z",
-      "url": "https://github.com/obra/superpowers/issues/2394"
     },
     {
       "kind": "pull_request",
@@ -577,19 +499,6 @@
       "title": "Executors tick a completed task's plan checkboxes (needs evals)",
       "updated_at": "2026-09-26T22:33:57Z",
       "url": "https://github.com/obra/superpowers/pull/2395"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "plans",
-        "skill:writing-plans"
-      ],
-      "number": 2396,
-      "state": "open",
-      "title": "Make it easier to write plans for non-coding projects",
-      "updated_at": "2026-09-26T21:16:47Z",
-      "url": "https://github.com/obra/superpowers/issues/2396"
     },
     {
       "kind": "issue",
@@ -728,7 +637,7 @@
       "number": 2435,
       "state": "open",
       "title": "subagent-driven-development: in an unattended run, a step that needs a human at the screen should move to the next available tool, not be dropped",
-      "updated_at": "2026-09-30T22:14:03Z",
+      "updated_at": "2026-10-03T16:03:02Z",
       "url": "https://github.com/obra/superpowers/issues/2435"
     },
     {
@@ -782,7 +691,7 @@
       "number": 2441,
       "state": "open",
       "title": "docs(writing-plans): require a code citation for behavioral claims in user-facing text (#2433)",
-      "updated_at": "2026-10-01T17:40:37Z",
+      "updated_at": "2026-10-04T03:07:31Z",
       "url": "https://github.com/obra/superpowers/pull/2441"
     },
     {
@@ -829,6 +738,60 @@
       "title": "Final whole-branch review: code-reviewer.md re-derives the diff and has no model slot, contrary to SDD's Final Review",
       "updated_at": "2026-10-02T22:49:42Z",
       "url": "https://github.com/obra/superpowers/issues/2446"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2450,
+      "state": "open",
+      "title": "subagent-driven-development: a fix round that changes an interface leaves later tasks' plan text calling the old one",
+      "updated_at": "2026-10-03T16:02:55Z",
+      "url": "https://github.com/obra/superpowers/issues/2450"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2451,
+      "state": "open",
+      "title": "subagent-driven-development / executing-plans: the final report should be derived from a plan-to-diff mapping, not written freely",
+      "updated_at": "2026-10-03T16:02:57Z",
+      "url": "https://github.com/obra/superpowers/issues/2451"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2452,
+      "state": "open",
+      "title": "writing-plans / test-driven-development: a test for a protective layer is evidence only once it fails when the layer is weakened",
+      "updated_at": "2026-10-03T16:02:59Z",
+      "url": "https://github.com/obra/superpowers/issues/2452"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2453,
+      "state": "open",
+      "title": "writing-plans Review Focus: name three edge classes that verified plans still missed (largest allowed value, failure after a side effect, rapid successive writes)",
+      "updated_at": "2026-10-03T16:03:01Z",
+      "url": "https://github.com/obra/superpowers/issues/2453"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2454,
+      "state": "open",
+      "title": "Prompt audit against Claude Fable 5.1: pressure language and update suppressors in using-superpowers, executing-plans, subagent-driven-development",
+      "updated_at": "2026-10-03T16:58:04Z",
+      "url": "https://github.com/obra/superpowers/issues/2454"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2455,
+      "state": "open",
+      "title": "executing-plans and subagent-driven-development: the main/master consent rule does not defer to a declared branch policy",
+      "updated_at": "2026-10-03T18:08:53Z",
+      "url": "https://github.com/obra/superpowers/issues/2455"
     }
   ],
   "schema_version": 1,
