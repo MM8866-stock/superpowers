@@ -10,6 +10,10 @@
       "status": "modified"
     },
     {
+      "filename": "scripts/sync-to-codex-plugin.sh",
+      "status": "modified"
+    },
+    {
       "filename": "skills/subagent-driven-development/scripts/sdd-workspace",
       "status": "modified"
     }
@@ -114,51 +118,6 @@
       "url": "https://github.com/obra/superpowers/pull/2295"
     },
     {
-      "kind": "pull_request",
-      "labels": [
-        "skill:subagent-driven-development"
-      ],
-      "number": 2300,
-      "state": "open",
-      "title": "fix(sdd): review evidence-only responses without fake fixes",
-      "updated_at": "2026-09-27T06:08:28Z",
-      "url": "https://github.com/obra/superpowers/pull/2300"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:subagent-driven-development"
-      ],
-      "number": 2303,
-      "state": "open",
-      "title": "fix(sdd): include commit bodies in review packages",
-      "updated_at": "2026-09-27T06:29:36Z",
-      "url": "https://github.com/obra/superpowers/pull/2303"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:subagent-driven-development"
-      ],
-      "number": 2304,
-      "state": "open",
-      "title": "task-brief: track fence character and length so fenced examples cannot end a task early",
-      "updated_at": "2026-09-27T06:29:41Z",
-      "url": "https://github.com/obra/superpowers/pull/2304"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "bug",
-        "pi"
-      ],
-      "number": 2308,
-      "state": "open",
-      "title": "fix(pi): persist bootstrap for prompt caching",
-      "updated_at": "2026-09-27T06:48:07Z",
-      "url": "https://github.com/obra/superpowers/pull/2308"
-    },
-    {
       "kind": "issue",
       "labels": [
         "skill:writing-plans"
@@ -216,6 +175,17 @@
     {
       "kind": "pull_request",
       "labels": [
+        "skill:subagent-driven-development"
+      ],
+      "number": 2328,
+      "state": "open",
+      "title": "fix(sdd): archive the plan workspace at Finish instead of deleting it",
+      "updated_at": "2026-10-07T13:04:55Z",
+      "url": "https://github.com/obra/superpowers/pull/2328"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
         "enhancement",
         "new-harness"
       ],
@@ -239,17 +209,6 @@
     {
       "kind": "pull_request",
       "labels": [
-        "skill:using-superpowers"
-      ],
-      "number": 2350,
-      "state": "open",
-      "title": "fix(antigravity): bootstrap Superpowers via native plugin rules",
-      "updated_at": "2026-09-27T09:23:38Z",
-      "url": "https://github.com/obra/superpowers/pull/2350"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
         "skill:diagnosing-superpowers"
       ],
       "number": 2351,
@@ -257,20 +216,6 @@
       "title": "fix(privacy): minimize public contribution disclosures",
       "updated_at": "2026-09-27T09:34:06Z",
       "url": "https://github.com/obra/superpowers/pull/2351"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "enhancement",
-        "skill:requesting-code-review",
-        "skill:subagent-driven-development",
-        "subagents"
-      ],
-      "number": 2358,
-      "state": "open",
-      "title": "fix(sdd): stop the controller's context growing without bound",
-      "updated_at": "2026-09-27T08:41:08Z",
-      "url": "https://github.com/obra/superpowers/pull/2358"
     },
     {
       "kind": "pull_request",
@@ -315,15 +260,6 @@
       "title": "Pressure-language bootstrap and narration suppressors degrade behavior on current Claude models",
       "updated_at": "2026-10-03T13:22:25Z",
       "url": "https://github.com/obra/superpowers/issues/2377"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2402,
-      "state": "open",
-      "title": "fix(pi): honor package skill filters",
-      "updated_at": "2026-09-27T06:36:59Z",
-      "url": "https://github.com/obra/superpowers/pull/2402"
     },
     {
       "kind": "issue",
@@ -651,11 +587,47 @@
       "title": "subagent-driven-development: interactive/manual verification steps in a brief must be bounded by command flags, not by prose",
       "updated_at": "2026-10-07T03:48:42Z",
       "url": "https://github.com/obra/superpowers/issues/2472"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2477,
+      "state": "open",
+      "title": "Add Cline harness integration (in-process plugin)",
+      "updated_at": "2026-10-07T23:16:32Z",
+      "url": "https://github.com/obra/superpowers/pull/2477"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2478,
+      "state": "open",
+      "title": "brainstorming: tell Codex to use the Visual Companion, not its native inline visualizer",
+      "updated_at": "2026-10-08T00:04:05Z",
+      "url": "https://github.com/obra/superpowers/pull/2478"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2480,
+      "state": "open",
+      "title": "Codex sync: exclude Hermes and Muse manifests; porting guide: Appendix A is examples",
+      "updated_at": "2026-10-08T03:19:55Z",
+      "url": "https://github.com/obra/superpowers/pull/2480"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2481,
+      "state": "open",
+      "title": "subagent-driven-development: \"Five rounds maximum per task\" lies past the 20,000-character compaction re-attach cut, and one task ran 18+ fix rounds (Claude Code)",
+      "updated_at": "2026-10-08T04:29:31Z",
+      "url": "https://github.com/obra/superpowers/issues/2481"
     }
   ],
   "schema_version": 1,
   "upstream": {
-    "dev_sha": "9e639188a1a8029926bda6e5d7edbf66ef3ac333",
+    "dev_sha": "efe9006d1c02a19d328ec2b948a1831c8bad700b",
     "release": {
       "sha": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
       "tag": "v6.4.2",
