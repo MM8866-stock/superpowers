@@ -118,6 +118,17 @@
       "url": "https://github.com/obra/superpowers/pull/2295"
     },
     {
+      "kind": "pull_request",
+      "labels": [
+        "skill:subagent-driven-development"
+      ],
+      "number": 2304,
+      "state": "open",
+      "title": "task-brief: track fence character and length so fenced examples cannot end a task early",
+      "updated_at": "2026-10-09T04:44:45Z",
+      "url": "https://github.com/obra/superpowers/pull/2304"
+    },
+    {
       "kind": "issue",
       "labels": [
         "skill:writing-plans"
@@ -186,18 +197,6 @@
     {
       "kind": "pull_request",
       "labels": [
-        "enhancement",
-        "new-harness"
-      ],
-      "number": 2347,
-      "state": "open",
-      "title": "feat(openclaw): add native Superpowers bootstrap",
-      "updated_at": "2026-09-27T08:51:30Z",
-      "url": "https://github.com/obra/superpowers/pull/2347"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
         "skill:executing-plans"
       ],
       "number": 2348,
@@ -205,31 +204,6 @@
       "title": "fix(executing-plans): ledger the test summary, not the trailing duration",
       "updated_at": "2026-10-01T13:29:30Z",
       "url": "https://github.com/obra/superpowers/pull/2348"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:diagnosing-superpowers"
-      ],
-      "number": 2351,
-      "state": "open",
-      "title": "fix(privacy): minimize public contribution disclosures",
-      "updated_at": "2026-09-27T09:34:06Z",
-      "url": "https://github.com/obra/superpowers/pull/2351"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "bug",
-        "plans",
-        "skill:subagent-driven-development",
-        "subagents"
-      ],
-      "number": 2359,
-      "state": "open",
-      "title": "fix(sdd): stop task-brief leaking trailing plan sections",
-      "updated_at": "2026-09-27T08:41:10Z",
-      "url": "https://github.com/obra/superpowers/pull/2359"
     },
     {
       "kind": "pull_request",
@@ -623,11 +597,20 @@
       "title": "subagent-driven-development: \"Five rounds maximum per task\" lies past the 20,000-character compaction re-attach cut, and one task ran 18+ fix rounds (Claude Code)",
       "updated_at": "2026-10-08T04:29:31Z",
       "url": "https://github.com/obra/superpowers/issues/2481"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2483,
+      "state": "open",
+      "title": "brainstorming: close the skip-path gap in #2482's defaults rule",
+      "updated_at": "2026-10-09T06:12:27Z",
+      "url": "https://github.com/obra/superpowers/pull/2483"
     }
   ],
   "schema_version": 1,
   "upstream": {
-    "dev_sha": "efe9006d1c02a19d328ec2b948a1831c8bad700b",
+    "dev_sha": "36319ad5a7d70cd162a26609361fb909cd4d828e",
     "release": {
       "sha": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
       "tag": "v6.4.2",
