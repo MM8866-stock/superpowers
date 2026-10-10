@@ -4,20 +4,7 @@
     "repository": "prime-radiant-inc/superpowers-evals",
     "sha": "e64684cd1fa270c464ac797747e45bbe8d127e8b"
   },
-  "high_value_changes": [
-    {
-      "filename": "RELEASE-NOTES.md",
-      "status": "modified"
-    },
-    {
-      "filename": "scripts/sync-to-codex-plugin.sh",
-      "status": "modified"
-    },
-    {
-      "filename": "skills/subagent-driven-development/scripts/sdd-workspace",
-      "status": "modified"
-    }
-  ],
+  "high_value_changes": [],
   "relevant_items": [
     {
       "kind": "issue",
@@ -142,17 +129,6 @@
     {
       "kind": "pull_request",
       "labels": [
-        "skill:subagent-driven-development"
-      ],
-      "number": 2322,
-      "state": "open",
-      "title": "fix(sdd): record in-flight tasks in the ledger to prevent re-dispatch of committed work",
-      "updated_at": "2026-09-27T12:14:20Z",
-      "url": "https://github.com/obra/superpowers/pull/2322"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
         "skill:writing-skills"
       ],
       "number": 2323,
@@ -160,17 +136,6 @@
       "title": "fix(writing-skills): GREEN must measure outcome, not only compliance",
       "updated_at": "2026-09-27T12:23:35Z",
       "url": "https://github.com/obra/superpowers/pull/2323"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:verification-before-completion"
-      ],
-      "number": 2324,
-      "state": "open",
-      "title": "fix(verification-before-completion): evidence needs provenance, not just freshness",
-      "updated_at": "2026-09-27T12:21:03Z",
-      "url": "https://github.com/obra/superpowers/pull/2324"
     },
     {
       "kind": "pull_request",
@@ -222,6 +187,21 @@
     {
       "kind": "issue",
       "labels": [
+        "brainstorming",
+        "bug",
+        "codex",
+        "needs-repro-case",
+        "skill:brainstorming"
+      ],
+      "number": 2372,
+      "state": "open",
+      "title": "Codex Desktop: brainstorming approval gates skipped after skill read (6.4.1)",
+      "updated_at": "2026-10-09T14:45:33Z",
+      "url": "https://github.com/obra/superpowers/issues/2372"
+    },
+    {
+      "kind": "issue",
+      "labels": [
         "enhancement",
         "hooks",
         "skill:executing-plans",
@@ -234,15 +214,6 @@
       "title": "Pressure-language bootstrap and narration suppressors degrade behavior on current Claude models",
       "updated_at": "2026-10-03T13:22:25Z",
       "url": "https://github.com/obra/superpowers/issues/2377"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2403,
-      "state": "open",
-      "title": "requesting-code-review defaults BASE_SHA to HEAD~1, which other skills forbid",
-      "updated_at": "2026-09-27T12:00:07Z",
-      "url": "https://github.com/obra/superpowers/issues/2403"
     },
     {
       "kind": "issue",
@@ -513,8 +484,8 @@
       "labels": [],
       "number": 2464,
       "state": "open",
-      "title": "tests: brainstorming eval harness and rebuild results",
-      "updated_at": "2026-10-06T15:47:20Z",
+      "title": "docs: brainstorming rebuild eval results",
+      "updated_at": "2026-10-10T03:03:43Z",
       "url": "https://github.com/obra/superpowers/pull/2464"
     },
     {
@@ -595,26 +566,35 @@
       "number": 2481,
       "state": "open",
       "title": "subagent-driven-development: \"Five rounds maximum per task\" lies past the 20,000-character compaction re-attach cut, and one task ran 18+ fix rounds (Claude Code)",
-      "updated_at": "2026-10-08T04:29:31Z",
+      "updated_at": "2026-10-10T03:35:44Z",
       "url": "https://github.com/obra/superpowers/issues/2481"
     },
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 2483,
+      "number": 2490,
       "state": "open",
-      "title": "brainstorming: close the skip-path gap in #2482's defaults rule",
-      "updated_at": "2026-10-09T06:12:27Z",
-      "url": "https://github.com/obra/superpowers/pull/2483"
+      "title": "tests: convert wrapped-Python bash tests to plain pytest",
+      "updated_at": "2026-10-10T00:44:06Z",
+      "url": "https://github.com/obra/superpowers/pull/2490"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2491,
+      "state": "open",
+      "title": "Needs a Windows run before merge: refactor tests/hooks/test-run-hook-cmd-windows.sh for readability",
+      "updated_at": "2026-10-10T01:31:56Z",
+      "url": "https://github.com/obra/superpowers/pull/2491"
     }
   ],
   "schema_version": 1,
   "upstream": {
-    "dev_sha": "36319ad5a7d70cd162a26609361fb909cd4d828e",
+    "dev_sha": "d079e1b85c8f964cb52da5e2be678c9fdfc8759b",
     "release": {
-      "sha": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
-      "tag": "v6.4.2",
-      "url": "https://github.com/obra/superpowers/releases/tag/v6.4.2"
+      "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+      "tag": "v7.0.0",
+      "url": "https://github.com/obra/superpowers/releases/tag/v7.0.0"
     },
     "repository": "obra/superpowers"
   }
