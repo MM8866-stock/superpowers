@@ -24,19 +24,6 @@
       "kind": "pull_request",
       "labels": [
         "enhancement",
-        "new-harness",
-        "skill:using-superpowers"
-      ],
-      "number": 2144,
-      "state": "open",
-      "title": "feat: add DeepSeek Harness (dsh) support",
-      "updated_at": "2026-10-02T18:39:38Z",
-      "url": "https://github.com/obra/superpowers/pull/2144"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "enhancement",
         "hooks",
         "new-harness",
         "skill:using-superpowers"
@@ -58,17 +45,6 @@
       "title": "SDD: Approve + Important triggers mandatory re-review loop",
       "updated_at": "2026-09-30T10:42:18Z",
       "url": "https://github.com/obra/superpowers/issues/2273"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:subagent-driven-development"
-      ],
-      "number": 2276,
-      "state": "open",
-      "title": "fix(sdd): let the SDD scripts run before a greenfield Task 1 creates the repo",
-      "updated_at": "2026-09-27T15:12:35Z",
-      "url": "https://github.com/obra/superpowers/pull/2276"
     },
     {
       "kind": "issue",
@@ -125,17 +101,6 @@
       "title": "writing-plans: self-review misses task-state/DAG closure in executable plans",
       "updated_at": "2026-10-03T01:23:40Z",
       "url": "https://github.com/obra/superpowers/issues/2309"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:writing-skills"
-      ],
-      "number": 2323,
-      "state": "open",
-      "title": "fix(writing-skills): GREEN must measure outcome, not only compliance",
-      "updated_at": "2026-09-27T12:23:35Z",
-      "url": "https://github.com/obra/superpowers/pull/2323"
     },
     {
       "kind": "pull_request",
@@ -217,21 +182,23 @@
     },
     {
       "kind": "issue",
-      "labels": [],
-      "number": 2405,
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2398,
       "state": "open",
-      "title": "task-brief: task number is an unanchored, unescaped regex prefix, so the wrong task is returned with exit 0",
-      "updated_at": "2026-09-27T14:22:40Z",
-      "url": "https://github.com/obra/superpowers/issues/2405"
+      "title": "Master tracking ticket for configurability",
+      "updated_at": "2026-10-10T20:37:43Z",
+      "url": "https://github.com/obra/superpowers/issues/2398"
     },
     {
       "kind": "issue",
       "labels": [],
-      "number": 2406,
+      "number": 2403,
       "state": "open",
-      "title": "task-brief: the last task of a section absorbs the following non-Task heading and its prose",
-      "updated_at": "2026-09-27T14:22:41Z",
-      "url": "https://github.com/obra/superpowers/issues/2406"
+      "title": "requesting-code-review defaults BASE_SHA to HEAD~1, which other skills forbid",
+      "updated_at": "2026-10-10T21:16:39Z",
+      "url": "https://github.com/obra/superpowers/issues/2403"
     },
     {
       "kind": "issue",
@@ -244,15 +211,6 @@
       "title": "writing-plans: the plan's code was built twice during planning, then the handoff offered to implement it a third time",
       "updated_at": "2026-10-06T02:18:19Z",
       "url": "https://github.com/obra/superpowers/issues/2408"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2413,
-      "state": "open",
-      "title": "writing-plans / task-reviewer: a plan step that infers identity from a string's shape ships its collision case unless the rubric asks for it",
-      "updated_at": "2026-09-28T02:36:30Z",
-      "url": "https://github.com/obra/superpowers/issues/2413"
     },
     {
       "kind": "pull_request",
@@ -287,7 +245,7 @@
       "number": 2429,
       "state": "open",
       "title": "SDD scripts resolve repo and workspace from the cwd, not from PLAN_FILE — wrong workspace when called across worktrees",
-      "updated_at": "2026-09-30T22:13:34Z",
+      "updated_at": "2026-10-10T16:54:28Z",
       "url": "https://github.com/obra/superpowers/issues/2429"
     },
     {
@@ -586,6 +544,51 @@
       "title": "Needs a Windows run before merge: refactor tests/hooks/test-run-hook-cmd-windows.sh for readability",
       "updated_at": "2026-10-10T01:31:56Z",
       "url": "https://github.com/obra/superpowers/pull/2491"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2493,
+      "state": "open",
+      "title": "task-brief / dispatch: the plan's Global Constraints and Review Focus never reach the implementer, although the plan template says they apply to every task",
+      "updated_at": "2026-10-10T16:54:27Z",
+      "url": "https://github.com/obra/superpowers/issues/2493"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2494,
+      "state": "open",
+      "title": "writing-plans: test code written inside a plan has two failure modes of its own, and the Self-Review does not ask about either",
+      "updated_at": "2026-10-10T17:04:18Z",
+      "url": "https://github.com/obra/superpowers/issues/2494"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2495,
+      "state": "open",
+      "title": "verification-before-completion: a commit message is a claim about the diff, not the diff; and \"add one more X\" predictably breaks hardcoded counts in sibling tests",
+      "updated_at": "2026-10-10T17:04:19Z",
+      "url": "https://github.com/obra/superpowers/issues/2495"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2496,
+      "state": "open",
+      "title": "task-brief / task-start: only the English literal \"Task N\" is a task heading, and the error for a plan written in another language does not say so",
+      "updated_at": "2026-10-10T17:11:32Z",
+      "url": "https://github.com/obra/superpowers/issues/2496"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2497,
+      "state": "open",
+      "title": "fix(sdd): task-brief matches a task number exactly, not as a regex prefix (#2405)",
+      "updated_at": "2026-10-11T06:19:10Z",
+      "url": "https://github.com/obra/superpowers/pull/2497"
     }
   ],
   "schema_version": 1,
