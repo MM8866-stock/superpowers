@@ -60,35 +60,12 @@
     {
       "kind": "pull_request",
       "labels": [
-        "skill:finishing-a-development-branch",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2294,
-      "state": "open",
-      "title": "fix(finishing): surface surviving Superpowers scratch before worktree removal",
-      "updated_at": "2026-09-28T11:40:06Z",
-      "url": "https://github.com/obra/superpowers/pull/2294"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:writing-plans"
-      ],
-      "number": 2295,
-      "state": "open",
-      "title": "fix(writing-plans): require produced expected values in verification steps",
-      "updated_at": "2026-09-28T11:37:59Z",
-      "url": "https://github.com/obra/superpowers/pull/2295"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
         "skill:subagent-driven-development"
       ],
       "number": 2304,
       "state": "open",
       "title": "task-brief: track fence character and length so fenced examples cannot end a task early",
-      "updated_at": "2026-10-09T04:44:45Z",
+      "updated_at": "2026-10-12T06:11:51Z",
       "url": "https://github.com/obra/superpowers/pull/2304"
     },
     {
@@ -589,6 +566,26 @@
       "title": "fix(sdd): task-brief matches a task number exactly, not as a regex prefix (#2405)",
       "updated_at": "2026-10-11T06:19:10Z",
       "url": "https://github.com/obra/superpowers/pull/2497"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2499,
+      "state": "open",
+      "title": "subagent-driven-development: scoped re-review resumed the existing reviewer in Codex",
+      "updated_at": "2026-10-11T11:49:19Z",
+      "url": "https://github.com/obra/superpowers/issues/2499"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2501,
+      "state": "open",
+      "title": "Proposal: Vietnamese language support for Superpowers skills",
+      "updated_at": "2026-10-12T03:27:54Z",
+      "url": "https://github.com/obra/superpowers/issues/2501"
     }
   ],
   "schema_version": 1,
