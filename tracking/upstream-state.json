@@ -24,6 +24,20 @@
       "kind": "pull_request",
       "labels": [
         "enhancement",
+        "new-harness",
+        "pr-template-rules-ignored",
+        "skill:using-superpowers"
+      ],
+      "number": 2099,
+      "state": "open",
+      "title": "feat: add Command Code harness (disk-loaded Shape B, install from this repo)",
+      "updated_at": "2026-10-12T21:14:37Z",
+      "url": "https://github.com/obra/superpowers/pull/2099"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "enhancement",
         "hooks",
         "new-harness",
         "skill:using-superpowers"
@@ -190,15 +204,6 @@
       "url": "https://github.com/obra/superpowers/issues/2408"
     },
     {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2414,
-      "state": "open",
-      "title": "writing-plans, task-reviewer: name the colliding input behind string-shaped identity",
-      "updated_at": "2026-09-28T14:14:51Z",
-      "url": "https://github.com/obra/superpowers/pull/2414"
-    },
-    {
       "kind": "issue",
       "labels": [],
       "number": 2423,
@@ -206,15 +211,6 @@
       "title": "Pressure-register and update-suppressor wording over-triggers on Claude Opus 5.5 / Sonnet 5.5",
       "updated_at": "2026-09-29T00:58:21Z",
       "url": "https://github.com/obra/superpowers/issues/2423"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2428,
-      "state": "open",
-      "title": "brainstorming: offer an opt-in prior-art search before designing",
-      "updated_at": "2026-09-30T06:11:11Z",
-      "url": "https://github.com/obra/superpowers/pull/2428"
     },
     {
       "kind": "issue",
@@ -501,7 +497,7 @@
       "number": 2481,
       "state": "open",
       "title": "subagent-driven-development: \"Five rounds maximum per task\" lies past the 20,000-character compaction re-attach cut, and one task ran 18+ fix rounds (Claude Code)",
-      "updated_at": "2026-10-10T03:35:44Z",
+      "updated_at": "2026-10-12T13:22:44Z",
       "url": "https://github.com/obra/superpowers/issues/2481"
     },
     {
@@ -586,6 +582,24 @@
       "title": "Proposal: Vietnamese language support for Superpowers skills",
       "updated_at": "2026-10-12T03:27:54Z",
       "url": "https://github.com/obra/superpowers/issues/2501"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2504,
+      "state": "open",
+      "title": "fix(codex): fall back to sha256sum when shasum is unavailable",
+      "updated_at": "2026-10-12T15:50:52Z",
+      "url": "https://github.com/obra/superpowers/pull/2504"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2505,
+      "state": "open",
+      "title": "SessionStart hook never runs in Claude desktop SSH remote sessions; naming the hooks file in plugin.json fixes it",
+      "updated_at": "2026-10-12T17:30:02Z",
+      "url": "https://github.com/obra/superpowers/issues/2505"
     }
   ],
   "schema_version": 1,
