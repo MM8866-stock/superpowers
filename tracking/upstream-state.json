@@ -10,15 +10,14 @@
       "kind": "issue",
       "labels": [
         "enhancement",
-        "skill:subagent-driven-development",
-        "skills",
-        "subagents"
+        "kiro",
+        "new-harness"
       ],
-      "number": 2054,
+      "number": 503,
       "state": "open",
-      "title": "subagent-driven-development: reviewer prompts pay subagent turns for mechanical facts the controller can settle in one command",
-      "updated_at": "2026-09-28T14:42:08Z",
-      "url": "https://github.com/obra/superpowers/issues/2054"
+      "title": "Add Support for Kiro CLI as an AI Provider",
+      "updated_at": "2026-10-13T15:45:43Z",
+      "url": "https://github.com/obra/superpowers/issues/503"
     },
     {
       "kind": "pull_request",
@@ -51,18 +50,6 @@
     {
       "kind": "issue",
       "labels": [
-        "enhancement",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2273,
-      "state": "open",
-      "title": "SDD: Approve + Important triggers mandatory re-review loop",
-      "updated_at": "2026-09-30T10:42:18Z",
-      "url": "https://github.com/obra/superpowers/issues/2273"
-    },
-    {
-      "kind": "issue",
-      "labels": [
         "skill:writing-plans"
       ],
       "number": 2285,
@@ -79,7 +66,7 @@
       "number": 2304,
       "state": "open",
       "title": "task-brief: track fence character and length so fenced examples cannot end a task early",
-      "updated_at": "2026-10-12T06:11:51Z",
+      "updated_at": "2026-10-14T04:53:16Z",
       "url": "https://github.com/obra/superpowers/pull/2304"
     },
     {
@@ -125,20 +112,6 @@
       "title": "fix(executing-plans): ledger the test summary, not the trailing duration",
       "updated_at": "2026-10-01T13:29:30Z",
       "url": "https://github.com/obra/superpowers/pull/2348"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "bug",
-        "skill:subagent-driven-development",
-        "subagents",
-        "windows"
-      ],
-      "number": 2369,
-      "state": "open",
-      "title": "fix(sdd): keep helper paths Windows-readable (#2307)",
-      "updated_at": "2026-09-30T13:01:10Z",
-      "url": "https://github.com/obra/superpowers/pull/2369"
     },
     {
       "kind": "issue",
@@ -202,15 +175,6 @@
       "title": "writing-plans: the plan's code was built twice during planning, then the handoff offered to implement it a third time",
       "updated_at": "2026-10-06T02:18:19Z",
       "url": "https://github.com/obra/superpowers/issues/2408"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2423,
-      "state": "open",
-      "title": "Pressure-register and update-suppressor wording over-triggers on Claude Opus 5.5 / Sonnet 5.5",
-      "updated_at": "2026-09-29T00:58:21Z",
-      "url": "https://github.com/obra/superpowers/issues/2423"
     },
     {
       "kind": "issue",
@@ -600,6 +564,33 @@
       "title": "SessionStart hook never runs in Claude desktop SSH remote sessions; naming the hooks file in plugin.json fixes it",
       "updated_at": "2026-10-12T17:30:02Z",
       "url": "https://github.com/obra/superpowers/issues/2505"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2506,
+      "state": "open",
+      "title": "[Codex] using-git-worktrees is read, but design approval is used to skip worktree consent (v7.0.0)",
+      "updated_at": "2026-10-13T10:17:20Z",
+      "url": "https://github.com/obra/superpowers/issues/2506"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2510,
+      "state": "open",
+      "title": "executing-plans: agent changed an approved plan by a ledger \"Ruling:\" without asking, while CLAUDE.md said \"flag real problems and wait\", then claimed the phase done with verify lines unmet (Claude Code)",
+      "updated_at": "2026-10-13T23:03:24Z",
+      "url": "https://github.com/obra/superpowers/issues/2510"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2512,
+      "state": "open",
+      "title": "executing-plans: task-done exits 1 silently when the plan workspace path contains spaces (or the test command is compound)",
+      "updated_at": "2026-10-14T01:44:52Z",
+      "url": "https://github.com/obra/superpowers/issues/2512"
     }
   ],
   "schema_version": 1,
