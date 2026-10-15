@@ -50,13 +50,13 @@
     {
       "kind": "issue",
       "labels": [
-        "skill:writing-plans"
+        "skill:subagent-driven-development"
       ],
-      "number": 2285,
+      "number": 2293,
       "state": "open",
-      "title": "writing-plans: expected values in verification steps are asserted, not produced — and can be contradicted by the plan's own text",
-      "updated_at": "2026-09-30T22:14:05Z",
-      "url": "https://github.com/obra/superpowers/issues/2285"
+      "title": "subagent-driven-development: the ledger records no in-flight task, so an outage mid-task re-dispatches work that is already committed",
+      "updated_at": "2026-10-15T05:34:05Z",
+      "url": "https://github.com/obra/superpowers/issues/2293"
     },
     {
       "kind": "pull_request",
@@ -101,17 +101,6 @@
       "title": "fix(sdd): archive the plan workspace at Finish instead of deleting it",
       "updated_at": "2026-10-07T13:04:55Z",
       "url": "https://github.com/obra/superpowers/pull/2328"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:executing-plans"
-      ],
-      "number": 2348,
-      "state": "open",
-      "title": "fix(executing-plans): ledger the test summary, not the trailing duration",
-      "updated_at": "2026-10-01T13:29:30Z",
-      "url": "https://github.com/obra/superpowers/pull/2348"
     },
     {
       "kind": "issue",
@@ -188,15 +177,6 @@
     {
       "kind": "issue",
       "labels": [],
-      "number": 2430,
-      "state": "open",
-      "title": "subagent-driven-development: a reported DONE does not mean the implementer's processes have exited",
-      "updated_at": "2026-09-30T22:13:50Z",
-      "url": "https://github.com/obra/superpowers/issues/2430"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
       "number": 2431,
       "state": "open",
       "title": "subagent-driven-development: \"no second fix wave\" should not cover breakage the final fix wave itself introduced",
@@ -211,24 +191,6 @@
       "title": "subagent-driven-development: in an unattended run, a step that needs a human at the screen should move to the next available tool, not be dropped",
       "updated_at": "2026-10-03T16:03:02Z",
       "url": "https://github.com/obra/superpowers/issues/2435"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2436,
-      "state": "open",
-      "title": "task-brief: an unclosed fence makes one task's brief absorb every later task, at exit 0 (Claude Code)",
-      "updated_at": "2026-10-01T04:08:35Z",
-      "url": "https://github.com/obra/superpowers/issues/2436"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2437,
-      "state": "open",
-      "title": "writing-plans: per-task \"run tests\" + \"commit\" steps make compiled-language plans very slow — allow batching",
-      "updated_at": "2026-10-01T04:47:17Z",
-      "url": "https://github.com/obra/superpowers/issues/2437"
     },
     {
       "kind": "pull_request",
@@ -591,6 +553,42 @@
       "title": "executing-plans: task-done exits 1 silently when the plan workspace path contains spaces (or the test command is compound)",
       "updated_at": "2026-10-14T01:44:52Z",
       "url": "https://github.com/obra/superpowers/issues/2512"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2516,
+      "state": "open",
+      "title": "fix(skills): defer main/master consent to partner instructions in executing-plans and SDD (#2455)",
+      "updated_at": "2026-10-14T13:49:50Z",
+      "url": "https://github.com/obra/superpowers/pull/2516"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2517,
+      "state": "open",
+      "title": "fix(manifest): declare hooks file in .claude-plugin/plugin.json (#2505)",
+      "updated_at": "2026-10-14T14:33:18Z",
+      "url": "https://github.com/obra/superpowers/pull/2517"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2520,
+      "state": "open",
+      "title": "subagent-driven-development: controller git writes race a live background implementer in the same checkout",
+      "updated_at": "2026-10-15T05:34:03Z",
+      "url": "https://github.com/obra/superpowers/issues/2520"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2521,
+      "state": "open",
+      "title": "subagent-driven-development: when a subagent cannot write its report file, the full report comes back inline, and there is no fallback",
+      "updated_at": "2026-10-15T05:34:04Z",
+      "url": "https://github.com/obra/superpowers/issues/2521"
     }
   ],
   "schema_version": 1,
