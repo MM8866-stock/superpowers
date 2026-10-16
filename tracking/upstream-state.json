@@ -34,18 +34,19 @@
       "url": "https://github.com/obra/superpowers/pull/2099"
     },
     {
-      "kind": "pull_request",
+      "kind": "issue",
       "labels": [
-        "enhancement",
-        "hooks",
-        "new-harness",
-        "skill:using-superpowers"
+        "bug",
+        "documentation",
+        "hermes",
+        "skill:using-superpowers",
+        "skills"
       ],
-      "number": 2184,
+      "number": 2157,
       "state": "open",
-      "title": "feat (harness): add Bob harness support",
-      "updated_at": "2026-10-02T02:43:30Z",
-      "url": "https://github.com/obra/superpowers/pull/2184"
+      "title": "[Bug]: Hermes tool mapping in v6.3.0 uses stale names and an unqualified plugin skill name",
+      "updated_at": "2026-10-15T22:06:29Z",
+      "url": "https://github.com/obra/superpowers/issues/2157"
     },
     {
       "kind": "issue",
@@ -68,28 +69,6 @@
       "title": "task-brief: track fence character and length so fenced examples cannot end a task early",
       "updated_at": "2026-10-14T04:53:16Z",
       "url": "https://github.com/obra/superpowers/pull/2304"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "skill:writing-plans"
-      ],
-      "number": 2309,
-      "state": "open",
-      "title": "writing-plans: self-review misses task-state/DAG closure in executable plans",
-      "updated_at": "2026-10-03T01:23:40Z",
-      "url": "https://github.com/obra/superpowers/issues/2309"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:subagent-driven-development"
-      ],
-      "number": 2326,
-      "state": "open",
-      "title": "fix(sdd): an Approved verdict closes the task; severity and Assessment must agree",
-      "updated_at": "2026-10-01T14:12:49Z",
-      "url": "https://github.com/obra/superpowers/pull/2326"
     },
     {
       "kind": "pull_request",
@@ -177,15 +156,6 @@
     {
       "kind": "issue",
       "labels": [],
-      "number": 2431,
-      "state": "open",
-      "title": "subagent-driven-development: \"no second fix wave\" should not cover breakage the final fix wave itself introduced",
-      "updated_at": "2026-10-02T15:24:25Z",
-      "url": "https://github.com/obra/superpowers/issues/2431"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
       "number": 2435,
       "state": "open",
       "title": "subagent-driven-development: in an unattended run, a step that needs a human at the screen should move to the next available tool, not be dropped",
@@ -195,83 +165,11 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 2438,
-      "state": "open",
-      "title": "fix(sdd): task-brief fails loudly on an unclosed code fence (#2436)",
-      "updated_at": "2026-10-01T17:38:20Z",
-      "url": "https://github.com/obra/superpowers/pull/2438"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2439,
-      "state": "open",
-      "title": "fix(sdd): resolve the repo root from PLAN_FILE, not the caller's cwd (#2429)",
-      "updated_at": "2026-10-01T17:38:30Z",
-      "url": "https://github.com/obra/superpowers/pull/2439"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2440,
-      "state": "open",
-      "title": "task-reviewer-prompt: requiring file:line for every passed check makes reviewers compute line numbers from diff offsets",
-      "updated_at": "2026-10-01T22:16:07Z",
-      "url": "https://github.com/obra/superpowers/issues/2440"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
       "number": 2441,
       "state": "open",
       "title": "docs(writing-plans): require a code citation for behavioral claims in user-facing text (#2433)",
       "updated_at": "2026-10-04T03:07:31Z",
       "url": "https://github.com/obra/superpowers/pull/2441"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2442,
-      "state": "open",
-      "title": "docs(brainstorming): weigh a YAGNI cut against the user's stated goals (#2434)",
-      "updated_at": "2026-10-01T17:40:44Z",
-      "url": "https://github.com/obra/superpowers/pull/2442"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2443,
-      "state": "open",
-      "title": "subagent-driven-development: implementers commit their ignored report files, and task review accepts them",
-      "updated_at": "2026-10-02T15:24:28Z",
-      "url": "https://github.com/obra/superpowers/issues/2443"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2444,
-      "state": "open",
-      "title": "fix(brainstorming): error instead of hanging when start-server.sh gets a valueless option",
-      "updated_at": "2026-10-03T00:06:09Z",
-      "url": "https://github.com/obra/superpowers/pull/2444"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2445,
-      "state": "open",
-      "title": "test-driven-development and subagent-driven-development disagree on running the full suite after a fix",
-      "updated_at": "2026-10-02T22:49:42Z",
-      "url": "https://github.com/obra/superpowers/issues/2445"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2446,
-      "state": "open",
-      "title": "Final whole-branch review: code-reviewer.md re-derives the diff and has no model slot, contrary to SDD's Final Review",
-      "updated_at": "2026-10-02T22:49:42Z",
-      "url": "https://github.com/obra/superpowers/issues/2446"
     },
     {
       "kind": "issue",
@@ -423,7 +321,7 @@
       "number": 2481,
       "state": "open",
       "title": "subagent-driven-development: \"Five rounds maximum per task\" lies past the 20,000-character compaction re-attach cut, and one task ran 18+ fix rounds (Claude Code)",
-      "updated_at": "2026-10-12T13:22:44Z",
+      "updated_at": "2026-10-16T01:40:43Z",
       "url": "https://github.com/obra/superpowers/issues/2481"
     },
     {
@@ -589,6 +487,24 @@
       "title": "subagent-driven-development: when a subagent cannot write its report file, the full report comes back inline, and there is no fallback",
       "updated_at": "2026-10-15T05:34:04Z",
       "url": "https://github.com/obra/superpowers/issues/2521"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2525,
+      "state": "open",
+      "title": "subagent-driven-development: \"run review-package from this skill's directory\" points git at the plugin cache, not the project",
+      "updated_at": "2026-10-15T21:12:54Z",
+      "url": "https://github.com/obra/superpowers/issues/2525"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2532,
+      "state": "open",
+      "title": "refactor(executing-plans): restructure skill into declarative specifications and explicit authority hierarchies",
+      "updated_at": "2026-10-16T04:58:04Z",
+      "url": "https://github.com/obra/superpowers/pull/2532"
     }
   ],
   "schema_version": 1,
