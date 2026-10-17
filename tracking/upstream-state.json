@@ -99,22 +99,6 @@
     {
       "kind": "issue",
       "labels": [
-        "enhancement",
-        "hooks",
-        "skill:executing-plans",
-        "skill:subagent-driven-development",
-        "skill:using-superpowers",
-        "skills"
-      ],
-      "number": 2377,
-      "state": "open",
-      "title": "Pressure-language bootstrap and narration suppressors degrade behavior on current Claude models",
-      "updated_at": "2026-10-03T13:22:25Z",
-      "url": "https://github.com/obra/superpowers/issues/2377"
-    },
-    {
-      "kind": "issue",
-      "labels": [
         "enhancement"
       ],
       "number": 2398,
@@ -170,42 +154,6 @@
       "title": "docs(writing-plans): require a code citation for behavioral claims in user-facing text (#2433)",
       "updated_at": "2026-10-04T03:07:31Z",
       "url": "https://github.com/obra/superpowers/pull/2441"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2450,
-      "state": "open",
-      "title": "subagent-driven-development: a fix round that changes an interface leaves later tasks' plan text calling the old one",
-      "updated_at": "2026-10-03T16:02:55Z",
-      "url": "https://github.com/obra/superpowers/issues/2450"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2451,
-      "state": "open",
-      "title": "subagent-driven-development / executing-plans: the final report should be derived from a plan-to-diff mapping, not written freely",
-      "updated_at": "2026-10-03T16:02:57Z",
-      "url": "https://github.com/obra/superpowers/issues/2451"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2452,
-      "state": "open",
-      "title": "writing-plans / test-driven-development: a test for a protective layer is evidence only once it fails when the layer is weakened",
-      "updated_at": "2026-10-03T16:02:59Z",
-      "url": "https://github.com/obra/superpowers/issues/2452"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2453,
-      "state": "open",
-      "title": "writing-plans Review Focus: name three edge classes that verified plans still missed (largest allowed value, failure after a side effect, rapid successive writes)",
-      "updated_at": "2026-10-03T16:03:01Z",
-      "url": "https://github.com/obra/superpowers/issues/2453"
     },
     {
       "kind": "issue",
@@ -384,7 +332,7 @@
       "number": 2497,
       "state": "open",
       "title": "fix(sdd): task-brief matches a task number exactly, not as a regex prefix (#2405)",
-      "updated_at": "2026-10-11T06:19:10Z",
+      "updated_at": "2026-10-16T09:23:21Z",
       "url": "https://github.com/obra/superpowers/pull/2497"
     },
     {
@@ -413,7 +361,7 @@
       "number": 2504,
       "state": "open",
       "title": "fix(codex): fall back to sha256sum when shasum is unavailable",
-      "updated_at": "2026-10-12T15:50:52Z",
+      "updated_at": "2026-10-16T10:01:28Z",
       "url": "https://github.com/obra/superpowers/pull/2504"
     },
     {
@@ -422,7 +370,7 @@
       "number": 2505,
       "state": "open",
       "title": "SessionStart hook never runs in Claude desktop SSH remote sessions; naming the hooks file in plugin.json fixes it",
-      "updated_at": "2026-10-12T17:30:02Z",
+      "updated_at": "2026-10-16T10:09:38Z",
       "url": "https://github.com/obra/superpowers/issues/2505"
     },
     {
@@ -505,6 +453,42 @@
       "title": "refactor(executing-plans): restructure skill into declarative specifications and explicit authority hierarchies",
       "updated_at": "2026-10-16T04:58:04Z",
       "url": "https://github.com/obra/superpowers/pull/2532"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2536,
+      "state": "open",
+      "title": "Hermes: using-superpowers bootstrap is injected into delegate_task subagents (Hermes counterpart of #2160)",
+      "updated_at": "2026-10-16T07:00:59Z",
+      "url": "https://github.com/obra/superpowers/issues/2536"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2537,
+      "state": "open",
+      "title": "refactor(visual-companion): codify server lifecycle and component contracts",
+      "updated_at": "2026-10-16T07:07:03Z",
+      "url": "https://github.com/obra/superpowers/pull/2537"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2539,
+      "state": "open",
+      "title": "subagent-driven-development / writing-plans: acceptance tests written by a different agent from the implementer, oracle rules, and a per-task size cap",
+      "updated_at": "2026-10-16T16:36:30Z",
+      "url": "https://github.com/obra/superpowers/issues/2539"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2540,
+      "state": "open",
+      "title": "fix(hermes): skip controller bootstrap for delegate_task subagents (#2536)",
+      "updated_at": "2026-10-16T18:54:17Z",
+      "url": "https://github.com/obra/superpowers/pull/2540"
     }
   ],
   "schema_version": 1,
