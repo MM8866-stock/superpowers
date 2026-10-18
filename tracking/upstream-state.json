@@ -51,12 +51,34 @@
     {
       "kind": "issue",
       "labels": [
+        "skill:using-superpowers"
+      ],
+      "number": 2260,
+      "state": "open",
+      "title": "Codex reference assumes spawn capabilities unavailable in an observed desktop session",
+      "updated_at": "2026-10-17T19:41:20Z",
+      "url": "https://github.com/obra/superpowers/issues/2260"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "skill:subagent-driven-development"
+      ],
+      "number": 2267,
+      "state": "open",
+      "title": "subagent-driven-development: the progress ledger records completion but not cross-task discoveries, so a usage-limit interruption loses what earlier tasks learned",
+      "updated_at": "2026-10-17T14:46:30Z",
+      "url": "https://github.com/obra/superpowers/issues/2267"
+    },
+    {
+      "kind": "issue",
+      "labels": [
         "skill:subagent-driven-development"
       ],
       "number": 2293,
       "state": "open",
       "title": "subagent-driven-development: the ledger records no in-flight task, so an outage mid-task re-dispatches work that is already committed",
-      "updated_at": "2026-10-15T05:34:05Z",
+      "updated_at": "2026-10-18T02:46:38Z",
       "url": "https://github.com/obra/superpowers/issues/2293"
     },
     {
@@ -69,6 +91,17 @@
       "title": "task-brief: track fence character and length so fenced examples cannot end a task early",
       "updated_at": "2026-10-14T04:53:16Z",
       "url": "https://github.com/obra/superpowers/pull/2304"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "skill:subagent-driven-development"
+      ],
+      "number": 2322,
+      "state": "open",
+      "title": "fix(sdd): record in-flight tasks in the ledger to prevent re-dispatch of committed work",
+      "updated_at": "2026-10-18T02:46:24Z",
+      "url": "https://github.com/obra/superpowers/pull/2322"
     },
     {
       "kind": "pull_request",
@@ -136,51 +169,6 @@
       "title": "SDD scripts resolve repo and workspace from the cwd, not from PLAN_FILE — wrong workspace when called across worktrees",
       "updated_at": "2026-10-10T16:54:28Z",
       "url": "https://github.com/obra/superpowers/issues/2429"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2435,
-      "state": "open",
-      "title": "subagent-driven-development: in an unattended run, a step that needs a human at the screen should move to the next available tool, not be dropped",
-      "updated_at": "2026-10-03T16:03:02Z",
-      "url": "https://github.com/obra/superpowers/issues/2435"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2441,
-      "state": "open",
-      "title": "docs(writing-plans): require a code citation for behavioral claims in user-facing text (#2433)",
-      "updated_at": "2026-10-04T03:07:31Z",
-      "url": "https://github.com/obra/superpowers/pull/2441"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2454,
-      "state": "open",
-      "title": "Prompt audit against Claude Fable 5.1: pressure language and update suppressors in using-superpowers, executing-plans, subagent-driven-development",
-      "updated_at": "2026-10-05T14:11:14Z",
-      "url": "https://github.com/obra/superpowers/issues/2454"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2455,
-      "state": "open",
-      "title": "executing-plans and subagent-driven-development: the main/master consent rule does not defer to a declared branch policy",
-      "updated_at": "2026-10-03T18:08:53Z",
-      "url": "https://github.com/obra/superpowers/issues/2455"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2459,
-      "state": "open",
-      "title": "task-brief: alphanumeric task IDs (\"Task A1\", \"Task B2\") are never recognised as task headings",
-      "updated_at": "2026-10-05T13:58:55Z",
-      "url": "https://github.com/obra/superpowers/issues/2459"
     },
     {
       "kind": "pull_request",
@@ -397,7 +385,7 @@
       "number": 2512,
       "state": "open",
       "title": "executing-plans: task-done exits 1 silently when the plan workspace path contains spaces (or the test command is compound)",
-      "updated_at": "2026-10-14T01:44:52Z",
+      "updated_at": "2026-10-17T16:39:41Z",
       "url": "https://github.com/obra/superpowers/issues/2512"
     },
     {
@@ -489,6 +477,42 @@
       "title": "fix(hermes): skip controller bootstrap for delegate_task subagents (#2536)",
       "updated_at": "2026-10-16T18:54:17Z",
       "url": "https://github.com/obra/superpowers/pull/2540"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2542,
+      "state": "open",
+      "title": "feat: add native Qoder plugin support",
+      "updated_at": "2026-10-17T07:43:57Z",
+      "url": "https://github.com/obra/superpowers/pull/2542"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2543,
+      "state": "open",
+      "title": "fix(task-brief): diagnose translated Task headings",
+      "updated_at": "2026-10-17T08:30:54Z",
+      "url": "https://github.com/obra/superpowers/pull/2543"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2546,
+      "state": "open",
+      "title": "test-driven-development / executing-plans: \"batch the test and the code to save a turn\" is missing from the rationalization table, and fix-pass ledger lines don't require RED output",
+      "updated_at": "2026-10-17T11:23:15Z",
+      "url": "https://github.com/obra/superpowers/issues/2546"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2547,
+      "state": "open",
+      "title": "docs(antigravity): document send_message fix rounds, reactive wakeup, and ArtifactMetadata schema",
+      "updated_at": "2026-10-17T18:11:52Z",
+      "url": "https://github.com/obra/superpowers/pull/2547"
     }
   ],
   "schema_version": 1,
