@@ -164,6 +164,15 @@
     {
       "kind": "issue",
       "labels": [],
+      "number": 2423,
+      "state": "open",
+      "title": "Pressure-register and update-suppressor wording over-triggers on Claude Opus 5.5 / Sonnet 5.5",
+      "updated_at": "2026-10-18T21:00:25Z",
+      "url": "https://github.com/obra/superpowers/issues/2423"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
       "number": 2429,
       "state": "open",
       "title": "SDD scripts resolve repo and workspace from the cwd, not from PLAN_FILE — wrong workspace when called across worktrees",
@@ -448,7 +457,7 @@
       "number": 2536,
       "state": "open",
       "title": "Hermes: using-superpowers bootstrap is injected into delegate_task subagents (Hermes counterpart of #2160)",
-      "updated_at": "2026-10-16T07:00:59Z",
+      "updated_at": "2026-10-18T10:22:25Z",
       "url": "https://github.com/obra/superpowers/issues/2536"
     },
     {
@@ -475,7 +484,7 @@
       "number": 2540,
       "state": "open",
       "title": "fix(hermes): skip controller bootstrap for delegate_task subagents (#2536)",
-      "updated_at": "2026-10-16T18:54:17Z",
+      "updated_at": "2026-10-18T10:24:58Z",
       "url": "https://github.com/obra/superpowers/pull/2540"
     },
     {
@@ -513,6 +522,15 @@
       "title": "docs(antigravity): document send_message fix rounds, reactive wakeup, and ArtifactMetadata schema",
       "updated_at": "2026-10-17T18:11:52Z",
       "url": "https://github.com/obra/superpowers/pull/2547"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2551,
+      "state": "open",
+      "title": "subagent-driven-development: implementers resumed for fix rounds grow to 300k+ context and dominate token use (Claude Code)",
+      "updated_at": "2026-10-18T22:19:26Z",
+      "url": "https://github.com/obra/superpowers/issues/2551"
     }
   ],
   "schema_version": 1,
