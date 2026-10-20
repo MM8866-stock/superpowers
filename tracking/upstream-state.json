@@ -9,6 +9,24 @@
     {
       "kind": "issue",
       "labels": [
+        "claude-code",
+        "enhancement",
+        "skill:dispatching-parallel-agents",
+        "skill:receiving-code-review",
+        "skill:requesting-code-review",
+        "skill:subagent-driven-development",
+        "skill:verification-before-completion",
+        "subagents"
+      ],
+      "number": 429,
+      "state": "open",
+      "title": "Support for Claude Code Agent Teams (TeammateTool, SendMessage, TaskList)",
+      "updated_at": "2026-10-19T10:30:14Z",
+      "url": "https://github.com/obra/superpowers/issues/429"
+    },
+    {
+      "kind": "issue",
+      "labels": [
         "enhancement",
         "kiro",
         "new-harness"
@@ -47,6 +65,20 @@
       "title": "[Bug]: Hermes tool mapping in v6.3.0 uses stale names and an unqualified plugin skill name",
       "updated_at": "2026-10-15T22:06:29Z",
       "url": "https://github.com/obra/superpowers/issues/2157"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "enhancement",
+        "hooks",
+        "new-harness",
+        "skill:using-superpowers"
+      ],
+      "number": 2184,
+      "state": "open",
+      "title": "feat (harness): add Bob harness support",
+      "updated_at": "2026-10-19T18:23:45Z",
+      "url": "https://github.com/obra/superpowers/pull/2184"
     },
     {
       "kind": "issue",
@@ -104,17 +136,6 @@
       "url": "https://github.com/obra/superpowers/pull/2322"
     },
     {
-      "kind": "pull_request",
-      "labels": [
-        "skill:subagent-driven-development"
-      ],
-      "number": 2328,
-      "state": "open",
-      "title": "fix(sdd): archive the plan workspace at Finish instead of deleting it",
-      "updated_at": "2026-10-07T13:04:55Z",
-      "url": "https://github.com/obra/superpowers/pull/2328"
-    },
-    {
       "kind": "issue",
       "labels": [
         "brainstorming",
@@ -151,18 +172,6 @@
     },
     {
       "kind": "issue",
-      "labels": [
-        "automated-issue-report",
-        "bug"
-      ],
-      "number": 2408,
-      "state": "open",
-      "title": "writing-plans: the plan's code was built twice during planning, then the handoff offered to implement it a third time",
-      "updated_at": "2026-10-06T02:18:19Z",
-      "url": "https://github.com/obra/superpowers/issues/2408"
-    },
-    {
-      "kind": "issue",
       "labels": [],
       "number": 2423,
       "state": "open",
@@ -187,51 +196,6 @@
       "title": "docs: brainstorming rebuild eval results",
       "updated_at": "2026-10-10T03:03:43Z",
       "url": "https://github.com/obra/superpowers/pull/2464"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2466,
-      "state": "open",
-      "title": "fix(sdd): support alphanumeric task IDs",
-      "updated_at": "2026-10-06T14:37:17Z",
-      "url": "https://github.com/obra/superpowers/pull/2466"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2469,
-      "state": "open",
-      "title": "subagent-driven-development: document a tool-only fallback for each helper script",
-      "updated_at": "2026-10-06T16:34:32Z",
-      "url": "https://github.com/obra/superpowers/issues/2469"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2470,
-      "state": "open",
-      "title": "subagent-driven-development: plan-verbatim code passes its own tests — reviewers need adversarial probes per named risk, including the seam with unchanged code",
-      "updated_at": "2026-10-07T02:28:26Z",
-      "url": "https://github.com/obra/superpowers/issues/2470"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2471,
-      "state": "open",
-      "title": "subagent-driven-development: deferred \"minor\" findings are graded by likelihood only — add recoverability",
-      "updated_at": "2026-10-07T02:28:27Z",
-      "url": "https://github.com/obra/superpowers/issues/2471"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2472,
-      "state": "open",
-      "title": "subagent-driven-development: interactive/manual verification steps in a brief must be bounded by command flags, not by prose",
-      "updated_at": "2026-10-07T03:48:42Z",
-      "url": "https://github.com/obra/superpowers/issues/2472"
     },
     {
       "kind": "pull_request",
@@ -531,6 +495,53 @@
       "title": "subagent-driven-development: implementers resumed for fix rounds grow to 300k+ context and dominate token use (Claude Code)",
       "updated_at": "2026-10-18T22:19:26Z",
       "url": "https://github.com/obra/superpowers/issues/2551"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2552,
+      "state": "open",
+      "title": "Making claude code `opusplan` to work: `opus` planning when `writing-plans` and `sonnet` execution for the subsequent steps",
+      "updated_at": "2026-10-19T06:05:45Z",
+      "url": "https://github.com/obra/superpowers/issues/2552"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2553,
+      "state": "open",
+      "title": "brainstorming / writing-plans: the spec's claims about today's code are never checked against the code, and the self-review passes clean",
+      "updated_at": "2026-10-19T13:08:19Z",
+      "url": "https://github.com/obra/superpowers/issues/2553"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2554,
+      "state": "open",
+      "title": "writing-plans / task-reviewer: state invariants that cross tasks (re-run invalidation, concurrency) fall between every per-task review",
+      "updated_at": "2026-10-19T13:08:20Z",
+      "url": "https://github.com/obra/superpowers/issues/2554"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2559,
+      "state": "open",
+      "title": "ChatGPT marketplace import rejects .agents/plugins/marketplace.json source URL './' ",
+      "updated_at": "2026-10-20T01:33:48Z",
+      "url": "https://github.com/obra/superpowers/issues/2559"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2560,
+      "state": "open",
+      "title": "brainstorming: look before asking, play back what they want, and only offer to skip when they didn't ask (#2530)",
+      "updated_at": "2026-10-20T03:54:26Z",
+      "url": "https://github.com/obra/superpowers/pull/2560"
     }
   ],
   "schema_version": 1,
