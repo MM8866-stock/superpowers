@@ -38,6 +38,18 @@
       "url": "https://github.com/obra/superpowers/issues/503"
     },
     {
+      "kind": "issue",
+      "labels": [
+        "enhancement",
+        "skill:writing-plans"
+      ],
+      "number": 921,
+      "state": "open",
+      "title": "Iteration skill for post-execution plan refinement",
+      "updated_at": "2026-10-21T00:39:35Z",
+      "url": "https://github.com/obra/superpowers/issues/921"
+    },
+    {
       "kind": "pull_request",
       "labels": [
         "enhancement",
@@ -136,6 +148,28 @@
       "url": "https://github.com/obra/superpowers/pull/2322"
     },
     {
+      "kind": "pull_request",
+      "labels": [
+        "skill:subagent-driven-development"
+      ],
+      "number": 2328,
+      "state": "open",
+      "title": "fix(sdd): archive the plan workspace at Finish instead of deleting it",
+      "updated_at": "2026-10-07T13:04:55Z",
+      "url": "https://github.com/obra/superpowers/pull/2328"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "skill:executing-plans"
+      ],
+      "number": 2348,
+      "state": "open",
+      "title": "fix(executing-plans): ledger the test summary, not the trailing duration",
+      "updated_at": "2026-10-20T18:38:38Z",
+      "url": "https://github.com/obra/superpowers/pull/2348"
+    },
+    {
       "kind": "issue",
       "labels": [
         "brainstorming",
@@ -173,20 +207,23 @@
     {
       "kind": "issue",
       "labels": [],
-      "number": 2423,
-      "state": "open",
-      "title": "Pressure-register and update-suppressor wording over-triggers on Claude Opus 5.5 / Sonnet 5.5",
-      "updated_at": "2026-10-18T21:00:25Z",
-      "url": "https://github.com/obra/superpowers/issues/2423"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
       "number": 2429,
       "state": "open",
       "title": "SDD scripts resolve repo and workspace from the cwd, not from PLAN_FILE — wrong workspace when called across worktrees",
       "updated_at": "2026-10-10T16:54:28Z",
       "url": "https://github.com/obra/superpowers/issues/2429"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement",
+        "skill:writing-skills"
+      ],
+      "number": 2454,
+      "state": "open",
+      "title": "writing-skills: word-count targets that the shipped skills exceed",
+      "updated_at": "2026-10-21T00:52:00Z",
+      "url": "https://github.com/obra/superpowers/issues/2454"
     },
     {
       "kind": "pull_request",
@@ -196,6 +233,15 @@
       "title": "docs: brainstorming rebuild eval results",
       "updated_at": "2026-10-10T03:03:43Z",
       "url": "https://github.com/obra/superpowers/pull/2464"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2472,
+      "state": "open",
+      "title": "subagent-driven-development: interactive/manual verification steps in a brief must be bounded by command flags, not by prose",
+      "updated_at": "2026-10-07T03:48:42Z",
+      "url": "https://github.com/obra/superpowers/issues/2472"
     },
     {
       "kind": "pull_request",
@@ -306,17 +352,6 @@
       "url": "https://github.com/obra/superpowers/issues/2499"
     },
     {
-      "kind": "issue",
-      "labels": [
-        "enhancement"
-      ],
-      "number": 2501,
-      "state": "open",
-      "title": "Proposal: Vietnamese language support for Superpowers skills",
-      "updated_at": "2026-10-12T03:27:54Z",
-      "url": "https://github.com/obra/superpowers/issues/2501"
-    },
-    {
       "kind": "pull_request",
       "labels": [],
       "number": 2504,
@@ -351,15 +386,6 @@
       "title": "executing-plans: agent changed an approved plan by a ledger \"Ruling:\" without asking, while CLAUDE.md said \"flag real problems and wait\", then claimed the phase done with verify lines unmet (Claude Code)",
       "updated_at": "2026-10-13T23:03:24Z",
       "url": "https://github.com/obra/superpowers/issues/2510"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2512,
-      "state": "open",
-      "title": "executing-plans: task-done exits 1 silently when the plan workspace path contains spaces (or the test command is compound)",
-      "updated_at": "2026-10-17T16:39:41Z",
-      "url": "https://github.com/obra/superpowers/issues/2512"
     },
     {
       "kind": "pull_request",
@@ -498,32 +524,12 @@
     },
     {
       "kind": "issue",
-      "labels": [
-        "enhancement"
-      ],
-      "number": 2552,
-      "state": "open",
-      "title": "Making claude code `opusplan` to work: `opus` planning when `writing-plans` and `sonnet` execution for the subsequent steps",
-      "updated_at": "2026-10-19T06:05:45Z",
-      "url": "https://github.com/obra/superpowers/issues/2552"
-    },
-    {
-      "kind": "issue",
       "labels": [],
       "number": 2553,
       "state": "open",
       "title": "brainstorming / writing-plans: the spec's claims about today's code are never checked against the code, and the self-review passes clean",
       "updated_at": "2026-10-19T13:08:19Z",
       "url": "https://github.com/obra/superpowers/issues/2553"
-    },
-    {
-      "kind": "issue",
-      "labels": [],
-      "number": 2554,
-      "state": "open",
-      "title": "writing-plans / task-reviewer: state invariants that cross tasks (re-run invalidation, concurrency) fall between every per-task review",
-      "updated_at": "2026-10-19T13:08:20Z",
-      "url": "https://github.com/obra/superpowers/issues/2554"
     },
     {
       "kind": "issue",
@@ -537,16 +543,61 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 2560,
+      "number": 2563,
       "state": "open",
-      "title": "brainstorming: look before asking, play back what they want, and only offer to skip when they didn't ask (#2530)",
-      "updated_at": "2026-10-20T03:54:26Z",
-      "url": "https://github.com/obra/superpowers/pull/2560"
+      "title": "executing-plans: drop the redundant Example Workflow so SKILL.md fits under the compaction cut",
+      "updated_at": "2026-10-20T15:31:11Z",
+      "url": "https://github.com/obra/superpowers/pull/2563"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2564,
+      "state": "open",
+      "title": "writing-skills: move supporting docs and situational guidance into references/",
+      "updated_at": "2026-10-20T15:31:13Z",
+      "url": "https://github.com/obra/superpowers/pull/2564"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2565,
+      "state": "open",
+      "title": "subagent-driven-development: move situational guidance into references/ and test that skills stay under 20k",
+      "updated_at": "2026-10-20T15:31:16Z",
+      "url": "https://github.com/obra/superpowers/pull/2565"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2567,
+      "state": "open",
+      "title": "brainstorming: the Builder check has a fallback for \"no subagent tool\" but not for a harness that only allows spawning when the user asks",
+      "updated_at": "2026-10-20T18:38:40Z",
+      "url": "https://github.com/obra/superpowers/issues/2567"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2568,
+      "state": "open",
+      "title": "subagent-driven-development: a finding the reviewer can't verify because it depends on the production environment gets graded Minor and deferred \"to check at deploy\"",
+      "updated_at": "2026-10-20T18:38:41Z",
+      "url": "https://github.com/obra/superpowers/issues/2568"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2571,
+      "state": "open",
+      "title": "brainstorming: lay out approaches, write a design doc at every size, and never skip without consent (#2530)",
+      "updated_at": "2026-10-21T02:14:18Z",
+      "url": "https://github.com/obra/superpowers/pull/2571"
     }
   ],
   "schema_version": 1,
   "upstream": {
-    "dev_sha": "d079e1b85c8f964cb52da5e2be678c9fdfc8759b",
+    "dev_sha": "f649ac564a9cf85665652c1e5ef5fd1b70fd3bb0",
     "release": {
       "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
       "tag": "v7.0.0",
