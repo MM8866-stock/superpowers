@@ -12,73 +12,6 @@
   ],
   "relevant_items": [
     {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "issue-template-rules-ignored",
-        "skill:finishing-a-development-branch",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2253,
-      "state": "open",
-      "title": "subagent-driven-development: Finish deletes the only record of deferred findings — parked/deferred items need a durable export",
-      "updated_at": "2026-10-22T20:01:30Z",
-      "url": "https://github.com/obra/superpowers/issues/2253"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "codex",
-        "documentation",
-        "issue-template-rules-ignored",
-        "skill:using-superpowers"
-      ],
-      "number": 2260,
-      "state": "open",
-      "title": "Codex reference assumes spawn capabilities unavailable in an observed desktop session",
-      "updated_at": "2026-10-22T20:01:34Z",
-      "url": "https://github.com/obra/superpowers/issues/2260"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skill:receiving-code-review",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2266,
-      "state": "open",
-      "title": "Fixes keep creating new bugs because no skill requires tracing what a fix changes",
-      "updated_at": "2026-10-22T20:01:38Z",
-      "url": "https://github.com/obra/superpowers/issues/2266"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "issue-template-rules-ignored",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2267,
-      "state": "open",
-      "title": "subagent-driven-development: the progress ledger records completion but not cross-task discoveries, so a usage-limit interruption loses what earlier tasks learned",
-      "updated_at": "2026-10-22T20:01:40Z",
-      "url": "https://github.com/obra/superpowers/issues/2267"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "issue-template-rules-ignored",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2273,
-      "state": "open",
-      "title": "SDD: Approve + Important triggers mandatory re-review loop",
-      "updated_at": "2026-10-22T20:01:41Z",
-      "url": "https://github.com/obra/superpowers/issues/2273"
-    },
-    {
       "kind": "pull_request",
       "labels": [
         "enhancement",
@@ -783,6 +716,15 @@
     },
     {
       "kind": "pull_request",
+      "labels": [],
+      "number": 2504,
+      "state": "open",
+      "title": "fix(codex): fall back to sha256sum when shasum is unavailable",
+      "updated_at": "2026-10-23T16:15:38Z",
+      "url": "https://github.com/obra/superpowers/pull/2504"
+    },
+    {
+      "kind": "pull_request",
       "labels": [
         "needs-rebase-to-dev-branch",
         "pr-template-rules-ignored",
@@ -794,6 +736,20 @@
       "title": "fix(task-brief): diagnose translated Task headings",
       "updated_at": "2026-10-22T21:09:41Z",
       "url": "https://github.com/obra/superpowers/pull/2543"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "antigravity",
+        "documentation",
+        "needs-rebase-to-dev-branch",
+        "skill:using-superpowers"
+      ],
+      "number": 2547,
+      "state": "open",
+      "title": "docs(antigravity): document send_message fix rounds, reactive wakeup, and ArtifactMetadata schema",
+      "updated_at": "2026-10-23T18:34:37Z",
+      "url": "https://github.com/obra/superpowers/pull/2547"
     },
     {
       "kind": "pull_request",
@@ -922,6 +878,33 @@
       "title": "fix(codex): accept linked git worktrees in the package and sync scripts",
       "updated_at": "2026-10-23T03:48:59Z",
       "url": "https://github.com/obra/superpowers/pull/2609"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2610,
+      "state": "open",
+      "title": "docs(writing-skills): restructure SKILL.md into affirmative, non-redundant specification sections",
+      "updated_at": "2026-10-23T10:16:56Z",
+      "url": "https://github.com/obra/superpowers/pull/2610"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2611,
+      "state": "open",
+      "title": "task-brief: a task that isn't found leaves an empty task-N-brief.md behind (exit 3)",
+      "updated_at": "2026-10-23T14:12:00Z",
+      "url": "https://github.com/obra/superpowers/issues/2611"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2612,
+      "state": "open",
+      "title": "subagent-driven-development: 15-task port of a ~2,000-line R script hit 5 session limits; coordinator context grew to 830k tokens (Claude Code)",
+      "updated_at": "2026-10-23T21:38:33Z",
+      "url": "https://github.com/obra/superpowers/issues/2612"
     }
   ],
   "schema_version": 1,
