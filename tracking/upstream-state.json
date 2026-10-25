@@ -12,41 +12,42 @@
   ],
   "relevant_items": [
     {
-      "kind": "pull_request",
-      "labels": [
-        "enhancement",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2274,
-      "state": "open",
-      "title": "feat(sdd): ledger Discoveries section carries cross-task findings across compaction",
-      "updated_at": "2026-10-22T20:01:44Z",
-      "url": "https://github.com/obra/superpowers/pull/2274"
-    },
-    {
       "kind": "issue",
       "labels": [
-        "issue-template-rules-ignored",
-        "skill:subagent-driven-development"
+        "enhancement",
+        "skill:subagent-driven-development",
+        "skill:test-driven-development"
       ],
-      "number": 2282,
+      "number": 2092,
       "state": "open",
-      "title": "subagent-driven-development: implementer dispatches are gated on nothing — briefs get referenced unwritten and todo state never updates",
-      "updated_at": "2026-10-22T20:01:45Z",
-      "url": "https://github.com/obra/superpowers/issues/2282"
+      "title": "test-driven-development: a test whose arrange step silently fails passes every gate (mental mutation check, optional SDD red evidence)",
+      "updated_at": "2026-10-24T07:58:35Z",
+      "url": "https://github.com/obra/superpowers/issues/2092"
     },
     {
       "kind": "pull_request",
       "labels": [
-        "bug",
-        "opencode",
+        "no-obvious-human-review",
+        "skill:test-driven-development"
+      ],
+      "number": 2196,
+      "state": "open",
+      "title": "fix: distinguish characterization tests from feature RED",
+      "updated_at": "2026-10-24T07:58:40Z",
+      "url": "https://github.com/obra/superpowers/pull/2196"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "hooks",
+        "new-harness",
         "skill:using-superpowers"
       ],
-      "number": 2283,
+      "number": 2200,
       "state": "open",
-      "title": "opencode: re-inject bootstrap after compaction",
-      "updated_at": "2026-10-22T20:01:47Z",
-      "url": "https://github.com/obra/superpowers/pull/2283"
+      "title": "Add ZCode harness support",
+      "updated_at": "2026-10-24T14:37:50Z",
+      "url": "https://github.com/obra/superpowers/pull/2200"
     },
     {
       "kind": "issue",
@@ -57,63 +58,8 @@
       "number": 2285,
       "state": "open",
       "title": "writing-plans: expected values in verification steps are asserted, not produced — and can be contradicted by the plan's own text",
-      "updated_at": "2026-10-22T20:01:49Z",
+      "updated_at": "2026-10-24T07:59:05Z",
       "url": "https://github.com/obra/superpowers/issues/2285"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "issue-template-rules-ignored",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2293,
-      "state": "open",
-      "title": "subagent-driven-development: the ledger records no in-flight task, so an outage mid-task re-dispatches work that is already committed",
-      "updated_at": "2026-10-22T20:01:54Z",
-      "url": "https://github.com/obra/superpowers/issues/2293"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "issue-template-rules-ignored",
-        "needs-repro-case",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2298,
-      "state": "open",
-      "title": "subagent-driven-development: review-package renders commit subjects only, so the task reviewer reports commit-body disclosures as undisclosed changes",
-      "updated_at": "2026-10-22T20:01:56Z",
-      "url": "https://github.com/obra/superpowers/issues/2298"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "issue-template-rules-ignored",
-        "needs-repro-case",
-        "skill:executing-plans",
-        "skill:subagent-driven-development",
-        "windows"
-      ],
-      "number": 2307,
-      "state": "open",
-      "title": "SDD helper scripts prompt for an app on Windows when invoked from PowerShell",
-      "updated_at": "2026-10-22T20:01:59Z",
-      "url": "https://github.com/obra/superpowers/issues/2307"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "issue-template-rules-ignored",
-        "skill:writing-plans"
-      ],
-      "number": 2309,
-      "state": "open",
-      "title": "writing-plans: self-review misses task-state/DAG closure in executable plans",
-      "updated_at": "2026-10-22T20:02:00Z",
-      "url": "https://github.com/obra/superpowers/issues/2309"
     },
     {
       "kind": "issue",
@@ -269,7 +215,7 @@
       "number": 2377,
       "state": "open",
       "title": "Pressure-language bootstrap and narration suppressors degrade behavior on current Claude models",
-      "updated_at": "2026-10-22T20:02:31Z",
+      "updated_at": "2026-10-24T07:42:30Z",
       "url": "https://github.com/obra/superpowers/issues/2377"
     },
     {
@@ -321,6 +267,17 @@
       "title": "Make it easier to write plans for non-coding projects",
       "updated_at": "2026-10-22T20:02:46Z",
       "url": "https://github.com/obra/superpowers/issues/2396"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2398,
+      "state": "open",
+      "title": "Master tracking ticket for configurability",
+      "updated_at": "2026-10-24T07:06:50Z",
+      "url": "https://github.com/obra/superpowers/issues/2398"
     },
     {
       "kind": "pull_request",
@@ -445,7 +402,7 @@
       "number": 2435,
       "state": "open",
       "title": "subagent-driven-development: in an unattended run, a step that needs a human at the screen should move to the next available tool, not be dropped",
-      "updated_at": "2026-10-22T20:03:29Z",
+      "updated_at": "2026-10-24T07:57:02Z",
       "url": "https://github.com/obra/superpowers/issues/2435"
     },
     {
@@ -715,6 +672,18 @@
       "url": "https://github.com/obra/superpowers/pull/2480"
     },
     {
+      "kind": "issue",
+      "labels": [
+        "enhancement",
+        "skill:writing-plans"
+      ],
+      "number": 2494,
+      "state": "open",
+      "title": "writing-plans: test code written inside a plan has two failure modes of its own, and the Self-Review does not ask about either",
+      "updated_at": "2026-10-24T07:58:31Z",
+      "url": "https://github.com/obra/superpowers/issues/2494"
+    },
+    {
       "kind": "pull_request",
       "labels": [],
       "number": 2504,
@@ -905,6 +874,15 @@
       "title": "subagent-driven-development: 15-task port of a ~2,000-line R script hit 5 session limits; coordinator context grew to 830k tokens (Claude Code)",
       "updated_at": "2026-10-23T21:38:33Z",
       "url": "https://github.com/obra/superpowers/issues/2612"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2613,
+      "state": "open",
+      "title": "fix(sdd): remove empty task brief file when task is not found (#2611)",
+      "updated_at": "2026-10-24T13:48:22Z",
+      "url": "https://github.com/obra/superpowers/pull/2613"
     }
   ],
   "schema_version": 1,
