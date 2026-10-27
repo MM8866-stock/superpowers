@@ -76,6 +76,18 @@
     {
       "kind": "pull_request",
       "labels": [
+        "skill:systematic-debugging",
+        "skill:writing-skills"
+      ],
+      "number": 2291,
+      "state": "open",
+      "title": "fix(systematic-debugging): keep pressure-test fixtures out of skill installs",
+      "updated_at": "2026-10-26T10:19:49Z",
+      "url": "https://github.com/obra/superpowers/pull/2291"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
         "skill:executing-plans"
       ],
       "number": 2348,
@@ -105,18 +117,6 @@
       "title": "Pressure-language bootstrap and narration suppressors degrade behavior on current Claude models",
       "updated_at": "2026-10-24T07:42:30Z",
       "url": "https://github.com/obra/superpowers/issues/2377"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "bug",
-        "skill:requesting-code-review"
-      ],
-      "number": 2381,
-      "state": "open",
-      "title": "fix(requesting-code-review): base the review on merge-base, not HEAD~1",
-      "updated_at": "2026-10-22T20:02:36Z",
-      "url": "https://github.com/obra/superpowers/pull/2381"
     },
     {
       "kind": "issue",
@@ -413,6 +413,19 @@
       "kind": "issue",
       "labels": [
         "enhancement",
+        "skill:executing-plans",
+        "skill:subagent-driven-development"
+      ],
+      "number": 2451,
+      "state": "open",
+      "title": "subagent-driven-development / executing-plans: the final report should be derived from a plan-to-diff mapping, not written freely",
+      "updated_at": "2026-10-26T10:00:54Z",
+      "url": "https://github.com/obra/superpowers/issues/2451"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement",
         "issue-template-rules-ignored",
         "skill:writing-skills"
       ],
@@ -614,7 +627,7 @@
       "number": 2595,
       "state": "open",
       "title": "fix(pi): inject the bootstrap on every prompt, not just the first (#2083)",
-      "updated_at": "2026-10-22T22:56:08Z",
+      "updated_at": "2026-10-27T04:38:42Z",
       "url": "https://github.com/obra/superpowers/pull/2595"
     },
     {
@@ -825,6 +838,15 @@
       "title": "fix(sdd): preserve shared plan constraints in task briefs",
       "updated_at": "2026-10-25T22:28:28Z",
       "url": "https://github.com/obra/superpowers/pull/2629"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2630,
+      "state": "open",
+      "title": "subagent-driven-development: review-package and sdd-workspace fail once a plan task deletes the plan file",
+      "updated_at": "2026-10-26T08:49:44Z",
+      "url": "https://github.com/obra/superpowers/issues/2630"
     }
   ],
   "schema_version": 1,
