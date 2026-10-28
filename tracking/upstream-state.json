@@ -604,7 +604,7 @@
       "number": 2543,
       "state": "open",
       "title": "fix(task-brief): diagnose translated Task headings",
-      "updated_at": "2026-10-22T21:09:41Z",
+      "updated_at": "2026-10-27T09:42:58Z",
       "url": "https://github.com/obra/superpowers/pull/2543"
     },
     {
@@ -620,6 +620,22 @@
       "title": "docs(antigravity): document send_message fix rounds, reactive wakeup, and ArtifactMetadata schema",
       "updated_at": "2026-10-23T18:34:37Z",
       "url": "https://github.com/obra/superpowers/pull/2547"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "enhancement",
+        "needs-rebase-to-dev-branch",
+        "no-obvious-human-review",
+        "pr-template-rules-ignored",
+        "skill:executing-plans",
+        "skill:test-driven-development"
+      ],
+      "number": 2548,
+      "state": "open",
+      "title": "docs(skills): require RED output for batched TDD and fix-pass ledger",
+      "updated_at": "2026-10-27T09:44:02Z",
+      "url": "https://github.com/obra/superpowers/pull/2548"
     },
     {
       "kind": "pull_request",
@@ -847,6 +863,15 @@
       "title": "subagent-driven-development: review-package and sdd-workspace fail once a plan task deletes the plan file",
       "updated_at": "2026-10-26T08:49:44Z",
       "url": "https://github.com/obra/superpowers/issues/2630"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2632,
+      "state": "open",
+      "title": "refactor(skills): drop trigger-only \"When to Use\" sections from four skill bodies",
+      "updated_at": "2026-10-28T04:35:23Z",
+      "url": "https://github.com/obra/superpowers/pull/2632"
     }
   ],
   "schema_version": 1,
