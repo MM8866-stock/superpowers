@@ -86,6 +86,22 @@
       "url": "https://github.com/obra/superpowers/pull/2291"
     },
     {
+      "kind": "issue",
+      "labels": [
+        "bug",
+        "issue-template-rules-ignored",
+        "needs-repro-case",
+        "skill:executing-plans",
+        "skill:subagent-driven-development",
+        "windows"
+      ],
+      "number": 2307,
+      "state": "open",
+      "title": "SDD helper scripts prompt for an app on Windows when invoked from PowerShell",
+      "updated_at": "2026-10-28T19:37:12Z",
+      "url": "https://github.com/obra/superpowers/issues/2307"
+    },
+    {
       "kind": "pull_request",
       "labels": [
         "skill:executing-plans"
@@ -117,44 +133,6 @@
       "title": "Pressure-language bootstrap and narration suppressors degrade behavior on current Claude models",
       "updated_at": "2026-10-24T07:42:30Z",
       "url": "https://github.com/obra/superpowers/issues/2377"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "pi",
-        "skill-system"
-      ],
-      "number": 2394,
-      "state": "open",
-      "title": "pi extension: resources_discover re-adds every skill, defeating package skill filters (pi)",
-      "updated_at": "2026-10-22T20:02:42Z",
-      "url": "https://github.com/obra/superpowers/issues/2394"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "enhancement",
-        "skill:executing-plans",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2395,
-      "state": "open",
-      "title": "Executors tick a completed task's plan checkboxes (needs evals)",
-      "updated_at": "2026-10-22T20:02:44Z",
-      "url": "https://github.com/obra/superpowers/pull/2395"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skill:writing-plans"
-      ],
-      "number": 2396,
-      "state": "open",
-      "title": "Make it easier to write plans for non-coding projects",
-      "updated_at": "2026-10-22T20:02:46Z",
-      "url": "https://github.com/obra/superpowers/issues/2396"
     },
     {
       "kind": "issue",
@@ -869,9 +847,36 @@
       "labels": [],
       "number": 2632,
       "state": "open",
-      "title": "refactor(skills): drop trigger-only \"When to Use\" sections from four skill bodies",
-      "updated_at": "2026-10-28T04:35:23Z",
+      "title": "perf(skills): cut 1,462 tokens of context per load by dropping trigger-only \"When to Use\" sections",
+      "updated_at": "2026-10-28T13:33:53Z",
       "url": "https://github.com/obra/superpowers/pull/2632"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2634,
+      "state": "open",
+      "title": "Some skills don't follow Anthropic's skill authoring best practices (size, test files, contents lists)",
+      "updated_at": "2026-10-28T13:56:56Z",
+      "url": "https://github.com/obra/superpowers/issues/2634"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2638,
+      "state": "open",
+      "title": "writing-plans / using-superpowers: multi-step cleanup executed directly after diagnostic recommendation without invoking writing-plans or creating task artifact (Antigravity)",
+      "updated_at": "2026-10-28T19:16:49Z",
+      "url": "https://github.com/obra/superpowers/issues/2638"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2639,
+      "state": "open",
+      "title": "fix(sdd): keep workspace resolvable when plan file is deleted in a task (#2630)",
+      "updated_at": "2026-10-28T20:19:16Z",
+      "url": "https://github.com/obra/superpowers/pull/2639"
     }
   ],
   "schema_version": 1,
