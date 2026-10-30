@@ -146,44 +146,6 @@
       "url": "https://github.com/obra/superpowers/issues/2398"
     },
     {
-      "kind": "pull_request",
-      "labels": [
-        "skill:brainstorming",
-        "skill:dispatching-parallel-agents",
-        "skill:requesting-code-review"
-      ],
-      "number": 2400,
-      "state": "open",
-      "title": "Require an explicit model on subagent dispatches outside SDD (from #2193, needs evals)",
-      "updated_at": "2026-10-22T20:02:49Z",
-      "url": "https://github.com/obra/superpowers/pull/2400"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "pi",
-        "skill-system"
-      ],
-      "number": 2402,
-      "state": "open",
-      "title": "fix(pi): honor package skill filters",
-      "updated_at": "2026-10-22T20:02:53Z",
-      "url": "https://github.com/obra/superpowers/pull/2402"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "issue-template-rules-ignored",
-        "skill:requesting-code-review"
-      ],
-      "number": 2403,
-      "state": "open",
-      "title": "requesting-code-review defaults BASE_SHA to HEAD~1, which other skills forbid",
-      "updated_at": "2026-10-22T20:02:55Z",
-      "url": "https://github.com/obra/superpowers/issues/2403"
-    },
-    {
       "kind": "issue",
       "labels": [
         "bug",
@@ -195,19 +157,6 @@
       "title": "task-brief: task number is an unanchored, unescaped regex prefix, so the wrong task is returned with exit 0",
       "updated_at": "2026-10-25T14:34:28Z",
       "url": "https://github.com/obra/superpowers/issues/2405"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "issue-template-rules-ignored",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2406,
-      "state": "open",
-      "title": "task-brief: the last task of a section absorbs the following non-Task heading and its prose",
-      "updated_at": "2026-10-22T20:02:59Z",
-      "url": "https://github.com/obra/superpowers/issues/2406"
     },
     {
       "kind": "pull_request",
@@ -857,7 +806,7 @@
       "number": 2634,
       "state": "open",
       "title": "Some skills don't follow Anthropic's skill authoring best practices (size, test files, contents lists)",
-      "updated_at": "2026-10-28T13:56:56Z",
+      "updated_at": "2026-10-30T01:11:52Z",
       "url": "https://github.com/obra/superpowers/issues/2634"
     },
     {
@@ -866,7 +815,7 @@
       "number": 2638,
       "state": "open",
       "title": "writing-plans / using-superpowers: multi-step cleanup executed directly after diagnostic recommendation without invoking writing-plans or creating task artifact (Antigravity)",
-      "updated_at": "2026-10-28T19:16:49Z",
+      "updated_at": "2026-10-30T04:11:13Z",
       "url": "https://github.com/obra/superpowers/issues/2638"
     },
     {
@@ -877,6 +826,33 @@
       "title": "fix(sdd): keep workspace resolvable when plan file is deleted in a task (#2630)",
       "updated_at": "2026-10-28T20:19:16Z",
       "url": "https://github.com/obra/superpowers/pull/2639"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2642,
+      "state": "open",
+      "title": "executing-plans scripts fail without +x (#2040) and task-brief leaks trailing non-Task sections",
+      "updated_at": "2026-10-29T19:05:08Z",
+      "url": "https://github.com/obra/superpowers/issues/2642"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2643,
+      "state": "open",
+      "title": "Fix stripped exec-bit invocation in executing-plans and fence/section parsing in task-brief",
+      "updated_at": "2026-10-29T19:05:06Z",
+      "url": "https://github.com/obra/superpowers/pull/2643"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2647,
+      "state": "open",
+      "title": "fix(using-superpowers): enforce planning and Antigravity task.md on diagnostic-to-action transitions (#2638)",
+      "updated_at": "2026-10-30T04:09:25Z",
+      "url": "https://github.com/obra/superpowers/pull/2647"
     }
   ],
   "schema_version": 1,
