@@ -14,6 +14,19 @@
     {
       "kind": "pull_request",
       "labels": [
+        "claude-code",
+        "skill:brainstorming",
+        "upstream-bug"
+      ],
+      "number": 1915,
+      "state": "open",
+      "title": "fix: render design sections before the approval question in brainstorming skill",
+      "updated_at": "2026-10-30T08:45:32Z",
+      "url": "https://github.com/obra/superpowers/pull/1915"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
         "pr-template-rules-ignored",
         "skill:subagent-driven-development"
       ],
@@ -39,6 +52,20 @@
     {
       "kind": "pull_request",
       "labels": [
+        "enhancement",
+        "kiro",
+        "skill-system",
+        "skill:using-superpowers"
+      ],
+      "number": 2126,
+      "state": "open",
+      "title": "feat(kiro): add Kiro v3 support via native custom agent + Agent Skills",
+      "updated_at": "2026-10-30T16:43:15Z",
+      "url": "https://github.com/obra/superpowers/pull/2126"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
         "no-obvious-human-review",
         "skill:test-driven-development"
       ],
@@ -58,7 +85,7 @@
       "number": 2200,
       "state": "open",
       "title": "Add ZCode harness support",
-      "updated_at": "2026-10-24T14:37:50Z",
+      "updated_at": "2026-10-30T13:07:58Z",
       "url": "https://github.com/obra/superpowers/pull/2200"
     },
     {
@@ -157,19 +184,6 @@
       "title": "task-brief: task number is an unanchored, unescaped regex prefix, so the wrong task is returned with exit 0",
       "updated_at": "2026-10-25T14:34:28Z",
       "url": "https://github.com/obra/superpowers/issues/2405"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "enhancement",
-        "skill:subagent-driven-development",
-        "skill:writing-plans"
-      ],
-      "number": 2414,
-      "state": "open",
-      "title": "writing-plans, task-reviewer: name the colliding input behind string-shaped identity",
-      "updated_at": "2026-10-22T20:03:14Z",
-      "url": "https://github.com/obra/superpowers/pull/2414"
     },
     {
       "kind": "issue",
@@ -832,18 +846,9 @@
       "labels": [],
       "number": 2642,
       "state": "open",
-      "title": "executing-plans scripts fail without +x (#2040) and task-brief leaks trailing non-Task sections",
-      "updated_at": "2026-10-29T19:05:08Z",
+      "title": "executing-plans/scripts/task-start and task-done fail without +x (#2040)",
+      "updated_at": "2026-10-30T16:29:58Z",
       "url": "https://github.com/obra/superpowers/issues/2642"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2643,
-      "state": "open",
-      "title": "Fix stripped exec-bit invocation in executing-plans and fence/section parsing in task-brief",
-      "updated_at": "2026-10-29T19:05:06Z",
-      "url": "https://github.com/obra/superpowers/pull/2643"
     },
     {
       "kind": "pull_request",
@@ -853,6 +858,24 @@
       "title": "fix(using-superpowers): enforce planning and Antigravity task.md on diagnostic-to-action transitions (#2638)",
       "updated_at": "2026-10-30T04:09:25Z",
       "url": "https://github.com/obra/superpowers/pull/2647"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2649,
+      "state": "open",
+      "title": "Add harnessator source manifest for superpowers (pure data, no behavior change)",
+      "updated_at": "2026-10-30T15:06:06Z",
+      "url": "https://github.com/obra/superpowers/pull/2649"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2651,
+      "state": "open",
+      "title": "subagent-driven-development: task reviewer isn't told to flag a report with no RED evidence",
+      "updated_at": "2026-10-30T22:42:33Z",
+      "url": "https://github.com/obra/superpowers/issues/2651"
     }
   ],
   "schema_version": 1,
