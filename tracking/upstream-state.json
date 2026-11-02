@@ -12,6 +12,18 @@
   ],
   "relevant_items": [
     {
+      "kind": "issue",
+      "labels": [
+        "enhancement",
+        "skill:writing-plans"
+      ],
+      "number": 1803,
+      "state": "open",
+      "title": "Checkpoints - Adversarial Review",
+      "updated_at": "2026-11-01T23:13:29Z",
+      "url": "https://github.com/obra/superpowers/issues/1803"
+    },
+    {
       "kind": "pull_request",
       "labels": [
         "claude-code",
@@ -204,46 +216,11 @@
         "enhancement",
         "skill:subagent-driven-development"
       ],
-      "number": 2431,
-      "state": "open",
-      "title": "subagent-driven-development: \"no second fix wave\" should not cover breakage the final fix wave itself introduced",
-      "updated_at": "2026-10-22T20:03:27Z",
-      "url": "https://github.com/obra/superpowers/issues/2431"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skill:subagent-driven-development"
-      ],
       "number": 2435,
       "state": "open",
       "title": "subagent-driven-development: in an unattended run, a step that needs a human at the screen should move to the next available tool, not be dropped",
       "updated_at": "2026-10-24T07:57:02Z",
       "url": "https://github.com/obra/superpowers/issues/2435"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2436,
-      "state": "open",
-      "title": "task-brief: an unclosed fence makes one task's brief absorb every later task, at exit 0 (Claude Code)",
-      "updated_at": "2026-10-22T20:03:31Z",
-      "url": "https://github.com/obra/superpowers/issues/2436"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:subagent-driven-development"
-      ],
-      "number": 2438,
-      "state": "open",
-      "title": "fix(sdd): task-brief fails loudly on an unclosed code fence (#2436)",
-      "updated_at": "2026-10-22T20:03:34Z",
-      "url": "https://github.com/obra/superpowers/pull/2438"
     },
     {
       "kind": "pull_request",
@@ -565,6 +542,20 @@
       "title": "docs(skills): require RED output for batched TDD and fix-pass ledger",
       "updated_at": "2026-10-27T09:44:02Z",
       "url": "https://github.com/obra/superpowers/pull/2548"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement",
+        "issue-template-rules-ignored",
+        "skill:brainstorming",
+        "skill:writing-plans"
+      ],
+      "number": 2553,
+      "state": "open",
+      "title": "brainstorming / writing-plans: the spec's claims about today's code are never checked against the code, and the self-review passes clean",
+      "updated_at": "2026-11-01T15:54:03Z",
+      "url": "https://github.com/obra/superpowers/issues/2553"
     },
     {
       "kind": "pull_request",
