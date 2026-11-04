@@ -4,72 +4,7 @@
     "repository": "prime-radiant-inc/superpowers-evals",
     "sha": "e64684cd1fa270c464ac797747e45bbe8d127e8b"
   },
-  "high_value_changes": [
-    {
-      "filename": ".claude-plugin/marketplace.json",
-      "status": "modified"
-    },
-    {
-      "filename": ".claude-plugin/plugin.json",
-      "status": "modified"
-    },
-    {
-      "filename": ".codex-plugin/plugin.json",
-      "status": "modified"
-    },
-    {
-      "filename": "RELEASE-NOTES.md",
-      "status": "modified"
-    },
-    {
-      "filename": "scripts/package-codex-plugin.sh",
-      "status": "modified"
-    },
-    {
-      "filename": "scripts/sync-to-codex-plugin.sh",
-      "status": "modified"
-    },
-    {
-      "filename": "skills/subagent-driven-development/SKILL.md",
-      "status": "modified"
-    },
-    {
-      "filename": "skills/subagent-driven-development/re-review-prompt.md",
-      "status": "modified"
-    },
-    {
-      "filename": "skills/subagent-driven-development/references/final-review.md",
-      "status": "modified"
-    },
-    {
-      "filename": "skills/subagent-driven-development/references/fix-loop.md",
-      "status": "modified"
-    },
-    {
-      "filename": "skills/subagent-driven-development/scripts/review-package",
-      "status": "modified"
-    },
-    {
-      "filename": "skills/subagent-driven-development/scripts/sdd-repo",
-      "status": "added"
-    },
-    {
-      "filename": "skills/subagent-driven-development/scripts/sdd-workspace",
-      "status": "modified"
-    },
-    {
-      "filename": "skills/subagent-driven-development/scripts/task-brief",
-      "status": "modified"
-    },
-    {
-      "filename": "skills/subagent-driven-development/task-reviewer-prompt.md",
-      "status": "modified"
-    },
-    {
-      "filename": "tests/codex/test-package-codex-plugin.sh",
-      "status": "modified"
-    }
-  ],
+  "high_value_changes": [],
   "relevant_items": [
     {
       "kind": "issue",
@@ -187,6 +122,17 @@
       "url": "https://github.com/obra/superpowers/issues/2285"
     },
     {
+      "kind": "pull_request",
+      "labels": [
+        "skill:subagent-driven-development"
+      ],
+      "number": 2303,
+      "state": "open",
+      "title": "fix(sdd): include commit bodies in review packages",
+      "updated_at": "2026-11-03T14:05:38Z",
+      "url": "https://github.com/obra/superpowers/pull/2303"
+    },
+    {
       "kind": "issue",
       "labels": [
         "bug",
@@ -203,6 +149,19 @@
       "url": "https://github.com/obra/superpowers/issues/2307"
     },
     {
+      "kind": "issue",
+      "labels": [
+        "enhancement",
+        "issue-template-rules-ignored",
+        "skill:writing-plans"
+      ],
+      "number": 2309,
+      "state": "open",
+      "title": "writing-plans: self-review misses task-state/DAG closure in executable plans",
+      "updated_at": "2026-11-03T12:21:43Z",
+      "url": "https://github.com/obra/superpowers/issues/2309"
+    },
+    {
       "kind": "pull_request",
       "labels": [
         "skill:executing-plans"
@@ -212,6 +171,33 @@
       "title": "fix(executing-plans): ledger the test summary, not the trailing duration",
       "updated_at": "2026-10-23T03:23:11Z",
       "url": "https://github.com/obra/superpowers/pull/2348"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement",
+        "issue-template-rules-ignored",
+        "skill:subagent-driven-development",
+        "skill:writing-plans"
+      ],
+      "number": 2368,
+      "state": "open",
+      "title": "SDD: opt-in DAG/wave execution for independent plan tasks (not Agent Teams)",
+      "updated_at": "2026-10-22T20:02:18Z",
+      "url": "https://github.com/obra/superpowers/issues/2368"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "bug",
+        "skill:subagent-driven-development",
+        "windows"
+      ],
+      "number": 2369,
+      "state": "open",
+      "title": "fix(sdd): keep helper paths Windows-readable (#2307)",
+      "updated_at": "2026-10-22T20:02:20Z",
+      "url": "https://github.com/obra/superpowers/pull/2369"
     },
     {
       "kind": "issue",
@@ -248,19 +234,6 @@
       "title": "Pressure-language bootstrap and narration suppressors degrade behavior on current Claude models",
       "updated_at": "2026-10-24T07:42:30Z",
       "url": "https://github.com/obra/superpowers/issues/2377"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "pi",
-        "skill-system"
-      ],
-      "number": 2394,
-      "state": "open",
-      "title": "pi extension: resources_discover re-adds every skill, defeating package skill filters (pi)",
-      "updated_at": "2026-10-22T20:02:42Z",
-      "url": "https://github.com/obra/superpowers/issues/2394"
     },
     {
       "kind": "pull_request",
@@ -312,18 +285,6 @@
       "url": "https://github.com/obra/superpowers/pull/2400"
     },
     {
-      "kind": "pull_request",
-      "labels": [
-        "pi",
-        "skill-system"
-      ],
-      "number": 2402,
-      "state": "open",
-      "title": "fix(pi): honor package skill filters",
-      "updated_at": "2026-10-22T20:02:53Z",
-      "url": "https://github.com/obra/superpowers/pull/2402"
-    },
-    {
       "kind": "issue",
       "labels": [
         "bug",
@@ -335,19 +296,6 @@
       "title": "requesting-code-review defaults BASE_SHA to HEAD~1, which other skills forbid",
       "updated_at": "2026-10-22T20:02:55Z",
       "url": "https://github.com/obra/superpowers/issues/2403"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "issue-template-rules-ignored",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2405,
-      "state": "open",
-      "title": "task-brief: task number is an unanchored, unescaped regex prefix, so the wrong task is returned with exit 0",
-      "updated_at": "2026-10-25T14:34:28Z",
-      "url": "https://github.com/obra/superpowers/issues/2405"
     },
     {
       "kind": "issue",
@@ -378,26 +326,13 @@
     {
       "kind": "issue",
       "labels": [
-        "bug",
-        "skill:subagent-driven-development",
-        "skill:using-git-worktrees"
-      ],
-      "number": 2429,
-      "state": "open",
-      "title": "SDD scripts resolve repo and workspace from the cwd, not from PLAN_FILE — wrong workspace when called across worktrees",
-      "updated_at": "2026-10-25T15:40:38Z",
-      "url": "https://github.com/obra/superpowers/issues/2429"
-    },
-    {
-      "kind": "issue",
-      "labels": [
         "enhancement",
         "skill:subagent-driven-development"
       ],
       "number": 2430,
       "state": "open",
       "title": "subagent-driven-development: a reported DONE does not mean the implementer's processes have exited",
-      "updated_at": "2026-10-22T20:03:25Z",
+      "updated_at": "2026-11-03T12:21:24Z",
       "url": "https://github.com/obra/superpowers/issues/2430"
     },
     {
@@ -423,18 +358,6 @@
       "title": "subagent-driven-development: in an unattended run, a step that needs a human at the screen should move to the next available tool, not be dropped",
       "updated_at": "2026-10-24T07:57:02Z",
       "url": "https://github.com/obra/superpowers/issues/2435"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2436,
-      "state": "open",
-      "title": "task-brief: an unclosed fence makes one task's brief absorb every later task, at exit 0 (Claude Code)",
-      "updated_at": "2026-10-22T20:03:31Z",
-      "url": "https://github.com/obra/superpowers/issues/2436"
     },
     {
       "kind": "pull_request",
@@ -579,18 +502,6 @@
       "title": "executing-plans and subagent-driven-development: the main/master consent rule does not defer to a declared branch policy",
       "updated_at": "2026-10-22T20:03:52Z",
       "url": "https://github.com/obra/superpowers/issues/2455"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2459,
-      "state": "open",
-      "title": "task-brief: alphanumeric task IDs (\"Task A1\", \"Task B2\") are never recognised as task headings",
-      "updated_at": "2026-10-22T20:04:03Z",
-      "url": "https://github.com/obra/superpowers/issues/2459"
     },
     {
       "kind": "pull_request",
@@ -795,8 +706,20 @@
       "number": 2553,
       "state": "open",
       "title": "brainstorming / writing-plans: the spec's claims about today's code are never checked against the code, and the self-review passes clean",
-      "updated_at": "2026-11-01T15:54:03Z",
+      "updated_at": "2026-11-03T12:21:25Z",
       "url": "https://github.com/obra/superpowers/issues/2553"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "hermes",
+        "hooks"
+      ],
+      "number": 2586,
+      "state": "open",
+      "title": "feat(hermes): re-inject bootstrap after compaction via post_compaction hook",
+      "updated_at": "2026-11-04T07:16:49Z",
+      "url": "https://github.com/obra/superpowers/pull/2586"
     },
     {
       "kind": "issue",
@@ -979,20 +902,20 @@
     {
       "kind": "pull_request",
       "labels": [],
-      "number": 2657,
+      "number": 2658,
       "state": "open",
-      "title": "Release v7.0.2: brainstorming tuning, harness bootstrap fixes, SDD helper fixes",
-      "updated_at": "2026-11-03T05:01:26Z",
-      "url": "https://github.com/obra/superpowers/pull/2657"
+      "title": "fix(codex): emit portal-compatible release metadata",
+      "updated_at": "2026-11-03T23:26:51Z",
+      "url": "https://github.com/obra/superpowers/pull/2658"
     }
   ],
   "schema_version": 1,
   "upstream": {
-    "dev_sha": "78c867996a73b86cd356431346af304a0d76afa6",
+    "dev_sha": "df2e996a174f49f05aa5d5777ca56fbb0aa972ec",
     "release": {
-      "sha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
-      "tag": "v7.0.1",
-      "url": "https://github.com/obra/superpowers/releases/tag/v7.0.1"
+      "sha": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "tag": "v7.0.2",
+      "url": "https://github.com/obra/superpowers/releases/tag/v7.0.2"
     },
     "repository": "obra/superpowers"
   }
