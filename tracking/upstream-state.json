@@ -44,6 +44,19 @@
       "url": "https://github.com/obra/superpowers/pull/1938"
     },
     {
+      "kind": "pull_request",
+      "labels": [
+        "enhancement",
+        "new-harness",
+        "pi"
+      ],
+      "number": 1996,
+      "state": "open",
+      "title": "feat(omp): add native oh-my-pi harness support",
+      "updated_at": "2026-11-04T15:31:54Z",
+      "url": "https://github.com/obra/superpowers/pull/1996"
+    },
+    {
       "kind": "issue",
       "labels": [
         "enhancement",
@@ -158,7 +171,7 @@
       "number": 2309,
       "state": "open",
       "title": "writing-plans: self-review misses task-state/DAG closure in executable plans",
-      "updated_at": "2026-11-03T12:21:43Z",
+      "updated_at": "2026-11-04T12:28:17Z",
       "url": "https://github.com/obra/superpowers/issues/2309"
     },
     {
@@ -171,47 +184,6 @@
       "title": "fix(executing-plans): ledger the test summary, not the trailing duration",
       "updated_at": "2026-10-23T03:23:11Z",
       "url": "https://github.com/obra/superpowers/pull/2348"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "issue-template-rules-ignored",
-        "skill:subagent-driven-development",
-        "skill:writing-plans"
-      ],
-      "number": 2368,
-      "state": "open",
-      "title": "SDD: opt-in DAG/wave execution for independent plan tasks (not Agent Teams)",
-      "updated_at": "2026-10-22T20:02:18Z",
-      "url": "https://github.com/obra/superpowers/issues/2368"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "bug",
-        "skill:subagent-driven-development",
-        "windows"
-      ],
-      "number": 2369,
-      "state": "open",
-      "title": "fix(sdd): keep helper paths Windows-readable (#2307)",
-      "updated_at": "2026-10-22T20:02:20Z",
-      "url": "https://github.com/obra/superpowers/pull/2369"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "codex",
-        "needs-repro-case",
-        "skill:brainstorming"
-      ],
-      "number": 2372,
-      "state": "open",
-      "title": "Codex Desktop: brainstorming approval gates skipped after skill read (6.4.1)",
-      "updated_at": "2026-10-22T20:02:24Z",
-      "url": "https://github.com/obra/superpowers/issues/2372"
     },
     {
       "kind": "issue",
@@ -332,7 +304,7 @@
       "number": 2430,
       "state": "open",
       "title": "subagent-driven-development: a reported DONE does not mean the implementer's processes have exited",
-      "updated_at": "2026-11-03T12:21:24Z",
+      "updated_at": "2026-11-04T12:28:18Z",
       "url": "https://github.com/obra/superpowers/issues/2430"
     },
     {
@@ -696,20 +668,6 @@
       "url": "https://github.com/obra/superpowers/pull/2548"
     },
     {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "issue-template-rules-ignored",
-        "skill:brainstorming",
-        "skill:writing-plans"
-      ],
-      "number": 2553,
-      "state": "open",
-      "title": "brainstorming / writing-plans: the spec's claims about today's code are never checked against the code, and the self-review passes clean",
-      "updated_at": "2026-11-03T12:21:25Z",
-      "url": "https://github.com/obra/superpowers/issues/2553"
-    },
-    {
       "kind": "pull_request",
       "labels": [
         "hermes",
@@ -760,7 +718,7 @@
       "number": 2612,
       "state": "open",
       "title": "subagent-driven-development: 15-task port of a ~2,000-line R script hit 5 session limits; coordinator context grew to 830k tokens (Claude Code)",
-      "updated_at": "2026-11-02T18:21:57Z",
+      "updated_at": "2026-11-04T22:03:05Z",
       "url": "https://github.com/obra/superpowers/issues/2612"
     },
     {
@@ -821,7 +779,7 @@
       "number": 2627,
       "state": "open",
       "title": "feat: add native Kilo Code integration",
-      "updated_at": "2026-11-02T18:25:58Z",
+      "updated_at": "2026-11-05T03:57:45Z",
       "url": "https://github.com/obra/superpowers/pull/2627"
     },
     {
@@ -907,6 +865,24 @@
       "title": "fix(codex): emit portal-compatible release metadata",
       "updated_at": "2026-11-03T23:26:51Z",
       "url": "https://github.com/obra/superpowers/pull/2658"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2660,
+      "state": "open",
+      "title": "verification-before-completion / receiving-code-review: no skill invoked while applying audit fixes; final summary claims completion with no per-result trust level (Claude Code)",
+      "updated_at": "2026-11-04T09:38:54Z",
+      "url": "https://github.com/obra/superpowers/issues/2660"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2665,
+      "state": "open",
+      "title": "What Haiku 5.5 and Sonnet 5.5 already know from each superpowers skill",
+      "updated_at": "2026-11-05T06:25:51Z",
+      "url": "https://github.com/obra/superpowers/issues/2665"
     }
   ],
   "schema_version": 1,
