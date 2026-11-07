@@ -114,6 +114,21 @@
         "bug",
         "issue-template-rules-ignored",
         "skill:finishing-a-development-branch",
+        "skill:subagent-driven-development",
+        "skill:using-git-worktrees"
+      ],
+      "number": 2207,
+      "state": "open",
+      "title": "`finishing-a-development-branch` can silently delete an SDD workspace: ignored files don't make a worktree dirty",
+      "updated_at": "2026-11-06T16:09:23Z",
+      "url": "https://github.com/obra/superpowers/issues/2207"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "bug",
+        "issue-template-rules-ignored",
+        "skill:finishing-a-development-branch",
         "skill:subagent-driven-development"
       ],
       "number": 2253,
@@ -131,7 +146,7 @@
       "number": 2285,
       "state": "open",
       "title": "writing-plans: expected values in verification steps are asserted, not produced — and can be contradicted by the plan's own text",
-      "updated_at": "2026-10-24T07:59:05Z",
+      "updated_at": "2026-11-06T16:09:25Z",
       "url": "https://github.com/obra/superpowers/issues/2285"
     },
     {
@@ -221,45 +236,6 @@
     {
       "kind": "issue",
       "labels": [
-        "bug",
-        "issue-template-rules-ignored",
-        "skill:requesting-code-review"
-      ],
-      "number": 2403,
-      "state": "open",
-      "title": "requesting-code-review defaults BASE_SHA to HEAD~1, which other skills forbid",
-      "updated_at": "2026-10-22T20:02:55Z",
-      "url": "https://github.com/obra/superpowers/issues/2403"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "issue-template-rules-ignored",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2406,
-      "state": "open",
-      "title": "task-brief: the last task of a section absorbs the following non-Task heading and its prose",
-      "updated_at": "2026-10-22T20:02:59Z",
-      "url": "https://github.com/obra/superpowers/issues/2406"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "enhancement",
-        "skill:subagent-driven-development",
-        "skill:writing-plans"
-      ],
-      "number": 2414,
-      "state": "open",
-      "title": "writing-plans, task-reviewer: name the colliding input behind string-shaped identity",
-      "updated_at": "2026-10-22T20:03:14Z",
-      "url": "https://github.com/obra/superpowers/pull/2414"
-    },
-    {
-      "kind": "issue",
-      "labels": [
         "enhancement",
         "skill:subagent-driven-development"
       ],
@@ -290,7 +266,7 @@
       "number": 2435,
       "state": "open",
       "title": "subagent-driven-development: in an unattended run, a step that needs a human at the screen should move to the next available tool, not be dropped",
-      "updated_at": "2026-10-24T07:57:02Z",
+      "updated_at": "2026-11-06T16:09:27Z",
       "url": "https://github.com/obra/superpowers/issues/2435"
     },
     {
@@ -561,6 +537,20 @@
       "title": "tests: convert wrapped-Python bash tests to plain pytest",
       "updated_at": "2026-11-02T18:21:12Z",
       "url": "https://github.com/obra/superpowers/pull/2490"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "bug",
+        "skill:executing-plans",
+        "skill:subagent-driven-development",
+        "skill:writing-plans"
+      ],
+      "number": 2493,
+      "state": "open",
+      "title": "task-brief / dispatch: the plan's Global Constraints and Review Focus never reach the implementer, although the plan template says they apply to every task",
+      "updated_at": "2026-11-06T16:09:22Z",
+      "url": "https://github.com/obra/superpowers/issues/2493"
     },
     {
       "kind": "issue",
@@ -852,7 +842,7 @@
       "number": 2667,
       "state": "open",
       "title": "feat(hermes): make bootstrap injection configurable",
-      "updated_at": "2026-11-05T10:16:39Z",
+      "updated_at": "2026-11-06T09:02:51Z",
       "url": "https://github.com/obra/superpowers/pull/2667"
     },
     {
@@ -863,6 +853,33 @@
       "title": "fix(sdd) autonomous review provenance",
       "updated_at": "2026-11-05T21:32:34Z",
       "url": "https://github.com/obra/superpowers/pull/2671"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2673,
+      "state": "open",
+      "title": "subagent-driven-development: when the brief contains full code, check the transcription mechanically (lines, order, completeness, bytes) instead of trusting report and review",
+      "updated_at": "2026-11-06T16:16:26Z",
+      "url": "https://github.com/obra/superpowers/issues/2673"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2674,
+      "state": "open",
+      "title": "subagent-driven-development: the task review can run in parallel with the next implementer — the limit is the shared git index, not the dependency",
+      "updated_at": "2026-11-06T16:16:28Z",
+      "url": "https://github.com/obra/superpowers/issues/2674"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2675,
+      "state": "open",
+      "title": "subagent-driven-development: a third exit for review findings — fold into the next task when it touches the same files anyway",
+      "updated_at": "2026-11-06T16:16:30Z",
+      "url": "https://github.com/obra/superpowers/issues/2675"
     }
   ],
   "schema_version": 1,
