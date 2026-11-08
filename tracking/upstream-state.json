@@ -86,6 +86,19 @@
     {
       "kind": "pull_request",
       "labels": [
+        "enhancement",
+        "new-harness",
+        "skill:using-superpowers"
+      ],
+      "number": 2144,
+      "state": "open",
+      "title": "feat: add DeepSeek Harness (dsh) support",
+      "updated_at": "2026-11-07T11:15:26Z",
+      "url": "https://github.com/obra/superpowers/pull/2144"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
         "no-obvious-human-review",
         "skill:test-driven-development"
       ],
@@ -192,6 +205,19 @@
     {
       "kind": "pull_request",
       "labels": [
+        "enhancement",
+        "new-harness",
+        "skill:using-superpowers"
+      ],
+      "number": 2347,
+      "state": "open",
+      "title": "feat(openclaw): add native Superpowers bootstrap",
+      "updated_at": "2026-11-07T16:35:37Z",
+      "url": "https://github.com/obra/superpowers/pull/2347"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
         "skill:executing-plans"
       ],
       "number": 2348,
@@ -251,34 +277,11 @@
         "enhancement",
         "skill:subagent-driven-development"
       ],
-      "number": 2431,
-      "state": "open",
-      "title": "subagent-driven-development: \"no second fix wave\" should not cover breakage the final fix wave itself introduced",
-      "updated_at": "2026-10-22T20:03:27Z",
-      "url": "https://github.com/obra/superpowers/issues/2431"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skill:subagent-driven-development"
-      ],
       "number": 2435,
       "state": "open",
       "title": "subagent-driven-development: in an unattended run, a step that needs a human at the screen should move to the next available tool, not be dropped",
       "updated_at": "2026-11-06T16:09:27Z",
       "url": "https://github.com/obra/superpowers/issues/2435"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:subagent-driven-development"
-      ],
-      "number": 2438,
-      "state": "open",
-      "title": "fix(sdd): task-brief fails loudly on an unclosed code fence (#2436)",
-      "updated_at": "2026-10-22T20:03:34Z",
-      "url": "https://github.com/obra/superpowers/pull/2438"
     },
     {
       "kind": "pull_request",
@@ -833,7 +836,7 @@
       "number": 2665,
       "state": "open",
       "title": "What Haiku 5.5 and Sonnet 5.5 already know from each superpowers skill",
-      "updated_at": "2026-11-05T06:25:51Z",
+      "updated_at": "2026-11-07T17:35:04Z",
       "url": "https://github.com/obra/superpowers/issues/2665"
     },
     {
@@ -880,6 +883,17 @@
       "title": "subagent-driven-development: a third exit for review findings — fold into the next task when it touches the same files anyway",
       "updated_at": "2026-11-06T16:16:30Z",
       "url": "https://github.com/obra/superpowers/issues/2675"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "bug"
+      ],
+      "number": 2677,
+      "state": "open",
+      "title": "Superpowers Appeared Without My Consent and AI Agents Overrode My Instructions in Two Projects",
+      "updated_at": "2026-11-07T09:05:44Z",
+      "url": "https://github.com/obra/superpowers/issues/2677"
     }
   ],
   "schema_version": 1,
