@@ -212,7 +212,7 @@
       "number": 2347,
       "state": "open",
       "title": "feat(openclaw): add native Superpowers bootstrap",
-      "updated_at": "2026-11-07T16:35:37Z",
+      "updated_at": "2026-11-08T23:23:40Z",
       "url": "https://github.com/obra/superpowers/pull/2347"
     },
     {
@@ -256,7 +256,7 @@
       "number": 2398,
       "state": "open",
       "title": "Master tracking ticket for configurability",
-      "updated_at": "2026-10-24T07:06:50Z",
+      "updated_at": "2026-11-08T08:57:12Z",
       "url": "https://github.com/obra/superpowers/issues/2398"
     },
     {
@@ -282,17 +282,6 @@
       "title": "subagent-driven-development: in an unattended run, a step that needs a human at the screen should move to the next available tool, not be dropped",
       "updated_at": "2026-11-06T16:09:27Z",
       "url": "https://github.com/obra/superpowers/issues/2435"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:subagent-driven-development"
-      ],
-      "number": 2439,
-      "state": "open",
-      "title": "fix(sdd): resolve the repo root from PLAN_FILE, not the caller's cwd (#2429)",
-      "updated_at": "2026-10-22T20:03:36Z",
-      "url": "https://github.com/obra/superpowers/pull/2439"
     },
     {
       "kind": "issue",
@@ -798,7 +787,7 @@
       "number": 2651,
       "state": "open",
       "title": "subagent-driven-development: task reviewer isn't told to flag a report with no RED evidence",
-      "updated_at": "2026-11-02T18:22:55Z",
+      "updated_at": "2026-11-09T01:37:26Z",
       "url": "https://github.com/obra/superpowers/issues/2651"
     },
     {
@@ -836,7 +825,7 @@
       "number": 2665,
       "state": "open",
       "title": "What Haiku 5.5 and Sonnet 5.5 already know from each superpowers skill",
-      "updated_at": "2026-11-07T17:35:04Z",
+      "updated_at": "2026-11-09T03:18:51Z",
       "url": "https://github.com/obra/superpowers/issues/2665"
     },
     {
@@ -845,7 +834,7 @@
       "number": 2667,
       "state": "open",
       "title": "feat(hermes): make bootstrap injection configurable",
-      "updated_at": "2026-11-06T09:02:51Z",
+      "updated_at": "2026-11-08T09:01:31Z",
       "url": "https://github.com/obra/superpowers/pull/2667"
     },
     {
@@ -894,6 +883,15 @@
       "title": "Superpowers Appeared Without My Consent and AI Agents Overrode My Instructions in Two Projects",
       "updated_at": "2026-11-07T09:05:44Z",
       "url": "https://github.com/obra/superpowers/issues/2677"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2678,
+      "state": "open",
+      "title": "Field report: superpowers as the front half of a two-framework shop (solo non-coder PM + AI crew, no remote) — critique welcome",
+      "updated_at": "2026-11-08T09:44:48Z",
+      "url": "https://github.com/obra/superpowers/issues/2678"
     }
   ],
   "schema_version": 1,
