@@ -133,7 +133,7 @@
       "number": 2207,
       "state": "open",
       "title": "`finishing-a-development-branch` can silently delete an SDD workspace: ignored files don't make a worktree dirty",
-      "updated_at": "2026-11-10T03:30:53Z",
+      "updated_at": "2026-11-10T21:19:37Z",
       "url": "https://github.com/obra/superpowers/issues/2207"
     },
     {
@@ -159,7 +159,7 @@
       "number": 2285,
       "state": "open",
       "title": "writing-plans: expected values in verification steps are asserted, not produced — and can be contradicted by the plan's own text",
-      "updated_at": "2026-11-06T16:09:25Z",
+      "updated_at": "2026-11-10T21:20:20Z",
       "url": "https://github.com/obra/superpowers/issues/2285"
     },
     {
@@ -186,7 +186,7 @@
       "number": 2307,
       "state": "open",
       "title": "SDD helper scripts prompt for an app on Windows when invoked from PowerShell",
-      "updated_at": "2026-11-10T03:30:54Z",
+      "updated_at": "2026-11-10T21:19:41Z",
       "url": "https://github.com/obra/superpowers/issues/2307"
     },
     {
@@ -212,7 +212,7 @@
       "number": 2347,
       "state": "open",
       "title": "feat(openclaw): add native Superpowers bootstrap",
-      "updated_at": "2026-11-08T23:23:40Z",
+      "updated_at": "2026-11-11T06:40:40Z",
       "url": "https://github.com/obra/superpowers/pull/2347"
     },
     {
@@ -277,45 +277,11 @@
         "enhancement",
         "skill:subagent-driven-development"
       ],
-      "number": 2431,
-      "state": "open",
-      "title": "subagent-driven-development: \"no second fix wave\" should not cover breakage the final fix wave itself introduced",
-      "updated_at": "2026-10-22T20:03:27Z",
-      "url": "https://github.com/obra/superpowers/issues/2431"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skill:subagent-driven-development"
-      ],
       "number": 2435,
       "state": "open",
       "title": "subagent-driven-development: in an unattended run, a step that needs a human at the screen should move to the next available tool, not be dropped",
       "updated_at": "2026-11-06T16:09:27Z",
       "url": "https://github.com/obra/superpowers/issues/2435"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:subagent-driven-development"
-      ],
-      "number": 2438,
-      "state": "open",
-      "title": "fix(sdd): task-brief fails loudly on an unclosed code fence (#2436)",
-      "updated_at": "2026-10-22T20:03:34Z",
-      "url": "https://github.com/obra/superpowers/pull/2438"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:subagent-driven-development"
-      ],
-      "number": 2439,
-      "state": "open",
-      "title": "fix(sdd): resolve the repo root from PLAN_FILE, not the caller's cwd (#2429)",
-      "updated_at": "2026-10-22T20:03:36Z",
-      "url": "https://github.com/obra/superpowers/pull/2439"
     },
     {
       "kind": "issue",
@@ -575,7 +541,7 @@
       "number": 2493,
       "state": "open",
       "title": "task-brief / dispatch: the plan's Global Constraints and Review Focus never reach the implementer, although the plan template says they apply to every task",
-      "updated_at": "2026-11-10T03:55:55Z",
+      "updated_at": "2026-11-10T21:20:09Z",
       "url": "https://github.com/obra/superpowers/issues/2493"
     },
     {
@@ -642,7 +608,7 @@
       "number": 2548,
       "state": "open",
       "title": "docs(skills): require RED output for batched TDD and fix-pass ledger",
-      "updated_at": "2026-10-27T09:44:02Z",
+      "updated_at": "2026-11-10T16:02:59Z",
       "url": "https://github.com/obra/superpowers/pull/2548"
     },
     {
@@ -654,7 +620,7 @@
       "number": 2586,
       "state": "open",
       "title": "feat(hermes): re-inject bootstrap after compaction via post_compaction hook",
-      "updated_at": "2026-11-04T07:16:49Z",
+      "updated_at": "2026-11-11T05:47:15Z",
       "url": "https://github.com/obra/superpowers/pull/2586"
     },
     {
@@ -668,7 +634,7 @@
       "number": 2587,
       "state": "open",
       "title": "writing-plans / subagent-driven-development: plans fix the type model task by task, so structural problems surface only at the broad review (Claude Code)",
-      "updated_at": "2026-11-10T03:31:01Z",
+      "updated_at": "2026-11-10T21:19:48Z",
       "url": "https://github.com/obra/superpowers/issues/2587"
     },
     {
@@ -712,7 +678,7 @@
       "number": 2612,
       "state": "open",
       "title": "subagent-driven-development: 15-task port of a ~2,000-line R script hit 5 session limits; coordinator context grew to 830k tokens (Claude Code)",
-      "updated_at": "2026-11-10T03:31:04Z",
+      "updated_at": "2026-11-10T21:19:51Z",
       "url": "https://github.com/obra/superpowers/issues/2612"
     },
     {
@@ -750,7 +716,7 @@
       "number": 2621,
       "state": "open",
       "title": "fix(sdd): sdd-workspace fails fast on unusable workspaces, never spins",
-      "updated_at": "2026-11-03T07:03:28Z",
+      "updated_at": "2026-11-11T05:50:23Z",
       "url": "https://github.com/obra/superpowers/pull/2621"
     },
     {
@@ -762,7 +728,7 @@
       "number": 2622,
       "state": "open",
       "title": "fix(sdd): review-package rejects non-commit revisions with a clean error",
-      "updated_at": "2026-11-10T04:04:01Z",
+      "updated_at": "2026-11-11T05:46:46Z",
       "url": "https://github.com/obra/superpowers/pull/2622"
     },
     {
@@ -775,7 +741,7 @@
       "number": 2627,
       "state": "open",
       "title": "feat: add native Kilo Code integration",
-      "updated_at": "2026-11-05T03:57:45Z",
+      "updated_at": "2026-11-11T05:46:10Z",
       "url": "https://github.com/obra/superpowers/pull/2627"
     },
     {
@@ -802,7 +768,7 @@
       "number": 2632,
       "state": "open",
       "title": "perf(skills): cut 1,462 tokens of context per load by dropping trigger-only \"When to Use\" sections",
-      "updated_at": "2026-11-02T18:22:28Z",
+      "updated_at": "2026-11-10T16:25:59Z",
       "url": "https://github.com/obra/superpowers/pull/2632"
     },
     {
@@ -842,7 +808,7 @@
       "number": 2651,
       "state": "open",
       "title": "subagent-driven-development: task reviewer isn't told to flag a report with no RED evidence",
-      "updated_at": "2026-11-10T03:55:56Z",
+      "updated_at": "2026-11-10T21:20:12Z",
       "url": "https://github.com/obra/superpowers/issues/2651"
     },
     {
@@ -853,7 +819,7 @@
       "number": 2652,
       "state": "open",
       "title": "fix(executing-plans): invoke task-start and task-done sdd helpers via bash (#2642)",
-      "updated_at": "2026-11-02T18:22:57Z",
+      "updated_at": "2026-11-10T16:25:49Z",
       "url": "https://github.com/obra/superpowers/pull/2652"
     },
     {
@@ -862,7 +828,7 @@
       "number": 2658,
       "state": "open",
       "title": "fix(codex): emit portal-compatible release metadata",
-      "updated_at": "2026-11-03T23:26:51Z",
+      "updated_at": "2026-11-10T16:25:40Z",
       "url": "https://github.com/obra/superpowers/pull/2658"
     },
     {
@@ -878,7 +844,7 @@
       "number": 2660,
       "state": "open",
       "title": "verification-before-completion / receiving-code-review: no skill invoked while applying audit fixes; final summary claims completion with no per-result trust level (Claude Code)",
-      "updated_at": "2026-11-10T03:46:40Z",
+      "updated_at": "2026-11-10T21:20:01Z",
       "url": "https://github.com/obra/superpowers/issues/2660"
     },
     {
@@ -887,7 +853,7 @@
       "number": 2667,
       "state": "open",
       "title": "feat(hermes): make bootstrap injection configurable",
-      "updated_at": "2026-11-09T09:01:33Z",
+      "updated_at": "2026-11-11T05:45:58Z",
       "url": "https://github.com/obra/superpowers/pull/2667"
     },
     {
@@ -896,7 +862,7 @@
       "number": 2671,
       "state": "open",
       "title": "fix(sdd) autonomous review provenance",
-      "updated_at": "2026-11-05T21:32:34Z",
+      "updated_at": "2026-11-10T16:25:09Z",
       "url": "https://github.com/obra/superpowers/pull/2671"
     },
     {
@@ -909,7 +875,7 @@
       "number": 2673,
       "state": "open",
       "title": "subagent-driven-development: when the brief contains full code, check the transcription mechanically (lines, order, completeness, bytes) instead of trusting report and review",
-      "updated_at": "2026-11-10T03:46:46Z",
+      "updated_at": "2026-11-10T21:20:05Z",
       "url": "https://github.com/obra/superpowers/issues/2673"
     },
     {
@@ -922,7 +888,7 @@
       "number": 2675,
       "state": "open",
       "title": "subagent-driven-development: a third exit for review findings — fold into the next task when it touches the same files anyway",
-      "updated_at": "2026-11-10T03:55:59Z",
+      "updated_at": "2026-11-10T21:20:17Z",
       "url": "https://github.com/obra/superpowers/issues/2675"
     },
     {
@@ -931,8 +897,37 @@
       "number": 2680,
       "state": "open",
       "title": "ci: add tier-1 GitHub Actions workflow for deterministic plugin tests",
-      "updated_at": "2026-11-09T15:19:32Z",
+      "updated_at": "2026-11-10T16:04:42Z",
       "url": "https://github.com/obra/superpowers/pull/2680"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "new-harness"
+      ],
+      "number": 2682,
+      "state": "open",
+      "title": "Cline (VS Code extension): supported installation method / plans for support?",
+      "updated_at": "2026-11-10T16:37:39Z",
+      "url": "https://github.com/obra/superpowers/issues/2682"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2683,
+      "state": "open",
+      "title": "subagent-driven-development: review-package balloons to 100+ KB when the diff touches files with very long lines",
+      "updated_at": "2026-11-10T16:55:11Z",
+      "url": "https://github.com/obra/superpowers/issues/2683"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2684,
+      "state": "open",
+      "title": "fix: emphasize invoking all applicable skills",
+      "updated_at": "2026-11-11T05:45:20Z",
+      "url": "https://github.com/obra/superpowers/pull/2684"
     }
   ],
   "schema_version": 1,
