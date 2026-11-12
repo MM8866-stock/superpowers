@@ -227,6 +227,18 @@
       "url": "https://github.com/obra/superpowers/pull/2348"
     },
     {
+      "kind": "pull_request",
+      "labels": [
+        "bug",
+        "skill:subagent-driven-development"
+      ],
+      "number": 2359,
+      "state": "open",
+      "title": "fix(sdd): stop task-brief leaking trailing plan sections",
+      "updated_at": "2026-11-12T07:51:30Z",
+      "url": "https://github.com/obra/superpowers/pull/2359"
+    },
+    {
       "kind": "issue",
       "labels": [
         "enhancement",
@@ -282,63 +294,6 @@
       "title": "subagent-driven-development: in an unattended run, a step that needs a human at the screen should move to the next available tool, not be dropped",
       "updated_at": "2026-11-06T16:09:27Z",
       "url": "https://github.com/obra/superpowers/issues/2435"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "issue-template-rules-ignored",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2440,
-      "state": "open",
-      "title": "task-reviewer-prompt: requiring file:line for every passed check makes reviewers compute line numbers from diff offsets",
-      "updated_at": "2026-10-22T20:03:38Z",
-      "url": "https://github.com/obra/superpowers/issues/2440"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:writing-plans"
-      ],
-      "number": 2441,
-      "state": "open",
-      "title": "docs(writing-plans): require a code citation for behavioral claims in user-facing text (#2433)",
-      "updated_at": "2026-10-22T20:03:40Z",
-      "url": "https://github.com/obra/superpowers/pull/2441"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:brainstorming"
-      ],
-      "number": 2442,
-      "state": "open",
-      "title": "docs(brainstorming): weigh a YAGNI cut against the user's stated goals (#2434)",
-      "updated_at": "2026-10-22T20:03:42Z",
-      "url": "https://github.com/obra/superpowers/pull/2442"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "codex",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2443,
-      "state": "open",
-      "title": "subagent-driven-development: implementers commit their ignored report files, and task review accepts them",
-      "updated_at": "2026-10-22T20:03:44Z",
-      "url": "https://github.com/obra/superpowers/issues/2443"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:brainstorming"
-      ],
-      "number": 2444,
-      "state": "open",
-      "title": "fix(brainstorming): error instead of hanging when start-server.sh gets a valueless option",
-      "updated_at": "2026-10-22T20:03:46Z",
-      "url": "https://github.com/obra/superpowers/pull/2444"
     },
     {
       "kind": "issue",
@@ -570,6 +525,21 @@
     {
       "kind": "pull_request",
       "labels": [
+        "enhancement",
+        "hooks",
+        "new-harness",
+        "no-obvious-human-review",
+        "skill:using-superpowers"
+      ],
+      "number": 2542,
+      "state": "open",
+      "title": "feat: add native Qoder plugin support",
+      "updated_at": "2026-11-11T13:53:50Z",
+      "url": "https://github.com/obra/superpowers/pull/2542"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
         "needs-rebase-to-dev-branch",
         "pr-template-rules-ignored",
         "skill:subagent-driven-development",
@@ -578,7 +548,7 @@
       "number": 2543,
       "state": "open",
       "title": "fix(task-brief): diagnose translated Task headings",
-      "updated_at": "2026-10-27T09:42:58Z",
+      "updated_at": "2026-11-11T13:53:45Z",
       "url": "https://github.com/obra/superpowers/pull/2543"
     },
     {
@@ -592,7 +562,7 @@
       "number": 2547,
       "state": "open",
       "title": "docs(antigravity): document send_message fix rounds, reactive wakeup, and ArtifactMetadata schema",
-      "updated_at": "2026-10-23T18:34:37Z",
+      "updated_at": "2026-11-11T13:53:39Z",
       "url": "https://github.com/obra/superpowers/pull/2547"
     },
     {
@@ -808,7 +778,7 @@
       "number": 2651,
       "state": "open",
       "title": "subagent-driven-development: task reviewer isn't told to flag a report with no RED evidence",
-      "updated_at": "2026-11-10T21:20:12Z",
+      "updated_at": "2026-11-11T19:11:43Z",
       "url": "https://github.com/obra/superpowers/issues/2651"
     },
     {
@@ -917,7 +887,7 @@
       "number": 2683,
       "state": "open",
       "title": "subagent-driven-development: review-package balloons to 100+ KB when the diff touches files with very long lines",
-      "updated_at": "2026-11-10T16:55:11Z",
+      "updated_at": "2026-11-11T14:01:06Z",
       "url": "https://github.com/obra/superpowers/issues/2683"
     },
     {
@@ -928,6 +898,15 @@
       "title": "fix: emphasize invoking all applicable skills",
       "updated_at": "2026-11-11T05:45:20Z",
       "url": "https://github.com/obra/superpowers/pull/2684"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2685,
+      "state": "open",
+      "title": "writing-plans / execution chain: after Claude Code native plan-mode approval, no superpowers skill after brainstorming fires (Claude Code)",
+      "updated_at": "2026-11-12T03:29:27Z",
+      "url": "https://github.com/obra/superpowers/issues/2685"
     }
   ],
   "schema_version": 1,
