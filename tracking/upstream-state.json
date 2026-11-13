@@ -235,7 +235,7 @@
       "number": 2359,
       "state": "open",
       "title": "fix(sdd): stop task-brief leaking trailing plan sections",
-      "updated_at": "2026-11-12T07:51:30Z",
+      "updated_at": "2026-11-12T08:12:09Z",
       "url": "https://github.com/obra/superpowers/pull/2359"
     },
     {
@@ -298,31 +298,6 @@
     {
       "kind": "issue",
       "labels": [
-        "skill:subagent-driven-development",
-        "skill:test-driven-development"
-      ],
-      "number": 2445,
-      "state": "open",
-      "title": "test-driven-development and subagent-driven-development disagree on running the full suite after a fix",
-      "updated_at": "2026-10-22T20:03:47Z",
-      "url": "https://github.com/obra/superpowers/issues/2445"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "bug",
-        "skill:requesting-code-review",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2446,
-      "state": "open",
-      "title": "Final whole-branch review: code-reviewer.md re-derives the diff and has no model slot, contrary to SDD's Final Review",
-      "updated_at": "2026-10-22T20:03:49Z",
-      "url": "https://github.com/obra/superpowers/issues/2446"
-    },
-    {
-      "kind": "issue",
-      "labels": [
         "enhancement",
         "skill:executing-plans",
         "skill:subagent-driven-development"
@@ -334,33 +309,6 @@
       "url": "https://github.com/obra/superpowers/issues/2451"
     },
     {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "issue-template-rules-ignored",
-        "skill:writing-skills"
-      ],
-      "number": 2454,
-      "state": "open",
-      "title": "writing-skills: word-count targets that the shipped skills exceed",
-      "updated_at": "2026-10-22T20:03:50Z",
-      "url": "https://github.com/obra/superpowers/issues/2454"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "issue-template-rules-ignored",
-        "skill:executing-plans",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2455,
-      "state": "open",
-      "title": "executing-plans and subagent-driven-development: the main/master consent rule does not defer to a declared branch policy",
-      "updated_at": "2026-10-22T20:03:52Z",
-      "url": "https://github.com/obra/superpowers/issues/2455"
-    },
-    {
       "kind": "pull_request",
       "labels": [
         "documentation"
@@ -370,17 +318,6 @@
       "title": "docs: brainstorming rebuild eval results",
       "updated_at": "2026-10-22T20:04:07Z",
       "url": "https://github.com/obra/superpowers/pull/2464"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:subagent-driven-development"
-      ],
-      "number": 2466,
-      "state": "open",
-      "title": "fix(sdd): support alphanumeric task IDs",
-      "updated_at": "2026-10-22T20:04:09Z",
-      "url": "https://github.com/obra/superpowers/pull/2466"
     },
     {
       "kind": "issue",
@@ -823,7 +760,7 @@
       "number": 2667,
       "state": "open",
       "title": "feat(hermes): make bootstrap injection configurable",
-      "updated_at": "2026-11-11T05:45:58Z",
+      "updated_at": "2026-11-12T09:02:09Z",
       "url": "https://github.com/obra/superpowers/pull/2667"
     },
     {
@@ -907,6 +844,61 @@
       "title": "writing-plans / execution chain: after Claude Code native plan-mode approval, no superpowers skill after brainstorming fires (Claude Code)",
       "updated_at": "2026-11-12T03:29:27Z",
       "url": "https://github.com/obra/superpowers/issues/2685"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2687,
+      "state": "open",
+      "title": "writing-plans: a \"confirm the environment\" step that reads a menu verifies the wrong layer — end it in the cheapest action the platform would refuse",
+      "updated_at": "2026-11-12T10:00:58Z",
+      "url": "https://github.com/obra/superpowers/issues/2687"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2688,
+      "state": "open",
+      "title": "writing-plans / task reviewer: plan text that fixes UI copy or behaviour is a claim against the spec, and the per-task review never checks it",
+      "updated_at": "2026-11-12T10:01:39Z",
+      "url": "https://github.com/obra/superpowers/issues/2688"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2689,
+      "state": "open",
+      "title": "finishing-a-development-branch: a merge that changes package.json or adds a migration needs the install/migrate in the same block as the merge, before the merged-result test run",
+      "updated_at": "2026-11-12T23:53:05Z",
+      "url": "https://github.com/obra/superpowers/issues/2689"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2691,
+      "state": "open",
+      "title": "dispatching-parallel-agents: a launch reported as rejected may already have run — inspect every workspace before reporting state or relaunching",
+      "updated_at": "2026-11-12T10:03:18Z",
+      "url": "https://github.com/obra/superpowers/issues/2691"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2692,
+      "state": "open",
+      "title": "subagent-driven-development: the helpers assume the repo shares the controller's filesystem — a remote-shell repo needs a documented path",
+      "updated_at": "2026-11-12T10:03:54Z",
+      "url": "https://github.com/obra/superpowers/issues/2692"
     }
   ],
   "schema_version": 1,
