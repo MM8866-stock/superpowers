@@ -153,6 +153,20 @@
     {
       "kind": "issue",
       "labels": [
+        "codex",
+        "documentation",
+        "issue-template-rules-ignored",
+        "skill:using-superpowers"
+      ],
+      "number": 2260,
+      "state": "open",
+      "title": "Codex reference assumes spawn capabilities unavailable in an observed desktop session",
+      "updated_at": "2026-11-13T16:17:42Z",
+      "url": "https://github.com/obra/superpowers/issues/2260"
+    },
+    {
+      "kind": "issue",
+      "labels": [
         "issue-template-rules-ignored",
         "skill:writing-plans"
       ],
@@ -307,56 +321,6 @@
       "title": "subagent-driven-development / executing-plans: the final report should be derived from a plan-to-diff mapping, not written freely",
       "updated_at": "2026-10-26T10:00:54Z",
       "url": "https://github.com/obra/superpowers/issues/2451"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "documentation"
-      ],
-      "number": 2464,
-      "state": "open",
-      "title": "docs: brainstorming rebuild eval results",
-      "updated_at": "2026-10-22T20:04:07Z",
-      "url": "https://github.com/obra/superpowers/pull/2464"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "claude-code",
-        "enhancement",
-        "needs-repro-case",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2469,
-      "state": "open",
-      "title": "subagent-driven-development: document a tool-only fallback for each helper script",
-      "updated_at": "2026-10-22T20:04:11Z",
-      "url": "https://github.com/obra/superpowers/issues/2469"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skill:subagent-driven-development",
-        "skill:writing-plans"
-      ],
-      "number": 2470,
-      "state": "open",
-      "title": "subagent-driven-development: plan-verbatim code passes its own tests — reviewers need adversarial probes per named risk, including the seam with unchanged code",
-      "updated_at": "2026-10-22T20:04:13Z",
-      "url": "https://github.com/obra/superpowers/issues/2470"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2471,
-      "state": "open",
-      "title": "subagent-driven-development: deferred \"minor\" findings are graded by likelihood only — add recoverability",
-      "updated_at": "2026-10-22T20:04:14Z",
-      "url": "https://github.com/obra/superpowers/issues/2471"
     },
     {
       "kind": "issue",
@@ -899,6 +863,24 @@
       "title": "subagent-driven-development: the helpers assume the repo shares the controller's filesystem — a remote-shell repo needs a documented path",
       "updated_at": "2026-11-12T10:03:54Z",
       "url": "https://github.com/obra/superpowers/issues/2692"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2696,
+      "state": "open",
+      "title": "subagent-driven-development: require per-unit commits in executor prompts so a dead subagent leaves recoverable work",
+      "updated_at": "2026-11-13T12:38:53Z",
+      "url": "https://github.com/obra/superpowers/issues/2696"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2698,
+      "state": "open",
+      "title": "Fix dead skill references and cross-skill boundaries across nine skills and their reference files",
+      "updated_at": "2026-11-14T03:47:11Z",
+      "url": "https://github.com/obra/superpowers/pull/2698"
     }
   ],
   "schema_version": 1,
