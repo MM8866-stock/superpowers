@@ -323,56 +323,6 @@
       "url": "https://github.com/obra/superpowers/issues/2451"
     },
     {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2472,
-      "state": "open",
-      "title": "subagent-driven-development: interactive/manual verification steps in a brief must be bounded by command flags, not by prose",
-      "updated_at": "2026-10-22T20:04:16Z",
-      "url": "https://github.com/obra/superpowers/issues/2472"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "hooks",
-        "new-harness",
-        "skill:using-superpowers"
-      ],
-      "number": 2477,
-      "state": "open",
-      "title": "Add Cline harness integration (in-process plugin)",
-      "updated_at": "2026-10-22T20:04:20Z",
-      "url": "https://github.com/obra/superpowers/pull/2477"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "codex",
-        "skill:brainstorming",
-        "upstream-bug"
-      ],
-      "number": 2478,
-      "state": "open",
-      "title": "brainstorming: tell Codex to use the Visual Companion, not its native inline visualizer",
-      "updated_at": "2026-10-22T20:04:24Z",
-      "url": "https://github.com/obra/superpowers/pull/2478"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "codex",
-        "documentation"
-      ],
-      "number": 2480,
-      "state": "open",
-      "title": "Codex sync: exclude Hermes and Muse manifests; porting guide: Appendix A is examples",
-      "updated_at": "2026-10-22T20:04:26Z",
-      "url": "https://github.com/obra/superpowers/pull/2480"
-    },
-    {
       "kind": "pull_request",
       "labels": [
         "antigravity",
@@ -422,6 +372,18 @@
       "title": "fix(codex): fall back to sha256sum when shasum is unavailable",
       "updated_at": "2026-11-02T18:21:16Z",
       "url": "https://github.com/obra/superpowers/pull/2504"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "claude-code",
+        "skill:executing-plans"
+      ],
+      "number": 2510,
+      "state": "open",
+      "title": "executing-plans: agent changed an approved plan by a ledger \"Ruling:\" without asking, while CLAUDE.md said \"flag real problems and wait\", then claimed the phase done with verify lines unmet (Claude Code)",
+      "updated_at": "2026-11-14T22:29:41Z",
+      "url": "https://github.com/obra/superpowers/issues/2510"
     },
     {
       "kind": "pull_request",
@@ -549,7 +511,7 @@
       "number": 2612,
       "state": "open",
       "title": "subagent-driven-development: 15-task port of a ~2,000-line R script hit 5 session limits; coordinator context grew to 830k tokens (Claude Code)",
-      "updated_at": "2026-11-10T21:19:51Z",
+      "updated_at": "2026-11-14T13:47:35Z",
       "url": "https://github.com/obra/superpowers/issues/2612"
     },
     {
@@ -724,7 +686,7 @@
       "number": 2667,
       "state": "open",
       "title": "feat(hermes): make bootstrap injection configurable",
-      "updated_at": "2026-11-12T09:02:09Z",
+      "updated_at": "2026-11-14T09:01:27Z",
       "url": "https://github.com/obra/superpowers/pull/2667"
     },
     {
