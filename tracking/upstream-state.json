@@ -9,6 +9,20 @@
     {
       "kind": "issue",
       "labels": [
+        "claude-code",
+        "codex",
+        "enhancement",
+        "skill:subagent-driven-development"
+      ],
+      "number": 1747,
+      "state": "open",
+      "title": "SDD has no effort-level dimension: subagents run at session effort regardless of task complexity",
+      "updated_at": "2026-11-15T09:15:38Z",
+      "url": "https://github.com/obra/superpowers/issues/1747"
+    },
+    {
+      "kind": "issue",
+      "labels": [
         "enhancement",
         "skill:writing-plans"
       ],
@@ -82,6 +96,18 @@
       "title": "feat(kiro): add Kiro v3 support via native custom agent + Agent Skills",
       "updated_at": "2026-10-30T16:43:15Z",
       "url": "https://github.com/obra/superpowers/pull/2126"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement",
+        "skill:brainstorming"
+      ],
+      "number": 2129,
+      "state": "open",
+      "title": "brainstorming: research prior art / existing solutions before design",
+      "updated_at": "2026-11-15T08:52:38Z",
+      "url": "https://github.com/obra/superpowers/issues/2129"
     },
     {
       "kind": "pull_request",
@@ -232,17 +258,6 @@
     {
       "kind": "pull_request",
       "labels": [
-        "skill:executing-plans"
-      ],
-      "number": 2348,
-      "state": "open",
-      "title": "fix(executing-plans): ledger the test summary, not the trailing duration",
-      "updated_at": "2026-10-23T03:23:11Z",
-      "url": "https://github.com/obra/superpowers/pull/2348"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
         "bug",
         "skill:subagent-driven-development"
       ],
@@ -251,28 +266,6 @@
       "title": "fix(sdd): stop task-brief leaking trailing plan sections",
       "updated_at": "2026-11-12T08:12:09Z",
       "url": "https://github.com/obra/superpowers/pull/2359"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "hooks",
-        "issue-template-rules-ignored",
-        "skill:brainstorming",
-        "skill:executing-plans",
-        "skill:receiving-code-review",
-        "skill:subagent-driven-development",
-        "skill:systematic-debugging",
-        "skill:test-driven-development",
-        "skill:using-superpowers",
-        "skill:verification-before-completion",
-        "skill:writing-skills"
-      ],
-      "number": 2377,
-      "state": "open",
-      "title": "Pressure-language bootstrap and narration suppressors degrade behavior on current Claude models",
-      "updated_at": "2026-10-24T07:42:30Z",
-      "url": "https://github.com/obra/superpowers/issues/2377"
     },
     {
       "kind": "issue",
@@ -349,18 +342,6 @@
       "title": "task-brief / dispatch: the plan's Global Constraints and Review Focus never reach the implementer, although the plan template says they apply to every task",
       "updated_at": "2026-11-10T21:20:09Z",
       "url": "https://github.com/obra/superpowers/issues/2493"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skill:writing-plans"
-      ],
-      "number": 2494,
-      "state": "open",
-      "title": "writing-plans: test code written inside a plan has two failure modes of its own, and the Self-Review does not ask about either",
-      "updated_at": "2026-10-24T07:58:31Z",
-      "url": "https://github.com/obra/superpowers/issues/2494"
     },
     {
       "kind": "pull_request",
@@ -686,7 +667,7 @@
       "number": 2667,
       "state": "open",
       "title": "feat(hermes): make bootstrap injection configurable",
-      "updated_at": "2026-11-14T09:01:27Z",
+      "updated_at": "2026-11-15T09:01:38Z",
       "url": "https://github.com/obra/superpowers/pull/2667"
     },
     {
@@ -843,6 +824,24 @@
       "title": "Fix dead skill references and cross-skill boundaries across nine skills and their reference files",
       "updated_at": "2026-11-14T03:47:11Z",
       "url": "https://github.com/obra/superpowers/pull/2698"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2706,
+      "state": "open",
+      "title": "finishing-a-development-branch deletes never-committed worktree files during \"merge and clean up\" (24/24 runs); executing-plans commits to main without consent (21/21). Fix attached, 0/21 after.",
+      "updated_at": "2026-11-15T13:54:41Z",
+      "url": "https://github.com/obra/superpowers/issues/2706"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2707,
+      "state": "open",
+      "title": "Keep never-committed worktree files during cleanup; branch before executing a plan on main",
+      "updated_at": "2026-11-15T13:55:50Z",
+      "url": "https://github.com/obra/superpowers/pull/2707"
     }
   ],
   "schema_version": 1,
