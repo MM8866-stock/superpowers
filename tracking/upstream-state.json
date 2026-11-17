@@ -48,18 +48,6 @@
     {
       "kind": "pull_request",
       "labels": [
-        "pr-template-rules-ignored",
-        "skill:subagent-driven-development"
-      ],
-      "number": 1938,
-      "state": "open",
-      "title": "fix: scope SDD artifacts by plan identity",
-      "updated_at": "2026-10-26T05:12:10Z",
-      "url": "https://github.com/obra/superpowers/pull/1938"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
         "enhancement",
         "new-harness",
         "pi"
@@ -69,19 +57,6 @@
       "title": "feat(omp): add native oh-my-pi harness support",
       "updated_at": "2026-11-04T15:31:54Z",
       "url": "https://github.com/obra/superpowers/pull/1996"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skill:subagent-driven-development",
-        "skill:test-driven-development"
-      ],
-      "number": 2092,
-      "state": "open",
-      "title": "test-driven-development: a test whose arrange step silently fails passes every gate (mental mutation check, optional SDD red evidence)",
-      "updated_at": "2026-10-24T07:58:35Z",
-      "url": "https://github.com/obra/superpowers/issues/2092"
     },
     {
       "kind": "pull_request",
@@ -121,18 +96,6 @@
       "title": "feat: add DeepSeek Harness (dsh) support",
       "updated_at": "2026-11-07T11:15:26Z",
       "url": "https://github.com/obra/superpowers/pull/2144"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "no-obvious-human-review",
-        "skill:test-driven-development"
-      ],
-      "number": 2196,
-      "state": "open",
-      "title": "fix: distinguish characterization tests from feature RED",
-      "updated_at": "2026-10-25T15:33:57Z",
-      "url": "https://github.com/obra/superpowers/pull/2196"
     },
     {
       "kind": "pull_request",
@@ -301,19 +264,6 @@
       "title": "subagent-driven-development: in an unattended run, a step that needs a human at the screen should move to the next available tool, not be dropped",
       "updated_at": "2026-11-06T16:09:27Z",
       "url": "https://github.com/obra/superpowers/issues/2435"
-    },
-    {
-      "kind": "issue",
-      "labels": [
-        "enhancement",
-        "skill:executing-plans",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2451,
-      "state": "open",
-      "title": "subagent-driven-development / executing-plans: the final report should be derived from a plan-to-diff mapping, not written freely",
-      "updated_at": "2026-10-26T10:00:54Z",
-      "url": "https://github.com/obra/superpowers/issues/2451"
     },
     {
       "kind": "pull_request",
@@ -840,8 +790,37 @@
       "number": 2707,
       "state": "open",
       "title": "Keep never-committed worktree files during cleanup; branch before executing a plan on main",
-      "updated_at": "2026-11-15T13:55:50Z",
+      "updated_at": "2026-11-16T15:52:30Z",
       "url": "https://github.com/obra/superpowers/pull/2707"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2710,
+      "state": "open",
+      "title": "executing-plans: task-boundary context checkpoints and capability-aware compaction guidance for long plans",
+      "updated_at": "2026-11-16T09:53:51Z",
+      "url": "https://github.com/obra/superpowers/issues/2710"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2712,
+      "state": "open",
+      "title": "List the Gemini CLI reference in Platform Adaptation",
+      "updated_at": "2026-11-16T22:45:49Z",
+      "url": "https://github.com/obra/superpowers/pull/2712"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2713,
+      "state": "open",
+      "title": "OpenCode: bootstrap injection into unparented Magic Context hidden runs causes hidden_prompt_unrecognized",
+      "updated_at": "2026-11-17T01:40:37Z",
+      "url": "https://github.com/obra/superpowers/issues/2713"
     }
   ],
   "schema_version": 1,
