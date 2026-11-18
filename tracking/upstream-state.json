@@ -35,19 +35,6 @@
     {
       "kind": "pull_request",
       "labels": [
-        "claude-code",
-        "skill:brainstorming",
-        "upstream-bug"
-      ],
-      "number": 1915,
-      "state": "open",
-      "title": "fix: render design sections before the approval question in brainstorming skill",
-      "updated_at": "2026-10-30T08:45:32Z",
-      "url": "https://github.com/obra/superpowers/pull/1915"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
         "enhancement",
         "new-harness",
         "pi"
@@ -229,6 +216,17 @@
       "title": "fix(sdd): stop task-brief leaking trailing plan sections",
       "updated_at": "2026-11-12T08:12:09Z",
       "url": "https://github.com/obra/superpowers/pull/2359"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "documentation"
+      ],
+      "number": 2387,
+      "state": "open",
+      "title": "docs(porting): cover asking your human partner a question",
+      "updated_at": "2026-11-17T17:24:30Z",
+      "url": "https://github.com/obra/superpowers/pull/2387"
     },
     {
       "kind": "issue",
@@ -617,7 +615,7 @@
       "number": 2667,
       "state": "open",
       "title": "feat(hermes): make bootstrap injection configurable",
-      "updated_at": "2026-11-15T09:01:38Z",
+      "updated_at": "2026-11-17T09:01:30Z",
       "url": "https://github.com/obra/superpowers/pull/2667"
     },
     {
@@ -803,15 +801,6 @@
       "title": "executing-plans: task-boundary context checkpoints and capability-aware compaction guidance for long plans",
       "updated_at": "2026-11-16T09:53:51Z",
       "url": "https://github.com/obra/superpowers/issues/2710"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2712,
-      "state": "open",
-      "title": "List the Gemini CLI reference in Platform Adaptation",
-      "updated_at": "2026-11-16T22:45:49Z",
-      "url": "https://github.com/obra/superpowers/pull/2712"
     },
     {
       "kind": "issue",
