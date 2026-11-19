@@ -46,20 +46,6 @@
       "url": "https://github.com/obra/superpowers/pull/1996"
     },
     {
-      "kind": "pull_request",
-      "labels": [
-        "enhancement",
-        "kiro",
-        "skill-system",
-        "skill:using-superpowers"
-      ],
-      "number": 2126,
-      "state": "open",
-      "title": "feat(kiro): add Kiro v3 support via native custom agent + Agent Skills",
-      "updated_at": "2026-10-30T16:43:15Z",
-      "url": "https://github.com/obra/superpowers/pull/2126"
-    },
-    {
       "kind": "issue",
       "labels": [
         "enhancement",
@@ -83,19 +69,6 @@
       "title": "feat: add DeepSeek Harness (dsh) support",
       "updated_at": "2026-11-07T11:15:26Z",
       "url": "https://github.com/obra/superpowers/pull/2144"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "hooks",
-        "new-harness",
-        "skill:using-superpowers"
-      ],
-      "number": 2200,
-      "state": "open",
-      "title": "Add ZCode harness support",
-      "updated_at": "2026-10-30T13:07:58Z",
-      "url": "https://github.com/obra/superpowers/pull/2200"
     },
     {
       "kind": "issue",
@@ -810,6 +783,15 @@
       "title": "OpenCode: bootstrap injection into unparented Magic Context hidden runs causes hidden_prompt_unrecognized",
       "updated_at": "2026-11-17T01:40:37Z",
       "url": "https://github.com/obra/superpowers/issues/2713"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2716,
+      "state": "open",
+      "title": "subagent-driven-development: the fix-loop model escalation (rounds 4-5) has no stated scope, so the escalated implementer carries on into later tasks",
+      "updated_at": "2026-11-19T02:11:42Z",
+      "url": "https://github.com/obra/superpowers/issues/2716"
     }
   ],
   "schema_version": 1,
