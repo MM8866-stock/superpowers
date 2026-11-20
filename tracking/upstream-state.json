@@ -35,6 +35,31 @@
     {
       "kind": "pull_request",
       "labels": [
+        "claude-code",
+        "skill:brainstorming",
+        "upstream-bug"
+      ],
+      "number": 1915,
+      "state": "open",
+      "title": "fix: render design sections before the approval question in brainstorming skill",
+      "updated_at": "2026-10-30T08:45:32Z",
+      "url": "https://github.com/obra/superpowers/pull/1915"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "pr-template-rules-ignored",
+        "skill:subagent-driven-development"
+      ],
+      "number": 1938,
+      "state": "open",
+      "title": "fix: scope SDD artifacts by plan identity",
+      "updated_at": "2026-10-26T05:12:10Z",
+      "url": "https://github.com/obra/superpowers/pull/1938"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
         "enhancement",
         "new-harness",
         "pi"
@@ -44,6 +69,33 @@
       "title": "feat(omp): add native oh-my-pi harness support",
       "updated_at": "2026-11-04T15:31:54Z",
       "url": "https://github.com/obra/superpowers/pull/1996"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement",
+        "skill:subagent-driven-development",
+        "skill:test-driven-development"
+      ],
+      "number": 2092,
+      "state": "open",
+      "title": "test-driven-development: a test whose arrange step silently fails passes every gate (mental mutation check, optional SDD red evidence)",
+      "updated_at": "2026-10-24T07:58:35Z",
+      "url": "https://github.com/obra/superpowers/issues/2092"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "enhancement",
+        "kiro",
+        "skill-system",
+        "skill:using-superpowers"
+      ],
+      "number": 2126,
+      "state": "open",
+      "title": "feat(kiro): add Kiro v3 support via native custom agent + Agent Skills",
+      "updated_at": "2026-10-30T16:43:15Z",
+      "url": "https://github.com/obra/superpowers/pull/2126"
     },
     {
       "kind": "issue",
@@ -69,6 +121,31 @@
       "title": "feat: add DeepSeek Harness (dsh) support",
       "updated_at": "2026-11-07T11:15:26Z",
       "url": "https://github.com/obra/superpowers/pull/2144"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "no-obvious-human-review",
+        "skill:test-driven-development"
+      ],
+      "number": 2196,
+      "state": "open",
+      "title": "fix: distinguish characterization tests from feature RED",
+      "updated_at": "2026-10-25T15:33:57Z",
+      "url": "https://github.com/obra/superpowers/pull/2196"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "hooks",
+        "new-harness",
+        "skill:using-superpowers"
+      ],
+      "number": 2200,
+      "state": "open",
+      "title": "Add ZCode harness support",
+      "updated_at": "2026-10-30T13:07:58Z",
+      "url": "https://github.com/obra/superpowers/pull/2200"
     },
     {
       "kind": "issue",
@@ -237,6 +314,19 @@
       "url": "https://github.com/obra/superpowers/issues/2435"
     },
     {
+      "kind": "issue",
+      "labels": [
+        "enhancement",
+        "skill:executing-plans",
+        "skill:subagent-driven-development"
+      ],
+      "number": 2451,
+      "state": "open",
+      "title": "subagent-driven-development / executing-plans: the final report should be derived from a plan-to-diff mapping, not written freely",
+      "updated_at": "2026-10-26T10:00:54Z",
+      "url": "https://github.com/obra/superpowers/issues/2451"
+    },
+    {
       "kind": "pull_request",
       "labels": [
         "antigravity",
@@ -263,6 +353,18 @@
       "title": "task-brief / dispatch: the plan's Global Constraints and Review Focus never reach the implementer, although the plan template says they apply to every task",
       "updated_at": "2026-11-10T21:20:09Z",
       "url": "https://github.com/obra/superpowers/issues/2493"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement",
+        "skill:writing-plans"
+      ],
+      "number": 2494,
+      "state": "open",
+      "title": "writing-plans: test code written inside a plan has two failure modes of its own, and the Self-Review does not ask about either",
+      "updated_at": "2026-10-24T07:58:31Z",
+      "url": "https://github.com/obra/superpowers/issues/2494"
     },
     {
       "kind": "pull_request",
@@ -563,7 +665,7 @@
       "number": 2658,
       "state": "open",
       "title": "fix(codex): emit portal-compatible release metadata",
-      "updated_at": "2026-11-10T16:25:40Z",
+      "updated_at": "2026-11-19T20:37:35Z",
       "url": "https://github.com/obra/superpowers/pull/2658"
     },
     {
@@ -581,15 +683,6 @@
       "title": "verification-before-completion / receiving-code-review: no skill invoked while applying audit fixes; final summary claims completion with no per-result trust level (Claude Code)",
       "updated_at": "2026-11-10T21:20:01Z",
       "url": "https://github.com/obra/superpowers/issues/2660"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2667,
-      "state": "open",
-      "title": "feat(hermes): make bootstrap injection configurable",
-      "updated_at": "2026-11-17T09:01:30Z",
-      "url": "https://github.com/obra/superpowers/pull/2667"
     },
     {
       "kind": "pull_request",
