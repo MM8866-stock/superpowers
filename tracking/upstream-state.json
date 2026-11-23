@@ -76,20 +76,6 @@
     {
       "kind": "issue",
       "labels": [
-        "bug",
-        "issue-template-rules-ignored",
-        "skill:finishing-a-development-branch",
-        "skill:subagent-driven-development"
-      ],
-      "number": 2253,
-      "state": "open",
-      "title": "subagent-driven-development: Finish deletes the only record of deferred findings — parked/deferred items need a durable export",
-      "updated_at": "2026-11-02T21:21:05Z",
-      "url": "https://github.com/obra/superpowers/issues/2253"
-    },
-    {
-      "kind": "issue",
-      "labels": [
         "codex",
         "documentation",
         "issue-template-rules-ignored",
@@ -112,17 +98,6 @@
       "title": "writing-plans: expected values in verification steps are asserted, not produced — and can be contradicted by the plan's own text",
       "updated_at": "2026-11-10T21:20:20Z",
       "url": "https://github.com/obra/superpowers/issues/2285"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:subagent-driven-development"
-      ],
-      "number": 2303,
-      "state": "open",
-      "title": "fix(sdd): include commit bodies in review packages",
-      "updated_at": "2026-11-03T14:05:38Z",
-      "url": "https://github.com/obra/superpowers/pull/2303"
     },
     {
       "kind": "issue",
@@ -197,7 +172,7 @@
       "number": 2398,
       "state": "open",
       "title": "Master tracking ticket for configurability",
-      "updated_at": "2026-11-08T08:57:12Z",
+      "updated_at": "2026-11-22T07:57:00Z",
       "url": "https://github.com/obra/superpowers/issues/2398"
     },
     {
@@ -338,21 +313,6 @@
     {
       "kind": "issue",
       "labels": [
-        "claude-code",
-        "enhancement",
-        "skill:dispatching-parallel-agents",
-        "skill:subagent-driven-development",
-        "skill:writing-plans"
-      ],
-      "number": 2599,
-      "state": "open",
-      "title": "Parallel plan-and-build path: contract registry, owned packages, convergence critic, DAG build with merge train (build brief)",
-      "updated_at": "2026-11-02T18:21:25Z",
-      "url": "https://github.com/obra/superpowers/issues/2599"
-    },
-    {
-      "kind": "issue",
-      "labels": [
         "bug",
         "skill:subagent-driven-development"
       ],
@@ -376,7 +336,7 @@
       "number": 2612,
       "state": "open",
       "title": "subagent-driven-development: 15-task port of a ~2,000-line R script hit 5 session limits; coordinator context grew to 830k tokens (Claude Code)",
-      "updated_at": "2026-11-14T13:47:35Z",
+      "updated_at": "2026-11-23T05:34:43Z",
       "url": "https://github.com/obra/superpowers/issues/2612"
     },
     {
@@ -542,7 +502,7 @@
       "number": 2660,
       "state": "open",
       "title": "verification-before-completion / receiving-code-review: no skill invoked while applying audit fixes; final summary claims completion with no per-result trust level (Claude Code)",
-      "updated_at": "2026-11-10T21:20:01Z",
+      "updated_at": "2026-11-22T08:37:01Z",
       "url": "https://github.com/obra/superpowers/issues/2660"
     },
     {
@@ -771,7 +731,7 @@
       "number": 2723,
       "state": "open",
       "title": "superpowers: executing-plans helpers still exec sibling scripts directly, so Native execution fails where exec bits are stripped",
-      "updated_at": "2026-11-21T02:06:59Z",
+      "updated_at": "2026-11-23T04:42:24Z",
       "url": "https://github.com/obra/superpowers/issues/2723"
     },
     {
