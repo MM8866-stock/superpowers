@@ -713,7 +713,7 @@
       "number": 2718,
       "state": "open",
       "title": "fix(sdd): scope fix-loop model escalation to current task (#2716)",
-      "updated_at": "2026-11-20T08:27:02Z",
+      "updated_at": "2026-11-23T19:47:20Z",
       "url": "https://github.com/obra/superpowers/pull/2718"
     },
     {
@@ -722,7 +722,7 @@
       "number": 2721,
       "state": "open",
       "title": "fix(sdd): include committed submodule updates in review packages",
-      "updated_at": "2026-11-21T14:35:00Z",
+      "updated_at": "2026-11-23T19:47:15Z",
       "url": "https://github.com/obra/superpowers/pull/2721"
     },
     {
