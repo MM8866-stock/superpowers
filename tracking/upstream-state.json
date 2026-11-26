@@ -41,6 +41,22 @@
       "kind": "issue",
       "labels": [
         "enhancement",
+        "issue-template-rules-ignored",
+        "skill:brainstorming",
+        "skill:dispatching-parallel-agents",
+        "skill:requesting-code-review",
+        "skill:writing-plans"
+      ],
+      "number": 2034,
+      "state": "open",
+      "title": "Subagent dispatches outside SDD have no model guidance, so they inherit the session model",
+      "updated_at": "2026-11-25T11:51:56Z",
+      "url": "https://github.com/obra/superpowers/issues/2034"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement",
         "skill:brainstorming"
       ],
       "number": 2129,
@@ -48,6 +64,19 @@
       "title": "brainstorming: research prior art / existing solutions before design",
       "updated_at": "2026-11-15T08:52:38Z",
       "url": "https://github.com/obra/superpowers/issues/2129"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [
+        "enhancement",
+        "new-harness",
+        "skill:using-superpowers"
+      ],
+      "number": 2144,
+      "state": "open",
+      "title": "feat: add DeepSeek Harness (dsh) support",
+      "updated_at": "2026-11-25T11:00:19Z",
+      "url": "https://github.com/obra/superpowers/pull/2144"
     },
     {
       "kind": "issue",
@@ -225,22 +254,6 @@
     {
       "kind": "pull_request",
       "labels": [
-        "enhancement",
-        "needs-rebase-to-dev-branch",
-        "no-obvious-human-review",
-        "pr-template-rules-ignored",
-        "skill:executing-plans",
-        "skill:test-driven-development"
-      ],
-      "number": 2548,
-      "state": "open",
-      "title": "docs(skills): require RED output for batched TDD and fix-pass ledger",
-      "updated_at": "2026-11-10T16:02:59Z",
-      "url": "https://github.com/obra/superpowers/pull/2548"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
         "hermes",
         "hooks"
       ],
@@ -335,21 +348,6 @@
     {
       "kind": "issue",
       "labels": [
-        "antigravity",
-        "automated-issue-report",
-        "needs-repro-case",
-        "skill:using-superpowers",
-        "skill:writing-plans"
-      ],
-      "number": 2638,
-      "state": "open",
-      "title": "writing-plans / using-superpowers: multi-step cleanup executed directly after diagnostic recommendation without invoking writing-plans or creating task artifact (Antigravity)",
-      "updated_at": "2026-11-10T03:46:34Z",
-      "url": "https://github.com/obra/superpowers/issues/2638"
-    },
-    {
-      "kind": "issue",
-      "labels": [
         "enhancement",
         "skill:subagent-driven-development"
       ],
@@ -420,15 +418,6 @@
       "title": "subagent-driven-development: a third exit for review findings — fold into the next task when it touches the same files anyway",
       "updated_at": "2026-11-10T21:20:17Z",
       "url": "https://github.com/obra/superpowers/issues/2675"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2680,
-      "state": "open",
-      "title": "ci: add tier-1 GitHub Actions workflow for deterministic plugin tests",
-      "updated_at": "2026-11-10T16:04:42Z",
-      "url": "https://github.com/obra/superpowers/pull/2680"
     },
     {
       "kind": "issue",
@@ -639,7 +628,7 @@
       "number": 2736,
       "state": "open",
       "title": "fix(worktrees): guard worktree creation, branch finishing, and executor workspace lifecycle",
-      "updated_at": "2026-11-24T23:27:45Z",
+      "updated_at": "2026-11-25T11:09:32Z",
       "url": "https://github.com/obra/superpowers/pull/2736"
     },
     {
@@ -648,7 +637,7 @@
       "number": 2739,
       "state": "open",
       "title": "fix(writing-plans): offer fresh-session handoff and fix task template citations",
-      "updated_at": "2026-11-24T23:27:51Z",
+      "updated_at": "2026-11-26T08:43:32Z",
       "url": "https://github.com/obra/superpowers/pull/2739"
     },
     {
@@ -657,7 +646,7 @@
       "number": 2740,
       "state": "open",
       "title": "docs(code-review): remove stale per-task SDD trigger and align review placeholders",
-      "updated_at": "2026-11-24T23:27:53Z",
+      "updated_at": "2026-11-26T08:43:34Z",
       "url": "https://github.com/obra/superpowers/pull/2740"
     },
     {
@@ -666,7 +655,7 @@
       "number": 2742,
       "state": "open",
       "title": "fix(writing-skills): handle CRLF and render errors in render-graphs.js and align discovery docs",
-      "updated_at": "2026-11-24T23:27:56Z",
+      "updated_at": "2026-11-26T08:43:38Z",
       "url": "https://github.com/obra/superpowers/pull/2742"
     },
     {
@@ -675,7 +664,7 @@
       "number": 2743,
       "state": "open",
       "title": "fix(diagnosing-superpowers): scrub issue comments, remove raw template paths, and guard transcript prompts",
-      "updated_at": "2026-11-24T23:27:58Z",
+      "updated_at": "2026-11-26T08:43:40Z",
       "url": "https://github.com/obra/superpowers/pull/2743"
     },
     {
@@ -684,7 +673,7 @@
       "number": 2744,
       "state": "open",
       "title": "fix(sdd,executing-plans): harden workspace claims, task-brief boundaries, review-package, and task-done",
-      "updated_at": "2026-11-24T23:27:59Z",
+      "updated_at": "2026-11-25T15:34:41Z",
       "url": "https://github.com/obra/superpowers/pull/2744"
     },
     {
@@ -693,7 +682,7 @@
       "number": 2745,
       "state": "open",
       "title": "fix(adapters): stabilize Pi bootstrap timestamp, fix session-start wording, and align harness tool mappings",
-      "updated_at": "2026-11-24T23:59:04Z",
+      "updated_at": "2026-11-26T08:47:06Z",
       "url": "https://github.com/obra/superpowers/pull/2745"
     },
     {
@@ -702,8 +691,17 @@
       "number": 2746,
       "state": "open",
       "title": "docs: add RELEASE-NOTES #2344 erratum, align README and porting guide, and fix lint-shell --help",
-      "updated_at": "2026-11-24T23:59:06Z",
+      "updated_at": "2026-11-26T08:47:08Z",
       "url": "https://github.com/obra/superpowers/pull/2746"
+    },
+    {
+      "kind": "issue",
+      "labels": [],
+      "number": 2750,
+      "state": "open",
+      "title": "using-superpowers: session-start auto-triggering does not fire and no superpowers skill is invoked (Antigravity)",
+      "updated_at": "2026-11-25T10:35:03Z",
+      "url": "https://github.com/obra/superpowers/issues/2750"
     }
   ],
   "schema_version": 1,
