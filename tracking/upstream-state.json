@@ -628,8 +628,17 @@
       "number": 2736,
       "state": "open",
       "title": "fix(worktrees): guard worktree creation, branch finishing, and executor workspace lifecycle",
-      "updated_at": "2026-11-25T11:09:32Z",
+      "updated_at": "2026-11-26T10:50:39Z",
       "url": "https://github.com/obra/superpowers/pull/2736"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2738,
+      "state": "open",
+      "title": "fix(brainstorming): scope spec commit, harden companion server, and add choice keyboard a11y",
+      "updated_at": "2026-11-26T10:31:21Z",
+      "url": "https://github.com/obra/superpowers/pull/2738"
     },
     {
       "kind": "pull_request",
@@ -637,7 +646,7 @@
       "number": 2739,
       "state": "open",
       "title": "fix(writing-plans): offer fresh-session handoff and fix task template citations",
-      "updated_at": "2026-11-26T08:43:32Z",
+      "updated_at": "2026-11-26T11:09:50Z",
       "url": "https://github.com/obra/superpowers/pull/2739"
     },
     {
@@ -646,7 +655,7 @@
       "number": 2740,
       "state": "open",
       "title": "docs(code-review): remove stale per-task SDD trigger and align review placeholders",
-      "updated_at": "2026-11-26T08:43:34Z",
+      "updated_at": "2026-11-26T10:31:26Z",
       "url": "https://github.com/obra/superpowers/pull/2740"
     },
     {
@@ -655,7 +664,7 @@
       "number": 2742,
       "state": "open",
       "title": "fix(writing-skills): handle CRLF and render errors in render-graphs.js and align discovery docs",
-      "updated_at": "2026-11-26T08:43:38Z",
+      "updated_at": "2026-11-26T11:09:46Z",
       "url": "https://github.com/obra/superpowers/pull/2742"
     },
     {
@@ -664,7 +673,7 @@
       "number": 2743,
       "state": "open",
       "title": "fix(diagnosing-superpowers): scrub issue comments, remove raw template paths, and guard transcript prompts",
-      "updated_at": "2026-11-26T08:43:40Z",
+      "updated_at": "2026-11-26T11:09:56Z",
       "url": "https://github.com/obra/superpowers/pull/2743"
     },
     {
@@ -673,7 +682,7 @@
       "number": 2744,
       "state": "open",
       "title": "fix(sdd,executing-plans): harden workspace claims, task-brief boundaries, review-package, and task-done",
-      "updated_at": "2026-11-25T15:34:41Z",
+      "updated_at": "2026-11-26T11:34:31Z",
       "url": "https://github.com/obra/superpowers/pull/2744"
     },
     {
@@ -682,7 +691,7 @@
       "number": 2745,
       "state": "open",
       "title": "fix(adapters): stabilize Pi bootstrap timestamp, fix session-start wording, and align harness tool mappings",
-      "updated_at": "2026-11-26T08:47:06Z",
+      "updated_at": "2026-11-26T10:31:35Z",
       "url": "https://github.com/obra/superpowers/pull/2745"
     },
     {
@@ -691,7 +700,7 @@
       "number": 2746,
       "state": "open",
       "title": "docs: add RELEASE-NOTES #2344 erratum, align README and porting guide, and fix lint-shell --help",
-      "updated_at": "2026-11-26T08:47:08Z",
+      "updated_at": "2026-11-26T10:31:38Z",
       "url": "https://github.com/obra/superpowers/pull/2746"
     },
     {
@@ -702,6 +711,28 @@
       "title": "using-superpowers: session-start auto-triggering does not fire and no superpowers skill is invoked (Antigravity)",
       "updated_at": "2026-11-25T10:35:03Z",
       "url": "https://github.com/obra/superpowers/issues/2750"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2751,
+      "state": "open",
+      "title": "Feature request: event-driven waiting + parallel dispatch for independent subagent tasks",
+      "updated_at": "2026-11-26T19:01:49Z",
+      "url": "https://github.com/obra/superpowers/issues/2751"
+    },
+    {
+      "kind": "issue",
+      "labels": [
+        "enhancement"
+      ],
+      "number": 2753,
+      "state": "open",
+      "title": "Feature request: lightweight \"fast-track\" mode for small, single-file changes and quick bug fixes",
+      "updated_at": "2026-11-27T07:37:42Z",
+      "url": "https://github.com/obra/superpowers/issues/2753"
     }
   ],
   "schema_version": 1,
