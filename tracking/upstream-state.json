@@ -332,20 +332,6 @@
       "url": "https://github.com/obra/superpowers/pull/2627"
     },
     {
-      "kind": "pull_request",
-      "labels": [
-        "skill:dispatching-parallel-agents",
-        "skill:executing-plans",
-        "skill:subagent-driven-development",
-        "skill:systematic-debugging"
-      ],
-      "number": 2632,
-      "state": "open",
-      "title": "perf(skills): cut 1,462 tokens of context per load by dropping trigger-only \"When to Use\" sections",
-      "updated_at": "2026-11-10T16:25:59Z",
-      "url": "https://github.com/obra/superpowers/pull/2632"
-    },
-    {
       "kind": "issue",
       "labels": [
         "enhancement",
@@ -356,17 +342,6 @@
       "title": "subagent-driven-development: task reviewer isn't told to flag a report with no RED evidence",
       "updated_at": "2026-11-11T19:11:43Z",
       "url": "https://github.com/obra/superpowers/issues/2651"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [
-        "skill:executing-plans"
-      ],
-      "number": 2652,
-      "state": "open",
-      "title": "fix(executing-plans): invoke task-start and task-done sdd helpers via bash (#2642)",
-      "updated_at": "2026-11-10T16:25:49Z",
-      "url": "https://github.com/obra/superpowers/pull/2652"
     },
     {
       "kind": "issue",
@@ -383,15 +358,6 @@
       "title": "verification-before-completion / receiving-code-review: no skill invoked while applying audit fixes; final summary claims completion with no per-result trust level (Claude Code)",
       "updated_at": "2026-11-22T08:37:01Z",
       "url": "https://github.com/obra/superpowers/issues/2660"
-    },
-    {
-      "kind": "pull_request",
-      "labels": [],
-      "number": 2671,
-      "state": "open",
-      "title": "fix(sdd) autonomous review provenance",
-      "updated_at": "2026-11-10T16:25:09Z",
-      "url": "https://github.com/obra/superpowers/pull/2671"
     },
     {
       "kind": "issue",
@@ -601,7 +567,7 @@
       "number": 2723,
       "state": "open",
       "title": "superpowers: executing-plans helpers still exec sibling scripts directly, so Native execution fails where exec bits are stripped",
-      "updated_at": "2026-11-23T04:42:24Z",
+      "updated_at": "2026-11-28T06:06:39Z",
       "url": "https://github.com/obra/superpowers/issues/2723"
     },
     {
@@ -700,7 +666,7 @@
       "number": 2746,
       "state": "open",
       "title": "docs: add RELEASE-NOTES #2344 erratum, align README and porting guide, and fix lint-shell --help",
-      "updated_at": "2026-11-26T10:31:38Z",
+      "updated_at": "2026-11-27T11:05:11Z",
       "url": "https://github.com/obra/superpowers/pull/2746"
     },
     {
@@ -733,6 +699,33 @@
       "title": "Feature request: lightweight \"fast-track\" mode for small, single-file changes and quick bug fixes",
       "updated_at": "2026-11-27T07:37:42Z",
       "url": "https://github.com/obra/superpowers/issues/2753"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2754,
+      "state": "open",
+      "title": "fix(requesting-code-review): avoid defaulting BASE to HEAD~1",
+      "updated_at": "2026-11-27T14:53:20Z",
+      "url": "https://github.com/obra/superpowers/pull/2754"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2755,
+      "state": "open",
+      "title": "fix(pi): stabilize bootstrap message timestamp for prompt caching",
+      "updated_at": "2026-11-28T02:56:59Z",
+      "url": "https://github.com/obra/superpowers/pull/2755"
+    },
+    {
+      "kind": "pull_request",
+      "labels": [],
+      "number": 2756,
+      "state": "open",
+      "title": "Tune brainstorming to be less annoying (#2530)",
+      "updated_at": "2026-11-28T07:26:40Z",
+      "url": "https://github.com/obra/superpowers/pull/2756"
     }
   ],
   "schema_version": 1,
